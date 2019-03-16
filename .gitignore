@@ -59,3 +59,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+Cartographer_PR3/Cartographer/readme.txt
+Cartographer_PR3/Cartographer/ff1_script_001.txt
+Cartographer_PR3/Cartographer/ff1_script_000.txt
+Cartographer_PR3/Cartographer/ff1_raw.tbl
+Cartographer_PR3/Cartographer/ff1_ptr.tbl
+Cartographer_PR3/Cartographer/ff1_commands.txt
+Atlasv1.11/ROM/Binary.sfc.bak
+*.bak
+Atlasv1.11/ROM/Binary-wram.bin
+Atlasv1.11/ROM/Binary-vram.bin
+Atlasv1.11/ROM/Binary-sram.bin
+Atlasv1.11/ROM/Binary-oam.bin
+Atlasv1.11/ROM/Binary-cgram.bin
+Atlasv1.11/ROM/Binary-apuram.bin
