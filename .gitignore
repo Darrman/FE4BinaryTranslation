@@ -2,9 +2,12 @@
 *.log
 *.png
 *.z**
+!*.zip
 *.bst
 *.srm
+*.sav
 *.sfc
+*.smc
 Atlasv1.11/src/
 #C default stuff considering the normal patch uses C
 # Prerequisites
@@ -59,13 +62,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+# Random nonsense
 Cartographer_PR3/Cartographer/readme.txt
 Cartographer_PR3/Cartographer/ff1_script_001.txt
 Cartographer_PR3/Cartographer/ff1_script_000.txt
 Cartographer_PR3/Cartographer/ff1_raw.tbl
 Cartographer_PR3/Cartographer/ff1_ptr.tbl
 Cartographer_PR3/Cartographer/ff1_commands.txt
-Atlasv1.11/ROM/Binary.sfc.bak
 *.bak
 Atlasv1.11/ROM/Binary-wram.bin
 Atlasv1.11/ROM/Binary-vram.bin
