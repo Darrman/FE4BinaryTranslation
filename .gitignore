@@ -1,3 +1,12 @@
+#Log files, screenshots, savestates, saves, roms
+*.log
+*.png
+*.z**
+*.bst
+*.srm
+*.sfc
+Atlasv1.11/src/
+#C default stuff considering the normal patch uses C
 # Prerequisites
 *.d
 

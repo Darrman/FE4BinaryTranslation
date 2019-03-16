@@ -1,0 +1,1 @@
+The ROM is located in this folder.

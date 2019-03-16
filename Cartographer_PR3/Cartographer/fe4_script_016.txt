@@ -1,0 +1,381 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #016 NAME:		Character Names (Dialogue)
+
+//POINTER #0 @ $D940D - STRING #0 @ $D948B
+
+#W16($D940D)
+Sigrd[X]
+
+
+//POINTER #1 @ $D940F - STRING #1 @ $D9491
+
+#W16($D940F)
+<$09>Noish[X]
+
+
+//POINTER #2 @ $D9411 - STRING #2 @ $D9498
+
+#W16($D9411)
+Alec[X]
+
+
+//POINTER #3 @ $D9413 - STRING #3 @ $D949D
+
+#W16($D9413)
+Arden[X]
+
+
+//POINTER #4 @ $D9415 - STRING #4 @ $D94A3
+
+#W16($D9415)
+<$09>Fin[X]
+
+
+//POINTER #5 @ $D9417 - STRING #5 @ $D94A8
+
+#W16($D9417)
+<$09>Cuan[X]
+
+
+//POINTER #6 @ $D9419 - STRING #6 @ $D94AE
+
+#W16($D9419)
+<$09>Midir[X]
+
+
+//POINTER #7 @ $D941B - STRING #7 @ $D94B5
+
+#W16($D941B)
+Levin[X]
+
+
+//POINTER #8 @ $D941D - STRING #8 @ $D94BB
+
+#W16($D941D)
+Holn[X]
+
+
+//POINTER #9 @ $D941F - STRING #9 @ $D94C0
+
+#W16($D941F)
+Azel[X]
+
+
+//POINTER #10 @ $D9421 - STRING #10 @ $D94C5
+
+#W16($D9421)
+Jamka[X]
+
+
+//POINTER #11 @ $D9423 - STRING #11 @ $D94CB
+
+#W16($D9423)
+Claud[X]
+
+
+//POINTER #12 @ $D9425 - STRING #12 @ $D94D1
+
+#W16($D9425)
+<$09>Beowulf [X]
+
+
+//POINTER #13 @ $D9427 - STRING #13 @ $D94DB
+
+#W16($D9427)
+<$09>Lex [X]
+
+
+//POINTER #14 @ $D9429 - STRING #14 @ $D94E1
+
+#W16($D9429)
+<$09>Dew[X]
+
+
+//POINTER #15 @ $D942B - STRING #15 @ $D94E6
+
+#W16($D942B)
+Derdre[X]
+
+
+//POINTER #16 @ $D942D - STRING #16 @ $D94ED
+
+#W16($D942D)
+Ethln[X]
+
+
+//POINTER #17 @ $D942F - STRING #17 @ $D94F3
+
+#W16($D942F)
+Lache[X]
+
+
+//POINTER #18 @ $D9431 - STRING #18 @ $D94F9
+
+#W16($D9431)
+Aira[X]
+
+
+//POINTER #19 @ $D9433 - STRING #19 @ $D94FE
+
+#W16($D9433)
+<$09>Fury[X]
+
+
+//POINTER #20 @ $D9435 - STRING #20 @ $D9504
+
+#W16($D9435)
+Tiltyu[X]
+
+
+//POINTER #21 @ $D9437 - STRING #21 @ $D950B
+
+#W16($D9437)
+Sylvia[X]
+
+
+//POINTER #22 @ $D9439 - STRING #22 @ $D9512
+
+#W16($D9439)
+Aideen[X]
+
+
+//POINTER #23 @ $D943B - STRING #23 @ $D9519
+
+#W16($D943B)
+Brigid[X]
+
+
+//POINTER #24 @ $D943D - STRING #24 @ $D9520
+
+#W16($D943D)
+Clce[X]
+
+
+//POINTER #25 @ $D943F - STRING #25 @ $D9525
+
+#W16($D943F)
+Shnan[X]
+
+
+//POINTER #26 @ $D9441 - STRING #26 @ $D952B
+
+#W16($D9441)
+Rodolb[X]
+
+
+//POINTER #27 @ $D9443 - STRING #27 @ $D9532
+
+#W16($D9443)
+Asael[X]
+
+
+//POINTER #28 @ $D9445 - STRING #28 @ $D9538
+
+#W16($D9445)
+Leaf[X]
+
+
+//POINTER #29 @ $D9447 - STRING #29 @ $D953D
+
+#W16($D9447)
+John[X]
+
+
+//POINTER #30 @ $D9449 - STRING #30 @ $D9542
+
+#W16($D9449)
+Sharlo[X]
+
+
+//POINTER #31 @ $D944B - STRING #31 @ $D9549
+
+#W16($D944B)
+Hawk[X]
+
+
+//POINTER #32 @ $D944D - STRING #32 @ $D954E
+
+#W16($D944D)
+Trstan[X]
+
+
+//POINTER #33 @ $D944F - STRING #33 @ $D9555
+
+#W16($D944F)
+<$09>Fin[X]
+
+
+//POINTER #34 @ $D9451 - STRING #34 @ $D955A
+
+#W16($D9451)
+Dimna[X]
+
+
+//POINTER #35 @ $D9453 - STRING #35 @ $D9560
+
+#W16($D9453)
+Hanibl[X]
+
+
+//POINTER #36 @ $D9455 - STRING #36 @ $D9567
+
+#W16($D9455)
+Ales[X]
+
+
+//POINTER #37 @ $D9457 - STRING #37 @ $D956C
+
+#W16($D9457)
+<$09>Amid   [X]
+
+
+//POINTER #38 @ $D9459 - STRING #38 @ $D9575
+
+#W16($D9459)
+Oifay[X]
+
+
+//POINTER #39 @ $D945B - STRING #39 @ $D957B
+
+#W16($D945B)
+Daisy[X]
+
+
+//POINTER #40 @ $D945D - STRING #40 @ $D9581
+
+#W16($D945D)
+Radne[X]
+
+
+//POINTER #41 @ $D945F - STRING #41 @ $D9587
+
+#W16($D945F)
+Mna[X]
+
+
+//POINTER #42 @ $D9461 - STRING #42 @ $D958B
+
+#W16($D9461)
+Jlia[X]
+
+
+//POINTER #43 @ $D9463 - STRING #43 @ $D9590
+
+#W16($D9463)
+Alten[X]
+
+
+//POINTER #44 @ $D9465 - STRING #44 @ $D9596
+
+#W16($D9465)
+Femna[X]
+
+
+//POINTER #45 @ $D9467 - STRING #45 @ $D959C
+
+#W16($D9467)
+Lnda[X]
+
+
+//POINTER #46 @ $D9469 - STRING #46 @ $D95A1
+
+#W16($D9469)
+Layle[X]
+
+
+//POINTER #47 @ $D946B - STRING #47 @ $D95A7
+
+#W16($D946B)
+Janne[X]
+
+
+//POINTER #48 @ $D946D - STRING #48 @ $D95AD
+
+#W16($D946D)
+Johalv[X]
+
+
+//POINTER #49 @ $D946F - STRING #49 @ $D95B4
+
+#W16($D946F)
+Skash[X]
+
+
+//POINTER #50 @ $D9471 - STRING #50 @ $D95BA
+
+#W16($D9471)
+Faval[X]
+
+
+//POINTER #51 @ $D9473 - STRING #51 @ $D95C0
+
+#W16($D9473)
+Corpl[X]
+
+
+//POINTER #52 @ $D9475 - STRING #52 @ $D95C6
+
+#W16($D9475)
+Sety[X]
+
+
+//POINTER #53 @ $D9477 - STRING #53 @ $D95CB
+
+#W16($D9477)
+Delmud[X]
+
+
+//POINTER #54 @ $D9479 - STRING #54 @ $D95D2
+
+#W16($D9479)
+Lestr[X]
+
+
+//POINTER #55 @ $D947B - STRING #55 @ $D95D8
+
+#W16($D947B)
+Arthr[X]
+
+
+//POINTER #56 @ $D947D - STRING #56 @ $D95DE
+
+#W16($D947D)
+Paty[X]
+
+
+//POINTER #57 @ $D947F - STRING #57 @ $D95E3
+
+#W16($D947F)
+Lakch[X]
+
+
+//POINTER #58 @ $D9481 - STRING #58 @ $D95E9
+
+#W16($D9481)
+Lna[X]
+
+
+//POINTER #59 @ $D9483 - STRING #59 @ $D95ED
+
+#W16($D9483)
+<$09>Fee[X]
+
+
+//POINTER #60 @ $D9485 - STRING #60 @ $D95F2
+
+#W16($D9485)
+Tinny[X]
+
+
+//POINTER #61 @ $D9487 - STRING #61 @ $D95F8
+
+#W16($D9487)
+Leen[X]
+
+
+//POINTER #62 @ $D9489 - STRING #62 @ $D95FD
+
+#W16($D9489)
+Nana[X]
+

@@ -1,0 +1,351 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #012 NAME:		Skill Descriptions
+
+//POINTER #0 @ $9ADFF - STRING #0 @ $9A9C9
+
+#W24($9ADFF)
+Lv<$81><$93> chancefor Def+20<X>
+
+
+//POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
+
+#W24($9AE02)
+Critical  at lowHP<X>
+
+
+//POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
+
+#W24($9AE05)
+Can attackagain with3AS+<X>
+
+
+//POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
+
+#W24($9AE08)
+ASto hitfoe 2x<X>
+
+
+//POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
+
+#W24($9AE0B)
+Takes goldfrom foes<X>
+
+
+//POINTER #5 @ $9AE0E - STRING #5 @ $200
+
+#W24($9AE0E)
+<$E0><$0D><X>
+
+
+//POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
+
+#W24($9AE11)
+Lets ally move again<X>
+
+
+//POINTER #7 @ $9AE14 - STRING #7 @ $200
+
+#W24($9AE14)
+<$E0><$0D><X>
+
+
+//POINTER #8 @ $9AE17 - STRING #8 @ $200
+
+#W24($9AE17)
+<$E0><$0D><X>
+
+
+//POINTER #9 @ $9AE1A - STRING #9 @ $200
+
+#W24($9AE1A)
+<$E0><$0D><X>
+
+
+//POINTER #10 @ $9AE1D - STRING #10 @ $9AADB
+
+#W24($9AE1D)
+Gives 10Hit/Avo<X>
+
+
+//POINTER #11 @ $9AE20 - STRING #11 @ $200
+
+#W24($9AE20)
+<$E0><$0D><X>
+
+
+//POINTER #12 @ $9AE23 - STRING #12 @ $9AB27
+
+#W24($9AE23)
+Block foesskills<X>
+
+
+//POINTER #13 @ $9AE26 - STRING #13 @ $9AB4D
+
+#W24($9AE26)
+Halve killdmg+avoid up at lowHP<X>
+
+
+//POINTER #14 @ $9AE29 - STRING #14 @ $9AB8D
+
+#W24($9AE29)
+Sklrt<X>
+
+
+//POINTER #15 @ $9AE2C - STRING #15 @ $9AB9F
+
+#W24($9AE2C)
+Always hitfoe 1st<X>
+
+
+//POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
+
+#W24($9AE2F)
+May extendcombat<X>
+
+
+//POINTER #17 @ $9AE32 - STRING #17 @ $9ABE7
+
+#W24($9AE32)
+5xHit hitsdeal75<$81><$93><X>
+
+
+//POINTER #18 @ $9AE35 - STRING #18 @ $9AC0B
+
+#W24($9AE35)
+Nulls 1/2 foe Def<X>
+
+
+//POINTER #19 @ $9AE38 - STRING #19 @ $9AC2F
+
+#W24($9AE38)
+Drains foeHP forDmg<X>
+
+
+//POINTER #20 @ $9AE3B - STRING #20 @ $9AB05
+
+#W24($9AE3B)
+Drains HP1/2 Def<X>
+
+
+//POINTER #21 @ $9AE3E - STRING #21 @ $9ACD7
+
+#W24($9AE3E)
+Adds or   takes dmg <X>
+
+
+//POINTER #22 @ $9AE41 - STRING #22 @ $9AC57
+
+#W24($9AE41)
+Restores  5-10 HP touser<X>
+
+
+//POINTER #23 @ $9AE44 - STRING #23 @ $9AC8D
+
+#W24($9AE44)
+DoublesEXPgain   <X>
+
+
+//POINTER #24 @ $9AE47 - STRING #24 @ $200
+
+#W24($9AE47)
+<$E0><$0D><X>
+
+
+//POINTER #25 @ $9AE4A - STRING #25 @ $9AD01
+
+#W24($9AE4A)
+Full healsat start <X>
+
+
+//POINTER #26 @ $9AE4D - STRING #26 @ $9ACB1
+
+#W24($9AE4D)
+Halves theprices  <X>
+
+
+//POINTER #27 @ $9AE50 - STRING #27 @ $200
+
+#W24($9AE50)
+<$E0><$0D><X>
+
+
+//POINTER #28 @ $9AE53 - STRING #28 @ $200
+
+#W24($9AE53)
+<$E0><$0D><X>
+
+
+//POINTER #29 @ $9AE56 - STRING #29 @ $200
+
+#W24($9AE56)
+<$E0><$0D><X>
+
+
+//POINTER #30 @ $9AE59 - STRING #30 @ $200
+
+#W24($9AE59)
+<$E0><$0D><X>
+
+
+//POINTER #31 @ $9AE5C - STRING #31 @ $9FEF0
+
+#W24($9AE5C)
+GreatShld<X>
+
+
+//POINTER #32 @ $9AE5F - STRING #32 @ $9AD39
+
+#W24($9AE5F)
+Wrath<X>
+
+
+//POINTER #33 @ $9AE62 - STRING #33 @ $9AD45
+
+#W24($9AE62)
+Pursuit<X>
+
+
+//POINTER #34 @ $9AE65 - STRING #34 @ $9FF04
+
+#W24($9AE65)
+Continue<X>
+
+
+//POINTER #35 @ $9AE68 - STRING #35 @ $9AD55
+
+#W24($9AE68)
+Steal<X>
+
+
+//POINTER #36 @ $9AE6B - STRING #36 @ $200
+
+#W24($9AE6B)
+<$E0><$0D><X>
+
+
+//POINTER #37 @ $9AE6E - STRING #37 @ $9AD61
+
+#W24($9AE6E)
+Dance<X>
+
+
+//POINTER #38 @ $9AE71 - STRING #38 @ $200
+
+#W24($9AE71)
+<$E0><$0D><X>
+
+
+//POINTER #39 @ $9AE74 - STRING #39 @ $200
+
+#W24($9AE74)
+<$E0><$0D><X>
+
+
+//POINTER #40 @ $9AE77 - STRING #40 @ $200
+
+#W24($9AE77)
+<$E0><$0D><X>
+
+
+//POINTER #41 @ $9AE7A - STRING #41 @ $9FF16
+
+#W24($9AE7A)
+Charisma<X>
+
+
+//POINTER #42 @ $9AE7D - STRING #42 @ $200
+
+#W24($9AE7D)
+<$E0><$0D><X>
+
+
+//POINTER #43 @ $9AE80 - STRING #43 @ $9AD6D
+
+#W24($9AE80)
+Nihil<X>
+
+
+//POINTER #44 @ $9AE83 - STRING #44 @ $9FF28
+
+#W24($9AE83)
+Prayer<X>
+
+
+//POINTER #45 @ $9AE86 - STRING #45 @ $9AD79
+
+#W24($9AE86)
+Critical<X>
+
+
+//POINTER #46 @ $9AE89 - STRING #46 @ $9AD8B
+
+#W24($9AE89)
+Ambush<X>
+
+
+//POINTER #47 @ $9AE8C - STRING #47 @ $9AD99
+
+#W24($9AE8C)
+Charge<X>
+
+
+//POINTER #48 @ $9AE8F - STRING #48 @ $9ADA7
+
+#W24($9AE8F)
+Astra<X>
+
+
+//POINTER #49 @ $9AE92 - STRING #49 @ $9ADB3
+
+#W24($9AE92)
+Luna<X>
+
+
+//POINTER #50 @ $9AE95 - STRING #50 @ $9ADBD
+
+#W24($9AE95)
+Sol<X>
+
+
+//POINTER #51 @ $9AE98 - STRING #51 @ $9ADC7
+
+#W24($9AE98)
+ether<X>
+
+
+//POINTER #52 @ $9AE9B - STRING #52 @ $9FF36
+
+#W24($9AE9B)
+DarkSword<X>
+
+
+//POINTER #53 @ $9AE9E - STRING #53 @ $9ADD3
+
+#W24($9AE9E)
+Life<X>
+
+
+//POINTER #54 @ $9AEA1 - STRING #54 @ $9ADDD
+
+#W24($9AEA1)
+Elite<X>
+
+
+//POINTER #55 @ $9AEA4 - STRING #55 @ $200
+
+#W24($9AEA4)
+<$E0><$0D><X>
+
+
+//POINTER #56 @ $9AEA7 - STRING #56 @ $9AD29
+
+#W24($9AEA7)
+Recover<X>
+
+
+//POINTER #57 @ $9AEAA - STRING #57 @ $9ADE9
+
+#W24($9AEAA)
+Bargain   <X>
+

@@ -1,0 +1,69 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #019 NAME:		Main Menu
+
+//POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
+
+#W16($D9D65)
+<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+
+
+//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
+
+#W16($D9D67)
+<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+
+
+//POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
+
+#W16($D9D69)
+Save Game[X]
+
+
+//POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
+
+#W16($D9D6B)
+Continue    [X]
+
+
+//POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
+
+#W16($D9D6D)
+New Game     [X]
+
+
+//POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
+
+#W16($D9D6F)
+<$0B><$7F><$80><$09><$3C><$0B><$82><$09><$1C><$C5><$C5><$C5>[X]
+
+
+//POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
+
+#W16($D9D71)
+Delete      [X]
+
+
+//POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
+
+#W16($D9D73)
+Yes <$C5><$C5>[X]
+
+
+//POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
+
+#W16($D9D75)
+Yes[X]
+
+
+//POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
+
+#W16($D9D77)
+No[X]
+
+
+//POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
+
+#W16($D9D79)
+No Data         <$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
+

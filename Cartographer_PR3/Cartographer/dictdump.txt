@@ -1,0 +1,6147 @@
+//GAME NAME:		FE4 Reperation 0.87
+
+//BLOCK #000 NAME:		Dictionary
+
+//POINTER #0 @ $296F0 - STRING #0 @ $29EF0
+
+#W16($296F0)
+to <X>
+
+
+//POINTER #1 @ $296F2 - STRING #1 @ $29EF4
+
+#W16($296F2)
+the <X>
+
+
+//POINTER #2 @ $296F4 - STRING #2 @ $29EF9
+
+#W16($296F4)
+you <X>
+
+
+//POINTER #3 @ $296F6 - STRING #3 @ $29EFE
+
+#W16($296F6)
+of <X>
+
+
+//POINTER #4 @ $296F8 - STRING #4 @ $29F02
+
+#W16($296F8)
+for <X>
+
+
+//POINTER #5 @ $296FA - STRING #5 @ $29F07
+
+#W16($296FA)
+is <X>
+
+
+//POINTER #6 @ $296FC - STRING #6 @ $29F0B
+
+#W16($296FC)
+I'm <X>
+
+
+//POINTER #7 @ $296FE - STRING #7 @ $29F10
+
+#W16($296FE)
+and <X>
+
+
+//POINTER #8 @ $29700 - STRING #8 @ $29F15
+
+#W16($29700)
+in <X>
+
+
+//POINTER #9 @ $29702 - STRING #9 @ $29F19
+
+#W16($29702)
+be <X>
+
+
+//POINTER #10 @ $29704 - STRING #10 @ $29F1D
+
+#W16($29704)
+my <X>
+
+
+//POINTER #11 @ $29706 - STRING #11 @ $29F21
+
+#W16($29706)
+have <X>
+
+
+//POINTER #12 @ $29708 - STRING #12 @ $29F27
+
+#W16($29708)
+just <X>
+
+
+//POINTER #13 @ $2970A - STRING #13 @ $29F2D
+
+#W16($2970A)
+You <X>
+
+
+//POINTER #14 @ $2970C - STRING #14 @ $29F32
+
+#W16($2970C)
+that <X>
+
+
+//POINTER #15 @ $2970E - STRING #15 @ $29F38
+
+#W16($2970E)
+with <X>
+
+
+//POINTER #16 @ $29710 - STRING #16 @ $29F3E
+
+#W16($29710)
+your <X>
+
+
+//POINTER #17 @ $29712 - STRING #17 @ $29F44
+
+#W16($29712)
+this <X>
+
+
+//POINTER #18 @ $29714 - STRING #18 @ $29F4A
+
+#W16($29714)
+all <X>
+
+
+//POINTER #19 @ $29716 - STRING #19 @ $29F4F
+
+#W16($29716)
+on <X>
+
+
+//POINTER #20 @ $29718 - STRING #20 @ $29F53
+
+#W16($29718)
+me <X>
+
+
+//POINTER #21 @ $2971A - STRING #21 @ $29F57
+
+#W16($2971A)
+are <X>
+
+
+//POINTER #22 @ $2971C - STRING #22 @ $29F5C
+
+#W16($2971C)
+it <X>
+
+
+//POINTER #23 @ $2971E - STRING #23 @ $29F60
+
+#W16($2971E)
+was <X>
+
+
+//POINTER #24 @ $29720 - STRING #24 @ $29F65
+
+#W16($29720)
+we <X>
+
+
+//POINTER #25 @ $29722 - STRING #25 @ $29F61
+
+#W16($29722)
+as <X>
+
+
+//POINTER #26 @ $29724 - STRING #26 @ $29F69
+
+#W16($29724)
+get <X>
+
+
+//POINTER #27 @ $29726 - STRING #27 @ $29F6E
+
+#W16($29726)
+so <X>
+
+
+//POINTER #28 @ $29728 - STRING #28 @ $29F72
+
+#W16($29728)
+out <X>
+
+
+//POINTER #29 @ $2972A - STRING #29 @ $29F77
+
+#W16($2972A)
+But <X>
+
+
+//POINTER #30 @ $2972C - STRING #30 @ $29F7C
+
+#W16($2972C)
+not <X>
+
+
+//POINTER #31 @ $2972E - STRING #31 @ $29F81
+
+#W16($2972E)
+don't <X>
+
+
+//POINTER #32 @ $29730 - STRING #32 @ $29F88
+
+#W16($29730)
+but <X>
+
+
+//POINTER #33 @ $29732 - STRING #33 @ $29F8D
+
+#W16($29732)
+like <X>
+
+
+//POINTER #34 @ $29734 - STRING #34 @ $29F93
+
+#W16($29734)
+you. <X>
+
+
+//POINTER #35 @ $29736 - STRING #35 @ $29F99
+
+#W16($29736)
+do <X>
+
+
+//POINTER #36 @ $29738 - STRING #36 @ $29F9D
+
+#W16($29738)
+about <X>
+
+
+//POINTER #37 @ $2973A - STRING #37 @ $29FA4
+
+#W16($2973A)
+can <X>
+
+
+//POINTER #38 @ $2973C - STRING #38 @ $29FA9
+
+#W16($2973C)
+Well, <X>
+
+
+//POINTER #39 @ $2973E - STRING #39 @ $29FB0
+
+#W16($2973E)
+I'll <X>
+
+
+//POINTER #40 @ $29740 - STRING #40 @ $29FB6
+
+#W16($29740)
+up <X>
+
+
+//POINTER #41 @ $29742 - STRING #41 @ $29FBA
+
+#W16($29742)
+has <X>
+
+
+//POINTER #42 @ $29744 - STRING #42 @ $29FBF
+
+#W16($29744)
+been <X>
+
+
+//POINTER #43 @ $29746 - STRING #43 @ $29FC5
+
+#W16($29746)
+The <X>
+
+
+//POINTER #44 @ $29748 - STRING #44 @ $29FCA
+
+#W16($29748)
+our <X>
+
+
+//POINTER #45 @ $2974A - STRING #45 @ $29FCF
+
+#W16($2974A)
+you're <X>
+
+
+//POINTER #46 @ $2974C - STRING #46 @ $29FD7
+
+#W16($2974C)
+I've <X>
+
+
+//POINTER #47 @ $2974E - STRING #47 @ $29FDD
+
+#W16($2974E)
+You're <X>
+
+
+//POINTER #48 @ $29750 - STRING #48 @ $29FE5
+
+#W16($29750)
+got <X>
+
+
+//POINTER #49 @ $29752 - STRING #49 @ $29FEA
+
+#W16($29752)
+know <X>
+
+
+//POINTER #50 @ $29754 - STRING #50 @ $29FF0
+
+#W16($29754)
+from <X>
+
+
+//POINTER #51 @ $29756 - STRING #51 @ $29F34
+
+#W16($29756)
+at <X>
+
+
+//POINTER #52 @ $29758 - STRING #52 @ $29FF6
+
+#W16($29758)
+me. <X>
+
+
+//POINTER #53 @ $2975A - STRING #53 @ $29FFB
+
+#W16($2975A)
+what <X>
+
+
+//POINTER #54 @ $2975C - STRING #54 @ $2A001
+
+#W16($2975C)
+And <X>
+
+
+//POINTER #55 @ $2975E - STRING #55 @ $2A006
+
+#W16($2975E)
+no <X>
+
+
+//POINTER #56 @ $29760 - STRING #56 @ $2A00A
+
+#W16($29760)
+can't <X>
+
+
+//POINTER #57 @ $29762 - STRING #57 @ $2A011
+
+#W16($29762)
+We <X>
+
+
+//POINTER #58 @ $29764 - STRING #58 @ $2A015
+
+#W16($29764)
+if <X>
+
+
+//POINTER #59 @ $29766 - STRING #59 @ $2A019
+
+#W16($29766)
+It's <X>
+
+
+//POINTER #60 @ $29768 - STRING #60 @ $2A01F
+
+#W16($29768)
+one <X>
+
+
+//POINTER #61 @ $2976A - STRING #61 @ $2A024
+
+#W16($2976A)
+must <X>
+
+
+//POINTER #62 @ $2976C - STRING #62 @ $2A02A
+
+#W16($2976C)
+take <X>
+
+
+//POINTER #63 @ $2976E - STRING #63 @ $2A030
+
+#W16($2976E)
+back <X>
+
+
+//POINTER #64 @ $29770 - STRING #64 @ $2A036
+
+#W16($29770)
+Yeah, <X>
+
+
+//POINTER #65 @ $29772 - STRING #65 @ $2A03D
+
+#W16($29772)
+her <X>
+
+
+//POINTER #66 @ $29774 - STRING #66 @ $29FC6
+
+#W16($29774)
+he <X>
+
+
+//POINTER #67 @ $29776 - STRING #67 @ $2A042
+
+#W16($29776)
+Prince <X>
+
+
+//POINTER #68 @ $29778 - STRING #68 @ $2A04A
+
+#W16($29778)
+going <X>
+
+
+//POINTER #69 @ $2977A - STRING #69 @ $2A051
+
+#W16($2977A)
+go <X>
+
+
+//POINTER #70 @ $2977C - STRING #70 @ $2A055
+
+#W16($2977C)
+What <X>
+
+
+//POINTER #71 @ $2977E - STRING #71 @ $29F45
+
+#W16($2977E)
+his <X>
+
+
+//POINTER #72 @ $29780 - STRING #72 @ $2A05B
+
+#W16($29780)
+were <X>
+
+
+//POINTER #73 @ $29782 - STRING #73 @ $2A061
+
+#W16($29782)
+will <X>
+
+
+//POINTER #74 @ $29784 - STRING #74 @ $2A067
+
+#W16($29784)
+little <X>
+
+
+//POINTER #75 @ $29786 - STRING #75 @ $2A06F
+
+#W16($29786)
+here <X>
+
+
+//POINTER #76 @ $29788 - STRING #76 @ $2A075
+
+#W16($29788)
+Your <X>
+
+
+//POINTER #77 @ $2978A - STRING #77 @ $2A07B
+
+#W16($2978A)
+see <X>
+
+
+//POINTER #78 @ $2978C - STRING #78 @ $2A080
+
+#W16($2978C)
+need <X>
+
+
+//POINTER #79 @ $2978E - STRING #79 @ $2A086
+
+#W16($2978E)
+had <X>
+
+
+//POINTER #80 @ $29790 - STRING #80 @ $2A08B
+
+#W16($29790)
+how <X>
+
+
+//POINTER #81 @ $29792 - STRING #81 @ $2A090
+
+#W16($29792)
+want <X>
+
+
+//POINTER #82 @ $29794 - STRING #82 @ $2A096
+
+#W16($29794)
+Sir <X>
+
+
+//POINTER #83 @ $29796 - STRING #83 @ $2A09B
+
+#W16($29796)
+who <X>
+
+
+//POINTER #84 @ $29798 - STRING #84 @ $2A0A0
+
+#W16($29798)
+an <X>
+
+
+//POINTER #85 @ $2979A - STRING #85 @ $2A0A4
+
+#W16($2979A)
+So <X>
+
+
+//POINTER #86 @ $2979C - STRING #86 @ $2A0A8
+
+#W16($2979C)
+Lord <X>
+
+
+//POINTER #87 @ $2979E - STRING #87 @ $2A0AE
+
+#W16($2979E)
+This <X>
+
+
+//POINTER #88 @ $297A0 - STRING #88 @ $2A0B4
+
+#W16($297A0)
+think <X>
+
+
+//POINTER #89 @ $297A2 - STRING #89 @ $2A0BB
+
+#W16($297A2)
+it's <X>
+
+
+//POINTER #90 @ $297A4 - STRING #90 @ $2A0C1
+
+#W16($297A4)
+never <X>
+
+
+//POINTER #91 @ $297A6 - STRING #91 @ $2A0C8
+
+#W16($297A6)
+King <X>
+
+
+//POINTER #92 @ $297A8 - STRING #92 @ $2A0CE
+
+#W16($297A8)
+it. <X>
+
+
+//POINTER #93 @ $297AA - STRING #93 @ $2A0D3
+
+#W16($297AA)
+us <X>
+
+
+//POINTER #94 @ $297AC - STRING #94 @ $2A0D7
+
+#W16($297AC)
+would <X>
+
+
+//POINTER #95 @ $297AE - STRING #95 @ $2A0DE
+
+#W16($297AE)
+you, <X>
+
+
+//POINTER #96 @ $297B0 - STRING #96 @ $2A0E4
+
+#W16($297B0)
+That's <X>
+
+
+//POINTER #97 @ $297B2 - STRING #97 @ $2A0EC
+
+#W16($297B2)
+you? <X>
+
+
+//POINTER #98 @ $297B4 - STRING #98 @ $2A0F2
+
+#W16($297B4)
+still <X>
+
+
+//POINTER #99 @ $297B6 - STRING #99 @ $2A0F9
+
+#W16($297B6)
+He <X>
+
+
+//POINTER #100 @ $297B8 - STRING #100 @ $2A0FD
+
+#W16($297B8)
+Don't <X>
+
+
+//POINTER #101 @ $297BA - STRING #101 @ $2A104
+
+#W16($297BA)
+could <X>
+
+
+//POINTER #102 @ $297BC - STRING #102 @ $2A10B
+
+#W16($297BC)
+him <X>
+
+
+//POINTER #103 @ $297BE - STRING #103 @ $2A110
+
+#W16($297BE)
+If <X>
+
+
+//POINTER #104 @ $297C0 - STRING #104 @ $2A114
+
+#W16($297C0)
+sure <X>
+
+
+//POINTER #105 @ $297C2 - STRING #105 @ $2A11A
+
+#W16($297C2)
+they <X>
+
+
+//POINTER #106 @ $297C4 - STRING #106 @ $2A120
+
+#W16($297C4)
+some <X>
+
+
+//POINTER #107 @ $297C6 - STRING #107 @ $2A126
+
+#W16($297C6)
+time <X>
+
+
+//POINTER #108 @ $297C8 - STRING #108 @ $2A12C
+
+#W16($297C8)
+by <X>
+
+
+//POINTER #109 @ $297CA - STRING #109 @ $2A130
+
+#W16($297CA)
+that's <X>
+
+
+//POINTER #110 @ $297CC - STRING #110 @ $2A138
+
+#W16($297CC)
+Yes, <X>
+
+
+//POINTER #111 @ $297CE - STRING #111 @ $2A13E
+
+#W16($297CE)
+Now <X>
+
+
+//POINTER #112 @ $297D0 - STRING #112 @ $2A143
+
+#W16($297D0)
+come <X>
+
+
+//POINTER #113 @ $297D2 - STRING #113 @ $2A149
+
+#W16($297D2)
+any <X>
+
+
+//POINTER #114 @ $297D4 - STRING #114 @ $2A14E
+
+#W16($297D4)
+their <X>
+
+
+//POINTER #115 @ $297D6 - STRING #115 @ $2A155
+
+#W16($297D6)
+over <X>
+
+
+//POINTER #116 @ $297D8 - STRING #116 @ $2A15B
+
+#W16($297D8)
+That <X>
+
+
+//POINTER #117 @ $297DA - STRING #117 @ $2A161
+
+#W16($297DA)
+How <X>
+
+
+//POINTER #118 @ $297DC - STRING #118 @ $2A166
+
+#W16($297DC)
+here. <X>
+
+
+//POINTER #119 @ $297DE - STRING #119 @ $2A16D
+
+#W16($297DE)
+good <X>
+
+
+//POINTER #120 @ $297E0 - STRING #120 @ $2A173
+
+#W16($297E0)
+let <X>
+
+
+//POINTER #121 @ $297E2 - STRING #121 @ $2A178
+
+#W16($297E2)
+only <X>
+
+
+//POINTER #122 @ $297E4 - STRING #122 @ $2A17E
+
+#W16($297E4)
+My <X>
+
+
+//POINTER #123 @ $297E6 - STRING #123 @ $2A182
+
+#W16($297E6)
+you! <X>
+
+
+//POINTER #124 @ $297E8 - STRING #124 @ $2A188
+
+#W16($297E8)
+father <X>
+
+
+//POINTER #125 @ $297EA - STRING #125 @ $2A190
+
+#W16($297EA)
+them <X>
+
+
+//POINTER #126 @ $297EC - STRING #126 @ $2A196
+
+#W16($297EC)
+when <X>
+
+
+//POINTER #127 @ $297EE - STRING #127 @ $2A19C
+
+#W16($297EE)
+me, <X>
+
+
+//POINTER #128 @ $297F0 - STRING #128 @ $2A1A1
+
+#W16($297F0)
+make <X>
+
+
+//POINTER #129 @ $297F2 - STRING #129 @ $2A1A7
+
+#W16($297F2)
+did <X>
+
+
+//POINTER #130 @ $297F4 - STRING #130 @ $2A1AC
+
+#W16($297F4)
+too <X>
+
+
+//POINTER #131 @ $297F6 - STRING #131 @ $2A1B1
+
+#W16($297F6)
+Hey, <X>
+
+
+//POINTER #132 @ $297F8 - STRING #132 @ $2A1B7
+
+#W16($297F8)
+army <X>
+
+
+//POINTER #133 @ $297FA - STRING #133 @ $2A1BD
+
+#W16($297FA)
+tell <X>
+
+
+//POINTER #134 @ $297FC - STRING #134 @ $2A1C3
+
+#W16($297FC)
+way <X>
+
+
+//POINTER #135 @ $297FE - STRING #135 @ $2A1C8
+
+#W16($297FE)
+It <X>
+
+
+//POINTER #136 @ $29800 - STRING #136 @ $2A1CC
+
+#W16($29800)
+after <X>
+
+
+//POINTER #137 @ $29802 - STRING #137 @ $2A1D3
+
+#W16($29802)
+What's <X>
+
+
+//POINTER #138 @ $29804 - STRING #138 @ $2A1DB
+
+#W16($29804)
+you've <X>
+
+
+//POINTER #139 @ $29806 - STRING #139 @ $2A1E3
+
+#W16($29806)
+His <X>
+
+
+//POINTER #140 @ $29808 - STRING #140 @ $2A1E8
+
+#W16($29808)
+help <X>
+
+
+//POINTER #141 @ $2980A - STRING #141 @ $2A1EE
+
+#W16($2980A)
+she <X>
+
+
+//POINTER #142 @ $2980C - STRING #142 @ $2A1F3
+
+#W16($2980C)
+really <X>
+
+
+//POINTER #143 @ $2980E - STRING #143 @ $2A1FB
+
+#W16($2980E)
+more <X>
+
+
+//POINTER #144 @ $29810 - STRING #144 @ $2A201
+
+#W16($29810)
+fight <X>
+
+
+//POINTER #145 @ $29812 - STRING #145 @ $2A208
+
+#W16($29812)
+very <X>
+
+
+//POINTER #146 @ $29814 - STRING #146 @ $2A20E
+
+#W16($29814)
+I'd <X>
+
+
+//POINTER #147 @ $29816 - STRING #147 @ $2A213
+
+#W16($29816)
+or <X>
+
+
+//POINTER #148 @ $29818 - STRING #148 @ $2A217
+
+#W16($29818)
+Celice. <X>
+
+
+//POINTER #149 @ $2981A - STRING #149 @ $2A220
+
+#W16($2981A)
+heard <X>
+
+
+//POINTER #150 @ $2981C - STRING #150 @ $2A227
+
+#W16($2981C)
+They <X>
+
+
+//POINTER #151 @ $2981E - STRING #151 @ $2A22D
+
+#W16($2981E)
+keep <X>
+
+
+//POINTER #152 @ $29820 - STRING #152 @ $2A233
+
+#W16($29820)
+Sir, <X>
+
+
+//POINTER #153 @ $29822 - STRING #153 @ $2A239
+
+#W16($29822)
+now. <X>
+
+
+//POINTER #154 @ $29824 - STRING #154 @ $2A23F
+
+#W16($29824)
+Just <X>
+
+
+//POINTER #155 @ $29826 - STRING #155 @ $2A245
+
+#W16($29826)
+Oh, <X>
+
+
+//POINTER #156 @ $29828 - STRING #156 @ $2A24A
+
+#W16($29828)
+off <X>
+
+
+//POINTER #157 @ $2982A - STRING #157 @ $2A24F
+
+#W16($2982A)
+Sigurd, <X>
+
+
+//POINTER #158 @ $2982C - STRING #158 @ $2A258
+
+#W16($2982C)
+long <X>
+
+
+//POINTER #159 @ $2982E - STRING #159 @ $2A25E
+
+#W16($2982E)
+now <X>
+
+
+//POINTER #160 @ $29830 - STRING #160 @ $2A263
+
+#W16($29830)
+being <X>
+
+
+//POINTER #161 @ $29832 - STRING #161 @ $2A0C2
+
+#W16($29832)
+ever <X>
+
+
+//POINTER #162 @ $29834 - STRING #162 @ $2A26A
+
+#W16($29834)
+you... <X>
+
+
+//POINTER #163 @ $29836 - STRING #163 @ $2A272
+
+#W16($29836)
+Sigurd <X>
+
+
+//POINTER #164 @ $29838 - STRING #164 @ $2A27A
+
+#W16($29838)
+find <X>
+
+
+//POINTER #165 @ $2983A - STRING #165 @ $2A280
+
+#W16($2983A)
+it! <X>
+
+
+//POINTER #166 @ $2983C - STRING #166 @ $2A285
+
+#W16($2983C)
+say <X>
+
+
+//POINTER #167 @ $2983E - STRING #167 @ $2A28A
+
+#W16($2983E)
+put <X>
+
+
+//POINTER #168 @ $29840 - STRING #168 @ $2A26D
+
+#W16($29840)
+... <X>
+
+
+//POINTER #169 @ $29842 - STRING #169 @ $2A28F
+
+#W16($29842)
+something <X>
+
+
+//POINTER #170 @ $29844 - STRING #170 @ $2A29A
+
+#W16($29844)
+people <X>
+
+
+//POINTER #171 @ $29846 - STRING #171 @ $2A2A2
+
+#W16($29846)
+Let's <X>
+
+
+//POINTER #172 @ $29848 - STRING #172 @ $2A2A9
+
+#W16($29848)
+much <X>
+
+
+//POINTER #173 @ $2984A - STRING #173 @ $2A2AF
+
+#W16($2984A)
+Celice, <X>
+
+
+//POINTER #174 @ $2984C - STRING #174 @ $2A2B8
+
+#W16($2984C)
+should <X>
+
+
+//POINTER #175 @ $2984E - STRING #175 @ $2A2C0
+
+#W16($2984E)
+once <X>
+
+
+//POINTER #176 @ $29850 - STRING #176 @ $2A2C6
+
+#W16($29850)
+war <X>
+
+
+//POINTER #177 @ $29852 - STRING #177 @ $2A2CB
+
+#W16($29852)
+She <X>
+
+
+//POINTER #178 @ $29854 - STRING #178 @ $2A2D0
+
+#W16($29854)
+me! <X>
+
+
+//POINTER #179 @ $29856 - STRING #179 @ $2A2D5
+
+#W16($29856)
+there <X>
+
+
+//POINTER #180 @ $29858 - STRING #180 @ $2A2DC
+
+#W16($29858)
+that. <X>
+
+
+//POINTER #181 @ $2985A - STRING #181 @ $2A2E3
+
+#W16($2985A)
+Why <X>
+
+
+//POINTER #182 @ $2985C - STRING #182 @ $2A2E8
+
+#W16($2985C)
+always <X>
+
+
+//POINTER #183 @ $2985E - STRING #183 @ $2A2F0
+
+#W16($2985E)
+this. <X>
+
+
+//POINTER #184 @ $29860 - STRING #184 @ $2A2F7
+
+#W16($29860)
+okay? <X>
+
+
+//POINTER #185 @ $29862 - STRING #185 @ $2A2FE
+
+#W16($29862)
+I... <X>
+
+
+//POINTER #186 @ $29864 - STRING #186 @ $2A304
+
+#W16($29864)
+Is <X>
+
+
+//POINTER #187 @ $29866 - STRING #187 @ $2A308
+
+#W16($29866)
+Look, <X>
+
+
+//POINTER #188 @ $29868 - STRING #188 @ $2A30F
+
+#W16($29868)
+right <X>
+
+
+//POINTER #189 @ $2986A - STRING #189 @ $2A316
+
+#W16($2986A)
+power <X>
+
+
+//POINTER #190 @ $2986C - STRING #190 @ $2A31D
+
+#W16($2986C)
+than <X>
+
+
+//POINTER #191 @ $2986E - STRING #191 @ $2A323
+
+#W16($2986E)
+care <X>
+
+
+//POINTER #192 @ $29870 - STRING #192 @ $2A329
+
+#W16($29870)
+into <X>
+
+
+//POINTER #193 @ $29872 - STRING #193 @ $2A32F
+
+#W16($29872)
+stay <X>
+
+
+//POINTER #194 @ $29874 - STRING #194 @ $2A335
+
+#W16($29874)
+wish <X>
+
+
+//POINTER #195 @ $29876 - STRING #195 @ $2A33B
+
+#W16($29876)
+two <X>
+
+
+//POINTER #196 @ $29878 - STRING #196 @ $2A340
+
+#W16($29878)
+why <X>
+
+
+//POINTER #197 @ $2987A - STRING #197 @ $2A345
+
+#W16($2987A)
+liberation <X>
+
+
+//POINTER #198 @ $2987C - STRING #198 @ $2A351
+
+#W16($2987C)
+Grandbell <X>
+
+
+//POINTER #199 @ $2987E - STRING #199 @ $2A35C
+
+#W16($2987E)
+Alright, <X>
+
+
+//POINTER #200 @ $29880 - STRING #200 @ $2A366
+
+#W16($29880)
+believe <X>
+
+
+//POINTER #201 @ $29882 - STRING #201 @ $2A36F
+
+#W16($29882)
+mother <X>
+
+
+//POINTER #202 @ $29884 - STRING #202 @ $2A377
+
+#W16($29884)
+didn't <X>
+
+
+//POINTER #203 @ $29886 - STRING #203 @ $2A37F
+
+#W16($29886)
+around <X>
+
+
+//POINTER #204 @ $29888 - STRING #204 @ $2A387
+
+#W16($29888)
+know. <X>
+
+
+//POINTER #205 @ $2988A - STRING #205 @ $2A38E
+
+#W16($2988A)
+such <X>
+
+
+//POINTER #206 @ $2988C - STRING #206 @ $2A394
+
+#W16($2988C)
+it, <X>
+
+
+//POINTER #207 @ $2988E - STRING #207 @ $2A399
+
+#W16($2988E)
+Do <X>
+
+
+//POINTER #208 @ $29890 - STRING #208 @ $2A39D
+
+#W16($29890)
+You've <X>
+
+
+//POINTER #209 @ $29892 - STRING #209 @ $2A3A5
+
+#W16($29892)
+leave <X>
+
+
+//POINTER #210 @ $29894 - STRING #210 @ $2A3AC
+
+#W16($29894)
+use <X>
+
+
+//POINTER #211 @ $29896 - STRING #211 @ $2A3B1
+
+#W16($29896)
+thought <X>
+
+
+//POINTER #212 @ $29898 - STRING #212 @ $2A3BA
+
+#W16($29898)
+through <X>
+
+
+//POINTER #213 @ $2989A - STRING #213 @ $2A3C3
+
+#W16($2989A)
+we've <X>
+
+
+//POINTER #214 @ $2989C - STRING #214 @ $2A3CA
+
+#W16($2989C)
+where <X>
+
+
+//POINTER #215 @ $2989E - STRING #215 @ $2A3D1
+
+#W16($2989E)
+came <X>
+
+
+//POINTER #216 @ $298A0 - STRING #216 @ $2A3D7
+
+#W16($298A0)
+also <X>
+
+
+//POINTER #217 @ $298A2 - STRING #217 @ $2A3DD
+
+#W16($298A2)
+give <X>
+
+
+//POINTER #218 @ $298A4 - STRING #218 @ $2A3E3
+
+#W16($298A4)
+left <X>
+
+
+//POINTER #219 @ $298A6 - STRING #219 @ $2A3E9
+
+#W16($298A6)
+ya <X>
+
+
+//POINTER #220 @ $298A8 - STRING #220 @ $2A3ED
+
+#W16($298A8)
+father. <X>
+
+
+//POINTER #221 @ $298AA - STRING #221 @ $2A3F6
+
+#W16($298AA)
+then. <X>
+
+
+//POINTER #222 @ $298AC - STRING #222 @ $2A3FD
+
+#W16($298AC)
+took <X>
+
+
+//POINTER #223 @ $298AE - STRING #223 @ $2A403
+
+#W16($298AE)
+then <X>
+
+
+//POINTER #224 @ $298B0 - STRING #224 @ $2A409
+
+#W16($298B0)
+him. <X>
+
+
+//POINTER #225 @ $298B2 - STRING #225 @ $2A40F
+
+#W16($298B2)
+he's <X>
+
+
+//POINTER #226 @ $298B4 - STRING #226 @ $2A415
+
+#W16($298B4)
+No, <X>
+
+
+//POINTER #227 @ $298B6 - STRING #227 @ $2A41A
+
+#W16($298B6)
+Please, <X>
+
+
+//POINTER #228 @ $298B8 - STRING #228 @ $2A423
+
+#W16($298B8)
+Thank <X>
+
+
+//POINTER #229 @ $298BA - STRING #229 @ $2A42A
+
+#W16($298BA)
+won't <X>
+
+
+//POINTER #230 @ $298BC - STRING #230 @ $2A431
+
+#W16($298BC)
+We've <X>
+
+
+//POINTER #231 @ $298BE - STRING #231 @ $2A438
+
+#W16($298BE)
+us. <X>
+
+
+//POINTER #232 @ $298C0 - STRING #232 @ $2A43D
+
+#W16($298C0)
+nothing <X>
+
+
+//POINTER #233 @ $298C2 - STRING #233 @ $2A446
+
+#W16($298C2)
+heh... <X>
+
+
+//POINTER #234 @ $298C4 - STRING #234 @ $2A44E
+
+#W16($298C4)
+better <X>
+
+
+//POINTER #235 @ $298C6 - STRING #235 @ $2A456
+
+#W16($298C6)
+things <X>
+
+
+//POINTER #236 @ $298C8 - STRING #236 @ $2A45E
+
+#W16($298C8)
+Please <X>
+
+
+//POINTER #237 @ $298CA - STRING #237 @ $2A466
+
+#W16($298CA)
+we're <X>
+
+
+//POINTER #238 @ $298CC - STRING #238 @ $2A46D
+
+#W16($298CC)
+that? <X>
+
+
+//POINTER #239 @ $298CE - STRING #239 @ $2A474
+
+#W16($298CE)
+nice <X>
+
+
+//POINTER #240 @ $298D0 - STRING #240 @ $2A47A
+
+#W16($298D0)
+hope <X>
+
+
+//POINTER #241 @ $298D2 - STRING #241 @ $2A480
+
+#W16($298D2)
+made <X>
+
+
+//POINTER #242 @ $298D4 - STRING #242 @ $2A486
+
+#W16($298D4)
+may <X>
+
+
+//POINTER #243 @ $298D6 - STRING #243 @ $2A48B
+
+#W16($298D6)
+there's <X>
+
+
+//POINTER #244 @ $298D8 - STRING #244 @ $2A494
+
+#W16($298D8)
+before <X>
+
+
+//POINTER #245 @ $298DA - STRING #245 @ $2A49C
+
+#W16($298DA)
+world <X>
+
+
+//POINTER #246 @ $298DC - STRING #246 @ $2A4A3
+
+#W16($298DC)
+back. <X>
+
+
+//POINTER #247 @ $298DE - STRING #247 @ $2A4AA
+
+#W16($298DE)
+feel <X>
+
+
+//POINTER #248 @ $298E0 - STRING #248 @ $2A4B0
+
+#W16($298E0)
+even <X>
+
+
+//POINTER #249 @ $298E2 - STRING #249 @ $2A4B6
+
+#W16($298E2)
+lost <X>
+
+
+//POINTER #250 @ $298E4 - STRING #250 @ $2A4BC
+
+#W16($298E4)
+Are <X>
+
+
+//POINTER #251 @ $298E6 - STRING #251 @ $2A4C1
+
+#W16($298E6)
+am <X>
+
+
+//POINTER #252 @ $298E8 - STRING #252 @ $2A4C5
+
+#W16($298E8)
+right. <X>
+
+
+//POINTER #253 @ $298EA - STRING #253 @ $2A4CD
+
+#W16($298EA)
+you'll <X>
+
+
+//POINTER #254 @ $298EC - STRING #254 @ $2A4D5
+
+#W16($298EC)
+those <X>
+
+
+//POINTER #255 @ $298EE - STRING #255 @ $2A4DC
+
+#W16($298EE)
+time. <X>
+
+
+//POINTER #256 @ $298F0 - STRING #256 @ $2A4E3
+
+#W16($298F0)
+it? <X>
+
+
+//POINTER #257 @ $298F2 - STRING #257 @ $2A4E8
+
+#W16($298F2)
+day <X>
+
+
+//POINTER #258 @ $298F4 - STRING #258 @ $2A4ED
+
+#W16($298F4)
+fighting <X>
+
+
+//POINTER #259 @ $298F6 - STRING #259 @ $2A4F7
+
+#W16($298F6)
+finally <X>
+
+
+//POINTER #260 @ $298F8 - STRING #260 @ $2A500
+
+#W16($298F8)
+right? <X>
+
+
+//POINTER #261 @ $298FA - STRING #261 @ $2A508
+
+#W16($298FA)
+troops <X>
+
+
+//POINTER #262 @ $298FC - STRING #262 @ $2A510
+
+#W16($298FC)
+we'll <X>
+
+
+//POINTER #263 @ $298FE - STRING #263 @ $2A517
+
+#W16($298FE)
+We're <X>
+
+
+//POINTER #264 @ $29900 - STRING #264 @ $2A51E
+
+#W16($29900)
+look <X>
+
+
+//POINTER #265 @ $29902 - STRING #265 @ $2A524
+
+#W16($29902)
+Heh <X>
+
+
+//POINTER #266 @ $29904 - STRING #266 @ $2A529
+
+#W16($29904)
+Who <X>
+
+
+//POINTER #267 @ $29906 - STRING #267 @ $2A52E
+
+#W16($29906)
+No <X>
+
+
+//POINTER #268 @ $29908 - STRING #268 @ $2A532
+
+#W16($29908)
+Sigurd. <X>
+
+
+//POINTER #269 @ $2990A - STRING #269 @ $2A53B
+
+#W16($2990A)
+There's <X>
+
+
+//POINTER #270 @ $2990C - STRING #270 @ $2A544
+
+#W16($2990C)
+what's <X>
+
+
+//POINTER #271 @ $2990E - STRING #271 @ $2A54C
+
+#W16($2990E)
+let's <X>
+
+
+//POINTER #272 @ $29910 - STRING #272 @ $2A553
+
+#W16($29910)
+doing <X>
+
+
+//POINTER #273 @ $29912 - STRING #273 @ $2A55A
+
+#W16($29912)
+He's <X>
+
+
+//POINTER #274 @ $29914 - STRING #274 @ $2A560
+
+#W16($29914)
+told <X>
+
+
+//POINTER #275 @ $29916 - STRING #275 @ $2A566
+
+#W16($29916)
+both <X>
+
+
+//POINTER #276 @ $29918 - STRING #276 @ $2A56C
+
+#W16($29918)
+taking <X>
+
+
+//POINTER #277 @ $2991A - STRING #277 @ $2A574
+
+#W16($2991A)
+please <X>
+
+
+//POINTER #278 @ $2991C - STRING #278 @ $2A57C
+
+#W16($2991C)
+them. <X>
+
+
+//POINTER #279 @ $2991E - STRING #279 @ $2A583
+
+#W16($2991E)
+isn't <X>
+
+
+//POINTER #280 @ $29920 - STRING #280 @ $2A58A
+
+#W16($29920)
+shall <X>
+
+
+//POINTER #281 @ $29922 - STRING #281 @ $2A591
+
+#W16($29922)
+down <X>
+
+
+//POINTER #282 @ $29924 - STRING #282 @ $2A597
+
+#W16($29924)
+Then <X>
+
+
+//POINTER #283 @ $29926 - STRING #283 @ $2A59D
+
+#W16($29926)
+Ah, <X>
+
+
+//POINTER #284 @ $29928 - STRING #284 @ $2A5A2
+
+#W16($29928)
+me? <X>
+
+
+//POINTER #285 @ $2992A - STRING #285 @ $2A5A7
+
+#W16($2992A)
+without <X>
+
+
+//POINTER #286 @ $2992C - STRING #286 @ $2A5B0
+
+#W16($2992C)
+Silesia <X>
+
+
+//POINTER #287 @ $2992E - STRING #287 @ $2A5B9
+
+#W16($2992E)
+Thracia <X>
+
+
+//POINTER #288 @ $29930 - STRING #288 @ $2A5C2
+
+#W16($29930)
+they're <X>
+
+
+//POINTER #289 @ $29932 - STRING #289 @ $2A5CB
+
+#W16($29932)
+here! <X>
+
+
+//POINTER #290 @ $29934 - STRING #290 @ $2A5D2
+
+#W16($29934)
+Isaac <X>
+
+
+//POINTER #291 @ $29936 - STRING #291 @ $2A5D9
+
+#W16($29936)
+rebel <X>
+
+
+//POINTER #292 @ $29938 - STRING #292 @ $2A5E0
+
+#W16($29938)
+sir. <X>
+
+
+//POINTER #293 @ $2993A - STRING #293 @ $2A5E6
+
+#W16($2993A)
+Dark <X>
+
+
+//POINTER #294 @ $2993C - STRING #294 @ $2A5EC
+
+#W16($2993C)
+attack <X>
+
+
+//POINTER #295 @ $2993E - STRING #295 @ $2A5F4
+
+#W16($2993E)
+pretty <X>
+
+
+//POINTER #296 @ $29940 - STRING #296 @ $2A5FC
+
+#W16($29940)
+under <X>
+
+
+//POINTER #297 @ $29942 - STRING #297 @ $2A603
+
+#W16($29942)
+Here, <X>
+
+
+//POINTER #298 @ $29944 - STRING #298 @ $2A60A
+
+#W16($29944)
+while <X>
+
+
+//POINTER #299 @ $29946 - STRING #299 @ $2A611
+
+#W16($29946)
+these <X>
+
+
+//POINTER #300 @ $29948 - STRING #300 @ $2A618
+
+#W16($29948)
+knew <X>
+
+
+//POINTER #301 @ $2994A - STRING #301 @ $2A61E
+
+#W16($2994A)
+real <X>
+
+
+//POINTER #302 @ $2994C - STRING #302 @ $2A624
+
+#W16($2994C)
+bit <X>
+
+
+//POINTER #303 @ $2994E - STRING #303 @ $2A629
+
+#W16($2994E)
+yourself <X>
+
+
+//POINTER #304 @ $29950 - STRING #304 @ $2A633
+
+#W16($29950)
+Hmph... <X>
+
+
+//POINTER #305 @ $29952 - STRING #305 @ $2A63C
+
+#W16($29952)
+killed <X>
+
+
+//POINTER #306 @ $29954 - STRING #306 @ $2A644
+
+#W16($29954)
+Isaac. <X>
+
+
+//POINTER #307 @ $29956 - STRING #307 @ $2A64C
+
+#W16($29956)
+here? <X>
+
+
+//POINTER #308 @ $29958 - STRING #308 @ $2A653
+
+#W16($29958)
+well. <X>
+
+
+//POINTER #309 @ $2995A - STRING #309 @ $2A65A
+
+#W16($2995A)
+sorry <X>
+
+
+//POINTER #310 @ $2995C - STRING #310 @ $2A661
+
+#W16($2995C)
+word <X>
+
+
+//POINTER #311 @ $2995E - STRING #311 @ $2A667
+
+#W16($2995E)
+last <X>
+
+
+//POINTER #312 @ $29960 - STRING #312 @ $2A66D
+
+#W16($29960)
+head <X>
+
+
+//POINTER #313 @ $29962 - STRING #313 @ $2A673
+
+#W16($29962)
+glad <X>
+
+
+//POINTER #314 @ $29964 - STRING #314 @ $2A679
+
+#W16($29964)
+Huh? <X>
+
+
+//POINTER #315 @ $29966 - STRING #315 @ $2A67F
+
+#W16($29966)
+meet <X>
+
+
+//POINTER #316 @ $29968 - STRING #316 @ $2A685
+
+#W16($29968)
+out. <X>
+
+
+//POINTER #317 @ $2996A - STRING #317 @ $2A68B
+
+#W16($2996A)
+said <X>
+
+
+//POINTER #318 @ $2996C - STRING #318 @ $2A691
+
+#W16($2996C)
+work <X>
+
+
+//POINTER #319 @ $2996E - STRING #319 @ $2A592
+
+#W16($2996E)
+own <X>
+
+
+//POINTER #320 @ $29970 - STRING #320 @ $2A697
+
+#W16($29970)
+th' <X>
+
+
+//POINTER #321 @ $29972 - STRING #321 @ $2A69C
+
+#W16($29972)
+alright? <X>
+
+
+//POINTER #322 @ $29974 - STRING #322 @ $2A6A6
+
+#W16($29974)
+father's <X>
+
+
+//POINTER #323 @ $29976 - STRING #323 @ $2A6B0
+
+#W16($29976)
+Eltshan <X>
+
+
+//POINTER #324 @ $29978 - STRING #324 @ $2A6B9
+
+#W16($29978)
+against <X>
+
+
+//POINTER #325 @ $2997A - STRING #325 @ $2A6C2
+
+#W16($2997A)
+there. <X>
+
+
+//POINTER #326 @ $2997C - STRING #326 @ $2A6CA
+
+#W16($2997C)
+aren't <X>
+
+
+//POINTER #327 @ $2997E - STRING #327 @ $2A6D2
+
+#W16($2997E)
+fine. <X>
+
+
+//POINTER #328 @ $29980 - STRING #328 @ $2A6D9
+
+#W16($29980)
+other <X>
+
+
+//POINTER #329 @ $29982 - STRING #329 @ $2A6E0
+
+#W16($29982)
+Er... <X>
+
+
+//POINTER #330 @ $29984 - STRING #330 @ $2A6E7
+
+#W16($29984)
+you!? <X>
+
+
+//POINTER #331 @ $29986 - STRING #331 @ $2A6EE
+
+#W16($29986)
+show <X>
+
+
+//POINTER #332 @ $29988 - STRING #332 @ $2A6F4
+
+#W16($29988)
+Lopt <X>
+
+
+//POINTER #333 @ $2998A - STRING #333 @ $2A6FA
+
+#W16($2998A)
+Yes. <X>
+
+
+//POINTER #334 @ $2998C - STRING #334 @ $2A700
+
+#W16($2998C)
+Holy <X>
+
+
+//POINTER #335 @ $2998E - STRING #335 @ $2A706
+
+#W16($2998E)
+love <X>
+
+
+//POINTER #336 @ $29990 - STRING #336 @ $2A70C
+
+#W16($29990)
+well <X>
+
+
+//POINTER #337 @ $29992 - STRING #337 @ $2A712
+
+#W16($29992)
+do. <X>
+
+
+//POINTER #338 @ $29994 - STRING #338 @ $2A717
+
+#W16($29994)
+Of <X>
+
+
+//POINTER #339 @ $29996 - STRING #339 @ $2A71B
+
+#W16($29996)
+understand <X>
+
+
+//POINTER #340 @ $29998 - STRING #340 @ $2A727
+
+#W16($29998)
+haven't <X>
+
+
+//POINTER #341 @ $2999A - STRING #341 @ $2A730
+
+#W16($2999A)
+Majesty <X>
+
+
+//POINTER #342 @ $2999C - STRING #342 @ $2A739
+
+#W16($2999C)
+Levin, <X>
+
+
+//POINTER #343 @ $2999E - STRING #343 @ $2A741
+
+#W16($2999E)
+behind <X>
+
+
+//POINTER #344 @ $299A0 - STRING #344 @ $2A749
+
+#W16($299A0)
+battle <X>
+
+
+//POINTER #345 @ $299A2 - STRING #345 @ $2A751
+
+#W16($299A2)
+sorry, <X>
+
+
+//POINTER #346 @ $299A4 - STRING #346 @ $2A759
+
+#W16($299A4)
+return <X>
+
+
+//POINTER #347 @ $299A6 - STRING #347 @ $2A761
+
+#W16($299A6)
+found <X>
+
+
+//POINTER #348 @ $299A8 - STRING #348 @ $2A768
+
+#W16($299A8)
+since <X>
+
+
+//POINTER #349 @ $299AA - STRING #349 @ $2A76F
+
+#W16($299AA)
+too. <X>
+
+
+//POINTER #350 @ $299AC - STRING #350 @ $2A775
+
+#W16($299AC)
+wouldn't <X>
+
+
+//POINTER #351 @ $299AE - STRING #351 @ $2A77F
+
+#W16($299AE)
+doesn't <X>
+
+
+//POINTER #352 @ $299B0 - STRING #352 @ $2A788
+
+#W16($299B0)
+someone <X>
+
+
+//POINTER #353 @ $299B2 - STRING #353 @ $2A791
+
+#W16($299B2)
+entire <X>
+
+
+//POINTER #354 @ $299B4 - STRING #354 @ $2A799
+
+#W16($299B4)
+Hmm... <X>
+
+
+//POINTER #355 @ $299B6 - STRING #355 @ $2A7A1
+
+#W16($299B6)
+Shanan <X>
+
+
+//POINTER #356 @ $299B8 - STRING #356 @ $2A7A9
+
+#W16($299B8)
+coming <X>
+
+
+//POINTER #357 @ $299BA - STRING #357 @ $2A7B1
+
+#W16($299BA)
+handle <X>
+
+
+//POINTER #358 @ $299BC - STRING #358 @ $2A7B9
+
+#W16($299BC)
+Alvis <X>
+
+
+//POINTER #359 @ $299BE - STRING #359 @ $2A7C0
+
+#W16($299BE)
+bring <X>
+
+
+//POINTER #360 @ $299C0 - STRING #360 @ $2A7C7
+
+#W16($299C0)
+first <X>
+
+
+//POINTER #361 @ $299C2 - STRING #361 @ $2A7CE
+
+#W16($299C2)
+Queen <X>
+
+
+//POINTER #362 @ $299C4 - STRING #362 @ $2A7D5
+
+#W16($299C4)
+blood <X>
+
+
+//POINTER #363 @ $299C6 - STRING #363 @ $2A7DC
+
+#W16($299C6)
+happy <X>
+
+
+//POINTER #364 @ $299C8 - STRING #364 @ $2A7E3
+
+#W16($299C8)
+mean <X>
+
+
+//POINTER #365 @ $299CA - STRING #365 @ $2A7E9
+
+#W16($299CA)
+join <X>
+
+
+//POINTER #366 @ $299CC - STRING #366 @ $2A7EF
+
+#W16($299CC)
+hold <X>
+
+
+//POINTER #367 @ $299CE - STRING #367 @ $2A7F5
+
+#W16($299CE)
+all. <X>
+
+
+//POINTER #368 @ $299D0 - STRING #368 @ $2A7FB
+
+#W16($299D0)
+kill <X>
+
+
+//POINTER #369 @ $299D2 - STRING #369 @ $2A801
+
+#W16($299D2)
+up. <X>
+
+
+//POINTER #370 @ $299D4 - STRING #370 @ $2A806
+
+#W16($299D4)
+children <X>
+
+
+//POINTER #371 @ $299D6 - STRING #371 @ $2A810
+
+#W16($299D6)
+Lenster. <X>
+
+
+//POINTER #372 @ $299D8 - STRING #372 @ $2A81A
+
+#W16($299D8)
+forgive <X>
+
+
+//POINTER #373 @ $299DA - STRING #373 @ $2A823
+
+#W16($299DA)
+again. <X>
+
+
+//POINTER #374 @ $299DC - STRING #374 @ $2A82B
+
+#W16($299DC)
+wonder <X>
+
+
+//POINTER #375 @ $299DE - STRING #375 @ $2A833
+
+#W16($299DE)
+become <X>
+
+
+//POINTER #376 @ $299E0 - STRING #376 @ $2A83B
+
+#W16($299E0)
+worry <X>
+
+
+//POINTER #377 @ $299E2 - STRING #377 @ $2A842
+
+#W16($299E2)
+gotta <X>
+
+
+//POINTER #378 @ $299E4 - STRING #378 @ $2A849
+
+#W16($299E4)
+We'll <X>
+
+
+//POINTER #379 @ $299E6 - STRING #379 @ $2A850
+
+#W16($299E6)
+army. <X>
+
+
+//POINTER #380 @ $299E8 - STRING #380 @ $2A857
+
+#W16($299E8)
+until <X>
+
+
+//POINTER #381 @ $299EA - STRING #381 @ $2A85E
+
+#W16($299EA)
+watch <X>
+
+
+//POINTER #382 @ $299EC - STRING #382 @ $2A865
+
+#W16($299EC)
+life <X>
+
+
+//POINTER #383 @ $299EE - STRING #383 @ $2A86B
+
+#W16($299EE)
+hate <X>
+
+
+//POINTER #384 @ $299F0 - STRING #384 @ $2A871
+
+#W16($299F0)
+stop <X>
+
+
+//POINTER #385 @ $299F2 - STRING #385 @ $2A877
+
+#W16($299F2)
+lose <X>
+
+
+//POINTER #386 @ $299F4 - STRING #386 @ $2A87D
+
+#W16($299F4)
+son <X>
+
+
+//POINTER #387 @ $299F6 - STRING #387 @ $2A882
+
+#W16($299F6)
+Celice... <X>
+
+
+//POINTER #388 @ $299F8 - STRING #388 @ $2A88D
+
+#W16($299F8)
+Highness, <X>
+
+
+//POINTER #389 @ $299FA - STRING #389 @ $2A898
+
+#W16($299FA)
+Sigurd's <X>
+
+
+//POINTER #390 @ $299FC - STRING #390 @ $2A8A2
+
+#W16($299FC)
+promise <X>
+
+
+//POINTER #391 @ $299FE - STRING #391 @ $2A8AB
+
+#W16($299FE)
+They're <X>
+
+
+//POINTER #392 @ $29A00 - STRING #392 @ $2A8B4
+
+#W16($29A00)
+getting <X>
+
+
+//POINTER #393 @ $29A02 - STRING #393 @ $2A8BD
+
+#W16($29A02)
+prince <X>
+
+
+//POINTER #394 @ $29A04 - STRING #394 @ $2A8C5
+
+#W16($29A04)
+Dragon <X>
+
+
+//POINTER #395 @ $29A06 - STRING #395 @ $2A8CD
+
+#W16($29A06)
+enough <X>
+
+
+//POINTER #396 @ $29A08 - STRING #396 @ $2A8D5
+
+#W16($29A08)
+listen <X>
+
+
+//POINTER #397 @ $29A0A - STRING #397 @ $2A8DD
+
+#W16($29A0A)
+wanted <X>
+
+
+//POINTER #398 @ $29A0C - STRING #398 @ $2A8E5
+
+#W16($29A0C)
+chance <X>
+
+
+//POINTER #399 @ $29A0E - STRING #399 @ $2A8ED
+
+#W16($29A0E)
+forget <X>
+
+
+//POINTER #400 @ $29A10 - STRING #400 @ $2A8F5
+
+#W16($29A10)
+Celice <X>
+
+
+//POINTER #401 @ $29A12 - STRING #401 @ $2A8FD
+
+#W16($29A12)
+sword <X>
+
+
+//POINTER #402 @ $29A14 - STRING #402 @ $2A904
+
+#W16($29A14)
+me... <X>
+
+
+//POINTER #403 @ $29A16 - STRING #403 @ $2A90B
+
+#W16($29A16)
+home <X>
+
+
+//POINTER #404 @ $29A18 - STRING #404 @ $2A911
+
+#W16($29A18)
+fine <X>
+
+
+//POINTER #405 @ $29A1A - STRING #405 @ $2A917
+
+#W16($29A1A)
+kind <X>
+
+
+//POINTER #406 @ $29A1C - STRING #406 @ $2A91D
+
+#W16($29A1C)
+move <X>
+
+
+//POINTER #407 @ $29A1E - STRING #407 @ $2A923
+
+#W16($29A1E)
+same <X>
+
+
+//POINTER #408 @ $29A20 - STRING #408 @ $2A929
+
+#W16($29A20)
+Take <X>
+
+
+//POINTER #409 @ $29A22 - STRING #409 @ $2A92F
+
+#W16($29A22)
+try <X>
+
+
+//POINTER #410 @ $29A24 - STRING #410 @ $2A934
+
+#W16($29A24)
+run <X>
+
+
+//POINTER #411 @ $29A26 - STRING #411 @ $2A939
+
+#W16($29A26)
+ask <X>
+
+
+//POINTER #412 @ $29A28 - STRING #412 @ $2A93E
+
+#W16($29A28)
+Grandbell. <X>
+
+
+//POINTER #413 @ $29A2A - STRING #413 @ $2A94A
+
+#W16($29A2A)
+alright. <X>
+
+
+//POINTER #414 @ $29A2C - STRING #414 @ $2A954
+
+#W16($29A2C)
+worried <X>
+
+
+//POINTER #415 @ $29A2E - STRING #415 @ $2A95D
+
+#W16($29A2E)
+Lenster <X>
+
+
+//POINTER #416 @ $29A30 - STRING #416 @ $2A966
+
+#W16($29A30)
+already <X>
+
+
+//POINTER #417 @ $29A32 - STRING #417 @ $2A96F
+
+#W16($29A32)
+battle. <X>
+
+
+//POINTER #418 @ $29A34 - STRING #418 @ $2A978
+
+#W16($29A34)
+You'll <X>
+
+
+//POINTER #419 @ $29A36 - STRING #419 @ $2A980
+
+#W16($29A36)
+Castle <X>
+
+
+//POINTER #420 @ $29A38 - STRING #420 @ $2A988
+
+#W16($29A38)
+child <X>
+
+
+//POINTER #421 @ $29A3A - STRING #421 @ $2A98F
+
+#W16($29A3A)
+she's <X>
+
+
+//POINTER #422 @ $29A3C - STRING #422 @ $2A996
+
+#W16($29A3C)
+you'd <X>
+
+
+//POINTER #423 @ $29A3E - STRING #423 @ $2A99D
+
+#W16($29A3E)
+hands <X>
+
+
+//POINTER #424 @ $29A40 - STRING #424 @ $2A9A4
+
+#W16($29A40)
+years <X>
+
+
+//POINTER #425 @ $29A42 - STRING #425 @ $2A9AB
+
+#W16($29A42)
+here, <X>
+
+
+//POINTER #426 @ $29A44 - STRING #426 @ $2A9B2
+
+#W16($29A44)
+might <X>
+
+
+//POINTER #427 @ $29A46 - STRING #427 @ $2A9B9
+
+#W16($29A46)
+too, <X>
+
+
+//POINTER #428 @ $29A48 - STRING #428 @ $2A9BF
+
+#W16($29A48)
+many <X>
+
+
+//POINTER #429 @ $29A4A - STRING #429 @ $2A9C5
+
+#W16($29A4A)
+able <X>
+
+
+//POINTER #430 @ $29A4C - STRING #430 @ $2A9CB
+
+#W16($29A4C)
+way. <X>
+
+
+//POINTER #431 @ $29A4E - STRING #431 @ $2A9D1
+
+#W16($29A4E)
+ya. <X>
+
+
+//POINTER #432 @ $29A50 - STRING #432 @ $2A9D6
+
+#W16($29A50)
+military <X>
+
+
+//POINTER #433 @ $29A52 - STRING #433 @ $2A9E0
+
+#W16($29A52)
+Yeah... <X>
+
+
+//POINTER #434 @ $29A54 - STRING #434 @ $2A9E9
+
+#W16($29A54)
+Knights <X>
+
+
+//POINTER #435 @ $29A56 - STRING #435 @ $2A9F2
+
+#W16($29A56)
+people. <X>
+
+
+//POINTER #436 @ $29A58 - STRING #436 @ $2A9FB
+
+#W16($29A58)
+General <X>
+
+
+//POINTER #437 @ $29A5A - STRING #437 @ $2AA04
+
+#W16($29A5A)
+Father, <X>
+
+
+//POINTER #438 @ $29A5C - STRING #438 @ $2AA0D
+
+#W16($29A5C)
+sister <X>
+
+
+//POINTER #439 @ $29A5E - STRING #439 @ $2AA15
+
+#W16($29A5E)
+orders <X>
+
+
+//POINTER #440 @ $29A60 - STRING #440 @ $2AA1D
+
+#W16($29A60)
+She's <X>
+
+
+//POINTER #441 @ $29A62 - STRING #441 @ $2AA24
+
+#W16($29A62)
+Royal <X>
+
+
+//POINTER #442 @ $29A64 - STRING #442 @ $2AA2B
+
+#W16($29A64)
+Where <X>
+
+
+//POINTER #443 @ $29A66 - STRING #443 @ $2AA32
+
+#W16($29A66)
+quite <X>
+
+
+//POINTER #444 @ $29A68 - STRING #444 @ $2AA39
+
+#W16($29A68)
+enemy <X>
+
+
+//POINTER #445 @ $29A6A - STRING #445 @ $2AA40
+
+#W16($29A6A)
+taken <X>
+
+
+//POINTER #446 @ $29A6C - STRING #446 @ $2AA47
+
+#W16($29A6C)
+this? <X>
+
+
+//POINTER #447 @ $29A6E - STRING #447 @ $2AA4E
+
+#W16($29A6E)
+girl <X>
+
+
+//POINTER #448 @ $29A70 - STRING #448 @ $2AA54
+
+#W16($29A70)
+her. <X>
+
+
+//POINTER #449 @ $29A72 - STRING #449 @ $2AA5A
+
+#W16($29A72)
+best <X>
+
+
+//POINTER #450 @ $29A74 - STRING #450 @ $2AA60
+
+#W16($29A74)
+done <X>
+
+
+//POINTER #451 @ $29A76 - STRING #451 @ $2AA66
+
+#W16($29A76)
+save <X>
+
+
+//POINTER #452 @ $29A78 - STRING #452 @ $2A561
+
+#W16($29A78)
+old <X>
+
+
+//POINTER #453 @ $29A7A - STRING #453 @ $2AA6C
+
+#W16($29A7A)
+far <X>
+
+
+//POINTER #454 @ $29A7C - STRING #454 @ $2AA71
+
+#W16($29A7C)
+As <X>
+
+
+//POINTER #455 @ $29A7E - STRING #455 @ $2AA75
+
+#W16($29A7E)
+Deirdre, <X>
+
+
+//POINTER #456 @ $29A80 - STRING #456 @ $2AA7F
+
+#W16($29A80)
+Besides, <X>
+
+
+//POINTER #457 @ $29A82 - STRING #457 @ $2AA89
+
+#W16($29A82)
+Silesia. <X>
+
+
+//POINTER #458 @ $29A84 - STRING #458 @ $2AA93
+
+#W16($29A84)
+soldiers <X>
+
+
+//POINTER #459 @ $29A86 - STRING #459 @ $2AA9D
+
+#W16($29A86)
+control <X>
+
+
+//POINTER #460 @ $29A88 - STRING #460 @ $2AAA6
+
+#W16($29A88)
+castle. <X>
+
+
+//POINTER #461 @ $29A8A - STRING #461 @ $2AAAF
+
+#W16($29A8A)
+Castle. <X>
+
+
+//POINTER #462 @ $29A8C - STRING #462 @ $2AAB8
+
+#W16($29A8C)
+family <X>
+
+
+//POINTER #463 @ $29A8E - STRING #463 @ $2AAC0
+
+#W16($29A8E)
+thank <X>
+
+
+//POINTER #464 @ $29A90 - STRING #464 @ $2AAC7
+
+#W16($29A90)
+young <X>
+
+
+//POINTER #465 @ $29A92 - STRING #465 @ $2AACE
+
+#W16($29A92)
+every <X>
+
+
+//POINTER #466 @ $29A94 - STRING #466 @ $2AAD5
+
+#W16($29A94)
+There <X>
+
+
+//POINTER #467 @ $29A96 - STRING #467 @ $2AADC
+
+#W16($29A96)
+gonna <X>
+
+
+//POINTER #468 @ $29A98 - STRING #468 @ $2AAE3
+
+#W16($29A98)
+hear <X>
+
+
+//POINTER #469 @ $29A9A - STRING #469 @ $2AAE9
+
+#W16($29A9A)
+Wow, <X>
+
+
+//POINTER #470 @ $29A9C - STRING #470 @ $2AAEF
+
+#W16($29A9C)
+wait <X>
+
+
+//POINTER #471 @ $29A9E - STRING #471 @ $2AAF5
+
+#W16($29A9E)
+goes <X>
+
+
+//POINTER #472 @ $29AA0 - STRING #472 @ $2AAFB
+
+#W16($29AA0)
+sir! <X>
+
+
+//POINTER #473 @ $29AA2 - STRING #473 @ $2AB01
+
+#W16($29AA2)
+Our <X>
+
+
+//POINTER #474 @ $29AA4 - STRING #474 @ $2AB06
+
+#W16($29AA4)
+Gae <X>
+
+
+//POINTER #475 @ $29AA6 - STRING #475 @ $2AB0B
+
+#W16($29AA6)
+us! <X>
+
+
+//POINTER #476 @ $29AA8 - STRING #476 @ $2AB10
+
+#W16($29AA8)
+appreciate <X>
+
+
+//POINTER #477 @ $29AAA - STRING #477 @ $2AB1C
+
+#W16($29AAA)
+Princess <X>
+
+
+//POINTER #478 @ $29AAC - STRING #478 @ $2AB26
+
+#W16($29AAC)
+Trabant <X>
+
+
+//POINTER #479 @ $29AAE - STRING #479 @ $2AB2F
+
+#W16($29AAE)
+looking <X>
+
+
+//POINTER #480 @ $29AB0 - STRING #480 @ $2AB38
+
+#W16($29AB0)
+leaving <X>
+
+
+//POINTER #481 @ $29AB2 - STRING #481 @ $2AB41
+
+#W16($29AB2)
+Really? <X>
+
+
+//POINTER #482 @ $29AB4 - STRING #482 @ $2AB4A
+
+#W16($29AB4)
+making <X>
+
+
+//POINTER #483 @ $29AB6 - STRING #483 @ $2AB52
+
+#W16($29AB6)
+Julia, <X>
+
+
+//POINTER #484 @ $29AB8 - STRING #484 @ $2AB5A
+
+#W16($29AB8)
+empire <X>
+
+
+//POINTER #485 @ $29ABA - STRING #485 @ $2AB62
+
+#W16($29ABA)
+Alvis, <X>
+
+
+//POINTER #486 @ $29ABC - STRING #486 @ $2AB6A
+
+#W16($29ABC)
+sorry. <X>
+
+
+//POINTER #487 @ $29ABE - STRING #487 @ $2AB72
+
+#W16($29ABE)
+be... <X>
+
+
+//POINTER #488 @ $29AC0 - STRING #488 @ $2AB79
+
+#W16($29AC0)
+What? <X>
+
+
+//POINTER #489 @ $29AC2 - STRING #489 @ $2AB80
+
+#W16($29AC2)
+this, <X>
+
+
+//POINTER #490 @ $29AC4 - STRING #490 @ $2AB87
+
+#W16($29AC4)
+it... <X>
+
+
+//POINTER #491 @ $29AC6 - STRING #491 @ $2AB8E
+
+#W16($29AC6)
+Those <X>
+
+
+//POINTER #492 @ $29AC8 - STRING #492 @ $2AB95
+
+#W16($29AC8)
+Levin <X>
+
+
+//POINTER #493 @ $29ACA - STRING #493 @ $2AB9C
+
+#W16($29ACA)
+great <X>
+
+
+//POINTER #494 @ $29ACC - STRING #494 @ $2ABA3
+
+#W16($29ACC)
+that, <X>
+
+
+//POINTER #495 @ $29ACE - STRING #495 @ $2ABAA
+
+#W16($29ACE)
+sent <X>
+
+
+//POINTER #496 @ $29AD0 - STRING #496 @ $2ABB0
+
+#W16($29AD0)
+hand <X>
+
+
+//POINTER #497 @ $29AD2 - STRING #497 @ $2ABB6
+
+#W16($29AD2)
+now, <X>
+
+
+//POINTER #498 @ $29AD4 - STRING #498 @ $2ABBC
+
+#W16($29AD4)
+name <X>
+
+
+//POINTER #499 @ $29AD6 - STRING #499 @ $2ABC2
+
+#W16($29AD6)
+safe <X>
+
+
+//POINTER #500 @ $29AD8 - STRING #500 @ $2ABC8
+
+#W16($29AD8)
+war. <X>
+
+
+//POINTER #501 @ $29ADA - STRING #501 @ $2ABCE
+
+#W16($29ADA)
+each <X>
+
+
+//POINTER #502 @ $29ADC - STRING #502 @ $2ABD4
+
+#W16($29ADC)
+men <X>
+
+
+//POINTER #503 @ $29ADE - STRING #503 @ $2ABD9
+
+#W16($29ADE)
+All <X>
+
+
+//POINTER #504 @ $29AE0 - STRING #504 @ $2ABDE
+
+#W16($29AE0)
+an' <X>
+
+
+//POINTER #505 @ $29AE2 - STRING #505 @ $2ABE3
+
+#W16($29AE2)
+Get <X>
+
+
+//POINTER #506 @ $29AE4 - STRING #506 @ $2ABE8
+
+#W16($29AE4)
+Oh <X>
+
+
+//POINTER #507 @ $29AE6 - STRING #507 @ $2ABEC
+
+#W16($29AE6)
+something. <X>
+
+
+//POINTER #508 @ $29AE8 - STRING #508 @ $2ABF8
+
+#W16($29AE8)
+Actually, <X>
+
+
+//POINTER #509 @ $29AEA - STRING #509 @ $2AC03
+
+#W16($29AEA)
+Highness. <X>
+
+
+//POINTER #510 @ $29AEC - STRING #510 @ $2AC0E
+
+#W16($29AEC)
+Please... <X>
+
+
+//POINTER #511 @ $29AEE - STRING #511 @ $2AC19
+
+#W16($29AEE)
+Oifaye, <X>
+
+
+//POINTER #512 @ $29AF0 - STRING #512 @ $2AC22
+
+#W16($29AF0)
+Thanks, <X>
+
+
+//POINTER #513 @ $29AF2 - STRING #513 @ $2AC2B
+
+#W16($29AF2)
+knights <X>
+
+
+//POINTER #514 @ $29AF4 - STRING #514 @ $2AC34
+
+#W16($29AF4)
+Forgive <X>
+
+
+//POINTER #515 @ $29AF6 - STRING #515 @ $2AC3D
+
+#W16($29AF6)
+What're <X>
+
+
+//POINTER #516 @ $29AF8 - STRING #516 @ $2AC46
+
+#W16($29AF8)
+Knight <X>
+
+
+//POINTER #517 @ $29AFA - STRING #517 @ $2AC4E
+
+#W16($29AFA)
+side. <X>
+
+
+//POINTER #518 @ $29AFC - STRING #518 @ $2AC55
+
+#W16($29AFC)
+Yeah. <X>
+
+
+//POINTER #519 @ $29AFE - STRING #519 @ $2AC5C
+
+#W16($29AFE)
+Okay, <X>
+
+
+//POINTER #520 @ $29B00 - STRING #520 @ $2AC63
+
+#W16($29B00)
+speak <X>
+
+
+//POINTER #521 @ $29B02 - STRING #521 @ $2AC6A
+
+#W16($29B02)
+place <X>
+
+
+//POINTER #522 @ $29B04 - STRING #522 @ $2AC71
+
+#W16($29B04)
+stand <X>
+
+
+//POINTER #523 @ $29B06 - STRING #523 @ $2AC78
+
+#W16($29B06)
+No... <X>
+
+
+//POINTER #524 @ $29B08 - STRING #524 @ $2AC7F
+
+#W16($29B08)
+looks <X>
+
+
+//POINTER #525 @ $29B0A - STRING #525 @ $2AC86
+
+#W16($29B0A)
+see. <X>
+
+
+//POINTER #526 @ $29B0C - STRING #526 @ $2AC8C
+
+#W16($29B0C)
+did. <X>
+
+
+//POINTER #527 @ $29B0E - STRING #527 @ $2AC92
+
+#W16($29B0E)
+hell <X>
+
+
+//POINTER #528 @ $29B10 - STRING #528 @ $2AC98
+
+#W16($29B10)
+Have <X>
+
+
+//POINTER #529 @ $29B12 - STRING #529 @ $2AC9E
+
+#W16($29B12)
+Lady <X>
+
+
+//POINTER #530 @ $29B14 - STRING #530 @ $2ACA4
+
+#W16($29B14)
+used <X>
+
+
+//POINTER #531 @ $29B16 - STRING #531 @ $2ACAA
+
+#W16($29B16)
+With <X>
+
+
+//POINTER #532 @ $29B18 - STRING #532 @ $2ACB0
+
+#W16($29B18)
+kids <X>
+
+
+//POINTER #533 @ $29B1A - STRING #533 @ $2ACB6
+
+#W16($29B1A)
+guys <X>
+
+
+//POINTER #534 @ $29B1C - STRING #534 @ $2ACBC
+
+#W16($29B1C)
+now! <X>
+
+
+//POINTER #535 @ $29B1E - STRING #535 @ $2ACC2
+
+#W16($29B1E)
+face <X>
+
+
+//POINTER #536 @ $29B20 - STRING #536 @ $2ACC8
+
+#W16($29B20)
+went <X>
+
+
+//POINTER #537 @ $29B22 - STRING #537 @ $2ACCE
+
+#W16($29B22)
+up! <X>
+
+
+//POINTER #538 @ $29B24 - STRING #538 @ $2ACD3
+
+#W16($29B24)
+in. <X>
+
+
+//POINTER #539 @ $29B26 - STRING #539 @ $2ACD8
+
+#W16($29B26)
+go. <X>
+
+
+//POINTER #540 @ $29B28 - STRING #540 @ $2ACDD
+
+#W16($29B28)
+end <X>
+
+
+//POINTER #541 @ $29B2A - STRING #541 @ $2ACE2
+
+#W16($29B2A)
+yet <X>
+
+
+//POINTER #542 @ $29B2C - STRING #542 @ $2ACE7
+
+#W16($29B2C)
+'em <X>
+
+
+//POINTER #543 @ $29B2E - STRING #543 @ $2ACEC
+
+#W16($29B2E)
+Grandbell's <X>
+
+
+//POINTER #544 @ $29B30 - STRING #544 @ $2ACF9
+
+#W16($29B30)
+descendant <X>
+
+
+//POINTER #545 @ $29B32 - STRING #545 @ $2AD05
+
+#W16($29B32)
+anything <X>
+
+
+//POINTER #546 @ $29B34 - STRING #546 @ $2AD0F
+
+#W16($29B34)
+remember <X>
+
+
+//POINTER #547 @ $29B36 - STRING #547 @ $2AD19
+
+#W16($29B36)
+Agustria <X>
+
+
+//POINTER #548 @ $29B38 - STRING #548 @ $2AD23
+
+#W16($29B38)
+Anyway, <X>
+
+
+//POINTER #549 @ $29B3A - STRING #549 @ $2AD2C
+
+#W16($29B3A)
+holding <X>
+
+
+//POINTER #550 @ $29B3C - STRING #550 @ $2AD35
+
+#W16($29B3C)
+know... <X>
+
+
+//POINTER #551 @ $29B3E - STRING #551 @ $2AD3E
+
+#W16($29B3E)
+Manster <X>
+
+
+//POINTER #552 @ $29B40 - STRING #552 @ $2AD47
+
+#W16($29B40)
+attack. <X>
+
+
+//POINTER #553 @ $29B42 - STRING #553 @ $2AD50
+
+#W16($29B42)
+Pegasus <X>
+
+
+//POINTER #554 @ $29B44 - STRING #554 @ $2AD59
+
+#W16($29B44)
+because <X>
+
+
+//POINTER #555 @ $29B46 - STRING #555 @ $2AD62
+
+#W16($29B46)
+there! <X>
+
+
+//POINTER #556 @ $29B48 - STRING #556 @ $2AD6A
+
+#W16($29B48)
+Julius <X>
+
+
+//POINTER #557 @ $29B4A - STRING #557 @ $2AD72
+
+#W16($29B4A)
+knight <X>
+
+
+//POINTER #558 @ $29B4C - STRING #558 @ $2AD7A
+
+#W16($29B4C)
+tough <X>
+
+
+//POINTER #559 @ $29B4E - STRING #559 @ $2AD81
+
+#W16($29B4E)
+kinda <X>
+
+
+//POINTER #560 @ $29B50 - STRING #560 @ $2AD88
+
+#W16($29B50)
+peace <X>
+
+
+//POINTER #561 @ $29B52 - STRING #561 @ $2AD8F
+
+#W16($29B52)
+them! <X>
+
+
+//POINTER #562 @ $29B54 - STRING #562 @ $2AD96
+
+#W16($29B54)
+wrong <X>
+
+
+//POINTER #563 @ $29B56 - STRING #563 @ $2AD9D
+
+#W16($29B56)
+guess <X>
+
+
+//POINTER #564 @ $29B58 - STRING #564 @ $2ADA4
+
+#W16($29B58)
+Geez, <X>
+
+
+//POINTER #565 @ $29B5A - STRING #565 @ $2ADAB
+
+#W16($29B5A)
+that! <X>
+
+
+//POINTER #566 @ $29B5C - STRING #566 @ $2ADB2
+
+#W16($29B5C)
+well, <X>
+
+
+//POINTER #567 @ $29B5E - STRING #567 @ $2ADB9
+
+#W16($29B5E)
+means <X>
+
+
+//POINTER #568 @ $29B60 - STRING #568 @ $2ADC0
+
+#W16($29B60)
+ready <X>
+
+
+//POINTER #569 @ $29B62 - STRING #569 @ $2ADC7
+
+#W16($29B62)
+mind <X>
+
+
+//POINTER #570 @ $29B64 - STRING #570 @ $2ADCD
+
+#W16($29B64)
+king <X>
+
+
+//POINTER #571 @ $29B66 - STRING #571 @ $2ADD3
+
+#W16($29B66)
+turn <X>
+
+
+//POINTER #572 @ $29B68 - STRING #572 @ $2ADD9
+
+#W16($29B68)
+man. <X>
+
+
+//POINTER #573 @ $29B6A - STRING #573 @ $2ADDF
+
+#W16($29B6A)
+rest <X>
+
+
+//POINTER #574 @ $29B6C - STRING #574 @ $2ADE5
+
+#W16($29B6C)
+talk <X>
+
+
+//POINTER #575 @ $29B6E - STRING #575 @ $2ADEB
+
+#W16($29B6E)
+upon <X>
+
+
+//POINTER #576 @ $29B70 - STRING #576 @ $2ADF1
+
+#W16($29B70)
+Once <X>
+
+
+//POINTER #577 @ $29B72 - STRING #577 @ $2ADF7
+
+#W16($29B72)
+bet <X>
+
+
+//POINTER #578 @ $29B74 - STRING #578 @ $2ADFC
+
+#W16($29B74)
+Not <X>
+
+
+//POINTER #579 @ $29B76 - STRING #579 @ $2AE01
+
+#W16($29B76)
+up? <X>
+
+
+//POINTER #580 @ $29B78 - STRING #580 @ $2AE06
+
+#W16($29B78)
+yer <X>
+
+
+//POINTER #581 @ $29B7A - STRING #581 @ $2AE0B
+
+#W16($29B7A)
+Let <X>
+
+
+//POINTER #582 @ $29B7C - STRING #582 @ $2AE10
+
+#W16($29B7C)
+its <X>
+
+
+//POINTER #583 @ $29B7E - STRING #583 @ $2AE15
+
+#W16($29B7E)
+everything <X>
+
+
+//POINTER #584 @ $29B80 - STRING #584 @ $2AE21
+
+#W16($29B80)
+Ethlin... <X>
+
+
+//POINTER #585 @ $29B82 - STRING #585 @ $2AE2C
+
+#W16($29B82)
+Crusader <X>
+
+
+//POINTER #586 @ $29B84 - STRING #586 @ $2AE36
+
+#W16($29B84)
+alright! <X>
+
+
+//POINTER #587 @ $29B86 - STRING #587 @ $2AE40
+
+#W16($29B86)
+brother, <X>
+
+
+//POINTER #588 @ $29B88 - STRING #588 @ $2AE4A
+
+#W16($29B88)
+problem <X>
+
+
+//POINTER #589 @ $29B8A - STRING #589 @ $2AE53
+
+#W16($29B8A)
+Geez... <X>
+
+
+//POINTER #590 @ $29B8C - STRING #590 @ $2AE5C
+
+#W16($29B8C)
+Shagaal <X>
+
+
+//POINTER #591 @ $29B8E - STRING #591 @ $2AE65
+
+#W16($29B8E)
+Aideen, <X>
+
+
+//POINTER #592 @ $29B90 - STRING #592 @ $2AE6E
+
+#W16($29B90)
+protect <X>
+
+
+//POINTER #593 @ $29B92 - STRING #593 @ $2AE77
+
+#W16($29B92)
+weren't <X>
+
+
+//POINTER #594 @ $29B94 - STRING #594 @ $2AE80
+
+#W16($29B94)
+But... <X>
+
+
+//POINTER #595 @ $29B96 - STRING #595 @ $2AE88
+
+#W16($29B96)
+enemy. <X>
+
+
+//POINTER #596 @ $29B98 - STRING #596 @ $2AE90
+
+#W16($29B98)
+that!? <X>
+
+
+//POINTER #597 @ $29B9A - STRING #597 @ $2AE98
+
+#W16($29B9A)
+Ahh... <X>
+
+
+//POINTER #598 @ $29B9C - STRING #598 @ $2AEA0
+
+#W16($29B9C)
+but... <X>
+
+
+//POINTER #599 @ $29B9E - STRING #599 @ $2AEA8
+
+#W16($29B9E)
+locked <X>
+
+
+//POINTER #600 @ $29BA0 - STRING #600 @ $2AEB0
+
+#W16($29BA0)
+woman <X>
+
+
+//POINTER #601 @ $29BA2 - STRING #601 @ $2AEB7
+
+#W16($29BA2)
+know, <X>
+
+
+//POINTER #602 @ $29BA4 - STRING #602 @ $2AEBE
+
+#W16($29BA4)
+Blume <X>
+
+
+//POINTER #603 @ $29BA6 - STRING #603 @ $2AEC5
+
+#W16($29BA6)
+much, <X>
+
+
+//POINTER #604 @ $29BA8 - STRING #604 @ $2AECC
+
+#W16($29BA8)
+ain't <X>
+
+
+//POINTER #605 @ $29BAA - STRING #605 @ $2AED3
+
+#W16($29BAA)
+this! <X>
+
+
+//POINTER #606 @ $29BAC - STRING #606 @ $2AEDA
+
+#W16($29BAC)
+along <X>
+
+
+//POINTER #607 @ $29BAE - STRING #607 @ $2AEE1
+
+#W16($29BAE)
+Yied <X>
+
+
+//POINTER #608 @ $29BB0 - STRING #608 @ $2AEE7
+
+#W16($29BB0)
+me!? <X>
+
+
+//POINTER #609 @ $29BB2 - STRING #609 @ $2AEED
+
+#W16($29BB2)
+hard <X>
+
+
+//POINTER #610 @ $29BB4 - STRING #610 @ $2AEF3
+
+#W16($29BB4)
+huh? <X>
+
+
+//POINTER #611 @ $29BB6 - STRING #611 @ $2AEF9
+
+#W16($29BB6)
+too! <X>
+
+
+//POINTER #612 @ $29BB8 - STRING #612 @ $2AEFF
+
+#W16($29BB8)
+next <X>
+
+
+//POINTER #613 @ $29BBA - STRING #613 @ $2AF05
+
+#W16($29BBA)
+near <X>
+
+
+//POINTER #614 @ $29BBC - STRING #614 @ $2AF0B
+
+#W16($29BBC)
+Cuan <X>
+
+
+//POINTER #615 @ $29BBE - STRING #615 @ $2AF11
+
+#W16($29BBE)
+away <X>
+
+
+//POINTER #616 @ $29BC0 - STRING #616 @ $2AF17
+
+#W16($29BC0)
+Duke <X>
+
+
+//POINTER #617 @ $29BC2 - STRING #617 @ $2AF1D
+
+#W16($29BC2)
+true <X>
+
+
+//POINTER #618 @ $29BC4 - STRING #618 @ $2AF23
+
+#W16($29BC4)
+Did <X>
+
+
+//POINTER #619 @ $29BC6 - STRING #619 @ $2AF28
+
+#W16($29BC6)
+bad <X>
+
+
+//POINTER #620 @ $29BC8 - STRING #620 @ $2AF2D
+
+#W16($29BC8)
+is. <X>
+
+
+//POINTER #621 @ $29BCA - STRING #621 @ $2AF32
+
+#W16($29BCA)
+set <X>
+
+
+//POINTER #622 @ $29BCC - STRING #622 @ $2AF37
+
+#W16($29BCC)
+up, <X>
+
+
+//POINTER #623 @ $29BCE - STRING #623 @ $2AF3C
+
+#W16($29BCE)
+For <X>
+
+
+//POINTER #624 @ $29BD0 - STRING #624 @ $2AF41
+
+#W16($29BD0)
+few <X>
+
+
+//POINTER #625 @ $29BD2 - STRING #625 @ $2AF46
+
+#W16($29BD2)
+fer <X>
+
+
+//POINTER #626 @ $29BD4 - STRING #626 @ $2AF4B
+
+#W16($29BD4)
+Eltshan's <X>
+
+
+//POINTER #627 @ $29BD6 - STRING #627 @ $2AF56
+
+#W16($29BD6)
+beautiful <X>
+
+
+//POINTER #628 @ $29BD8 - STRING #628 @ $2AF61
+
+#W16($29BD8)
+Sigurd... <X>
+
+
+//POINTER #629 @ $29BDA - STRING #629 @ $2AF6C
+
+#W16($29BDA)
+citizens <X>
+
+
+//POINTER #630 @ $29BDC - STRING #630 @ $2AF76
+
+#W16($29BDC)
+Altenna, <X>
+
+
+//POINTER #631 @ $29BDE - STRING #631 @ $2AF80
+
+#W16($29BDE)
+Barhara. <X>
+
+
+//POINTER #632 @ $29BE0 - STRING #632 @ $2AF8A
+
+#W16($29BE0)
+himself <X>
+
+
+//POINTER #633 @ $29BE2 - STRING #633 @ $2AF93
+
+#W16($29BE2)
+country <X>
+
+
+//POINTER #634 @ $29BE4 - STRING #634 @ $2AF9C
+
+#W16($29BE4)
+gettin' <X>
+
+
+//POINTER #635 @ $29BE6 - STRING #635 @ $2AFA5
+
+#W16($29BE6)
+Altenna <X>
+
+
+//POINTER #636 @ $29BE8 - STRING #636 @ $2AFAE
+
+#W16($29BE8)
+Emperor <X>
+
+
+//POINTER #637 @ $29BEA - STRING #637 @ $2AFB7
+
+#W16($29BEA)
+Barhara <X>
+
+
+//POINTER #638 @ $29BEC - STRING #638 @ $2AFC0
+
+#W16($29BEC)
+anyway. <X>
+
+
+//POINTER #639 @ $29BEE - STRING #639 @ $2AFC9
+
+#W16($29BEE)
+parents <X>
+
+
+//POINTER #640 @ $29BF0 - STRING #640 @ $2AFD2
+
+#W16($29BF0)
+brought <X>
+
+
+//POINTER #641 @ $29BF2 - STRING #641 @ $2AFDB
+
+#W16($29BF2)
+called <X>
+
+
+//POINTER #642 @ $29BF4 - STRING #642 @ $2AFE3
+
+#W16($29BF4)
+passed <X>
+
+
+//POINTER #643 @ $29BF6 - STRING #643 @ $2AFEB
+
+#W16($29BF6)
+see... <X>
+
+
+//POINTER #644 @ $29BF8 - STRING #644 @ $2AFF3
+
+#W16($29BF8)
+Arion, <X>
+
+
+//POINTER #645 @ $29BFA - STRING #645 @ $2AFFB
+
+#W16($29BFA)
+castle <X>
+
+
+//POINTER #646 @ $29BFC - STRING #646 @ $2B003
+
+#W16($29BFC)
+anyone <X>
+
+
+//POINTER #647 @ $29BFE - STRING #647 @ $2B00B
+
+#W16($29BFE)
+raised <X>
+
+
+//POINTER #648 @ $29C00 - STRING #648 @ $2B013
+
+#W16($29C00)
+course <X>
+
+
+//POINTER #649 @ $29C02 - STRING #649 @ $2B01B
+
+#W16($29C02)
+strong <X>
+
+
+//POINTER #650 @ $29C04 - STRING #650 @ $2B023
+
+#W16($29C04)
+within <X>
+
+
+//POINTER #651 @ $29C06 - STRING #651 @ $2B02B
+
+#W16($29C06)
+child. <X>
+
+
+//POINTER #652 @ $29C08 - STRING #652 @ $2B033
+
+#W16($29C08)
+Arion <X>
+
+
+//POINTER #653 @ $29C0A - STRING #653 @ $2B03A
+
+#W16($29C0A)
+death <X>
+
+
+//POINTER #654 @ $29C0C - STRING #654 @ $2B041
+
+#W16($29C0C)
+known <X>
+
+
+//POINTER #655 @ $29C0E - STRING #655 @ $2B048
+
+#W16($29C0E)
+safe. <X>
+
+
+//POINTER #656 @ $29C10 - STRING #656 @ $2B04F
+
+#W16($29C10)
+Cuan, <X>
+
+
+//POINTER #657 @ $29C12 - STRING #657 @ $2B056
+
+#W16($29C12)
+Narga <X>
+
+
+//POINTER #658 @ $29C14 - STRING #658 @ $2B05D
+
+#W16($29C14)
+Okay. <X>
+
+
+//POINTER #659 @ $29C16 - STRING #659 @ $2B064
+
+#W16($29C16)
+name? <X>
+
+
+//POINTER #660 @ $29C18 - STRING #660 @ $2B06B
+
+#W16($29C18)
+soon <X>
+
+
+//POINTER #661 @ $29C1A - STRING #661 @ $2B071
+
+#W16($29C1A)
+does <X>
+
+
+//POINTER #662 @ $29C1C - STRING #662 @ $2B077
+
+#W16($29C1C)
+seen <X>
+
+
+//POINTER #663 @ $29C1E - STRING #663 @ $2B07D
+
+#W16($29C1E)
+evil <X>
+
+
+//POINTER #664 @ $29C20 - STRING #664 @ $2B083
+
+#W16($29C20)
+damn <X>
+
+
+//POINTER #665 @ $29C22 - STRING #665 @ $2B089
+
+#W16($29C22)
+When <X>
+
+
+//POINTER #666 @ $29C24 - STRING #666 @ $2B08F
+
+#W16($29C24)
+Come <X>
+
+
+//POINTER #667 @ $29C26 - STRING #667 @ $2B095
+
+#W16($29C26)
+call <X>
+
+
+//POINTER #668 @ $29C28 - STRING #668 @ $2B09B
+
+#W16($29C28)
+lead <X>
+
+
+//POINTER #669 @ $29C2A - STRING #669 @ $2B0A1
+
+#W16($29C2A)
+lay <X>
+
+
+//POINTER #670 @ $29C2C - STRING #670 @ $2B0A6
+
+#W16($29C2C)
+lot <X>
+
+
+//POINTER #671 @ $29C2E - STRING #671 @ $2B0AB
+
+#W16($29C2E)
+Yes <X>
+
+
+//POINTER #672 @ $29C30 - STRING #672 @ $2B0B0
+
+#W16($29C30)
+Hm? <X>
+
+
+//POINTER #673 @ $29C32 - STRING #673 @ $2B0B5
+
+#W16($29C32)
+do? <X>
+
+
+//POINTER #674 @ $29C34 - STRING #674 @ $2B0BA
+
+#W16($29C34)
+saw <X>
+
+
+//POINTER #675 @ $29C36 - STRING #675 @ $2B0BF
+
+#W16($29C36)
+In <X>
+
+
+//POINTER #676 @ $29C38 - STRING #676 @ $2B0C3
+
+#W16($29C38)
+father... <X>
+
+
+//POINTER #677 @ $29C3A - STRING #677 @ $2B0CE
+
+#W16($29C3A)
+Lachesis, <X>
+
+
+//POINTER #678 @ $29C3C - STRING #678 @ $2B0D9
+
+#W16($29C3C)
+shouldn't <X>
+
+
+//POINTER #679 @ $29C3E - STRING #679 @ $2B0E4
+
+#W16($29C3E)
+yourself. <X>
+
+
+//POINTER #680 @ $29C40 - STRING #680 @ $2B0EF
+
+#W16($29C40)
+Eltshan, <X>
+
+
+//POINTER #681 @ $29C42 - STRING #681 @ $2B0F9
+
+#W16($29C42)
+could've <X>
+
+
+//POINTER #682 @ $29C44 - STRING #682 @ $2B103
+
+#W16($29C44)
+Majesty. <X>
+
+
+//POINTER #683 @ $29C46 - STRING #683 @ $2B10D
+
+#W16($29C46)
+Arion... <X>
+
+
+//POINTER #684 @ $29C48 - STRING #684 @ $2B117
+
+#W16($29C48)
+daughter <X>
+
+
+//POINTER #685 @ $29C4A - STRING #685 @ $2B121
+
+#W16($29C4A)
+empire's <X>
+
+
+//POINTER #686 @ $29C4C - STRING #686 @ $2B12B
+
+#W16($29C4C)
+Alright. <X>
+
+
+//POINTER #687 @ $29C4E - STRING #687 @ $2B135
+
+#W16($29C4E)
+Deirdre. <X>
+
+
+//POINTER #688 @ $29C50 - STRING #688 @ $2B13F
+
+#W16($29C50)
+Eltshan. <X>
+
+
+//POINTER #689 @ $29C52 - STRING #689 @ $2B149
+
+#W16($29C52)
+everyone <X>
+
+
+//POINTER #690 @ $29C54 - STRING #690 @ $2B153
+
+#W16($29C54)
+consider <X>
+
+
+//POINTER #691 @ $29C56 - STRING #691 @ $2B15D
+
+#W16($29C56)
+horrible <X>
+
+
+//POINTER #692 @ $29C58 - STRING #692 @ $2B167
+
+#W16($29C58)
+heading <X>
+
+
+//POINTER #693 @ $29C5A - STRING #693 @ $2B170
+
+#W16($29C5A)
+Celice! <X>
+
+
+//POINTER #694 @ $29C5C - STRING #694 @ $2B179
+
+#W16($29C5C)
+Deirdre <X>
+
+
+//POINTER #695 @ $29C5E - STRING #695 @ $2B182
+
+#W16($29C5E)
+Sigurd! <X>
+
+
+//POINTER #696 @ $29C60 - STRING #696 @ $2B18B
+
+#W16($29C60)
+brother <X>
+
+
+//POINTER #697 @ $29C62 - STRING #697 @ $2B194
+
+#W16($29C62)
+Chalphy <X>
+
+
+//POINTER #698 @ $29C64 - STRING #698 @ $2B19D
+
+#W16($29C64)
+command <X>
+
+
+//POINTER #699 @ $29C66 - STRING #699 @ $2B1A6
+
+#W16($29C66)
+Agusty. <X>
+
+
+//POINTER #700 @ $29C68 - STRING #700 @ $2B1AF
+
+#W16($29C68)
+castle, <X>
+
+
+//POINTER #701 @ $29C6A - STRING #701 @ $2B1B8
+
+#W16($29C6A)
+mother. <X>
+
+
+//POINTER #702 @ $29C6C - STRING #702 @ $2B1C1
+
+#W16($29C6C)
+praying <X>
+
+
+//POINTER #703 @ $29C6E - STRING #703 @ $2B1CA
+
+#W16($29C6E)
+troops. <X>
+
+
+//POINTER #704 @ $29C70 - STRING #704 @ $2B1D3
+
+#W16($29C70)
+around. <X>
+
+
+//POINTER #705 @ $29C72 - STRING #705 @ $2B1DC
+
+#W16($29C72)
+Sorry, <X>
+
+
+//POINTER #706 @ $29C74 - STRING #706 @ $2B1E4
+
+#W16($29C74)
+longer <X>
+
+
+//POINTER #707 @ $29C76 - STRING #707 @ $2B1EC
+
+#W16($29C76)
+Jamka, <X>
+
+
+//POINTER #708 @ $29C78 - STRING #708 @ $2B1F4
+
+#W16($29C78)
+going. <X>
+
+
+//POINTER #709 @ $29C7A - STRING #709 @ $2B1FC
+
+#W16($29C7A)
+finish <X>
+
+
+//POINTER #710 @ $29C7C - STRING #710 @ $2B204
+
+#W16($29C7C)
+What!? <X>
+
+
+//POINTER #711 @ $29C7E - STRING #711 @ $2B20C
+
+#W16($29C7E)
+Levin. <X>
+
+
+//POINTER #712 @ $29C80 - STRING #712 @ $2B214
+
+#W16($29C80)
+there, <X>
+
+
+//POINTER #713 @ $29C82 - STRING #713 @ $2B21C
+
+#W16($29C82)
+turned <X>
+
+
+//POINTER #714 @ $29C84 - STRING #714 @ $2B224
+
+#W16($29C84)
+thing. <X>
+
+
+//POINTER #715 @ $29C86 - STRING #715 @ $2B22C
+
+#W16($29C86)
+gotten <X>
+
+
+//POINTER #716 @ $29C88 - STRING #716 @ $2B234
+
+#W16($29C88)
+fight. <X>
+
+
+//POINTER #717 @ $29C8A - STRING #717 @ $2B23C
+
+#W16($29C8A)
+trying <X>
+
+
+//POINTER #718 @ $29C8C - STRING #718 @ $2B244
+
+#W16($29C8C)
+Reptor <X>
+
+
+//POINTER #719 @ $29C8E - STRING #719 @ $2B24C
+
+#W16($29C8E)
+seems <X>
+
+
+//POINTER #720 @ $29C90 - STRING #720 @ $2B253
+
+#W16($29C90)
+time, <X>
+
+
+//POINTER #721 @ $29C92 - STRING #721 @ $2B25A
+
+#W16($29C92)
+named <X>
+
+
+//POINTER #722 @ $29C94 - STRING #722 @ $2B261
+
+#W16($29C94)
+Kurth <X>
+
+
+//POINTER #723 @ $29C96 - STRING #723 @ $2B268
+
+#W16($29C96)
+Fury, <X>
+
+
+//POINTER #724 @ $29C98 - STRING #724 @ $2B26F
+
+#W16($29C98)
+small <X>
+
+
+//POINTER #725 @ $29C9A - STRING #725 @ $2B276
+
+#W16($29C9A)
+Ah... <X>
+
+
+//POINTER #726 @ $29C9C - STRING #726 @ $2B27D
+
+#W16($29C9C)
+royal <X>
+
+
+//POINTER #727 @ $29C9E - STRING #727 @ $2B284
+
+#W16($29C9E)
+do... <X>
+
+
+//POINTER #728 @ $29CA0 - STRING #728 @ $2AE44
+
+#W16($29CA0)
+her, <X>
+
+
+//POINTER #729 @ $29CA2 - STRING #729 @ $2B28B
+
+#W16($29CA2)
+hurt <X>
+
+
+//POINTER #730 @ $29CA4 - STRING #730 @ $2B291
+
+#W16($29CA4)
+yet. <X>
+
+
+//POINTER #731 @ $29CA6 - STRING #731 @ $2B297
+
+#W16($29CA6)
+live <X>
+
+
+//POINTER #732 @ $29CA8 - STRING #732 @ $2B29D
+
+#W16($29CA8)
+Grr! <X>
+
+
+//POINTER #733 @ $29CAA - STRING #733 @ $2B2A3
+
+#W16($29CAA)
+Give <X>
+
+
+//POINTER #734 @ $29CAC - STRING #734 @ $2B2A9
+
+#W16($29CAC)
+son. <X>
+
+
+//POINTER #735 @ $29CAE - STRING #735 @ $2B2AF
+
+#W16($29CAE)
+Book <X>
+
+
+//POINTER #736 @ $29CB0 - STRING #736 @ $2B2B5
+
+#W16($29CB0)
+gets <X>
+
+
+//POINTER #737 @ $29CB2 - STRING #737 @ $2B2BB
+
+#W16($29CB2)
+till <X>
+
+
+//POINTER #738 @ $29CB4 - STRING #738 @ $2B2C1
+
+#W16($29CB4)
+...I <X>
+
+
+//POINTER #739 @ $29CB6 - STRING #739 @ $2B2C7
+
+#W16($29CB6)
+now? <X>
+
+
+//POINTER #740 @ $29CB8 - STRING #740 @ $2B2CD
+
+#W16($29CB8)
+idea <X>
+
+
+//POINTER #741 @ $29CBA - STRING #741 @ $2B2D3
+
+#W16($29CBA)
+No! <X>
+
+
+//POINTER #742 @ $29CBC - STRING #742 @ $2B2D8
+
+#W16($29CBC)
+ya? <X>
+
+
+//POINTER #743 @ $29CBE - STRING #743 @ $2B2DD
+
+#W16($29CBE)
+met <X>
+
+
+//POINTER #744 @ $29CC0 - STRING #744 @ $2B2E2
+
+#W16($29CC0)
+job <X>
+
+
+//POINTER #745 @ $29CC2 - STRING #745 @ $2B2E7
+
+#W16($29CC2)
+he? <X>
+
+
+//POINTER #746 @ $29CC4 - STRING #746 @ $2B2EC
+
+#W16($29CC4)
+so. <X>
+
+
+//POINTER #747 @ $29CC6 - STRING #747 @ $2AEB2
+
+#W16($29CC6)
+man <X>
+
+
+//POINTER #748 @ $29CC8 - STRING #748 @ $2B2F1
+
+#W16($29CC8)
+Go <X>
+
+
+//POINTER #749 @ $29CCA - STRING #749 @ $2B2F5
+
+#W16($29CCA)
+anything. <X>
+
+
+//POINTER #750 @ $29CCC - STRING #750 @ $2B300
+
+#W16($29CCC)
+intention <X>
+
+
+//POINTER #751 @ $29CCE - STRING #751 @ $2B30B
+
+#W16($29CCE)
+Sheesh... <X>
+
+
+//POINTER #752 @ $29CD0 - STRING #752 @ $2B316
+
+#W16($29CD0)
+Imperial <X>
+
+
+//POINTER #753 @ $29CD2 - STRING #753 @ $2B320
+
+#W16($29CD2)
+happened <X>
+
+
+//POINTER #754 @ $29CD4 - STRING #754 @ $2B32A
+
+#W16($29CD4)
+couldn't <X>
+
+
+//POINTER #755 @ $29CD6 - STRING #755 @ $2B334
+
+#W16($29CD6)
+Altenna. <X>
+
+
+//POINTER #756 @ $29CD8 - STRING #756 @ $2B33E
+
+#W16($29CD8)
+Langbart <X>
+
+
+//POINTER #757 @ $29CDA - STRING #757 @ $2B348
+
+#W16($29CDA)
+Aideen. <X>
+
+
+//POINTER #758 @ $29CDC - STRING #758 @ $2B351
+
+#W16($29CDC)
+younger <X>
+
+
+//POINTER #759 @ $29CDE - STRING #759 @ $2B35A
+
+#W16($29CDE)
+Father! <X>
+
+
+//POINTER #760 @ $29CE0 - STRING #760 @ $2B363
+
+#W16($29CE0)
+enough. <X>
+
+
+//POINTER #761 @ $29CE2 - STRING #761 @ $2B36C
+
+#W16($29CE2)
+Ishtar, <X>
+
+
+//POINTER #762 @ $29CE4 - STRING #762 @ $2B375
+
+#W16($29CE4)
+reached <X>
+
+
+//POINTER #763 @ $29CE6 - STRING #763 @ $2B37E
+
+#W16($29CE6)
+Because <X>
+
+
+//POINTER #764 @ $29CE8 - STRING #764 @ $2B387
+
+#W16($29CE8)
+Shanan, <X>
+
+
+//POINTER #765 @ $29CEA - STRING #765 @ $2B390
+
+#W16($29CEA)
+here... <X>
+
+
+//POINTER #766 @ $29CEC - STRING #766 @ $2B399
+
+#W16($29CEC)
+during <X>
+
+
+//POINTER #767 @ $29CEE - STRING #767 @ $2B3A1
+
+#W16($29CEE)
+death. <X>
+
+
+//POINTER #768 @ $29CF0 - STRING #768 @ $2B3A9
+
+#W16($29CF0)
+fallen <X>
+
+
+//POINTER #769 @ $29CF2 - STRING #769 @ $2B3B1
+
+#W16($29CF2)
+huh... <X>
+
+
+//POINTER #770 @ $29CF4 - STRING #770 @ $2B3B9
+
+#W16($29CF4)
+sounds <X>
+
+
+//POINTER #771 @ $29CF6 - STRING #771 @ $2B3C1
+
+#W16($29CF6)
+hasn't <X>
+
+
+//POINTER #772 @ $29CF8 - STRING #772 @ $2B3C9
+
+#W16($29CF8)
+direct <X>
+
+
+//POINTER #773 @ $29CFA - STRING #773 @ $2B3D1
+
+#W16($29CFA)
+joined <X>
+
+
+//POINTER #774 @ $29CFC - STRING #774 @ $2B3D9
+
+#W16($29CFC)
+Julia. <X>
+
+
+//POINTER #775 @ $29CFE - STRING #775 @ $2B3E1
+
+#W16($29CFE)
+Bishop <X>
+
+
+//POINTER #776 @ $29D00 - STRING #776 @ $2B3E9
+
+#W16($29D00)
+worry. <X>
+
+
+//POINTER #777 @ $29D02 - STRING #777 @ $2B3F1
+
+#W16($29D02)
+there? <X>
+
+
+//POINTER #778 @ $29D04 - STRING #778 @ $2B3F9
+
+#W16($29D04)
+Aless. <X>
+
+
+//POINTER #779 @ $29D06 - STRING #779 @ $2B401
+
+#W16($29D06)
+wasn't <X>
+
+
+//POINTER #780 @ $29D08 - STRING #780 @ $2B409
+
+#W16($29D08)
+order <X>
+
+
+//POINTER #781 @ $29D0A - STRING #781 @ $2B410
+
+#W16($29D0A)
+Rahna <X>
+
+
+//POINTER #782 @ $29D0C - STRING #782 @ $2B417
+
+#W16($29D0C)
+least <X>
+
+
+//POINTER #783 @ $29D0E - STRING #783 @ $2B41E
+
+#W16($29D0E)
+much. <X>
+
+
+//POINTER #784 @ $29D10 - STRING #784 @ $2B425
+
+#W16($29D10)
+Byron <X>
+
+
+//POINTER #785 @ $29D12 - STRING #785 @ $2B42C
+
+#W16($29D12)
+whole <X>
+
+
+//POINTER #786 @ $29D14 - STRING #786 @ $2B433
+
+#W16($29D14)
+time! <X>
+
+
+//POINTER #787 @ $29D16 - STRING #787 @ $2B43A
+
+#W16($29D16)
+learn <X>
+
+
+//POINTER #788 @ $29D18 - STRING #788 @ $2B441
+
+#W16($29D18)
+Blagi <X>
+
+
+//POINTER #789 @ $29D1A - STRING #789 @ $2B448
+
+#W16($29D1A)
+Leaf, <X>
+
+
+//POINTER #790 @ $29D1C - STRING #790 @ $2B44F
+
+#W16($29D1C)
+free <X>
+
+
+//POINTER #791 @ $29D1E - STRING #791 @ $2B455
+
+#W16($29D1E)
+Yep, <X>
+
+
+//POINTER #792 @ $29D20 - STRING #792 @ $2B45B
+
+#W16($29D20)
+send <X>
+
+
+//POINTER #793 @ $29D22 - STRING #793 @ $2B461
+
+#W16($29D22)
+way, <X>
+
+
+//POINTER #794 @ $29D24 - STRING #794 @ $2B467
+
+#W16($29D24)
+way! <X>
+
+
+//POINTER #795 @ $29D26 - STRING #795 @ $2B46D
+
+#W16($29D26)
+see! <X>
+
+
+//POINTER #796 @ $29D28 - STRING #796 @ $2B473
+
+#W16($29D28)
+fate <X>
+
+
+//POINTER #797 @ $29D2A - STRING #797 @ $2B479
+
+#W16($29D2A)
+easy <X>
+
+
+//POINTER #798 @ $29D2C - STRING #798 @ $2B47F
+
+#W16($29D2C)
+gone <X>
+
+
+//POINTER #799 @ $29D2E - STRING #799 @ $2B485
+
+#W16($29D2E)
+held <X>
+
+
+//POINTER #800 @ $29D30 - STRING #800 @ $2B48B
+
+#W16($29D30)
+full <X>
+
+
+//POINTER #801 @ $29D32 - STRING #801 @ $2B491
+
+#W16($29D32)
+YOU <X>
+
+
+//POINTER #802 @ $29D34 - STRING #802 @ $2B496
+
+#W16($29D34)
+go! <X>
+
+
+//POINTER #803 @ $29D36 - STRING #803 @ $2B49B
+
+#W16($29D36)
+us, <X>
+
+
+//POINTER #804 @ $29D38 - STRING #804 @ $2B4A0
+
+#W16($29D38)
+so, <X>
+
+
+//POINTER #805 @ $29D3A - STRING #805 @ $2B4A5
+
+#W16($29D3A)
+W, <X>
+
+
+//POINTER #806 @ $29D3C - STRING #806 @ $2B4A9
+
+#W16($29D3C)
+everything. <X>
+
+
+//POINTER #807 @ $29D3E - STRING #807 @ $2B4B6
+
+#W16($29D3E)
+completely <X>
+
+
+//POINTER #808 @ $29D40 - STRING #808 @ $2B4C2
+
+#W16($29D40)
+Altenna... <X>
+
+
+//POINTER #809 @ $29D42 - STRING #809 @ $2B4CE
+
+#W16($29D42)
+something? <X>
+
+
+//POINTER #810 @ $29D44 - STRING #810 @ $2B4DA
+
+#W16($29D44)
+everybody <X>
+
+
+//POINTER #811 @ $29D46 - STRING #811 @ $2B4E5
+
+#W16($29D46)
+mercenary <X>
+
+
+//POINTER #812 @ $29D48 - STRING #812 @ $2B4F0
+
+#W16($29D48)
+Agustria. <X>
+
+
+//POINTER #813 @ $29D4A - STRING #813 @ $2B4FB
+
+#W16($29D4A)
+recover. <X>
+
+
+//POINTER #814 @ $29D4C - STRING #814 @ $2B505
+
+#W16($29D4C)
+However, <X>
+
+
+//POINTER #815 @ $29D4E - STRING #815 @ $2B50F
+
+#W16($29D4E)
+castle's <X>
+
+
+//POINTER #816 @ $29D50 - STRING #816 @ $2B519
+
+#W16($29D50)
+Silesian <X>
+
+
+//POINTER #817 @ $29D52 - STRING #817 @ $2B523
+
+#W16($29D52)
+through. <X>
+
+
+//POINTER #818 @ $29D54 - STRING #818 @ $2B52D
+
+#W16($29D54)
+Shanan's <X>
+
+
+//POINTER #819 @ $29D56 - STRING #819 @ $2B537
+
+#W16($29D56)
+memories <X>
+
+
+//POINTER #820 @ $29D58 - STRING #820 @ $2B541
+
+#W16($29D58)
+course, <X>
+
+
+//POINTER #821 @ $29D5A - STRING #821 @ $2B54A
+
+#W16($29D5A)
+please. <X>
+
+
+//POINTER #822 @ $29D5C - STRING #822 @ $2B553
+
+#W16($29D5C)
+keeping <X>
+
+
+//POINTER #823 @ $29D5E - STRING #823 @ $2B55C
+
+#W16($29D5E)
+just... <X>
+
+
+//POINTER #824 @ $29D60 - STRING #824 @ $2B565
+
+#W16($29D60)
+imagine <X>
+
+
+//POINTER #825 @ $29D62 - STRING #825 @ $2B56E
+
+#W16($29D62)
+village <X>
+
+
+//POINTER #826 @ $29D64 - STRING #826 @ $2B577
+
+#W16($29D64)
+Shanan. <X>
+
+
+//POINTER #827 @ $29D66 - STRING #827 @ $2B580
+
+#W16($29D66)
+well... <X>
+
+
+//POINTER #828 @ $29D68 - STRING #828 @ $2B589
+
+#W16($29D68)
+they've <X>
+
+
+//POINTER #829 @ $29D6A - STRING #829 @ $2B592
+
+#W16($29D6A)
+Verdane <X>
+
+
+//POINTER #830 @ $29D6C - STRING #830 @ $2B59B
+
+#W16($29D6C)
+Ethlin, <X>
+
+
+//POINTER #831 @ $29D6E - STRING #831 @ $2B5A4
+
+#W16($29D6E)
+myself. <X>
+
+
+//POINTER #832 @ $29D70 - STRING #832 @ $2B5AD
+
+#W16($29D70)
+putting <X>
+
+
+//POINTER #833 @ $29D72 - STRING #833 @ $2B5B6
+
+#W16($29D72)
+Hahaha! <X>
+
+
+//POINTER #834 @ $29D74 - STRING #834 @ $2B5BF
+
+#W16($29D74)
+That'd <X>
+
+
+//POINTER #835 @ $29D76 - STRING #835 @ $2B5C7
+
+#W16($29D76)
+across <X>
+
+
+//POINTER #836 @ $29D78 - STRING #836 @ $2B5CF
+
+#W16($29D78)
+Aideen <X>
+
+
+//POINTER #837 @ $29D7A - STRING #837 @ $2B5D7
+
+#W16($29D7A)
+Rahna, <X>
+
+
+//POINTER #838 @ $29D7C - STRING #838 @ $2B5DF
+
+#W16($29D7C)
+Alster <X>
+
+
+//POINTER #839 @ $29D7E - STRING #839 @ $2B5E7
+
+#W16($29D7E)
+reason <X>
+
+
+//POINTER #840 @ $29D80 - STRING #840 @ $2B5EF
+
+#W16($29D80)
+Heh... <X>
+
+
+//POINTER #841 @ $29D82 - STRING #841 @ $2B5F7
+
+#W16($29D82)
+yours. <X>
+
+
+//POINTER #842 @ $29D84 - STRING #842 @ $2B5FF
+
+#W16($29D84)
+beyond <X>
+
+
+//POINTER #843 @ $29D86 - STRING #843 @ $2B607
+
+#W16($29D86)
+happen <X>
+
+
+//POINTER #844 @ $29D88 - STRING #844 @ $2B60F
+
+#W16($29D88)
+Oifaye <X>
+
+
+//POINTER #845 @ $29D8A - STRING #845 @ $2B617
+
+#W16($29D8A)
+rebels <X>
+
+
+//POINTER #846 @ $29D8C - STRING #846 @ $2B61F
+
+#W16($29D8C)
+living <X>
+
+
+//POINTER #847 @ $29D8E - STRING #847 @ $2B627
+
+#W16($29D8E)
+Midir, <X>
+
+
+//POINTER #848 @ $29D90 - STRING #848 @ $2B62F
+
+#W16($29D90)
+Thanks <X>
+
+
+//POINTER #849 @ $29D92 - STRING #849 @ $2B637
+
+#W16($29D92)
+okay. <X>
+
+
+//POINTER #850 @ $29D94 - STRING #850 @ $2B63E
+
+#W16($29D94)
+wait! <X>
+
+
+//POINTER #851 @ $29D96 - STRING #851 @ $2B645
+
+#W16($29D96)
+once. <X>
+
+
+//POINTER #852 @ $29D98 - STRING #852 @ $2B64C
+
+#W16($29D98)
+Good. <X>
+
+
+//POINTER #853 @ $29D9A - STRING #853 @ $2B653
+
+#W16($29D9A)
+with. <X>
+
+
+//POINTER #854 @ $29D9C - STRING #854 @ $2B65A
+
+#W16($29D9C)
+king. <X>
+
+
+//POINTER #855 @ $29D9E - STRING #855 @ $2B661
+
+#W16($29D9E)
+back, <X>
+
+
+//POINTER #856 @ $29DA0 - STRING #856 @ $2B668
+
+#W16($29DA0)
+magic <X>
+
+
+//POINTER #857 @ $29DA2 - STRING #857 @ $2B66F
+
+#W16($29DA2)
+Saint <X>
+
+
+//POINTER #858 @ $29DA4 - STRING #858 @ $2B676
+
+#W16($29DA4)
+bein' <X>
+
+
+//POINTER #859 @ $29DA6 - STRING #859 @ $2B67D
+
+#W16($29DA6)
+Mease <X>
+
+
+//POINTER #860 @ $29DA8 - STRING #860 @ $2B684
+
+#W16($29DA8)
+come. <X>
+
+
+//POINTER #861 @ $29DAA - STRING #861 @ $2B68B
+
+#W16($29DAA)
+'bout <X>
+
+
+//POINTER #862 @ $29DAC - STRING #862 @ $2B692
+
+#W16($29DAC)
+close <X>
+
+
+//POINTER #863 @ $29DAE - STRING #863 @ $2B4FE
+
+#W16($29DAE)
+over. <X>
+
+
+//POINTER #864 @ $29DB0 - STRING #864 @ $2B699
+
+#W16($29DB0)
+count <X>
+
+
+//POINTER #865 @ $29DB2 - STRING #865 @ $2B6A0
+
+#W16($29DB2)
+Oh... <X>
+
+
+//POINTER #866 @ $29DB4 - STRING #866 @ $2B6A7
+
+#W16($29DB4)
+thing <X>
+
+
+//POINTER #867 @ $29DB6 - STRING #867 @ $2B6AE
+
+#W16($29DB6)
+dream <X>
+
+
+//POINTER #868 @ $29DB8 - STRING #868 @ $2B6B5
+
+#W16($29DB8)
+Julia <X>
+
+
+//POINTER #869 @ $29DBA - STRING #869 @ $2B6BC
+
+#W16($29DBA)
+wants <X>
+
+
+//POINTER #870 @ $29DBC - STRING #870 @ $2B6C3
+
+#W16($29DBC)
+trust <X>
+
+
+//POINTER #871 @ $29DBE - STRING #871 @ $2B6CA
+
+#W16($29DBE)
+ahead <X>
+
+
+//POINTER #872 @ $29DC0 - STRING #872 @ $2B6D1
+
+#W16($29DC0)
+Hero <X>
+
+
+//POINTER #873 @ $29DC2 - STRING #873 @ $2B6D7
+
+#W16($29DC2)
+Yes! <X>
+
+
+//POINTER #874 @ $29DC4 - STRING #874 @ $2B6DD
+
+#W16($29DC4)
+seem <X>
+
+
+//POINTER #875 @ $29DC6 - STRING #875 @ $2B6E3
+
+#W16($29DC6)
+one. <X>
+
+
+//POINTER #876 @ $29DC8 - STRING #876 @ $2B6E9
+
+#W16($29DC8)
+can. <X>
+
+
+//POINTER #877 @ $29DCA - STRING #877 @ $2B6EF
+
+#W16($29DCA)
+Wow! <X>
+
+
+//POINTER #878 @ $29DCC - STRING #878 @ $2B6F5
+
+#W16($29DCC)
+far. <X>
+
+
+//POINTER #879 @ $29DCE - STRING #879 @ $2B6FB
+
+#W16($29DCE)
+part <X>
+
+
+//POINTER #880 @ $29DD0 - STRING #880 @ $2B701
+
+#W16($29DD0)
+her! <X>
+
+
+//POINTER #881 @ $29DD2 - STRING #881 @ $2B707
+
+#W16($29DD2)
+most <X>
+
+
+//POINTER #882 @ $29DD4 - STRING #882 @ $2B70D
+
+#W16($29DD4)
+holy <X>
+
+
+//POINTER #883 @ $29DD6 - STRING #883 @ $2B713
+
+#W16($29DD6)
+Hang <X>
+
+
+//POINTER #884 @ $29DD8 - STRING #884 @ $2B719
+
+#W16($29DD8)
+Only <X>
+
+
+//POINTER #885 @ $29DDA - STRING #885 @ $2B71F
+
+#W16($29DDA)
+gave <X>
+
+
+//POINTER #886 @ $29DDC - STRING #886 @ $2B725
+
+#W16($29DDC)
+Dew. <X>
+
+
+//POINTER #887 @ $29DDE - STRING #887 @ $2B72B
+
+#W16($29DDE)
+bit. <X>
+
+
+//POINTER #888 @ $29DE0 - STRING #888 @ $2B731
+
+#W16($29DE0)
+pull <X>
+
+
+//POINTER #889 @ $29DE2 - STRING #889 @ $2B737
+
+#W16($29DE2)
+Fin, <X>
+
+
+//POINTER #890 @ $29DE4 - STRING #890 @ $2B73D
+
+#W16($29DE4)
+Hey <X>
+
+
+//POINTER #891 @ $29DE6 - STRING #891 @ $2B742
+
+#W16($29DE6)
+heh <X>
+
+
+//POINTER #892 @ $29DE8 - STRING #892 @ $2B747
+
+#W16($29DE8)
+'er <X>
+
+
+//POINTER #893 @ $29DEA - STRING #893 @ $2B74C
+
+#W16($29DEA)
+on! <X>
+
+
+//POINTER #894 @ $29DEC - STRING #894 @ $2B751
+
+#W16($29DEC)
+eye <X>
+
+
+//POINTER #895 @ $29DEE - STRING #895 @ $2B756
+
+#W16($29DEE)
+kid <X>
+
+
+//POINTER #896 @ $29DF0 - STRING #896 @ $2B75B
+
+#W16($29DF0)
+do, <X>
+
+
+//POINTER #897 @ $29DF2 - STRING #897 @ $2B760
+
+#W16($29DF2)
+no! <X>
+
+
+//POINTER #898 @ $29DF4 - STRING #898 @ $2B765
+
+#W16($29DF4)
+new <X>
+
+
+//POINTER #899 @ $29DF6 - STRING #899 @ $2B76A
+
+#W16($29DF6)
+God <X>
+
+
+//POINTER #900 @ $29DF8 - STRING #900 @ $2B76F
+
+#W16($29DF8)
+on. <X>
+
+
+//POINTER #901 @ $29DFA - STRING #901 @ $2B774
+
+#W16($29DFA)
+At <X>
+
+
+//POINTER #902 @ $29DFC - STRING #902 @ $2B778
+
+#W16($29DFC)
+Deirdre... <X>
+
+
+//POINTER #903 @ $29DFE - STRING #903 @ $2B784
+
+#W16($29DFE)
+currently <X>
+
+
+//POINTER #904 @ $29E00 - STRING #904 @ $2B78F
+
+#W16($29E00)
+Thracia's <X>
+
+
+//POINTER #905 @ $29E02 - STRING #905 @ $2B79A
+
+#W16($29E02)
+Highness! <X>
+
+
+//POINTER #906 @ $29E04 - STRING #906 @ $2B7A5
+
+#W16($29E04)
+Hahaha... <X>
+
+
+//POINTER #907 @ $29E06 - STRING #907 @ $2B7B0
+
+#W16($29E06)
+Silesia's <X>
+
+
+//POINTER #908 @ $29E08 - STRING #908 @ $2B7BB
+
+#W16($29E08)
+Lenster's <X>
+
+
+//POINTER #909 @ $29E0A - STRING #909 @ $2B7C6
+
+#W16($29E0A)
+Aideen... <X>
+
+
+//POINTER #910 @ $29E0C - STRING #910 @ $2B7D1
+
+#W16($29E0C)
+together, <X>
+
+
+//POINTER #911 @ $29E0E - STRING #911 @ $2B7DC
+
+#W16($29E0E)
+would've <X>
+
+
+//POINTER #912 @ $29E10 - STRING #912 @ $2B7E6
+
+#W16($29E10)
+imagined <X>
+
+
+//POINTER #913 @ $29E12 - STRING #913 @ $2B7F0
+
+#W16($29E12)
+Thracia. <X>
+
+
+//POINTER #914 @ $29E14 - STRING #914 @ $2B7FA
+
+#W16($29E14)
+treasure <X>
+
+
+//POINTER #915 @ $29E16 - STRING #915 @ $2B804
+
+#W16($29E16)
+promised <X>
+
+
+//POINTER #916 @ $29E18 - STRING #916 @ $2B80E
+
+#W16($29E18)
+villages <X>
+
+
+//POINTER #917 @ $29E1A - STRING #917 @ $2B818
+
+#W16($29E1A)
+anymore! <X>
+
+
+//POINTER #918 @ $29E1C - STRING #918 @ $2B822
+
+#W16($29E1C)
+probably <X>
+
+
+//POINTER #919 @ $29E1E - STRING #919 @ $2B82C
+
+#W16($29E1E)
+Manfloy, <X>
+
+
+//POINTER #920 @ $29E20 - STRING #920 @ $2B836
+
+#W16($29E20)
+Majesty! <X>
+
+
+//POINTER #921 @ $29E22 - STRING #921 @ $2B840
+
+#W16($29E22)
+Highness <X>
+
+
+//POINTER #922 @ $29E24 - STRING #922 @ $2B84A
+
+#W16($29E24)
+Miletos <X>
+
+
+//POINTER #923 @ $29E26 - STRING #923 @ $2B853
+
+#W16($29E26)
+Whew... <X>
+
+
+//POINTER #924 @ $29E28 - STRING #924 @ $2B85C
+
+#W16($29E28)
+Claude, <X>
+
+
+//POINTER #925 @ $29E2A - STRING #925 @ $2B865
+
+#W16($29E2A)
+father, <X>
+
+
+//POINTER #926 @ $29E2C - STRING #926 @ $2B86E
+
+#W16($29E2C)
+Shanan! <X>
+
+
+//POINTER #927 @ $29E2E - STRING #927 @ $2B877
+
+#W16($29E2E)
+Isaac's <X>
+
+
+//POINTER #928 @ $29E30 - STRING #928 @ $2B880
+
+#W16($29E30)
+castle! <X>
+
+
+//POINTER #929 @ $29E32 - STRING #929 @ $2B889
+
+#W16($29E32)
+waiting <X>
+
+
+//POINTER #930 @ $29E34 - STRING #930 @ $2B892
+
+#W16($29E34)
+certain <X>
+
+
+//POINTER #931 @ $29E36 - STRING #931 @ $2B89B
+
+#W16($29E36)
+Blume's <X>
+
+
+//POINTER #932 @ $29E38 - STRING #932 @ $2B8A4
+
+#W16($29E38)
+another <X>
+
+
+//POINTER #933 @ $29E3A - STRING #933 @ $2B8AD
+
+#W16($29E3A)
+several <X>
+
+
+//POINTER #934 @ $29E3C - STRING #934 @ $2B8B6
+
+#W16($29E3C)
+talking <X>
+
+
+//POINTER #935 @ $29E3E - STRING #935 @ $2B8BF
+
+#W16($29E3E)
+serious <X>
+
+
+//POINTER #936 @ $29E40 - STRING #936 @ $2B8C8
+
+#W16($29E40)
+helping <X>
+
+
+//POINTER #937 @ $29E42 - STRING #937 @ $2B8D1
+
+#W16($29E42)
+chance. <X>
+
+
+//POINTER #938 @ $29E44 - STRING #938 @ $2B8DA
+
+#W16($29E44)
+little. <X>
+
+
+//POINTER #939 @ $29E46 - STRING #939 @ $2B8E3
+
+#W16($29E46)
+They've <X>
+
+
+//POINTER #940 @ $29E48 - STRING #940 @ $2B8EC
+
+#W16($29E48)
+Well... <X>
+
+
+//POINTER #941 @ $29E4A - STRING #941 @ $2B8F5
+
+#W16($29E4A)
+they'd <X>
+
+
+//POINTER #942 @ $29E4C - STRING #942 @ $2B8FD
+
+#W16($29E4C)
+afraid <X>
+
+
+//POINTER #943 @ $29E4E - STRING #943 @ $2B905
+
+#W16($29E4E)
+Aless, <X>
+
+
+//POINTER #944 @ $29E50 - STRING #944 @ $2B90D
+
+#W16($29E50)
+moment <X>
+
+
+//POINTER #945 @ $29E52 - STRING #945 @ $2B915
+
+#W16($29E52)
+having <X>
+
+
+//POINTER #946 @ $29E54 - STRING #946 @ $2B91D
+
+#W16($29E54)
+waited <X>
+
+
+//POINTER #947 @ $29E56 - STRING #947 @ $2B925
+
+#W16($29E56)
+second <X>
+
+
+//POINTER #948 @ $29E58 - STRING #948 @ $2B92D
+
+#W16($29E58)
+Sir... <X>
+
+
+//POINTER #949 @ $29E5A - STRING #949 @ $2B935
+
+#W16($29E5A)
+later. <X>
+
+
+//POINTER #950 @ $29E5C - STRING #950 @ $2B93D
+
+#W16($29E5C)
+inform <X>
+
+
+//POINTER #951 @ $29E5E - STRING #951 @ $2B945
+
+#W16($29E5E)
+helped <X>
+
+
+//POINTER #952 @ $29E60 - STRING #952 @ $2B94D
+
+#W16($29E60)
+merely <X>
+
+
+//POINTER #953 @ $29E62 - STRING #953 @ $2B955
+
+#W16($29E62)
+I'm... <X>
+
+
+//POINTER #954 @ $29E64 - STRING #954 @ $2B95D
+
+#W16($29E64)
+seeing <X>
+
+
+//POINTER #955 @ $29E66 - STRING #955 @ $2B965
+
+#W16($29E66)
+along? <X>
+
+
+//POINTER #956 @ $29E68 - STRING #956 @ $2B96D
+
+#W16($29E68)
+army's <X>
+
+
+//POINTER #957 @ $29E6A - STRING #957 @ $2B975
+
+#W16($29E6A)
+alone. <X>
+
+
+//POINTER #958 @ $29E6C - STRING #958 @ $2B97D
+
+#W16($29E6C)
+dragon <X>
+
+
+//POINTER #959 @ $29E6E - STRING #959 @ $2B985
+
+#W16($29E6E)
+along. <X>
+
+
+//POINTER #960 @ $29E70 - STRING #960 @ $2B98D
+
+#W16($29E70)
+showed <X>
+
+
+//POINTER #961 @ $29E72 - STRING #961 @ $2B995
+
+#W16($29E72)
+picked <X>
+
+
+//POINTER #962 @ $29E74 - STRING #962 @ $2B99D
+
+#W16($29E74)
+about? <X>
+
+
+//POINTER #963 @ $29E76 - STRING #963 @ $2B9A5
+
+#W16($29E76)
+comes <X>
+
+
+//POINTER #964 @ $29E78 - STRING #964 @ $2B9AC
+
+#W16($29E78)
+army! <X>
+
+
+//POINTER #965 @ $29E7A - STRING #965 @ $2B9B3
+
+#W16($29E7A)
+Aira, <X>
+
+
+//POINTER #966 @ $29E7C - STRING #966 @ $2B9BA
+
+#W16($29E7C)
+doubt <X>
+
+
+//POINTER #967 @ $29E7E - STRING #967 @ $2B9C1
+
+#W16($29E7E)
+Cuan! <X>
+
+
+//POINTER #968 @ $29E80 - STRING #968 @ $2B9C8
+
+#W16($29E80)
+meant <X>
+
+
+//POINTER #969 @ $29E82 - STRING #969 @ $2B9CF
+
+#W16($29E82)
+army, <X>
+
+
+//POINTER #970 @ $29E84 - STRING #970 @ $2B9D6
+
+#W16($29E84)
+is... <X>
+
+
+//POINTER #971 @ $29E86 - STRING #971 @ $2B9DD
+
+#W16($29E86)
+black <X>
+
+
+//POINTER #972 @ $29E88 - STRING #972 @ $2B9E4
+
+#W16($29E88)
+what? <X>
+
+
+//POINTER #973 @ $29E8A - STRING #973 @ $2B9EB
+
+#W16($29E8A)
+catch <X>
+
+
+//POINTER #974 @ $29E8C - STRING #974 @ $2B9F2
+
+#W16($29E8C)
+After <X>
+
+
+//POINTER #975 @ $29E8E - STRING #975 @ $2B9F9
+
+#W16($29E8E)
+much! <X>
+
+
+//POINTER #976 @ $29E90 - STRING #976 @ $2BA00
+
+#W16($29E90)
+dying <X>
+
+
+//POINTER #977 @ $29E92 - STRING #977 @ $2BA07
+
+#W16($29E92)
+Cross <X>
+
+
+//POINTER #978 @ $29E94 - STRING #978 @ $2BA0E
+
+#W16($29E94)
+squad <X>
+
+
+//POINTER #979 @ $29E96 - STRING #979 @ $2BA15
+
+#W16($29E96)
+start <X>
+
+
+//POINTER #980 @ $29E98 - STRING #980 @ $2BA1C
+
+#W16($29E98)
+grace <X>
+
+
+//POINTER #981 @ $29E9A - STRING #981 @ $2BA23
+
+#W16($29E9A)
+down. <X>
+
+
+//POINTER #982 @ $29E9C - STRING #982 @ $2BA2A
+
+#W16($29E9C)
+outta <X>
+
+
+//POINTER #983 @ $29E9E - STRING #983 @ $2BA31
+
+#W16($29E9E)
+grown <X>
+
+
+//POINTER #984 @ $29EA0 - STRING #984 @ $2BA38
+
+#W16($29EA0)
+gone. <X>
+
+
+//POINTER #985 @ $29EA2 - STRING #985 @ $2BA3F
+
+#W16($29EA2)
+You'd <X>
+
+
+//POINTER #986 @ $29EA4 - STRING #986 @ $2BA46
+
+#W16($29EA4)
+um... <X>
+
+
+//POINTER #987 @ $29EA6 - STRING #987 @ $2BA4D
+
+#W16($29EA6)
+needs <X>
+
+
+//POINTER #988 @ $29EA8 - STRING #988 @ $2BA54
+
+#W16($29EA8)
+army? <X>
+
+
+//POINTER #989 @ $29EAA - STRING #989 @ $2BA5B
+
+#W16($29EAA)
+Azel, <X>
+
+
+//POINTER #990 @ $29EAC - STRING #990 @ $2BA62
+
+#W16($29EAC)
+back! <X>
+
+
+//POINTER #991 @ $29EAE - STRING #991 @ $2BA69
+
+#W16($29EAE)
+Bolg <X>
+
+
+//POINTER #992 @ $29EB0 - STRING #992 @ $2BA6F
+
+#W16($29EB0)
+fell <X>
+
+
+//POINTER #993 @ $29EB2 - STRING #993 @ $2BA75
+
+#W16($29EB2)
+ones <X>
+
+
+//POINTER #994 @ $29EB4 - STRING #994 @ $2BA7B
+
+#W16($29EB4)
+out, <X>
+
+
+//POINTER #995 @ $29EB6 - STRING #995 @ $2BA81
+
+#W16($29EB6)
+Hey! <X>
+
+
+//POINTER #996 @ $29EB8 - STRING #996 @ $2BA87
+
+#W16($29EB8)
+side <X>
+
+
+//POINTER #997 @ $29EBA - STRING #997 @ $2BA8D
+
+#W16($29EBA)
+him, <X>
+
+
+//POINTER #998 @ $29EBC - STRING #998 @ $2BA93
+
+#W16($29EBC)
+we'd <X>
+
+
+//POINTER #999 @ $29EBE - STRING #999 @ $2BA99
+
+#W16($29EBE)
+him! <X>
+
+
+//POINTER #1000 @ $29EC0 - STRING #1000 @ $2BA9F
+
+#W16($29EC0)
+on!? <X>
+
+
+//POINTER #1001 @ $29EC2 - STRING #1001 @ $2BAA5
+
+#W16($29EC2)
+dark <X>
+
+
+//POINTER #1002 @ $29EC4 - STRING #1002 @ $2BAAB
+
+#W16($29EC4)
+kept <X>
+
+
+//POINTER #1003 @ $29EC6 - STRING #1003 @ $2BAB1
+
+#W16($29EC6)
+But, <X>
+
+
+//POINTER #1004 @ $29EC8 - STRING #1004 @ $2BAB7
+
+#W16($29EC8)
+ways <X>
+
+
+//POINTER #1005 @ $29ECA - STRING #1005 @ $2BABD
+
+#W16($29ECA)
+Damn <X>
+
+
+//POINTER #1006 @ $29ECC - STRING #1006 @ $2BAC3
+
+#W16($29ECC)
+slip <X>
+
+
+//POINTER #1007 @ $29ECE - STRING #1007 @ $2BAC9
+
+#W16($29ECE)
+yet? <X>
+
+
+//POINTER #1008 @ $29ED0 - STRING #1008 @ $2BACF
+
+#W16($29ED0)
+late <X>
+
+
+//POINTER #1009 @ $29ED2 - STRING #1009 @ $2BAD5
+
+#W16($29ED2)
+line <X>
+
+
+//POINTER #1010 @ $29ED4 - STRING #1010 @ $2BADB
+
+#W16($29ED4)
+Fin. <X>
+
+
+//POINTER #1011 @ $29ED6 - STRING #1011 @ $2BAE1
+
+#W16($29ED6)
+felt <X>
+
+
+//POINTER #1012 @ $29ED8 - STRING #1012 @ $2BAE7
+
+#W16($29ED8)
+Now, <X>
+
+
+//POINTER #1013 @ $29EDA - STRING #1013 @ $2BAED
+
+#W16($29EDA)
+none <X>
+
+
+//POINTER #1014 @ $29EDC - STRING #1014 @ $2BAF3
+
+#W16($29EDC)
+sit <X>
+
+
+//POINTER #1015 @ $29EDE - STRING #1015 @ $2BAF8
+
+#W16($29EDE)
+One <X>
+
+
+//POINTER #1016 @ $29EE0 - STRING #1016 @ $2BAFD
+
+#W16($29EE0)
+die <X>
+
+
+//POINTER #1017 @ $29EE2 - STRING #1017 @ $2BB02
+
+#W16($29EE2)
+on? <X>
+
+
+//POINTER #1018 @ $29EE4 - STRING #1018 @ $2BB07
+
+#W16($29EE4)
+boy <X>
+
+
+//POINTER #1019 @ $29EE6 - STRING #1019 @ $2BB0C
+
+#W16($29EE6)
+By <X>
+
+
+//POINTER #1020 @ $29EE8 - STRING #1020 @ $2BB10
+
+#W16($29EE8)
+Understood. <X>
+
+
+//POINTER #1021 @ $29EEA - STRING #1021 @ $2BB1D
+
+#W16($29EEA)
+descendants <X>
+
+
+//POINTER #1022 @ $29EEC - STRING #1022 @ $2BB2A
+
+#W16($29EEC)
+battlefield <X>
+
+
+//POINTER #1023 @ $29EEE - STRING #1023 @ $2BB37
+
+#W16($29EEE)
+Especially <X>
+

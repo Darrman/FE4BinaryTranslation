@@ -1,0 +1,279 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #004 NAME:		Castle Names
+
+//POINTER #0 @ $2DF40 - STRING #0 @ $2DF9C
+
+#W16($2DF40)
+Madin<X>
+
+
+//POINTER #1 @ $2DF42 - STRING #1 @ $2DFA8
+
+#W16($2DF42)
+Silvai<X>
+
+
+//POINTER #2 @ $2DF44 - STRING #2 @ $2DFB6
+
+#W16($2DF44)
+Anphony<X>
+
+
+//POINTER #3 @ $2DF46 - STRING #3 @ $2DFC6
+
+#W16($2DF46)
+Agusty<X>
+
+
+//POINTER #4 @ $2DF48 - STRING #4 @ $2DFD4
+
+#W16($2DF48)
+Heirhe<X>
+
+
+//POINTER #5 @ $2DF4A - STRING #5 @ $2DFE2
+
+#W16($2DF4A)
+Mackil<X>
+
+
+//POINTER #6 @ $2DF4C - STRING #6 @ $2DFF0
+
+#W16($2DF4C)
+Noidon<X>
+
+
+//POINTER #7 @ $2DF4E - STRING #7 @ $2DFFE
+
+#W16($2DF4E)
+Velthom<X>
+
+
+//POINTER #8 @ $2DF50 - STRING #8 @ $2E00E
+
+#W16($2DF50)
+Freeg<X>
+
+
+//POINTER #9 @ $2DF52 - STRING #9 @ $2E01A
+
+#W16($2DF52)
+Barha<X>
+
+
+//POINTER #10 @ $2DF54 - STRING #10 @ $2E026
+
+#W16($2DF54)
+Doze<X>
+
+
+//POINTER #11 @ $2DF56 - STRING #11 @ $2E030
+
+#W16($2DF56)
+Edda<X>
+
+
+//POINTER #12 @ $2DF58 - STRING #12 @ $2E03A
+
+#W16($2DF58)
+Chalph<X>
+
+
+//POINTER #13 @ $2DF5A - STRING #13 @ $2E048
+
+#W16($2DF5A)
+Jungby<X>
+
+
+//POINTER #14 @ $2DF5C - STRING #14 @ $2E056
+
+#W16($2DF5C)
+Lenste<X>
+
+
+//POINTER #15 @ $2DF5E - STRING #15 @ $2E064
+
+#W16($2DF5E)
+Conot<X>
+
+
+//POINTER #16 @ $2DF60 - STRING #16 @ $2E070
+
+#W16($2DF60)
+Manste<X>
+
+
+//POINTER #17 @ $2DF62 - STRING #17 @ $2E07E
+
+#W16($2DF62)
+Melge<X>
+
+
+//POINTER #18 @ $2DF64 - STRING #18 @ $2E08A
+
+#W16($2DF64)
+Alster<X>
+
+
+//POINTER #19 @ $2DF66 - STRING #19 @ $2E098
+
+#W16($2DF66)
+Orgahi<X>
+
+
+//POINTER #20 @ $2DF68 - STRING #20 @ $2E0A6
+
+#W16($2DF68)
+Thove<X>
+
+
+//POINTER #21 @ $2DF6A - STRING #21 @ $2E0B2
+
+#W16($2DF6A)
+Sailan<X>
+
+
+//POINTER #22 @ $2DF6C - STRING #22 @ $2E0C0
+
+#W16($2DF6C)
+Zaxon<X>
+
+
+//POINTER #23 @ $2DF6E - STRING #23 @ $2E0CC
+
+#W16($2DF6E)
+Siles<X>
+
+
+//POINTER #24 @ $2DF70 - STRING #24 @ $2E0D8
+
+#W16($2DF70)
+Lubeck <X>
+
+
+//POINTER #25 @ $2DF72 - STRING #25 @ $2E0E8
+
+#W16($2DF72)
+Tirnano<X>
+
+
+//POINTER #26 @ $2DF74 - STRING #26 @ $2E0F8
+
+#W16($2DF74)
+Ganeis<X>
+
+
+//POINTER #27 @ $2DF76 - STRING #27 @ $2E106
+
+#W16($2DF76)
+Sopha<X>
+
+
+//POINTER #28 @ $2DF78 - STRING #28 @ $2E112
+
+#W16($2DF78)
+Isaac<X>
+
+
+//POINTER #29 @ $2DF7A - STRING #29 @ $2E11E
+
+#W16($2DF7A)
+Rivo<X>
+
+
+//POINTER #30 @ $2DF7C - STRING #30 @ $2E128
+
+#W16($2DF7C)
+Phinor<X>
+
+
+//POINTER #31 @ $2DF7E - STRING #31 @ $2E136
+
+#W16($2DF7E)
+Yied<X>
+
+
+//POINTER #32 @ $2DF80 - STRING #32 @ $2E140
+
+#W16($2DF80)
+Darn<X>
+
+
+//POINTER #33 @ $2DF82 - STRING #33 @ $2E14A
+
+#W16($2DF82)
+Verdan<X>
+
+
+//POINTER #34 @ $2DF84 - STRING #34 @ $2E158
+
+#W16($2DF84)
+Evans<X>
+
+
+//POINTER #35 @ $2DF86 - STRING #35 @ $2E164
+
+#W16($2DF86)
+Genoa<X>
+
+
+//POINTER #36 @ $2DF88 - STRING #36 @ $2E170
+
+#W16($2DF88)
+Marph<X>
+
+
+//POINTER #37 @ $2DF8A - STRING #37 @ $2E17C
+
+#W16($2DF8A)
+Milet<X>
+
+
+//POINTER #38 @ $2DF8C - STRING #38 @ $2E188
+
+#W16($2DF8C)
+Perulu<X>
+
+
+//POINTER #39 @ $2DF8E - STRING #39 @ $2E196
+
+#W16($2DF8E)
+Chron<X>
+
+
+//POINTER #40 @ $2DF90 - STRING #40 @ $2E1A2
+
+#W16($2DF90)
+Rado<X>
+
+
+//POINTER #41 @ $2DF92 - STRING #41 @ $2E1AC
+
+#W16($2DF92)
+Meas<X>
+
+
+//POINTER #42 @ $2DF94 - STRING #42 @ $2E1B6
+
+#W16($2DF94)
+Kapath<X>
+
+
+//POINTER #43 @ $2DF96 - STRING #43 @ $2E1C4
+
+#W16($2DF96)
+Luthe<X>
+
+
+//POINTER #44 @ $2DF98 - STRING #44 @ $2E1D0
+
+#W16($2DF98)
+Thrac<X>
+
+
+//POINTER #45 @ $2DF9A - STRING #45 @ $2E1DC
+
+#W16($2DF9A)
+Grutia<X>
+

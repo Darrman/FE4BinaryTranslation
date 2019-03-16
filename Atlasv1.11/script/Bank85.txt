@@ -1,0 +1,376 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+//This file contains menu text in Bank 85.
+//This is primarily composed of menu commands.
+
+
+//BLOCK #010 NAME:		Menu Commands
+
+#HDR($200)
+#JMP($5F9E0, $5FE9F)
+
+//POINTER #0 @ $5E4AF - STRING #0 @ $5F9E0
+
+#W16($5E4AF)
+<$98><$DF><$85><$01><$01>
+ Return<X>
+
+
+//POINTER #1 @ $5E4B1 - STRING #1 @ $5F9F5
+
+#W16($5E4B1)
+<$04><$E0><$85><$01><$01>
+ Return<X>
+
+
+//POINTER #2 @ $5E4B3 - STRING #2 @ $5FA0A
+
+#W16($5E4B3)
+<$FD><$DF><$85><$01><$01>
+ Anim<X>
+
+
+//POINTER #3 @ $5E4B5 - STRING #3 @ $5FA1B
+
+#W16($5E4B5)
+<$DE><$DF><$85><$01><$01>
+ Equip<X>
+
+
+//POINTER #4 @ $5E4B7 - STRING #4 @ $5FA2E
+
+#W16($5E4B7)
+<$A6><$DF><$85><$01><$01>
+ Dismnt<X>
+
+
+//POINTER #5 @ $5E4B9 - STRING #5 @ $5FA43
+
+#W16($5E4B9)
+<$B4><$DF><$85><$01><$01>
+ Mount<X>
+
+
+//POINTER #6 @ $5E4BB - STRING #6 @ $5FA56
+
+#W16($5E4BB)
+<$50><$E0><$85><$01><$01>
+ Give<X>
+
+
+//POINTER #7 @ $5E4BD - STRING #7 @ $5FA67
+
+#W16($5E4BD)
+<$30><$E0><$85><$01><$01>
+ Give<X>
+
+
+//POINTER #8 @ $5E4BF - STRING #8 @ $5FA78
+
+#W16($5E4BF)
+<$FB><$DE><$85><$01><$01>
+ Items<X>
+
+
+//POINTER #9 @ $5E4C1 - STRING #9 @ $5FA8B
+
+#W16($5E4C1)
+<$D6><$DE><$85><$01><$01>
+ Staff<X>
+
+
+//POINTER #10 @ $5E4C3 - STRING #10 @ $5FA9E
+
+#W16($5E4C3)
+<$43><$DE><$85><$01><$01>
+ Wait<X>
+
+
+//POINTER #11 @ $5E4C5 - STRING #11 @ $5FB84
+
+#W16($5E4C5)
+<$C2><$DF><$85><$01><$01>
+ Talk<X>
+
+
+//POINTER #12 @ $5E4C7 - STRING #12 @ $5FAAF
+
+#W16($5E4C7)
+<$8A><$DF><$85><$01><$01>
+ Depart<X>
+
+
+//POINTER #13 @ $5E4C9 - STRING #13 @ $5FAC4
+
+#W16($5E4C9)
+<$7D><$DF><$85><$01><$01>
+ Guard<X>
+
+
+//POINTER #14 @ $5E4CB - STRING #14 @ $5FAD7
+
+#W16($5E4CB)
+<$61><$DF><$85><$01><$01>
+ Visit<X>
+
+
+//POINTER #15 @ $5E4CD - STRING #15 @ $5FAEA
+
+#W16($5E4CD)
+<$3F><$DF><$85><$01><$01>
+ Visit<X>
+
+
+//POINTER #16 @ $5E4CF - STRING #16 @ $5FAFD
+
+#W16($5E4CF)
+<$6F><$DF><$85><$01><$01>
+ Seize<X>
+
+
+//POINTER #17 @ $5E4D1 - STRING #17 @ $5FB10
+
+#W16($5E4D1)
+<$20><$DF><$85><$01><$01>
+ Enter<X>
+
+
+//POINTER #18 @ $5E4D3 - STRING #18 @ $5FB23
+
+#W16($5E4D3)
+<$AB><$DE><$85><$01><$01>
+ Dance<X>
+
+
+//POINTER #19 @ $5E4D5 - STRING #19 @ $5FB36
+
+#W16($5E4D5)
+<$D6><$DE><$85><$01><$01>
+ Staff<X>
+
+
+//POINTER #20 @ $5E4D7 - STRING #20 @ $5FB49
+
+#W16($5E4D7)
+<$57><$DE><$85><$01><$01>
+ Attack<X>
+
+
+//POINTER #21 @ $5E4D9 - STRING #21 @ $5FB5E
+
+#W16($5E4D9)
+<$7C><$DE><$85><$01><$01>
+ Charge<X>
+
+
+//POINTER #22 @ $5E4DB - STRING #22 @ $5FB73
+
+#W16($5E4DB)
+<$12><$E0><$85><$01><$01>
+ Help<X>
+
+
+//POINTER #23 @ $5E4DD - STRING #23 @ $5FB84
+
+#W16($5E4DD)
+<$C2><$DF><$85><$01><$01>
+ Talk<X>
+
+
+//POINTER #0 @ $5DF98 - STRING #0 @ $5DF0C
+
+#W16($5DF98)
+<$DD><$DB><$85><$01><$01>
+ Unit<X>
+
+
+//POINTER #1 @ $5DF9D - STRING #1 @ $5DF1D
+
+#W16($5DF9D)
+<$ED><$DB><$85><$01><$01>
+ Item<X>
+
+
+//POINTER #2 @ $5DFA2 - STRING #2 @ $5FB95
+
+#W16($5DFA2)
+<$F6><$DB><$85><$01><$01>
+ Data<X>
+
+
+//POINTER #3 @ $5DFA7 - STRING #3 @ $5FBA6
+
+#W16($5DFA7)
+<$0E><$DC><$85><$01><$01>
+ Skill<X>
+
+
+//POINTER #4 @ $5DFAC - STRING #4 @ $5FBB9
+
+#W16($5DFAC)
+<$CA><$DC><$85><$01><$01>
+ Option<X>
+
+
+//POINTER #5 @ $5DFB1 - STRING #5 @ $5FBCE
+
+#W16($5DFB1)
+<$AB><$DC><$85><$01><$01>
+ Save<X>
+
+
+//POINTER #6 @ $5DFB6 - STRING #6 @ $5DF7D
+
+#W16($5DFB6)
+<$26><$DC><$85><$01><$01>
+ End<X>
+ 
+ 
+ 
+//General overworld popups
+
+
+//#JMP($5BBBC, $5BBD3)
+#W16($5BB9E)
+G obtained!<X>
+
+
+//#JMP($5BCB3, $5BCC6)
+#W16($5BC9D)
+ seized!<X>
+
+ 
+//#JMP($5BE8C, $5BE9D)
+#W16($5BE3D)
+ obtained!<X>
+
+
+
+//Combat forecast
+#JMP($590A1, $590C4)
+
+#W16($58FDB)
+Lv<X>
+
+#W16($58FF4)
+HP<X>
+
+#W16($5901E)
+Atk<X>
+
+#W16($59040)
+Def<X>
+
+#W16($59062)
+Hit<X>
+
+
+#JMP($59B53, $59B72)
+
+#W16($59AF1)
+Atk<X>
+
+//#W16($59B02)
+#W16($59B13)
+Hit<X>
+
+#W16($59B35)
+Avo<X>
+
+#W16($59B24)
+Typ<X>
+
+
+//Save prompt
+
+#JMP($5A6E6, $5A707)
+
+#W16($5A6A8)
+Save Game<X>
+
+#W16($5A6B9)
+Yes<X>
+
+#W16($5A6CA)
+No<X>
+
+
+//Unit animation settings
+
+#JMP($5A870, $5A899)
+
+#W16($5A82C)
+//Animation
+Animate<X>
+
+#W16($5A83D)
+On<X>
+
+#W16($5A84E)
+Off<X>
+
+#W16($5A85F)
+All<X>
+
+//Within "All"...
+
+#JMP($5A9CE, $5A9DD)
+
+#W16($5A9A6)
+On<X>
+
+#W16($5A9B7)
+Off<X>
+
+
+//Inventory full!
+
+#JMP($5B8A0, $5B8DF)
+
+#W16($5B86D)
+Inventory is<X>
+
+#W16($5B87E)
+full Store  <X>
+
+#W16($5B88F)
+item?<X>
+
+#JMP($5B7B2, $5B7DD)
+
+#W16($5B77F)
+Send this item<X>
+
+#W16($5B790)
+Yes<X>
+
+#W16($5B7A1)
+No<X>
+
+
+//Such and such a phase
+
+#JMP($5AF47, $5AF54)
+
+#W16($5AF32)
+ Phase<X>
+ 
+ 
+//Staff menu options in castle
+
+#JMP($5EBA1, $5EBC6)
+
+#W16($5EC40)
+<$6B><$E9><$85><$01><$01>
+ In<X>
+
+#W16($5EC3E)
+<$86><$E9><$85><$01><$01>
+ Out<X>
+

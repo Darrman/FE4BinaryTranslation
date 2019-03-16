@@ -1,0 +1,16 @@
+Pointer Table Data
+
+Terrain: 2DB00 - 2DB33
+Castles: 2DF40 - 2DF9B
+Classes: 38BC9 - 38C58
+Units:	 39227 - 396DA
+Armies:  3A62F - 3A69C
+Items:   3A959 - 3AA6C
+Descript:3B17F - 3B292
+
+Dialogue Font Names
+Names:	 D940D - D948A
+Items:	 D9602 - D9713
+Classes: D9A92 - D9B22
+MainMenu:D9D65 - D9D7A
+ChNames: D9DF6 - D9E0D

@@ -1,0 +1,850 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+//This file covers menu text in bank 8A.
+//It contains more skill and options text,
+//along with some misc. shop data.
+
+
+//BLOCK #010 NAME: Skill Descriptions
+
+#HDR($200)
+#VAR(Skills, CUSTOMPOINTER)
+#CREATEPTR(Skills, "HIROM", $0, 24)
+
+#JMP($9A9C9, $9ADFE)
+
+
+//POINTER #0 @ $9ADFF - STRING #0 @ $9A9C9
+
+#WRITE(Skills, $9ADFF)
+Lv% chance
+to gain   
+Def/Res+20<X>
+
+
+//POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
+
+#WRITE(Skills, $9AE02)
+Automatic 
+critical  
+at low HP<X>
+
+
+//POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
+
+#WRITE(Skills, $9AE05)
+Can attack
+again with
+3AS on foe<X>
+
+
+//POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
+
+#WRITE(Skills, $9AE08)
+AS% chance
+to hit foe
+twice<X>
+
+
+//POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
+
+#WRITE(Skills, $9AE0B)
+Takes gold
+from foes<X>
+
+
+//POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
+
+#WRITE(Skills, $9AE11)
+Adjacent  
+allies can
+move again<X>
+
+
+//POINTER #10 @ $9AE1D - STRING #10 @ $9AADB
+
+#WRITE(Skills, $9AE1D)
+Gives 10% 
+Hit/Avo to
+allies in3<X>
+
+
+//POINTER #12 @ $9AE23 - STRING #12 @ $9AB27
+
+#WRITE(Skills, $9AE23)
+Block foes
+skills in 
+combat<X>
+
+
+//POINTER #13 @ $9AE26 - STRING #13 @ $9AB4D
+
+#WRITE(Skills, $9AE26)
+Halve kill
+dmg+avoid 
+up/low HP<X>
+
+
+//POINTER #14 @ $9AE29 - STRING #14 @ $9AB8D
+
+#WRITE(Skills, $9AE29)
+User has a
+Skill%    
+crit rate<X>
+
+
+//POINTER #15 @ $9AE2C - STRING #15 @ $9AB9F
+
+#WRITE(Skills, $9AE2C)
+Always hit
+opponent  
+first<X>
+
+
+//POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
+
+#WRITE(Skills, $9AE2F)
+May extend
+combat if 
+HP is high<X>
+
+
+//POINTER #17 @ $9AE32 - STRING #17 @ $9ABE7
+
+#WRITE(Skills, $9AE32)
+Strikes 5 
+times at  
+75% dmg<X>
+
+
+//POINTER #18 @ $9AE35 - STRING #18 @ $9AC0B
+
+#WRITE(Skills, $9AE35)
+Nulls 1/2 
+of foes   
+defence<X>
+
+
+//POINTER #19 @ $9AE38 - STRING #19 @ $9AC2F
+
+#WRITE(Skills, $9AE38)
+Drains the
+foes HP at
+dmg dealt<X>
+
+
+//POINTER #22 @ $9AE41 - STRING #22 @ $9AC57
+
+#WRITE(Skills, $9AE41)
+Restores  
+5-10 HP to
+user/turn<X>
+
+
+//POINTER #23 @ $9AE44 - STRING #23 @ $9AC8D
+
+#WRITE(Skills, $9AE44)
+Doubles   
+EXP gain<X>
+
+
+//POINTER #25 @ $9AE4A - STRING #25 @ $9AD01
+
+#WRITE(Skills, $9AE4A)
+Full heals
+at start<X>
+
+
+//POINTER #26 @ $9AE4D - STRING #26 @ $9ACB1
+
+#WRITE(Skills, $9AE4D)
+Halves all
+prices at 
+the shops<X>
+
+
+//BLOCK #0XX NAME: Skill Description Names
+#JMP($9FEF0, $A01FF)
+
+//Stuck Aether/Dark Sword here to prevent overflow.
+
+//POINTER #20 @ $9AE3B - STRING #20 @ $9AB05
+
+#WRITE(Skills, $9AE3B)
+Hits twice
+1Drains HP
+21/2 Def<X>
+
+
+//POINTER #21 @ $9AE3E - STRING #21 @ $9ACD7
+
+#WRITE(Skills, $9AE3E)
+Adds or   
+takes dmg<X>
+
+//POINTER #31 @ $9AE5C - STRING #31 @ $9FEF0
+
+#WRITE(Skills, $9AE5C)
+GreatShld<X>
+
+
+//POINTER #32 @ $9AE5F - STRING #32 @ $9AD39
+
+#WRITE(Skills, $9AE5F)
+Wrath<X>
+
+
+//POINTER #33 @ $9AE62 - STRING #33 @ $9AD45
+
+#WRITE(Skills, $9AE62)
+Pursuit<X>
+
+
+//POINTER #34 @ $9AE65 - STRING #34 @ $9FF04
+
+#WRITE(Skills, $9AE65)
+Continue<X>
+
+
+//POINTER #35 @ $9AE68 - STRING #35 @ $9AD55
+
+#WRITE(Skills, $9AE68)
+Steal<X>
+
+
+//POINTER #37 @ $9AE6E - STRING #37 @ $9AD61
+
+#WRITE(Skills, $9AE6E)
+Dance<X>
+
+
+//POINTER #41 @ $9AE7A - STRING #41 @ $9FF16
+
+#WRITE(Skills, $9AE7A)
+Charisma<X>
+
+
+//POINTER #43 @ $9AE80 - STRING #43 @ $9AD6D
+
+#WRITE(Skills, $9AE80)
+Nihil<X>
+
+
+//POINTER #44 @ $9AE83 - STRING #44 @ $9FF28
+
+#WRITE(Skills, $9AE83)
+Prayer<X>
+
+
+//POINTER #45 @ $9AE86 - STRING #45 @ $9AD79
+
+#WRITE(Skills, $9AE86)
+Critical<X>
+
+
+//POINTER #46 @ $9AE89 - STRING #46 @ $9AD8B
+
+#WRITE(Skills, $9AE89)
+Ambush<X>
+
+
+//POINTER #47 @ $9AE8C - STRING #47 @ $9AD99
+
+#WRITE(Skills, $9AE8C)
+Charge<X>
+
+
+//POINTER #48 @ $9AE8F - STRING #48 @ $9ADA7
+
+#WRITE(Skills, $9AE8F)
+Astra<X>
+
+
+//POINTER #49 @ $9AE92 - STRING #49 @ $9ADB3
+
+#WRITE(Skills, $9AE92)
+Luna<X>
+
+
+//POINTER #50 @ $9AE95 - STRING #50 @ $9ADBD
+
+#WRITE(Skills, $9AE95)
+Sol<X>
+
+
+//POINTER #51 @ $9AE98 - STRING #51 @ $9ADC7
+
+#WRITE(Skills, $9AE98)
+Aether<X>
+
+
+//POINTER #52 @ $9AE9B - STRING #52 @ $9FF36
+
+#WRITE(Skills, $9AE9B)
+DarkSword<X>
+
+
+//POINTER #53 @ $9AE9E - STRING #53 @ $9ADD3
+
+#WRITE(Skills, $9AE9E)
+Life<X>
+
+
+//POINTER #54 @ $9AEA1 - STRING #54 @ $9ADDD
+
+#WRITE(Skills, $9AEA1)
+Elite<X>
+
+
+//POINTER #56 @ $9AEA7 - STRING #56 @ $9AD29
+
+#WRITE(Skills, $9AEA7)
+Recover<X>
+
+
+//POINTER #57 @ $9AEAA - STRING #57 @ $9ADE9
+
+#WRITE(Skills, $9AEAA)
+Bargain<X>
+
+
+
+
+//BLOCK #010 NAME:		Option Descriptions
+
+#VAR(OptionDesc, CUSTOMPOINTER)
+#CREATEPTR(OptionDesc, "HIROM", $0, 24)
+
+#JMP($9F553, $9F778)
+
+//POINTER #0 @ $9F538 - STRING #0 @ $9F553
+
+#W24($9F538)
+Animation 
+1-On     
+2-Off    
+3-Solo<X>
+
+
+//POINTER #1 @ $9F53B - STRING #1 @ $9F597
+
+#W24($9F53B)
+Terrain  
+See avoid
+bonus<X>
+
+
+//POINTER #2 @ $9F53E - STRING #2 @ $9F5C5
+
+#W24($9F53E)
+UnitWindo
+Show unit
+names<X>
+
+
+//POINTER #3 @ $9F541 - STRING #3 @ $9F5F5
+
+#W24($9F541)
+TextSpeed
+How fast 
+text is<X>
+
+
+//POINTER #4 @ $9F544 - STRING #4 @ $9F62D
+
+#W24($9F544)
+MoveSpeed
+Speed of 
+move<X>
+
+
+//POINTER #5 @ $9F547 - STRING #5 @ $9F65B
+
+#W24($9F547)
+Music    
+BGM mode  
+1-Stereo 
+2-Mono   
+3-None<X>
+
+
+//POINTER #6 @ $9F54A - STRING #6 @ $9F6AF
+
+#W24($9F54A)
+AutoSave 
+Selects a
+file to  
+save game
+in<X>
+
+
+//POINTER #7 @ $9F54D - STRING #7 @ $9F72F
+
+#W24($9F54D)
+AutoCursr
+Start the
+turn on  
+the hero<X>
+
+
+//POINTER #8 @ $9F550 - STRING #8 @ $9F6FD
+
+#W24($9F550)
+Difficult
+Normal   
+Hard<X>
+
+//BLOCK #013 NAME:		Option Choices
+
+#JMP($9FA8B, $9FABE)
+
+0<X>
+//Pointer unknown. Keeps green text in line.
+
+//POINTER #2 @ $9F386 - STRING #2 @ $9FA8F
+
+#W24($9F386)
+1<X>
+
+
+//POINTER #3 @ $9F389 - STRING #3 @ $9FA93
+
+#W24($9F389)
+2<X>
+
+
+//POINTER #4 @ $9F38C - STRING #4 @ $9FA97
+
+#W24($9F38C)
+3<X>
+
+
+//POINTER #5 @ $9F38F - STRING #5 @ $9FA9B
+
+#W24($9F38F)
+4<X>
+
+
+//POINTER #6 @ $9F392 - STRING #6 @ $9FA9F
+
+#W24($9F392)
+5<X>
+
+//POINTER #0 @ $9F380 - STRING #0 @ $9FAA3
+
+#W24($9F380)
+#W24($9F3C2)
+On  <X>
+
+
+//POINTER #1 @ $9F383 - STRING #1 @ $9FAAD
+
+#W24($9F383)
+#W24($9F3A1)
+#W24($9F3A4)
+#W24($9F3C5)
+Off <X>
+
+
+
+#JMP($9F3C8, $9F445)
+
+
+//POINTER #7 @ $9F395 - STRING #7 @ $9F3D0
+
+#W24($9F395)
+#W24($9F3BC)
+Norm<X>
+
+
+//POINTER #8 @ $9F398 - STRING #8 @ $9F3C8
+
+#W24($9F398)
+Fast<X>
+
+
+//POINTER #9 @ $9F39B - STRING #9 @ $9F3D8
+
+#W24($9F39B)
+Ster<X>
+
+
+//POINTER #10 @ $9F39E - STRING #10 @ $9F3E2
+
+#W24($9F39E)
+Mono<X>
+
+
+
+//POINTER #13 @ $9F3A7 - STRING #13 @ $9F40A
+
+#W24($9F3A7)
+Sav1<X>
+
+
+//POINTER #14 @ $9F3AA - STRING #14 @ $9F414
+
+#W24($9F3AA)
+Sav2<X>
+
+
+//POINTER #15 @ $9F3AD - STRING #15 @ $9F41E
+
+#W24($9F3AD)
+Sav3<X>
+
+
+//POINTER #16 @ $9F3B0 - STRING #16 @ $9F428
+
+#W24($9F3B0)
+Sav4<X>
+
+
+//POINTER #17 @ $9F3B3 - STRING #17 @ $9F3EC
+
+#W24($9F3B3)
+On  <X>
+
+
+//POINTER #18 @ $9F3B6 - STRING #18 @ $9F3F6
+
+#W24($9F3B6)
+Off <X>
+
+
+//POINTER #19 @ $9F3B9 - STRING #19 @ $9F400
+
+#W24($9F3B9)
+Solo<X>
+
+
+//POINTER #21 @ $9F3BF - STRING #21 @ $9F432
+
+#W24($9F3BF)
+Hard<X>
+
+
+
+//BLOCK #015 NAME:		Top of Option Choice Panel
+
+
+#JMP($9F794, $9F822)
+
+
+//POINTER #0 @ $9F779 - STRING #0 @ $9F7BC
+
+#W24($9F779)
+On   Solo<X>
+
+
+//POINTER #1 @ $9F77C - STRING #1 @ $9F7A8
+
+#W24($9F77C)
+#W24($9F77F)
+#W24($9F78E)
+On    Off<X>
+
+
+//POINTER #3 @ $9F782 - STRING #3 @ $9F7D0
+
+#W24($9F782)
+Slow Fast<X>
+
+
+//POINTER #4 @ $9F785 - STRING #4 @ $9F794
+
+#W24($9F785)
+  Speed  <X>
+
+
+//POINTER #5 @ $9F788 - STRING #5 @ $9F7E4
+
+#W24($9F788)
+Ster  Off<X>
+
+
+//POINTER #6 @ $9F78B - STRING #6 @ $9F7F8
+
+#W24($9F78B)
+Off  File<X>
+
+
+//POINTER #8 @ $9F791 - STRING #8 @ $9F80C
+
+#W24($9F791)
+Difficult<X>
+
+
+
+//Castle Menu Choices
+//Spaces are important,
+//otherwise text leaks in from below
+
+#JMP($A8AE0, $A8B7F)
+
+#W16($A8A06)
+  Fight  <X>
+
+#W16($A8A19)
+  Guard  <X>
+
+#W16($A8A2C)
+  Promote<X>
+
+#W16($A8A41)
+  Town   <X>
+
+#W16($A8AC7)
+  Staff  <X>
+
+#W16($A8A6A)
+//Blank
+         <X>
+
+#W16($A8AD9)
+  Dance  <X>
+  
+#W16($A8A4E)
+#W16($A8A94)
+  Give   <X>
+
+
+
+//BLOCK #ABC NAME: 		Shop Menu Choices
+
+#JMP($AAFCE)
+#W16($AAFB3)
+Lovers<X>
+
+#JMP($AC4FE)
+#W16($AC316)
+Buy  Own<X>
+
+#JMP($AA548)
+#W16($AD298)
+ Yes  No<X>
+ 
+#JMP($AE989)
+#W16($AE8A6)
+Fight  Quit<X>
+
+#JMP($AEC3C)
+#W16($AEB44)
+Cede  Fight  Weapon<X>
+
+#JMP($AED56)
+#W16($AEC97)
+Fight  Quit  Weapon<X>
+
+#JMP($AF675)
+#W16($AF57A)
+Depo  Take<X>
+
+#JMP($AFFF0, $B01B8)
+#W16($AAFBE)
+Records<X>
+
+#W16($AAFC9)
+Parents<X>
+
+#W16($AC53F)
+Sell  Buy<X>
+
+#JMP($AB0DA, $AB109)
+#W16($AB001)
+Enemy<X>
+
+#W16($AB0AF)
+Lv<X>
+
+#W16($AB092)
+Push B to exit<X>
+
+
+
+//BLOCK NAME: 		Status Screen
+
+#JMP($9BCC1, $9BCF2)
+
+//Weapon stat labels, item menu
+
+#W16($9BBB2)
+Hit<X>
+
+#W16($9BBC3)
+Mgt<X>
+
+#W16($9BBD4)
+Rang<X>
+
+#W16($9BBE5)
+Wgt<X>
+
+
+//Weapon stat labels, stat screen
+
+#JMP($98B73, $98B9A)
+
+#W16($98A1D)
+Hit<X>
+
+#W16($98A2E)
+Mgt<X>
+
+#W16($98A3F)
+Rang<X>
+
+#W16($98A50)
+Wgt<X>
+
+
+#JMP($99E52, $99E7B)
+//Stat screen, top right corner
+
+#W16($99E05)
+At<X>
+
+#W16($99E16)
+Ht<X>
+
+#W16($99E27)
+Rang<X>
+
+#W16($99E38)
+Av<X>
+
+#W16($9FBB5)
+Crit<X>
+
+
+#JMP($99F26, $99F71)
+//Stat screen, stat labels
+
+#W16($99EB4)
+Str<X>
+
+#W16($99EC5)
+Mag<X>
+
+#W16($99ED6)
+Skl<X>
+
+#W16($99EE7)
+Spd<X>
+
+#W16($99EF8)
+Luk<X>
+
+#W16($99F09)
+Def<X>
+
+#W16($99F1A)
+Res<X>
+
+
+#JMP($9A10B, $9A1A0)
+//Stat screen 2
+
+#W16($99FD6)
+Lead<X>
+
+#W16($99FED)
+Army<X>
+
+#W16($9A000)
+Lover<X>
+
+#W16($9A011)
+Move<X>
+
+#W16($9A022)
+Gold<X>
+
+#W16($9A033)
+Arena<X>
+
+#W16($9A044)
+State<X>
+
+#W16($9A055)
+W  L<X>
+
+//Weapon type strings, dummied out
+
+#W16($9A066)
+//Sword
+#W16($9A077)
+//Lance
+#W16($9A088)
+//Axe
+#W16($9A099)
+//Bow
+#W16($9A0AA)
+//Staff
+#W16($9A0BB)
+//Fire
+#W16($9A0CC)
+//Thunder
+#W16($9A0DD)
+//Wind
+#W16($9A0EE)
+//Light
+#W16($9A0FF)
+//Dark
+<X>
+
+
+//Personal/Class skill labels
+#JMP($9A6C5, $9A6E3)
+
+#W16($9A6AC)
+Personal<X>
+
+#W16($9A6A0)
+Class<X>
+
+
+//Valkyrie dialogue
+
+#JMP($9B045, $9B0B2)
+//$9B07C for end of proper text
+
+#W16($9AFED)
+ revives<X>
+
+#W16($9B007)
+Revive?<X>
+
+#W16($9B018)
+Yes  No<X>
+
+#JMP($9B1DE, $9B22D)
+//Dialogue ends at 9B1F7
+
+#W16($9B1BB)
+Choose unit<X>
+
+
+//Status conditions
+#JMP($9A981, $9A9C8)
+
+#W16($9A96C)
+Fine<X>
+
+#W16($9A978)
+Mute<X>
+
+#W16($9A97B)
+Slep<X>
+
+#W16($9A97E)
+Bsrk<X>
+
+#W16($99C4B)
+Dead<X>

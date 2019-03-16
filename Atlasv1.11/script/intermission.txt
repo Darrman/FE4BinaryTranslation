@@ -1,0 +1,337 @@
+// 0 0 BANK88
+
+// Fontcheck: Reformatted
+
+// Last modified: 23/06/2006
+// This file was added by Dark Twilkitri
+
+// This file is for altering the majority of the narration in the intermission.
+
+//[section BANK88]
+//[ASMPTR]
+//[nocompress]
+//[rowlimit 255]
+
+#VAR(dialogue, TABLE)
+#ADDTBL("dialogue.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#HDR($200)
+
+#JMP($8EBE5, $8F03B)
+
+// 0x8ebe5
+#W16($8E341)
+// @@582459@@
+And so, an era had come to pass.[n]
+[n]
+//Grandbell's disturbance, stemming from the campaign in Isaac, led one young man into a disasterous fate.[n]
+Sigurd is dead.
+[n]
+[n]
+[Wait]<$50>
+//Along with many other sorrowful tales, his story was lost to the world.[n]
+His story was lost.
+[n]
+[n]
+[Wait]<$60>
+<$00><$2B><$E7>
+Those who perished with him...[n]
+[BGM]<$0B>
+[n]
+Cuan of Lenster[n]
+<$00><$82><$02><$06><$00>[n]
+[n]
+<$00><$84><$02>
+Ethlin, his wife[n]
+<$00><$82><$02><$11><$00>[n]
+[n]
+<$00><$84><$02>
+<$00><$2D><$12><$E7><$88>
+<$00><$2D><$38><$E7><$88>
+<$00><$2D><$5E><$E7><$88>
+<$00><$2D><$84><$E7><$88>
+<$00><$2D><$AA><$E7><$88>
+<$00><$2D><$D0><$E7><$88>
+<$00><$2D><$F6><$E7><$88>
+<$00><$2D><$1C><$E8><$88>
+<$00><$2D><$42><$E8><$88>
+<$00><$2D><$68><$E8><$88>
+<$00><$2D><$8E><$E8><$88>
+<$00><$2D><$B4><$E8><$88>
+<$00><$2D><$DA><$E8><$88>
+<$00><$2D><$00><$E9><$88>
+<$00><$2D><$26><$E9><$88>
+<$00><$2D><$4C><$E9><$88>
+<$00><$2D><$72><$E9><$88>
+<$00><$2D><$98><$E9><$88>
+<$00><$2D><$BE><$E9><$88>
+and Sigurd of Chalphy.
+<$00><$82><$02><$01><$00>[n]
+[n]
+<$00><$84><$02>[n]
+<$00><$2D><$11><$E4><$88>
+<$00><$2D><$40><$E4><$88>
+<$00><$2D><$66><$E4><$88>
+<$00><$2D><$8C><$E4><$88>
+<$00><$2D><$B2><$E4><$88>
+<$00><$2D><$D8><$E4><$88>
+<$00><$2D><$FE><$E4><$88>
+<$00><$2D><$24><$E5><$88>
+<$00><$2D><$4A><$E5><$88>
+<$00><$2D><$70><$E5><$88>
+<$00><$2D><$96><$E5><$88>
+<$00><$2D><$BC><$E5><$88>
+<$00><$2D><$E2><$E5><$88>
+<$00><$2D><$08><$E6><$88>
+<$00><$2D><$2E><$E6><$88>
+<$00><$2D><$54><$E6><$88>
+<$00><$2D><$7A><$E6><$88>
+<$00><$2D><$A0><$E6><$88>
+<$00><$2D><$C6><$E6><$88>
+<$00><$2D><$EC><$E6><$88>
+//These youths fought valiantly for their ideals,[n]
+//yet their unfulfilled dreams now lie scattered on the battlefield...[n]
+They fought bravely,[n]
+but their dreams are finished.[n]
+[n]
+What was this for?[n]
+[n]
+[n]
+The light...[n]
+[n]
+[n]
+[Wait]<$64>
+[exit]
+
+
+//intermissionnames.txt
+
+
+// Fontcheck: Reformatted
+
+// Last modified: 23/06/2006
+// This file was added by Dark Twilkitri
+
+// This file is for altering the character names in the intermission.
+
+//[ASMPTR]
+//[nocompress]
+
+
+// 0x8ee34
+#W16($8E92F)
+#W16($8E65D)
+// @@583977@@
+<$09>Noish of Chalphy<$02>
+<$00><$82><$02><$02><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ee51
+#W16($8E955)
+#W16($8E683)
+// @@584015@@
+Alec of Chalphy<$02>
+<$00><$82><$02><$03><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ee6c
+#W16($8E97B)
+#W16($8E6A9)
+// @@584053@@
+Arden of Chalphy<$02>
+<$00><$82><$02><$04><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ee8a
+#W16($8E9A1)
+#W16($8E6CF)
+// @@584091@@
+Lex of Dozel<$02>
+<$00><$82><$02><$0E><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8eea4
+#W16($8E9C7)
+#W16($8E6F5)
+// @@584129@@
+Azel of Velthomer<$02>
+<$00><$82><$02><$0A><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8eec0
+#W16($8E9ED)
+#W16($8E71B)
+// @@584167@@
+Aira of Isaac<$02>
+<$00><$82><$02><$13><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8eeda
+#W16($8EA13)
+#W16($8E741)
+// @@584205@@
+Aideen of Jungby<$02>
+<$00><$82><$02><$17><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8eef7
+#W16($8EA39)
+#W16($8E767)
+// @@584243@@
+Midir of Jungby<$02>
+<$00><$82><$02><$07><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef16
+#W16($8EA5F)
+#W16($8E78D)
+// @@584281@@
+Jamka of Verdane<$02>
+<$00><$82><$02><$0B><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef32
+#W16($8EA85)
+#W16($8E7B3)
+// @@584319@@
+Lachesis of Nodion<$02>
+<$00><$82><$02><$12><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef4e
+#W16($8EAAB)
+#W16($8E7D9)
+// @@584357@@
+Beowulf<$02>
+<$00><$82><$02><$0D><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef68
+#W16($8EAD1)
+#W16($8E7FF)
+// @@584395@@
+Holyn<$02>
+<$00><$82><$02><$09><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef7d
+#W16($8EAF7)
+#W16($8E825)
+// @@584433@@
+Dew<$02>
+<$00><$82><$02><$0F><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8ef92
+#W16($8EB1D)
+#W16($8E84B)
+// @@584471@@
+Levin of Silesia<$02>
+<$00><$82><$02><$08><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8efad
+#W16($8EB43)
+#W16($8E871)
+// @@584509@@
+Fury of Silesia<$02>
+<$00><$82><$02><$14><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8efcc
+#W16($8EB69)
+#W16($8E897)
+// @@584547@@
+Sylvia<$02>
+<$00><$82><$02><$16><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8efe9
+#W16($8EB8F)
+#W16($8E8BD)
+// @@584585@@
+Claude of Edda<$02>
+<$00><$82><$02><$0C><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8f003
+#W16($8EBB5)
+#W16($8E8E3)
+// @@584623@@
+Tiltyu of Freege<$02>
+<$00><$82><$02><$15><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+// 0x8f01f
+#W16($8EBDB)
+#W16($8E909)
+// @@584661@@
+Briggid of Jungby<$02>
+<$00><$82><$02><$18><$00>
+<$02><$02>
+<$00><$84><$02>
+[exit]
+
+
+//intermission2.txt
+// 0x8edfd
+#W16($8E637)
+// @@583222@@
+//And those who fought alongside Sigurd at Barhara, whose fates are unknown...[n]
+Those at Barhara...[n]
+[n]
+[exit]

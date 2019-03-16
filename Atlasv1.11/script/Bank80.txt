@@ -1,0 +1,303 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+//This file contains menu text within Bank 80.
+//These include chapter goals and skill names
+//within the skill menu.
+
+//BLOCK #001 NAME:		Chapter Objectives
+
+#VAR(Goals, CUSTOMPOINTER)
+#CREATEPTR(Goals, "HIROM", $0, 24)
+
+#JMP($DD98, $DEA5)
+
+//POINTER #0 @ $DD74 - STRING #0 @ $DD98
+
+#WRITE(Goals, $DD74)
+To Evans<X>
+
+
+//POINTER #1 @ $DD77 - STRING #1 @ $DDAE
+
+#WRITE(Goals, $DD77)
+To Verdane<X>
+
+
+//POINTER #2 @ $DD7A - STRING #2 @ $DDC6
+
+#WRITE(Goals, $DD7A)
+To Agusty<X>
+
+
+//POINTER #3 @ $DD7D - STRING #3 @ $DDDE
+
+#WRITE(Goals, $DD7D)
+To Orgahil<X>
+
+
+//POINTER #4 @ $DD80 - STRING #4 @ $DDF6
+
+#WRITE(Goals, $DD80)
+To Zaxon<X>
+
+
+//POINTER #5 @ $DD83 - STRING #5 @ $DE0C
+
+#WRITE(Goals, $DD83)
+#WRITE(Goals, $DD95)
+To Barhara<X>
+
+
+//POINTER #6 @ $DD86 - STRING #6 @ $DE22
+
+#WRITE(Goals, $DD86)
+To Rivough<X>
+
+
+//POINTER #7 @ $DD89 - STRING #7 @ $DE36
+
+#WRITE(Goals, $DD89)
+To Alster<X>
+
+
+//POINTER #8 @ $DD8C - STRING #8 @ $DE4E
+
+#WRITE(Goals, $DD8C)
+To Mease<X>
+
+
+//POINTER #9 @ $DD8F - STRING #9 @ $DE62
+
+#WRITE(Goals, $DD8F)
+To Thracia<X>
+
+
+//POINTER #10 @ $DD92 - STRING #10 @ $DE78
+
+#WRITE(Goals, $DD92)
+To Chalphy<X>
+
+//The data menu labels
+
+#W16($DD01)
+Goal<X>
+
+#W16($DD2F)
+Time<X>
+
+#W16($DD56)
+ Turns<X>
+ 
+//Army label
+#JMP($DF1C, $DF27)
+#W16($DED2)
+Army<X>
+
+
+//BLOCK #001 NAME:		Skill Menu Names
+
+#VAR(SkillMenu, CUSTOMPOINTER)
+#CREATEPTR(SkillMenu, "HIROM", $0, 16)
+
+#JMP($D862, $DA17)
+
+
+//POINTER #0 @ $D729 - STRING #0 @ $D862
+
+#WRITE(SkillMenu, $D729)
+GreatShield<X>
+
+
+//POINTER #1 @ $D73A - STRING #1 @ $D87A
+
+#WRITE(SkillMenu, $D73A)
+Wrath<X>
+
+
+//POINTER #2 @ $D74B - STRING #2 @ $D892
+
+#WRITE(SkillMenu, $D74B)
+Pursuit<X>
+
+
+//POINTER #3 @ $D75C - STRING #3 @ $D8AA
+
+#WRITE(SkillMenu, $D75C)
+Continue<X>
+
+
+//POINTER #4 @ $D76D - STRING #4 @ $D8C2
+
+#WRITE(SkillMenu, $D76D)
+Steal<X>
+
+
+//POINTER #5 @ $D77E - STRING #5 @ $D8DA
+
+#WRITE(SkillMenu, $D77E)
+Dance<X>
+
+
+//POINTER #6 @ $D78F - STRING #6 @ $D8F2
+
+#WRITE(SkillMenu, $D78F)
+Charisma<X>
+
+
+//POINTER #7 @ $D7A0 - STRING #7 @ $D90A
+
+#WRITE(SkillMenu, $D7A0)
+Nihil<X>
+
+
+//POINTER #8 @ $D7B1 - STRING #8 @ $D922
+
+#WRITE(SkillMenu, $D7B1)
+Prayer<X>
+
+
+//POINTER #9 @ $D7C2 - STRING #9 @ $D93A
+
+#WRITE(SkillMenu, $D7C2)
+Critical<X>
+
+
+//POINTER #10 @ $D7D3 - STRING #10 @ $D952
+
+#WRITE(SkillMenu, $D7D3)
+Ambush<X>
+
+
+//POINTER #11 @ $D7E4 - STRING #11 @ $D96A
+
+#WRITE(SkillMenu, $D7E4)
+Charge<X>
+
+
+//POINTER #12 @ $D7F5 - STRING #12 @ $D982
+
+#WRITE(SkillMenu, $D7F5)
+Astra<X>
+
+
+//POINTER #13 @ $D806 - STRING #13 @ $D99C
+
+#WRITE(SkillMenu, $D806)
+Luna<X>
+
+
+//POINTER #14 @ $D817 - STRING #14 @ $D9B6
+
+#WRITE(SkillMenu, $D817)
+Sol<X>
+
+
+//POINTER #15 @ $D828 - STRING #15 @ $D9D0
+
+#WRITE(SkillMenu, $D828)
+Life<X>
+
+
+//POINTER #16 @ $D839 - STRING #16 @ $D9E8
+
+#WRITE(SkillMenu, $D839)
+Elite<X>
+
+
+//POINTER #17 @ $D84A - STRING #17 @ $DA00
+
+#WRITE(SkillMenu, $D84A)
+Bargain<X>
+
+
+//BLOCK #002 NAME:		Options Menu
+
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $0, 16)
+
+#JMP($EA4E, $EAEF)
+
+//POINTER #0 @ $E9A7 - STRING #0 @ $EA4E
+
+#WRITE(OptionsMenu, $E9A7)
+Animation<X>
+
+
+//POINTER #1 @ $E9B8 - STRING #1 @ $EA5E
+
+#WRITE(OptionsMenu, $E9B8)
+Terrain<X>
+
+
+//POINTER #2 @ $E9C9 - STRING #2 @ $EA70
+
+#WRITE(OptionsMenu, $E9C9)
+UnitWindo<X>
+
+
+//POINTER #3 @ $E9DA - STRING #3 @ $EA84
+
+#WRITE(OptionsMenu, $E9DA)
+TextSpd<X>
+
+
+//POINTER #4 @ $E9EB - STRING #4 @ $EA98
+
+#WRITE(OptionsMenu, $E9EB)
+MoveSpd<X>
+
+
+//POINTER #5 @ $E9FC - STRING #5 @ $EAAC
+
+#WRITE(OptionsMenu, $E9FC)
+Music<X>
+
+
+//POINTER #6 @ $EA0D - STRING #6 @ $EABE
+
+#WRITE(OptionsMenu, $EA0D)
+AutoSave<X>
+
+
+//POINTER #7 @ $EA1E - STRING #7 @ $EACC
+
+#WRITE(OptionsMenu, $EA1E)
+AutoCrsr<X>
+
+
+//POINTER #8 @ $EA2F - STRING #8 @ $2A9
+
+#WRITE(OptionsMenu, $EA35)
+Difficult<X>
+
+
+
+//Valkyrie Staff
+
+#JMP($E43E, $E457)
+#W16($E3CC)
+//Choose character to revive
+Choose unit<X>
+
+//Nobody to revive
+#JMP($E484, $E497)
+#W16($E46B)
+No revive<X>
+
+
+//Inventory empty
+
+#JMP($D246, $D27D)
+#W16($D121)
+//No items at all?
+You have none!<X>
+
+#W16($D132)
+//For goodness sake, get some.
+Press B now!<X>

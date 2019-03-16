@@ -1,0 +1,1338 @@
+// Fontcheck: Reformatted
+
+// Last modified: 2012-04-15
+// This file was modified by Twilkitri
+
+// This file is for altering text from Chapter 3.
+
+//    Fire Emblem 4 English patch
+//      This program creates a patch which can be used
+//      to replace all Japanese elements with English
+//      elements in the 1996 SNES strategy-role playing
+//      game 'Fire Emblem - Seisen no Keifu'.
+//    Copyright (C) 2002  Jay & Boo
+//
+//    This program is free software; you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation; either version 2 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program; if not, write to the Free Software
+//    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+//Please refer to the 'LICENSE' file for the entire license and copying rights.
+
+// Fire Emblem 4 Script Dump
+// ppt\fe4_03.ppt
+
+// Filesize: 4194816 bytes
+
+
+
+#VAR(dialogue, TABLE)
+#ADDTBL("dialogue.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#HDR($200)
+
+#JMP($1D9581, $1DB369)
+
+
+
+// 0x1d9581:
+#W24($1D8912)
+// @@1935634@@
+
+[TWinBtm][DlgOpn]['Shagall' 00A1]
+Are the troops ready? I don't[n]
+imagine they're expecting us.[n]
+Alright, prepare to advance.[k]
+[cs]
+Look at them... making themselves[n]
+at home in MY country![k]
+[cs]
+Jacoban![n]
+[cs]
+
+[TWinTop][DlgOpn]['Shagobn' 008A]
+You called?
+
+[TWinBtm]
+//Shagall
+[Wait]<$10>
+We need a man of your calibre[n]
+to hold the castle.[k]
+[dcs]
+
+[TWinTop]
+//Shagobn
+Anyone that gets in my face is gettin'[n]
+my Thunder Sword!
+
+[TWinBtm]
+//Shagall
+[Wait]<$10>
+That's the spirit, Jacoban![n]
+We're counting on you.[k]
+[dcs]
+
+[TWinTop]
+//Shagobn
+
+[DlgCls][xChr]
+
+[TWinBtm]
+//Shagall
+[Wait]<$10>
+Hmm... Eltshan's in Silvail.[n]
+I wonder what his next move'll be...[k]
+
+[exit]
+
+
+// 0x1d9705:
+#W24($1D8930)
+// @@1935664@@
+
+[TWinTop][DlgOpn]['Soldier' 02A5]
+[TWinBtm][DlgOpn]['Eltshan' 005A]
+
+[TWinTop]
+//Soldier
+Your Highness, Madino has positioned[n]
+their troops for battle!
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+What's His Majesty's rush!?[n]
+I'll have to postpone my return[n]
+to the capital![k]
+[dcs]
+I can't fight Sigurd.[n]
+What to do... what to do...[k]
+
+[exit]
+
+
+// 0x1d97ab:
+#W24($1D894E)
+// @@1935694@@
+
+[TWinTop][DlgOpn]['Doball' 00AA]
+[TWinBtm][DlgOpn]['Brigid' 0018]
+
+[TWinTop]
+//Doball
+Let's go raidin'.
+
+[TWinBtm]
+//Brigid
+[Wait]<$10>
+No.[k]
+
+[exit]
+
+
+// 0x1d98b8:
+#W24($1D895A)
+// @@1935706@@
+
+[TWinTop][DlgOpn]['Doball' 00AA]
+[TWinBtm][DlgOpn]['Pisar' 00AC]
+
+[TWinTop]
+//Doball
+The cap'n's bein' too damn strict!
+
+[TWinBtm]
+//Pisar
+[Wait]<$10>
+She ain't the cap'n's daughter.[n]
+Who cares?
+Let's go a treasure huntin'![k]
+
+[exit]
+
+
+// 0x1d9f8d:
+#W24($1D8978)
+// @@1935736@@
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Oifaye
+Sir, we've got trouble![n]
+Shagall has raised an army!
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+That's ludicrous![n]
+We were just about to head home.[n]
+Why attack us now?[k]
+[dcs]
+What in the world is going on...[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Deirdre' 0010]
+You're going back into combat,[n]
+aren't you...
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+I'm sorry, Deirdre. But this time[n]
+I can't bring you along.[k]
+[dcs]
+Someone has to stay behind with our[n]
+baby boy.[k]
+[cs]
+
+[TWinTop]
+//Deirdre
+...Yes, I know.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Deirdre, don't be so down...[n]
+I'll be back as soon as I can![k]
+[dcs]
+Shanan, help me out. I need you to[n]
+look after Deirdre and Serlis.[k]
+[cs]
+
+[TWinTop]
+//Deirdre
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Young Shanan' 0281]
+You got it! Don't worry 'bout a thing.[n]
+I won't let a fly touch those two!
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Ha ha! Shanan, you're the man.[k]
+[dcs]
+
+[TWinTop]
+//Young Shanan
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Deirdre' 0010]
+
+[TWinBtm]
+//Sigurd
+Deirdre, I hope that'll put you a bit[n]
+at ease.[k]
+[cs]
+Don't you worry. This isn't forever.[k]
+[cs]
+
+[TWinTop]
+//Deirdre
+Sigurd...[k]
+
+[exit]
+
+
+// 0x1da1fc:
+#W24($1D89BC)
+// @@1935804@@
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Oifaye
+Sir, we can't find King Shagall.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$0C>
+Maybe he escaped to Silvail.[n]
+That's where Eltshan is, anyway.[k]
+[dcs]
+The Cross Knights are all that's[n]
+left of Agustria's military might...[k]
+[cs]
+If they'd just lower their swords,[n]
+this'd all be over.[k]
+
+[exit]
+
+
+// 0x1d99b1:
+#W24($1D89E7)
+// @@1935847@@
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Oifaye
+Sir, Father Claude of Edda just arrived.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+What!? Father Claude?[n]
+Bring him to me at once.[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Claude' 000C]
+Sir Sigurd, good to see you.[n]
+I've come to... well, I've some[n]
+horrible news from back home.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Claude, what in the world happened?[k]
+<$00><$2B><$E0>
+[Wait]<$1E>
+[BGM]<$69>
+[dcs]
+
+[TWinTop]
+//Claude
+Someone murdered Prince Kurth.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Who would do such a thing!?[k]
+[dcs]
+
+[TWinTop]
+//Claude
+Lord Byron was always seen[n]
+at Prince Kurth's side.[k]
+[cs]
+Since the murder, he's disappeared.[n]
+I hate to say this, but...[k]
+[cs]
+There's suspicion that your father[n]
+committed the murder.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Inconceivable![k]
+[dcs]
+
+[TWinTop]
+//Claude
+[cs]
+Rumour has it that you[n]
+and Lord Byron conspired to kill[n]
+the prince.[k]
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Why would my father kill him?![n]
+It's probably Reptor or Langbart.[k]
+[dcs]
+
+[TWinTop]
+//Claude
+There's no evidence...[k]
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+How about Lord Alvis?[n]
+What does he make[n]
+of all of this?[k]
+[dcs]
+
+[TWinTop]
+//Claude
+I don't think he's bitter[n]
+towards you, but I can't[n]
+say he's on your side either. 
+
+[TWinBtm]
+//Sigurd
+[dcs]
+I wish I could go straight home,[n]
+but I have orders from His Majesty[n]
+to guard this area.[k]
+[cs]
+Claude, what should I do?[k]
+[cs]
+
+[TWinTop]
+//Claude
+I'm going to Blagi Tower to find out[n]
+the truth. You've nothing to worry[n]
+about.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$0C>
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Tiltyu' 0015]
+Yo, Claude. Enough of your jabberin'.[n]
+Let's get movin'. I'm bored outta[n]
+my wits.[k]
+[dcs]
+
+[TWinTop]
+//Claude
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+Hey, you're Tiltyu, right?[n]
+What're you doing here?
+
+[TWinBtm]
+//Tiltyu
+[Wait]<$10>
+I can't have him wanderin' around out[n]
+here all alone. So I'm protectin' him.[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+But you're Duke Reptor's[n]
+daughter?
+
+[TWinBtm]
+//Tiltyu
+[Wait]<$10>
+Look, all that fightin' stuff's beyond me.[n]
+Besides, I'm in love with the priest,[n]
+you see![k]
+[dcs]
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Claude' 000C]
+I'm at a loss with this child...[n]
+Once I know the truth, I'll[n]
+rendezvous with your troops.[k]
+[cs]
+
+[TWinTop]
+//Sigurd
+Thank you![k]
+
+[exit]
+
+
+// 0x1db8b8:
+#W24($1D8A2B)
+// @@1935915@@
+
+[TWinTop][DlgOpn]['Deirdre' 0010]
+[TWinBtm][DlgOpn]['Young Shanan' 0281]
+
+[TWinTop]
+//Deirdre
+I just got word that Sigurd's[n]
+taken over Madino Castle.[n]
+I have to see him!
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+Deirdre, no! It's not safe out[n]
+there. And what about Serlis?[k]
+[dcs]
+
+[TWinTop]
+//Deirdre
+That's why I need you to watch[n]
+over him.
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+No way! I can't look after a baby[n]
+all by myself.[k]
+[dcs]
+
+[TWinTop]
+//Deirdre
+Please... I'll be right back. Would you[n]
+just do this for me, Shanan? Please?
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+Yeah... alright. Whatever, I'll do it.[n]
+But you better be back quick![k]
+[dcs]
+
+[TWinTop]
+//Deirdre
+Thank you, Shanan. Serlis, I'm sorry,[n]
+babe. Mummy'll be right back, 'k?[k]
+
+[exit]
+
+
+// 0x1db9e0:
+#W24($1D8A8B)
+// @@1936011@@
+
+[TWinTop][DlgOpn]['Deirdre' 0010]
+[TWinBtm][DlgOpn]['Manfloy' 026C]
+
+At last... the daughter of Sigyn.[k]
+[dcs]
+
+[TWinTop]
+//Deirdre
+Huh? Who are you? And how do you know[n]
+my mother's name?
+
+[TWinBtm]
+//Manfloy
+[Wait]<$10>
+Heh heh heh... Prepare for your rebirth.[k]
+[dcs]
+Once we erase all your memories,[n]
+we shall introduce you to your[n]
+new husband.[k]
+[cs]
+There's no use fighting it.[n]
+This is destined to be.[k]
+[cs]
+
+[TWinTop]
+//Deirdre
+W-what are you d-d-doing?[n]
+St-stop it!! Agh...[n]
+S-Sigurd...[k]
+
+[exit]
+
+
+// 0x1da2a2:
+#W24($1D8BAD)
+// @@1936301@@
+
+[TWinTop][DlgOpn]['Shagall' 00A1]
+[TWinBtm][DlgOpn]['Eltshan' 005A]
+
+[TWinTop]
+//Shagall
+Eltshan! What the hell've you[n]
+been doing!?[k]
+[cs]
+Aha! You are teaming up with the enemy[n]
+to overthrow Agustria!
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+How could you say that!?[k]
+[dcs]
+
+[TWinTop]
+//Shagall
+You got a problem with that?[k]
+[cs]
+My father'd be so disappointed with you.[n]
+A true knight doesn't sneak around[n]
+stalling for time!
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+You're not even listening to me![n]
+Look, I... hmph.[n]
+[Wait]<$10>
+Okay, I'll get my men ready.[k]
+[dcs]
+I'm proud to be a Holy Knight of[n]
+Agustria. If I'm to die,[n]
+I'll die fighting.[k]
+[cs]
+Watch over Silvail while I'm gone.[k]
+
+[exit]
+
+
+// 0x1da40f:
+#W24($1D8C16)
+// @@1936406@@
+
+[TWinBtm][DlgOpn]['Eltshan' 005A]
+It's time to go in, men.[n]
+This may just be our last battle.[k]
+[cs]
+I cannot begin to tell you what your[n]
+years of loyalty has meant to me...[k]
+[cs]
+This battle will determine the fate of[n]
+our nation. Give it all you've got.[n]
+[Wait]<$10>
+Cross Knights, ATTACK!![k]
+
+[exit]
+
+
+// 0x1da4b0:
+#W24($1D8C2F)
+// @@1936431@@
+
+[TWinBtm][DlgOpn]['Shagall' 00A1]
+Has Eltshan finally left?[n]
+Pretentious fool.[k]
+
+[exit]
+
+
+// 0x1da512:
+#W24($1D8CC8)
+#W24($1D8CF4)
+//[Merge 1d8cc8]
+// @@1936584@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Eltshan' 005A]
+
+[TWinTop]
+//Sigurd
+Eltshan, [Wait]<$08>please![n]
+[Wait]<$08>
+Put down your sword![k]
+[cs]
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+Sigurd, I've heard enough.[k]
+[dcs]
+It's just you and I on the battlefield[n]
+now. Two knights fighting with grace[n]
+and honour.[k]
+[cs]
+But I'm not about to fall with the[n]
+Mistoltin at my side... 'Til death![k]
+
+[exit]
+
+
+// 0x1da612:
+//#W24($1D8D26)
+#W24($1E0185)
+// @@1936678@@
+
+[TWinTop][DlgOpn]['Lachesis' 0012]
+[TWinBtm][DlgOpn]['Eltshan' 005A]
+
+[TWinTop]
+//Lachesis
+Eltshan! 
+[Wait]<$08>
+It's me, your sister![n]
+[Wait]<$08>
+Stop this senseless fighting![k]
+[cs]
+You can't fight Sir Sigurd! Is betraying[n] 
+one's friends a part of the honour of[n]
+being a knight!?[k]
+[cs]
+[Wait]<$14>
+
+[TWinBtm]
+//Eltshan
+Lachesis...
+[Wait]<$08>
+I have no other way out of this![k]
+[dcs]
+If Shagall is defeated, Agustria will[n]
+fall as well.[k]
+[cs]
+
+[TWinTop]
+//Lachesis
+That's not true![k]
+[cs]
+If Shagall withdrew his troops,[n]
+Sir Sigurd would also back out of this.[k]
+[cs]
+Please, talk with King Shagall.[n]
+He can't ignore the commander of[n]
+the Cross Knights.
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+...[n]
+[Wait]<$08>
+Okay...[n]
+[Wait]<$08>
+I'll give it one more shot.[k]
+[dcs]
+I'd rather risk my life for my friend[n]
+than this crazy war.[k]
+[cs]
+Lachesis, this sword is for you.[k]
+[cs]
+
+[TWinTop]
+//Lachesis
+Isn't this the Earth Sword!?[n]
+Eltshan, I can't take this!
+
+[TWinBtm]
+//Eltshan
+[Wait]<$10>
+Lachesis, keep it as a memento from me...[n]
+just in case. Now you be careful![k]
+[dcs]
+
+[DlgCls][xChr]
+
+[TWinTop]
+//Lachesis
+Wa-wait![n]
+[Wait]<$10>
+Eltshan![k]
+
+[exit]
+
+
+// 0x1da892:
+#W24($1D8D55)
+// @@1936725@@
+
+[TWinTop][DlgOpn]['Eltshan' 005A]
+[TWinBtm][DlgOpn]['Shagall' 00A1]
+
+[TWinTop]
+//Eltshan
+Your Majesty, 
+[Wait]<$08>
+please withdraw the troops.[k]
+[cs]
+You will get Agusty back someday.[n]
+I'm certain of it.
+
+[TWinBtm]
+//Shagall
+I knew it! You ARE in cahoots with[n]
+the enemy![k]
+[cs]
+Somebody! 
+[Wait]<$08>
+Seize this traitor![n]
+Off with his head![n]
+We'll make an example out of him![k]
+[cs]
+
+[TWinTop]
+//Eltshan
+I should've known this wouldn't go well.[n]
+This will mark the end of Agustria...
+
+[TWinBtm]
+//Shagall
+[Wait]<$10>
+You contriving little fool![n]
+Take his head off right here![k]
+[dcs]
+
+[TWinTop]
+//Eltshan
+Lachesis...[k]
+
+[xChr]
+
+//May as well add a bit of a warning
+//to the player about Shagall's new trick.
+
+[TWinBtm]
+//Shagall
+And as for the Mistoltin...[n]
+Ahaha... It's mine now!
+
+[exit]
+
+
+// 0x1da9d5:
+#W24($1D8D91)
+// @@1936785@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Oifaye' 027F]
+
+[TWinTop]
+//Sigurd
+Why!?[n]
+[Wait]<$08>
+Why'd he have to die?[n]
+[Wait]<$18>
+What have I been fighting for...
+
+[TWinBtm]
+//Oifaye
+[Wait]<$10>
+Sir, there's nothing you could've done.[k]
+
+
+[exit]
+
+
+// 0x1daa94:
+#W24($1D8DB0)
+// @@1936816@@
+
+[TWinTop][DlgOpn]['Shagall' 00A1]
+[TWinBtm][DlgOpn]['Young Trabant' 023C]
+
+[TWinTop]
+//Shagall
+Trabant, have you gotten your Dragon[n]
+Knights ready yet?
+
+[TWinBtm]
+//Young Trabant
+[Wait]<$08>
+Yessir. We're ready to go.[n]
+You'll get what ya paid for outta us.[k]
+[dcs]
+
+[exit]
+
+
+// 0x1dab2d:
+#W24($1D8E0B)
+// @@1936907@@
+
+[TWinBtm][DlgOpn]['Papilon' 00A4]
+Set your sights on Grandbell's army,[n]
+and give it to 'em as severely as you[n]
+please.[k]
+[cs]
+Let the name of Thracia echo across[n]
+the land![k]
+
+[exit]
+
+
+// 0x1dac70:
+#W24($1D8E2C)
+#W24($1D8E7F)
+//[Merge 1d8e2c]
+// @@1936940@@
+
+[TWinBtm][DlgOpn]['Young Trabant' 023C]
+Farewell, King Shagall...
+[Wait]<$08>
+y'fool.[k]
+
+[exit]
+
+
+// 0x1dacc9:
+#W24($1D8E9A)
+// @@1937050@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Oifaye' 027F]
+
+[TWinTop]
+//Sigurd
+Eltshan...
+
+[TWinBtm]
+//Oifaye
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Young Shanan' 0281]
+Sigurd, I'm sorry![k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+What's up? You're crying. What happened!?
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+Deirdre left the castle and never came[n]
+back. She said she was going to see you![k]
+[dcs]
+I'm sorry! I promised you I'd watch out[n]
+for her...[k]
+[cs]
+
+[TWinTop]
+//Sigurd
+What? Deirdre left!? What about Serlis?
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+He's with me.[n]
+[Wait]<$20>
+See? He's right here. But Deirdre...[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+Shanan, don't worry.[n]
+This isn't your fault.[n]
+I'm going to find her.
+
+[TWinBtm]
+//Young Shanan
+[Wait]<$10>
+But I shouldn't have let her go.[n]
+I'm so sorry, Sigurd![k]
+[dcs]
+
+[xChr][DlgCls]
+
+[TWinTop]
+//Sigurd
+[Wait]<$40>
+Deirdre, just where did you disappear to...[k]
+
+[exit]
+
+
+// 0x1daecf:
+#W24($1D8F09)
+// @@1937161@@
+
+[TWinTop][DlgOpn]['Tiltyu' 0015]
+[TWinBtm][DlgOpn]['Claude' 000C]
+
+[TWinTop]
+//Tiltyu
+Claude, c'mon! We gotta get movin'![n]
+Aren't you done prayin' yet?[k]
+
+[TWinBtm]
+I know all the truth now! And I[n]
+found the Valkyrie Staff. Can't revive[n]
+everyone because of 'Aegir'...
+
+[exit]
+
+
+// 0x1db138:
+#W24($1D8F3A)
+// @@1937210@@
+
+[TWinTop][DlgOpn]['Doball' 00AA]
+[TWinBtm][DlgOpn]['Brigid' 0018]
+
+[TWinTop]
+//Doball
+We're overthrowin' ya.
+
+[TWinBtm]
+Not so fast![k]
+[exit]
+
+
+// 0x1db2ca:
+#W24($1D8F79)
+// @@1937273@@
+
+[TWinBtm][DlgOpn]['Doball' 00AA]
+Do 'er in![k]
+[cs]
+
+[TWinTop][DlgOpn]['Pisar' 00AC]
+
+[TWinBtm]
+//Doball
+Lay waste t'Agustria.[k]
+[cs]
+
+[TWinTop]
+//Pisar
+Aye![k]
+
+[exit]
+
+
+// 0x1db342:
+#W24($1D90A0)
+// @@1937568@@
+
+[TWinBtm][DlgOpn]['Pisar' 00AC]
+Bridge up![k]
+
+[exit]
+
+#JMP($1DB654, $1DC0BA)
+
+// 0x1db68d:
+#W24($1D9179)
+// @@1937785@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Oifaye' 027F]
+
+[TWinTop]
+//Sigurd
+We made it to Orgahil. Time to live[n]
+the pirate life.[k]
+
+
+[exit]
+
+
+// 0x1db714:
+#W24($1D9270)
+// @@1938032@@
+
+[TWinBtm][DlgOpn]['Langbart' 0244]
+Relay this to the troops. Sigurd and his[n]
+band of rebels are to be apprehended.[k]
+[cs]
+They along with Byron killed Prince Kurth[n]
+in an attempt to take over the monarchy.[k]
+[cs]
+Those are direct orders from His Majesty.[n]
+Show no mercy to these traitors of the kingdom![k]
+
+[exit]
+
+
+// 0x1db7a3:
+#W24($1D927E)
+// @@1938046@@
+
+[TWinBtm][DlgOpn]['Reptor' 0246]
+I'm so evil![k]
+
+[exit]
+
+
+// 0x1dbacf:
+#W24($1D9296)
+// @@1938070@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Oifaye' 027F]
+
+[TWinTop]
+//Sigurd
+...What!? They're callin' me a traitor!?[k]
+[cs]
+And Grandbell's sent troops to take me in!?
+
+[TWinBtm]
+//Oifaye
+[Wait]<$10>
+We just finished fighting, too.[n]
+You were all set to go look for Deirdre.[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+Grr! His Majesty is being fooled[n]
+by Reptor and his crew.[k]
+[cs]
+How can he believe that my father[n]
+could kill Prince Kurth?[k]
+[cs]
+Aaagh... I wish Father Claude could've[n]
+gotten back there by now.[k]
+[cs]
+First we lose Eltshan and now this.[n]
+What have I been fighting for all this time!?
+
+[TWinBtm]
+//Oifaye
+[Wait]<$10>
+Sir...[k]
+
+[exit]
+
+
+// 0x1dbc12:
+#W24($1D92E1)
+// @@1938145@@
+
+[TWinTop][DlgOpn]['Manya' 00B6]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Manya
+Sir Sigurd. I'm Mahnya, a Silesian knight.[n]
+[Wait]<$10>
+I'm here on orders from Queen Rahna.[k]
+[cs]
+Please consider retreating to Silesia[n]
+until your fine name is cleared of all of this.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+...Queen Rahna of Silesia?[k]
+[dcs]
+Silesia is willing to help out an[n]
+accused traitor?[k]
+[cs]
+
+[TWinTop]
+//Manya
+Sir, 
+[Wait]<$08>
+time is of the essence.[n]
+Grandbell will be on your trail[n]
+before long.[k]
+[dcs]
+The Pegasus Knights will accompany[n]
+you over the ocean to Silesia.[k]
+
+[exit]
+
+
+// 0x1dbe5c:
+//#W24($1D9310)
+#W24($1E01E7)
+// @@1938192@@
+
+[TWinBtm][DlgOpn]['Villager' 02AD]
+Have a Meteor tome![n]
+It's great for barbeques.[k]
+
+[exit]
+
+
+// 0x1dbd4a:
+#W24($1D9323)
+// @@1938211@@
+
+[TWinBtm][DlgOpn]['Old villager' 02AB]
+Whoa. Glad yeh came![n]
+I got a book fer yeh in 'preciation.[k]
+[cs]
+It's magical. We call 'er th'[n]
+Sol Manual. It'll heal yeh right up![k]
+
+[exit]
+
+
+// 0x1dbdb8:
+#W24($1D9336)
+// @@1938230@@
+
+[TWinBtm][DlgOpn]['Old man' 027A]
+Here's the Restore Staff.[n]
+It can heal any bouts of Sleep or Silence.[k]
+[cs]
+I'm sure it'll be of use to ya.[k]
+
+[exit]
+
+
+// 0x1dc07e:
+#W24($1D9344)
+// @@1938244@@
+
+[TWinBtm][DlgOpn]['Villager' 02AE]
+Yeh came fer us! Blessed be![n]
+Have a sip of this here potion,[n]
+an' yer defence'll go up a bit.[k]
+
+[exit]
+
+
+// 0x1dbeb2:
+#W24($1D9378)
+// @@1938296@@
+
+[TWinBtm][DlgOpn]['Villager' 02B0]
+My boyfriend's a Cross Knight!
+
+[exit]
+
+
+// 0x32d4aa:
+#W24($1D9380)
+// @@1938304@@
+
+[TWinBtm][DlgOpn]['Villager' 02B0]
+My boyfriend was a Cross Knight...[n]
+but he's dead now.
+[exit]
+
+
+// 0x1dbf81:
+#W24($1D938D)
+// @@1938317@@
+
+[TWinBtm][DlgOpn]['Villager' 02AF]
+Thracia's Dragon Knights.[k]
+[cs]
+They's the most ruthless killin'[n]
+machine 'round.[k]
+[cs]
+Like a pack of hyenas feastin'[n]
+on a fresh kill.[k]
+
+[exit]
+
+
+// 0x1dc006:
+#W24($1D939E)
+// @@1938334@@
+
+[TWinBtm][DlgOpn]['Villager' 02AC]
+So glad to see yeh![n]
+Why'ncha help ye'self to a sip[n]
+of our village's secret formula?[k]
+[cs]
+Go ahead... get in.[k]
+[cs]
+Whaddya think? Feel a little[n]
+power swellin' in yeh veins?[n]
+Makes work feel like kids play![k]
+
+[exit]
+
+
+// 0x1dbf1d:
+#W24($1D93D0)
+// @@1938384@@
+
+[TWinBtm][DlgOpn]['Villager' 02AE]
+Another war's broken out?[n]
+Ugh, not again![k]
+
+[exit]
+
+
+// 0xedaf0:
+#W24($1D93F4)
+// @@1938420@@
+
+[TWinTop][DlgOpn]['Ethlin' 0011]
+[TWinBtm][DlgOpn]['Cuan' 0006]
+
+[TWinTop]
+//Ethlin
+![k]
+
+[exit]
+
+
+// 0xeddf5:
+#W24($1D9475)
+// @@1938549@@
+
+[TWinTop][DlgOpn]['Cuan' 0006]
+[TWinBtm][DlgOpn]['Ethlin' 0011]
+
+[TWinTop]
+//Cuan
+![k]
+
+[exit]
+
+
+// 0x32daf5:
+#W24($1D9533)
+// @@1938739@@
+
+[TWinBtm][DlgOpn]['Soldier' 02A5]
+We've orders from King Eltshan to[n]
+avoid battle. Pick up and leave at once![k]
+
+[exit]
+
+
+// 0x32d926:
+#W24($1D954D)
+// @@1938765@@
+
+[TWinBtm][DlgOpn]['Dew' 000F]
+Blagi Tower! Hee hee![n]
+The life of a thief![k]
+
+[exit]
+
+
+// 0x32d966:
+#W24($1D9562)
+// @@1938786@@
+
+//[TWinTop][DlgOpn]
+//Mm? Nothin' here.[n]
+//How 'bout over there?[k]
+//[cs]
+//Hmm, nothin' here either.[n]
+//This place's empty.
+
+//[TWinBtm]
+//[Wait]<$10>
+//[DlgOpn]
+//...Who goes there?[k]
+//[dcs]
+
+[TWinTop]
+Hm!?
+
+[TWinBtm]
+[Wait]<$10>
+...State your reason for[n]
+entering Blagi Tower.[k]
+[dcs]
+
+[TWinTop]
+I'll just pretend I can't hear 'em...
+
+[TWinBtm]
+[Wait]<$10>
+...Trespassing on holy ground[n]
+is forbidden! Leave at once![k]
+[dcs]
+
+[TWinTop]
+Yikes! Please forgive me![k]
+
+[exit]
+
+
+// 0x32da1c:
+#W24($1D9574)
+// @@1938804@@
+
+[TWinBtm][DlgOpn]['Dew' 000F]
+Ulp! What was that!?[n]
+[Wait]<$10>
+Huh? What's this sword doin' here?[k]
+[cs]
+Well, it's mine now![k]
+
+[exit]

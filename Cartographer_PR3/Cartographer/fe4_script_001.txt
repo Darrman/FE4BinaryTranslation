@@ -1,0 +1,111 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #001 NAME:		Skill Menu Names
+
+//POINTER #0 @ $D729 - STRING #0 @ $D862
+
+#W16($D729)
+GreatShield<X>
+
+
+//POINTER #1 @ $D73A - STRING #1 @ $D87A
+
+#W16($D73A)
+Wrath<X>
+
+
+//POINTER #2 @ $D74B - STRING #2 @ $D892
+
+#W16($D74B)
+Pursuit<X>
+
+
+//POINTER #3 @ $D75C - STRING #3 @ $D8AA
+
+#W16($D75C)
+Continue<X>
+
+
+//POINTER #4 @ $D76D - STRING #4 @ $D8C2
+
+#W16($D76D)
+Steal<X>
+
+
+//POINTER #5 @ $D77E - STRING #5 @ $D8DA
+
+#W16($D77E)
+Dance<X>
+
+
+//POINTER #6 @ $D78F - STRING #6 @ $D8F2
+
+#W16($D78F)
+Charisma<X>
+
+
+//POINTER #7 @ $D7A0 - STRING #7 @ $D90A
+
+#W16($D7A0)
+Nihil<X>
+
+
+//POINTER #8 @ $D7B1 - STRING #8 @ $D922
+
+#W16($D7B1)
+Prayer<X>
+
+
+//POINTER #9 @ $D7C2 - STRING #9 @ $D93A
+
+#W16($D7C2)
+Critical<X>
+
+
+//POINTER #10 @ $D7D3 - STRING #10 @ $D952
+
+#W16($D7D3)
+Ambush<X>
+
+
+//POINTER #11 @ $D7E4 - STRING #11 @ $D96A
+
+#W16($D7E4)
+Charge<X>
+
+
+//POINTER #12 @ $D7F5 - STRING #12 @ $D982
+
+#W16($D7F5)
+Astra<X>
+
+
+//POINTER #13 @ $D806 - STRING #13 @ $D99C
+
+#W16($D806)
+Luna<X>
+
+
+//POINTER #14 @ $D817 - STRING #14 @ $D9B6
+
+#W16($D817)
+Sol<X>
+
+
+//POINTER #15 @ $D828 - STRING #15 @ $D9D0
+
+#W16($D828)
+Life<X>
+
+
+//POINTER #16 @ $D839 - STRING #16 @ $D9E8
+
+#W16($D839)
+Elite<X>
+
+
+//POINTER #17 @ $D84A - STRING #17 @ $DA00
+
+#W16($D84A)
+Bargain<X>
+

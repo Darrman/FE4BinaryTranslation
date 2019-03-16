@@ -1,0 +1,4243 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($0)
+
+//This file has all the names in menu font.
+
+//BLOCK #004 NAME:		Class Names
+
+#VAR(Class, CUSTOMPOINTER)
+#CREATEPTR(Class, "LINEAR", $38BC9, 16)
+
+#JMP($38C59, $3904A)
+
+//POINTER #0 @ $38BC9 - STRING #0 @ $38C59
+
+#WRITE(Class, $38BC9)
+Cavalier<X>
+
+
+//POINTER #1 @ $38BCB - STRING #1 @ $38C6B
+
+#WRITE(Class, $38BCB)
+//Lance Knight
+LanceKnt<X>
+
+
+//POINTER #2 @ $38BCD - STRING #2 @ $38C7D
+
+#WRITE(Class, $38BCD)
+//Arch Knight
+ArchKnt<X>
+
+
+//POINTER #3 @ $38BCF - STRING #3 @ $38C8D
+
+#WRITE(Class, $38BCF)
+//Axe Knight
+AxeKnt<X>
+
+
+//POINTER #4 @ $38BD1 - STRING #4 @ $38C9B
+
+#WRITE(Class, $38BD1)
+//Free Knight
+FreeKnt<X>
+
+
+//POINTER #5 @ $38BD3 - STRING #5 @ $38CAB
+
+#WRITE(Class, $38BD3)
+//Troubadour
+Trobador<X>
+
+
+//POINTER #6 @ $38BD5 - STRING #6 @ $38E37
+
+#WRITE(Class, $38BD5)
+//Lord Knight
+LordKnt<X>
+
+
+//POINTER #7 @ $38BD7 - STRING #7 @ $38CBD
+
+#WRITE(Class, $38BD7)
+//Duke Knight
+DukeKnt<X>
+
+
+//POINTER #8 @ $38BD9 - STRING #8 @ $38CCD
+
+#WRITE(Class, $38BD9)
+//Master Knight
+MstrKnt<X>
+
+
+//POINTER #9 @ $38BDB - STRING #9 @ $38F0B
+
+#WRITE(Class, $38BDB)
+#WRITE(Class, $38BDD)
+Paladin<X>
+
+
+//POINTER #11 @ $38BDF - STRING #11 @ $38CDD
+
+#WRITE(Class, $38BDF)
+//Bow Knight
+BowKnt<X>
+
+
+//POINTER #12 @ $38BE1 - STRING #12 @ $38CEB
+
+#WRITE(Class, $38BE1)
+//Forrest Knight
+FrstKnt<X>
+
+
+//POINTER #13 @ $38BE3 - STRING #13 @ $38CFB
+
+#WRITE(Class, $38BE3)
+//Mage Knight
+MageKnt<X>
+
+
+//POINTER #14 @ $38BE5 - STRING #14 @ $38D0B
+
+#WRITE(Class, $38BE5)
+//Great Knight
+GreatKnt<X>
+
+
+//POINTER #15 @ $38BE7 - STRING #15 @ $38E25
+
+#WRITE(Class, $38BE7)
+Valkyrie<X>
+
+
+//POINTER #16 @ $38BE9 - STRING #16 @ $38D37
+
+#WRITE(Class, $38BE9)
+//Pegasus Knight
+PegKnt<X>
+
+
+//POINTER #17 @ $38BEB - STRING #17 @ $38D47
+
+#WRITE(Class, $38BEB)
+//Falcon Knight
+FalcoKnt<X>
+
+
+//POINTER #18 @ $38BED - STRING #18 @ $38D59
+
+#WRITE(Class, $38BED)
+//Dragon Rider
+DrgRider<X>
+
+
+//POINTER #19 @ $38BEF - STRING #19 @ $38D6B
+
+#WRITE(Class, $38BEF)
+//Dragon Knight
+DrgnKnt<X>
+
+
+//POINTER #20 @ $38BF1 - STRING #20 @ $38D7B
+
+#WRITE(Class, $38BF1)
+//Dragon Master
+DrgnMstr<X>
+
+
+//POINTER #21 @ $38BF3 - STRING #21 @ $38D8D
+
+#WRITE(Class, $38BF3)
+Archer<X>
+
+
+//POINTER #22 @ $38BF5 - STRING #22 @ $38D9D
+
+#WRITE(Class, $38BF5)
+Myrmidon<X>
+
+
+//POINTER #23 @ $38BF7 - STRING #23 @ $38DAF
+
+#WRITE(Class, $38BF7)
+//Swordmaster
+Swdmstr<X>
+
+
+//POINTER #24 @ $38BF9 - STRING #24 @ $38DBF
+
+#WRITE(Class, $38BF9)
+Sniper<X>
+
+
+//POINTER #25 @ $38BFB - STRING #25 @ $38DCD
+
+#WRITE(Class, $38BFB)
+Hero<X>
+
+
+//POINTER #26 @ $38BFD - STRING #26 @ $38DD7
+
+#WRITE(Class, $38BFD)
+General<X>
+
+
+//POINTER #27 @ $38BFF - STRING #27 @ $38DE7
+
+#WRITE(Class, $38BFF)
+Emperor<X>
+
+
+//POINTER #28 @ $38C01 - STRING #28 @ $38E71
+
+#WRITE(Class, $38C01)
+Baron<X>
+
+
+//POINTER #29 @ $38C03 - STRING #29 @ $39011
+
+#WRITE(Class, $38C03)
+IronMage<X>
+
+
+//POINTER #30 @ $38C05 - STRING #30 @ $38E13
+
+#WRITE(Class, $38C05)
+//Mercenary
+Mercenry<X>
+
+
+//POINTER #31 @ $38C07 - STRING #31 @ $38F93
+
+#WRITE(Class, $38C07)
+#WRITE(Class, $38C09)
+#WRITE(Class, $38C0B)
+#WRITE(Class, $38C0F)
+#WRITE(Class, $38C11)
+#WRITE(Class, $38C13)
+#WRITE(Class, $38C4D)
+//Dismounted cavalry
+Knight<X>
+
+
+//POINTER #34 @ $38C0D - STRING #34 @ $38E47
+
+#WRITE(Class, $38C0D)
+//Armour Knight
+ArmrKnt<X>
+
+
+//POINTER #38 @ $38C15 - STRING #38 @ $38E7D
+
+#WRITE(Class, $38C15)
+Brigand<X>
+
+
+//POINTER #39 @ $38C17 - STRING #39 @ $38E8D
+
+#WRITE(Class, $38C17)
+Fighter<X>
+
+
+//POINTER #40 @ $38C19 - STRING #40 @ $38E9F
+
+#WRITE(Class, $38C19)
+//Berserker
+Beserker<X>
+
+
+//POINTER #41 @ $38C1B - STRING #41 @ $38EB1
+
+#WRITE(Class, $38C1B)
+Warrior<X>
+
+
+//POINTER #42 @ $38C1D - STRING #42 @ $38EC1
+
+#WRITE(Class, $38C1D)
+Hunter<X>
+
+
+//POINTER #43 @ $38C1F - STRING #43 @ $38ECF
+
+#WRITE(Class, $38C1F)
+Pirate<X>
+
+
+//POINTER #44 @ $38C21 - STRING #44 @ $38E57
+
+#WRITE(Class, $38C21)
+Lord<X>
+
+
+//POINTER #45 @ $38C23 - STRING #45 @ $38EE3
+
+#WRITE(Class, $38C23)
+#WRITE(Class, $38C29)
+//Mage Fighter
+MgeFight<X>
+
+
+//POINTER #46 @ $38C25 - STRING #46 @ $3903D
+
+#WRITE(Class, $38C25)
+Prince<X>
+
+
+//POINTER #47 @ $38C27 - STRING #47 @ $38EF5
+
+#WRITE(Class, $38C27)
+Princess<X>
+
+
+//POINTER #49 @ $38C2B - STRING #49 @ $38F1D
+
+#WRITE(Class, $38C2B)
+Queen<X>
+
+
+//POINTER #50 @ $38C2D - STRING #50 @ $38F29
+
+#WRITE(Class, $38C2D)
+Dancer<X>
+
+
+//POINTER #51 @ $38C2F - STRING #51 @ $38F77
+
+#WRITE(Class, $38C2F)
+Priest<X>
+
+
+//POINTER #52 @ $38C31 - STRING #52 @ $38DCD
+
+#WRITE(Class, $38C31)
+Hero<X>
+
+
+//POINTER #53 @ $38C33 - STRING #53 @ $38DF9
+
+#WRITE(Class, $38C33)
+//Halberdier
+Hlbrdier<X>
+
+
+//POINTER #54 @ $38C35 - STRING #54 @ $38F37
+
+#WRITE(Class, $38C35)
+#WRITE(Class, $38C37)
+Mage<X>
+
+
+//POINTER #56 @ $38C39 - STRING #56 @ $38F73
+
+#WRITE(Class, $38C39)
+//High Priest
+HiPriest<X>
+
+
+//POINTER #57 @ $38C3B - STRING #57 @ $38F85
+
+#WRITE(Class, $38C3B)
+Bishop<X>
+
+
+//POINTER #58 @ $38C3D - STRING #58 @ $38F41
+
+#WRITE(Class, $38C3D)
+Sage<X>
+
+
+//POINTER #59 @ $38C3F - STRING #59 @ $38F4B
+
+#WRITE(Class, $38C3F)
+Bard<X>
+
+
+//POINTER #60 @ $38C41 - STRING #60 @ $38F55
+
+#WRITE(Class, $38C41)
+Shaman<X>
+
+
+//POINTER #61 @ $38C43 - STRING #61 @ $38FA9
+
+#WRITE(Class, $38C43)
+DarkMage<X>
+
+
+//POINTER #62 @ $38C45 - STRING #62 @ $38FBB
+
+#WRITE(Class, $38C45)
+//Dark Bishop
+DkBishop<X>
+
+
+//POINTER #63 @ $38C47 - STRING #63 @ $38F63
+
+#WRITE(Class, $38C47)
+Thief<X>
+
+
+//POINTER #64 @ $38C49 - STRING #64 @ $38FD5
+
+#WRITE(Class, $38C49)
+//Thief Fighter
+ThfFight<X>
+
+
+//POINTER #65 @ $38C4B - STRING #65 @ $38FE7
+
+#WRITE(Class, $38C4B)
+Civilian<X>
+
+
+
+//POINTER #67 @ $38C4F - STRING #67 @ $38D25
+
+#WRITE(Class, $38C4F)
+//Iron Knight
+IronKnt<X>
+
+
+//POINTER #68 @ $38C51 - STRING #68 @ $38E61
+
+#WRITE(Class, $38C51)
+//Those sword/bow heroes
+Forrest<X>
+
+
+//POINTER #69 @ $38C53 - STRING #69 @ $38FFF
+
+#WRITE(Class, $38C53)
+#WRITE(Class, $38C55)
+Ballista<X>
+
+
+//POINTER #71 @ $38C57 - STRING #71 @ $39039
+
+#WRITE(Class, $38C57)
+//Dark Prince
+DkPrince<X>
+
+
+//BLOCK #005 NAME:		Character Names
+
+#VAR(Unit, CUSTOMPOINTER)
+#CREATEPTR(Unit, "LINEAR", $39227, 16)
+
+#JMP($396DB, $3A62E)
+
+//POINTER #0 @ $39227 - STRING #0 @ $3A605
+
+#WRITE(Unit, $39227)
+Sigurd<X>
+
+
+//POINTER #1 @ $39229 - STRING #1 @ $396E5
+
+#WRITE(Unit, $39229)
+Noish<X>
+
+
+//POINTER #2 @ $3922B - STRING #2 @ $397D7
+
+#WRITE(Unit, $3922B)
+Alec<X>
+
+
+//POINTER #3 @ $3922D - STRING #3 @ $39A59
+
+#WRITE(Unit, $3922D)
+Arden<X>
+
+
+//POINTER #4 @ $3922F - STRING #4 @ $39703
+
+#WRITE(Unit, $3922F)
+#WRITE(Unit, $39269)
+Fin<X>
+
+
+//POINTER #5 @ $39231 - STRING #5 @ $3970B
+
+#WRITE(Unit, $39231)
+Cuan<X>
+
+
+//POINTER #6 @ $39233 - STRING #6 @ $39715
+
+#WRITE(Unit, $39233)
+Midir<X>
+
+
+//POINTER #7 @ $39235 - STRING #7 @ $39AAF
+
+#WRITE(Unit, $39235)
+Levin<X>
+
+
+//POINTER #8 @ $39237 - STRING #8 @ $39AD7
+
+#WRITE(Unit, $39237)
+Holyn<X>
+
+
+//POINTER #9 @ $39239 - STRING #9 @ $396F9
+
+#WRITE(Unit, $39239)
+Azel<X>
+
+
+//POINTER #10 @ $3923B - STRING #10 @ $39B59
+
+#WRITE(Unit, $3923B)
+Jamka<X>
+
+
+//POINTER #11 @ $3923D - STRING #11 @ $39745
+
+#WRITE(Unit, $3923D)
+Claude<X>
+
+
+//POINTER #12 @ $3923F - STRING #12 @ $39755
+
+#WRITE(Unit, $3923F)
+Beowulf<X>
+
+
+//POINTER #13 @ $39241 - STRING #13 @ $396F1
+
+#WRITE(Unit, $39241)
+Lex<X>
+
+
+//POINTER #14 @ $39243 - STRING #14 @ $39765
+
+#WRITE(Unit, $39243)
+Dew<X>
+
+
+//POINTER #15 @ $39245 - STRING #15 @ $3972B
+
+#WRITE(Unit, $39245)
+Deirdre<X>
+
+
+//POINTER #16 @ $39247 - STRING #16 @ $3976D
+
+#WRITE(Unit, $39247)
+Ethlin<X>
+
+
+//POINTER #17 @ $39249 - STRING #17 @ $39781
+
+#WRITE(Unit, $39249)
+Lachesis<X>
+
+
+//POINTER #18 @ $3924B - STRING #18 @ $398C1
+
+#WRITE(Unit, $3924B)
+Aira<X>
+
+
+//POINTER #19 @ $3924D - STRING #19 @ $39793
+
+#WRITE(Unit, $3924D)
+Fury<X>
+
+
+//POINTER #20 @ $3924F - STRING #20 @ $3979D
+
+#WRITE(Unit, $3924F)
+Tiltyu<X>
+
+
+//POINTER #21 @ $39251 - STRING #21 @ $397AB
+
+#WRITE(Unit, $39251)
+Sylvia<X>
+
+
+//POINTER #22 @ $39253 - STRING #22 @ $397B9
+
+#WRITE(Unit, $39253)
+Aideen<X>
+
+
+//POINTER #23 @ $39255 - STRING #23 @ $397C7
+
+#WRITE(Unit, $39255)
+Briggid<X>
+
+
+//POINTER #24 @ $39257 - STRING #24 @ $3A615
+
+#WRITE(Unit, $39257)
+Celice<X>
+
+
+//POINTER #25 @ $39259 - STRING #25 @ $39921
+
+#WRITE(Unit, $39259)
+Shanan<X>
+
+
+//POINTER #26 @ $3925B - STRING #26 @ $397E1
+
+#WRITE(Unit, $3925B)
+Rodolban<X>
+
+
+//POINTER #27 @ $3925D - STRING #27 @ $397F3
+
+#WRITE(Unit, $3925D)
+Asaello<X>
+
+
+//POINTER #28 @ $3925F - STRING #28 @ $3973B
+
+#WRITE(Unit, $3925F)
+Leaf<X>
+
+
+//POINTER #29 @ $39261 - STRING #29 @ $39CE5
+
+#WRITE(Unit, $39261)
+Johan<X>
+
+
+//POINTER #30 @ $39263 - STRING #30 @ $39803
+
+#WRITE(Unit, $39263)
+Sharlow<X>
+
+
+//POINTER #31 @ $39265 - STRING #31 @ $39813
+
+#WRITE(Unit, $39265)
+Hawk<X>
+
+
+//POINTER #32 @ $39267 - STRING #32 @ $3981D
+
+#WRITE(Unit, $39267)
+Tristan<X>
+
+
+//POINTER #34 @ $3926B - STRING #34 @ $3982D
+
+#WRITE(Unit, $3926B)
+Dimna<X>
+
+
+//POINTER #35 @ $3926D - STRING #35 @ $39839
+
+#WRITE(Unit, $3926D)
+Hannibal<X>
+
+
+//POINTER #36 @ $3926F - STRING #36 @ $39DB1
+
+#WRITE(Unit, $3926F)
+Aless<X>
+
+
+//POINTER #37 @ $39271 - STRING #37 @ $3984B
+
+#WRITE(Unit, $39271)
+Amid<X>
+
+
+//POINTER #38 @ $39273 - STRING #38 @ $39855
+
+#WRITE(Unit, $39273)
+Oifaye<X>
+
+
+//POINTER #39 @ $39275 - STRING #39 @ $39CB5
+
+#WRITE(Unit, $39275)
+Daisy<X>
+
+
+//POINTER #40 @ $39277 - STRING #40 @ $39865
+
+#WRITE(Unit, $39277)
+Radney<X>
+
+
+//POINTER #41 @ $39279 - STRING #41 @ $39873
+
+#WRITE(Unit, $39279)
+Mana<X>
+
+
+//POINTER #42 @ $3927B - STRING #42 @ $39EAD
+
+#WRITE(Unit, $3927B)
+Julia<X>
+
+
+//POINTER #43 @ $3927D - STRING #43 @ $39B71
+
+#WRITE(Unit, $3927D)
+Altenna<X>
+
+
+//POINTER #44 @ $3927F - STRING #44 @ $3987D
+
+#WRITE(Unit, $3927F)
+Femina<X>
+
+
+//POINTER #45 @ $39281 - STRING #45 @ $3988B
+
+#WRITE(Unit, $39281)
+Linda<X>
+
+
+//POINTER #46 @ $39283 - STRING #46 @ $39897
+
+#WRITE(Unit, $39283)
+Laylea<X>
+
+
+//POINTER #47 @ $39285 - STRING #47 @ $398A5
+
+#WRITE(Unit, $39285)
+Janne<X>
+
+
+//POINTER #48 @ $39287 - STRING #48 @ $398B1
+
+#WRITE(Unit, $39287)
+Johalva<X>
+
+
+//POINTER #49 @ $39289 - STRING #49 @ $39C93
+
+#WRITE(Unit, $39289)
+Skasaha<X>
+
+
+//POINTER #50 @ $3928B - STRING #50 @ $39F49
+
+#WRITE(Unit, $3928B)
+Faval<X>
+
+
+//POINTER #51 @ $3928D - STRING #51 @ $398CB
+
+#WRITE(Unit, $3928D)
+Corple<X>
+
+
+//POINTER #52 @ $3928F - STRING #52 @ $39721
+
+#WRITE(Unit, $3928F)
+Sety<X>
+
+
+//POINTER #53 @ $39291 - STRING #53 @ $3999D
+
+#WRITE(Unit, $39291)
+Delmud<X>
+
+
+//POINTER #54 @ $39293 - STRING #54 @ $398D9
+
+#WRITE(Unit, $39293)
+Lester<X>
+
+
+//POINTER #55 @ $39295 - STRING #55 @ $398E7
+
+#WRITE(Unit, $39295)
+Arthur<X>
+
+
+//POINTER #56 @ $39297 - STRING #56 @ $398F5
+
+#WRITE(Unit, $39297)
+Patty<X>
+
+
+//POINTER #57 @ $39299 - STRING #57 @ $39901
+
+#WRITE(Unit, $39299)
+Lakche<X>
+
+
+//POINTER #58 @ $3929B - STRING #58 @ $396DB
+
+#WRITE(Unit, $3929B)
+Lana<X>
+
+
+//POINTER #59 @ $3929D - STRING #59 @ $3990F
+
+#WRITE(Unit, $3929D)
+Fee<X>
+
+
+//POINTER #60 @ $3929F - STRING #60 @ $3A007
+
+#WRITE(Unit, $3929F)
+Tinny<X>
+
+
+//POINTER #61 @ $392A1 - STRING #61 @ $39917
+
+#WRITE(Unit, $392A1)
+Leen<X>
+
+
+//POINTER #62 @ $392A3 - STRING #62 @ $3A0BB
+
+#WRITE(Unit, $392A3)
+Nanna<X>
+
+
+//POINTER #63 @ $392A5 - STRING #63 @ $3996F
+
+#WRITE(Unit, $392A5)
+Gerrard<X>
+
+
+//POINTER #64 @ $392A7 - STRING #64 @ $39B91
+
+#WRITE(Unit, $392A7)
+DiMaggio<X>
+
+
+//POINTER #65 @ $392A9 - STRING #65 @ $3993F
+
+#WRITE(Unit, $392A9)
+#WRITE(Unit, $392AB)
+#WRITE(Unit, $392AD)
+#WRITE(Unit, $392AF)
+#WRITE(Unit, $392B1)
+#WRITE(Unit, $392B3)
+#WRITE(Unit, $392B7)
+#WRITE(Unit, $392B9)
+#WRITE(Unit, $392BB)
+#WRITE(Unit, $392BD)
+#WRITE(Unit, $392C3)
+#WRITE(Unit, $392C5)
+#WRITE(Unit, $392C7)
+#WRITE(Unit, $392CB)
+#WRITE(Unit, $392CD)
+#WRITE(Unit, $392D1)
+#WRITE(Unit, $395E5)
+Verdane<X>
+
+
+//POINTER #71 @ $392B5 - STRING #71 @ $3995F
+
+#WRITE(Unit, $392B5)
+Kinbois<X>
+
+
+//POINTER #76 @ $392BF - STRING #76 @ $3992F
+
+#WRITE(Unit, $392BF)
+Gandolf<X>
+
+
+//POINTER #77 @ $392C1 - STRING #77 @ $3994F
+
+#WRITE(Unit, $392C1)
+#WRITE(Unit, $392CF)
+#WRITE(Unit, $392DD)
+#WRITE(Unit, $392F9)
+#WRITE(Unit, $39317)
+#WRITE(Unit, $39321)
+#WRITE(Unit, $39325)
+#WRITE(Unit, $39345)
+#WRITE(Unit, $39349)
+#WRITE(Unit, $3934D)
+#WRITE(Unit, $39351)
+#WRITE(Unit, $39355)
+#WRITE(Unit, $39359)
+#WRITE(Unit, $3935F)
+#WRITE(Unit, $3939B)
+#WRITE(Unit, $393A3)
+#WRITE(Unit, $393E5)
+#WRITE(Unit, $39421)
+#WRITE(Unit, $39425)
+#WRITE(Unit, $39429)
+#WRITE(Unit, $3942F)
+#WRITE(Unit, $39457)
+#WRITE(Unit, $394A5)
+#WRITE(Unit, $394AB)
+#WRITE(Unit, $394B7)
+#WRITE(Unit, $394BF)
+#WRITE(Unit, $394C3)
+#WRITE(Unit, $394ED)
+#WRITE(Unit, $394F7)
+#WRITE(Unit, $394FB)
+#WRITE(Unit, $394FF)
+#WRITE(Unit, $39555)
+#WRITE(Unit, $3955B)
+#WRITE(Unit, $39561)
+Captain<X>
+
+
+//POINTER #81 @ $392C9 - STRING #81 @ $3997F
+
+#WRITE(Unit, $392C9)
+Sandima<X>
+
+
+
+//POINTER #86 @ $392D3 - STRING #86 @ $3998F
+
+#WRITE(Unit, $392D3)
+//#WRITE(Unit, $392FD)
+#WRITE(Unit, $393EB)
+#WRITE(Unit, $39439)
+#WRITE(Unit, $3945D)
+#WRITE(Unit, $3948F)
+#WRITE(Unit, $394A3)
+#WRITE(Unit, $394DB)
+#WRITE(Unit, $395E3)
+#WRITE(Unit, $395E7)
+#WRITE(Unit, $39603)
+Bandit<X>
+
+
+//POINTER #87 @ $392D5 - STRING #87 @ $399EB
+
+#WRITE(Unit, $392D5)
+#WRITE(Unit, $392F1)
+Elliot<X>
+
+
+//POINTER #88 @ $392D7 - STRING #88 @ $399C9
+
+#WRITE(Unit, $392D7)
+#WRITE(Unit, $392E1)
+#WRITE(Unit, $392E5)
+#WRITE(Unit, $392E7)
+#WRITE(Unit, $392E9)
+#WRITE(Unit, $392EB)
+#WRITE(Unit, $392ED)
+#WRITE(Unit, $392EF)
+#WRITE(Unit, $392F3)
+#WRITE(Unit, $392F5)
+#WRITE(Unit, $392F7)
+#WRITE(Unit, $392FD)
+#WRITE(Unit, $395E9)
+Heirhein<X>
+
+	
+//POINTER #89 @ $392D9 - STRING #89 @ $39AE3
+
+#WRITE(Unit, $392D9)
+#WRITE(Unit, $39363)
+Eltshan<X>
+
+
+//POINTER #90 @ $392DB - STRING #90 @ $399AB
+
+#WRITE(Unit, $392DB)
+#WRITE(Unit, $39365)
+CrossKnt<X>
+
+
+//POINTER #92 @ $392DF - STRING #92 @ $399BD
+
+#WRITE(Unit, $392DF)
+Boldo<X>
+
+
+//POINTER #94 @ $392E3 - STRING #94 @ $399DB
+
+#WRITE(Unit, $392E3)
+Phillip<X>
+
+
+//POINTER #106 @ $392FB - STRING #106 @ $39A11
+
+#WRITE(Unit, $392FB)
+#WRITE(Unit, $39305)
+#WRITE(Unit, $39307)
+#WRITE(Unit, $39309)
+Anphony<X>
+
+
+//POINTER #108 @ $392FF - STRING #108 @ $39A49
+
+#WRITE(Unit, $392FF)
+#WRITE(Unit, $39311)
+#WRITE(Unit, $39313)
+#WRITE(Unit, $39315)
+#WRITE(Unit, $39319)
+Mackily<X>
+
+
+//POINTER #109 @ $39301 - STRING #109 @ $399F9
+
+#WRITE(Unit, $39301)
+Eve<X>
+
+
+//POINTER #110 @ $39303 - STRING #110 @ $39A01
+
+#WRITE(Unit, $39303)
+Macbeth<X>
+
+
+//POINTER #114 @ $3930B - STRING #114 @ $39A21
+
+#WRITE(Unit, $3930B)
+Voltz<X>
+
+
+//POINTER #115 @ $3930D - STRING #115 @ $39A2F
+
+#WRITE(Unit, $3930D)
+#WRITE(Unit, $393D1)
+#WRITE(Unit, $393D3)
+#WRITE(Unit, $393D5)
+#WRITE(Unit, $393D7)
+#WRITE(Unit, $393D9)
+#WRITE(Unit, $393F9)
+#WRITE(Unit, $39453)
+#WRITE(Unit, $39479)
+#WRITE(Unit, $3947B)
+#WRITE(Unit, $394E3)
+#WRITE(Unit, $394E5)
+#WRITE(Unit, $3956F)
+#WRITE(Unit, $39571)
+#WRITE(Unit, $39575)
+#WRITE(Unit, $39577)
+#WRITE(Unit, $3957B)
+#WRITE(Unit, $3957D)
+#WRITE(Unit, $395EB)
+#WRITE(Unit, $39609)
+#WRITE(Unit, $3960B)
+Merc<X>
+
+
+//POINTER #116 @ $3930F - STRING #116 @ $39A39
+
+#WRITE(Unit, $3930F)
+Clement<X>
+
+
+//POINTER #122 @ $3931B - STRING #122 @ $39AF3
+
+#WRITE(Unit, $3931B)
+#WRITE(Unit, $39367)
+Shagall<X>
+
+
+//POINTER #123 @ $3931D - STRING #123 @ $39A7F
+
+#WRITE(Unit, $3931D)
+#WRITE(Unit, $3931F)
+#WRITE(Unit, $39323)
+#WRITE(Unit, $39327)
+#WRITE(Unit, $3932D)
+#WRITE(Unit, $3932F)
+#WRITE(Unit, $39331)
+#WRITE(Unit, $39333)
+#WRITE(Unit, $395ED)
+Agusty<X>
+
+
+//POINTER #129 @ $39329 - STRING #129 @ $39A65
+
+#WRITE(Unit, $39329)
+FurySqd<X>
+
+
+//POINTER #130 @ $3932B - STRING #130 @ $39A75
+
+#WRITE(Unit, $3932B)
+Zane<X>
+
+
+//POINTER #135 @ $39335 - STRING #135 @ $39A8D
+
+#WRITE(Unit, $39335)
+Eva<X>
+
+
+//POINTER #136 @ $39337 - STRING #136 @ $39A95
+
+#WRITE(Unit, $39337)
+Alva<X>
+
+
+//POINTER #137 @ $39339 - STRING #137 @ $39A9F
+
+#WRITE(Unit, $39339)
+Jacoban<X>
+
+
+//POINTER #138 @ $3933B - STRING #138 @ $39ABB
+
+#WRITE(Unit, $3933B)
+#WRITE(Unit, $3933D)
+#WRITE(Unit, $3933F)
+#WRITE(Unit, $39341)
+#WRITE(Unit, $39343)
+#WRITE(Unit, $39347)
+#WRITE(Unit, $3934B)
+#WRITE(Unit, $3934F)
+#WRITE(Unit, $39353)
+#WRITE(Unit, $39357)
+#WRITE(Unit, $3935B)
+#WRITE(Unit, $395EF)
+#WRITE(Unit, $395F1)
+#WRITE(Unit, $395F3)
+#WRITE(Unit, $395F5)
+#WRITE(Unit, $395F7)
+Madino<X>
+
+
+//POINTER #155 @ $3935D - STRING #155 @ $39AC9
+
+#WRITE(Unit, $3935D)
+#WRITE(Unit, $39371)
+#WRITE(Unit, $39373)
+#WRITE(Unit, $39375)
+#WRITE(Unit, $39377)
+#WRITE(Unit, $3937B)
+#WRITE(Unit, $3937F)
+#WRITE(Unit, $39381)
+#WRITE(Unit, $39383)
+#WRITE(Unit, $39385)
+#WRITE(Unit, $393AD)
+#WRITE(Unit, $3951D)
+#WRITE(Unit, $39621)
+Pirate<X>
+
+
+//POINTER #157 @ $39361 - STRING #157 @ $39B03
+
+#WRITE(Unit, $39361)
+#WRITE(Unit, $39369)
+#WRITE(Unit, $3936B)
+Silvail<X>
+
+
+//POINTER #163 @ $3936D - STRING #163 @ $39B13
+
+#WRITE(Unit, $3936D)
+Papilon<X>
+
+
+//POINTER #164 @ $3936F - STRING #164 @ $3A237
+
+#WRITE(Unit, $3936F)
+#WRITE(Unit, $39407)
+#WRITE(Unit, $394B9)
+#WRITE(Unit, $394BD)
+#WRITE(Unit, $394C1)
+#WRITE(Unit, $394C5)
+#WRITE(Unit, $394D7)
+#WRITE(Unit, $394D9)
+#WRITE(Unit, $394E9)
+#WRITE(Unit, $394F9)
+#WRITE(Unit, $394FD)
+#WRITE(Unit, $39501)
+#WRITE(Unit, $395CD)
+#WRITE(Unit, $39615)
+#WRITE(Unit, $39617)
+Thracia<X>
+
+
+//POINTER #169 @ $39379 - STRING #169 @ $39B23
+
+#WRITE(Unit, $39379)
+Dobarl<X>
+
+
+//POINTER #171 @ $3937D - STRING #171 @ $39B31
+
+#WRITE(Unit, $3937D)
+Pizarl<X>
+
+
+//POINTER #177 @ $39389 - STRING #177 @ $39B5F
+
+//#WRITE(Unit, $39389)
+//ka<X>
+
+
+//POINTER #179 @ $3938D - STRING #179 @ $39B7D
+
+//#WRITE(Unit, $3938D)
+//a<X>
+
+
+//POINTER #181 @ $39391 - STRING #181 @ $39B99
+
+//#WRITE(Unit, $39391)
+//ggio<X>
+
+
+//POINTER #182 @ $39393 - STRING #182 @ $39C17
+
+#WRITE(Unit, $39393)
+PamSqd<X>
+
+
+//POINTER #183 @ $39395 - STRING #183 @ $39B3F
+
+#WRITE(Unit, $39395)
+Maios<X>
+
+
+//POINTER #184 @ $39397 - STRING #184 @ $39BCF
+
+#WRITE(Unit, $39397)
+#WRITE(Unit, $39399)
+#WRITE(Unit, $3939D)
+#WRITE(Unit, $393A1)
+#WRITE(Unit, $393A5)
+#WRITE(Unit, $393A7)
+#WRITE(Unit, $395FB)
+Thove<X>
+
+
+//POINTER #188 @ $3939F - STRING #188 @ $39B4B
+
+#WRITE(Unit, $3939F)
+Cuvuli<X>
+
+
+//POINTER #193 @ $393A9 - STRING #193 @ $39BA3
+
+#WRITE(Unit, $393A9)
+Deetva<X>
+
+
+//POINTER #194 @ $393AB - STRING #194 @ $39BDB
+
+#WRITE(Unit, $393AB)
+#WRITE(Unit, $395FD)
+DeetSqd<X>
+
+
+//POINTER #196 @ $393AF - STRING #196 @ $39BB1
+
+#WRITE(Unit, $393AF)
+Silesia<X>
+
+
+//POINTER #197 @ $393B1 - STRING #197 @ $39BC1
+
+#WRITE(Unit, $393B1)
+Daccar<X>
+
+
+//POINTER #198 @ $393B3 - STRING #198 @ $39BEB
+
+#WRITE(Unit, $393B3)
+Mahnya<X>
+
+
+//POINTER #199 @ $393B5 - STRING #199 @ $39BF9
+
+#WRITE(Unit, $393B5)
+MahnSqd<X>
+
+
+//POINTER #200 @ $393B7 - STRING #200 @ $39C09
+
+#WRITE(Unit, $393B7)
+Pamela<X>
+
+
+//POINTER #201 @ $393B9 - STRING #201 @ $39C17
+
+#WRITE(Unit, $393B9)
+PamSqd<X>
+
+
+//POINTER #202 @ $393BB - STRING #202 @ $39D23
+
+#WRITE(Unit, $393BB)
+#WRITE(Unit, $393F7)
+Andre<X>
+
+
+//POINTER #203 @ $393BD - STRING #203 @ $3A163
+
+#WRITE(Unit, $393BD)
+#WRITE(Unit, $3959F)
+#WRITE(Unit, $395A1)
+BeigeRt<X>
+
+
+//POINTER #204 @ $393BF - STRING #204 @ $39C33
+
+#WRITE(Unit, $393BF)
+#WRITE(Unit, $393C1)
+#WRITE(Unit, $394B3)
+#WRITE(Unit, $394B5)
+Civilian<X>
+
+
+//POINTER #206 @ $393C3 - STRING #206 @ $39C45
+
+#WRITE(Unit, $393C3)
+Donovan<X>
+
+
+//POINTER #207 @ $393C5 - STRING #207 @ $39C55
+
+#WRITE(Unit, $393C5)
+#WRITE(Unit, $393C7)
+#WRITE(Unit, $393C9)
+#WRITE(Unit, $393CB)
+#WRITE(Unit, $393CD)
+#WRITE(Unit, $395FF)
+Zaxon<X>
+
+
+//POINTER #212 @ $393CF - STRING #212 @ $39C61
+
+#WRITE(Unit, $393CF)
+Lamia<X>
+
+
+//POINTER #218 @ $393DB - STRING #218 @ $39CC3
+
+#WRITE(Unit, $393DB)
+Langbart<X>
+
+
+//POINTER #219 @ $393DD - STRING #219 @ $39CD1
+
+//#WRITE(Unit, $393DD)
+//t<X>
+
+
+//POINTER #220 @ $393DF - STRING #220 @ $39D09
+
+#WRITE(Unit, $393DF)
+#WRITE(Unit, $393E3)
+#WRITE(Unit, $393E7)
+#WRITE(Unit, $393E9)
+#WRITE(Unit, $393F3)
+#WRITE(Unit, $39601)
+#WRITE(Unit, $3938B)
+Lubeck<X>
+
+
+//POINTER #221 @ $393E1 - STRING #221 @ $39CD5
+
+#WRITE(Unit, $393E1)
+Slayder<X>
+
+
+//POINTER #227 @ $393ED - STRING #227 @ $39CFB
+
+#WRITE(Unit, $393ED)
+Hardin<X>
+
+
+//POINTER #228 @ $393EF - STRING #228 @ $3A0D7
+
+#WRITE(Unit, $393EF)
+#WRITE(Unit, $393F1)
+#WRITE(Unit, $3951B)
+#WRITE(Unit, $39523)
+#WRITE(Unit, $39525)
+#WRITE(Unit, $39527)
+#WRITE(Unit, $39529)
+#WRITE(Unit, $39531)
+#WRITE(Unit, $39533)
+#WRITE(Unit, $39535)
+#WRITE(Unit, $39537)
+#WRITE(Unit, $39539)
+#WRITE(Unit, $3953B)
+#WRITE(Unit, $3953D)
+#WRITE(Unit, $3953F)
+#WRITE(Unit, $3954D)
+#WRITE(Unit, $39569)
+#WRITE(Unit, $3956B)
+#WRITE(Unit, $3958B)
+#WRITE(Unit, $3958D)
+#WRITE(Unit, $395AB)
+#WRITE(Unit, $395AF)
+#WRITE(Unit, $39623)
+Lopto<X>
+
+
+//POINTER #231 @ $393F5 - STRING #231 @ $39D17
+
+#WRITE(Unit, $393F5)
+Byron<X>
+
+
+//POINTER #234 @ $393FB - STRING #234 @ $39D41
+
+#WRITE(Unit, $393FB)
+Vaha<X>
+
+
+//POINTER #235 @ $393FD - STRING #235 @ $39D85
+
+#WRITE(Unit, $393FD)
+#WRITE(Unit, $3940D)
+#WRITE(Unit, $39423)
+#WRITE(Unit, $39427)
+#WRITE(Unit, $3942B)
+Velthom<X>
+
+
+//POINTER #236 @ $393FF - STRING #236 @ $39D4B
+
+#WRITE(Unit, $393FF)
+#WRITE(Unit, $3949B)
+Priest<X>
+
+
+//POINTER #237 @ $39401 - STRING #237 @ $39D2F
+
+#WRITE(Unit, $39401)
+Dreizehn<X>
+
+
+//POINTER #238 @ $39403 - STRING #238 @ $39FC1
+
+#WRITE(Unit, $39403)
+#WRITE(Unit, $394E7)
+Trabant<X>
+
+
+//POINTER #239 @ $39405 - STRING #239 @ $39D59
+
+#WRITE(Unit, $39405)
+Magorn<X>
+
+
+//POINTER #241 @ $39409 - STRING #241 @ $39D6B
+
+#WRITE(Unit, $39409)
+Lenster<X>
+
+
+//POINTER #242 @ $3940B - STRING #242 @ $39D7B
+
+#WRITE(Unit, $3940B)
+Aida<X>
+
+
+//POINTER #244 @ $3940F - STRING #244 @ $39D95
+
+#WRITE(Unit, $3940F)
+Reptor<X>
+
+
+//POINTER #245 @ $39411 - STRING #245 @ $39DA3
+
+#WRITE(Unit, $39411)
+#WRITE(Unit, $39413)
+#WRITE(Unit, $39415)
+#WRITE(Unit, $39417)
+#WRITE(Unit, $39419)
+#WRITE(Unit, $3941D)
+#WRITE(Unit, $3941F)
+Freege<X>
+
+
+//POINTER #250 @ $3941B - STRING #250 @ $39CA9
+
+#WRITE(Unit, $3941B)
+#WRITE(Unit, $39485)
+#WRITE(Unit, $3948D)
+#WRITE(Unit, $395A7)
+Guard<X>
+
+
+//POINTER #261 @ $39431 - STRING #261 @ $39C25
+
+#WRITE(Unit, $39431)
+Ronald<X>
+
+
+//POINTER #262 @ $39433 - STRING #262 @ $39DD9
+
+#WRITE(Unit, $39433)
+Harold<X>
+
+
+//POINTER #263 @ $39435 - STRING #263 @ $39E23
+
+#WRITE(Unit, $39435)
+#WRITE(Unit, $39437)
+#WRITE(Unit, $39449)
+#WRITE(Unit, $3944B)
+Ganei<X>
+
+
+//POINTER #266 @ $3943B - STRING #266 @ $39DF9
+
+#WRITE(Unit, $3943B)
+#WRITE(Unit, $39441)
+Sophara<X>
+
+
+//POINTER #267 @ $3943D - STRING #267 @ $39DED
+
+#WRITE(Unit, $3943D)
+#WRITE(Unit, $3943F)
+#WRITE(Unit, $39605)
+Isaac<X>
+
+
+//POINTER #270 @ $39443 - STRING #270 @ $39E05
+
+#WRITE(Unit, $39443)
+Schmit<X>
+
+
+//POINTER #271 @ $39445 - STRING #271 @ $39E13
+
+#WRITE(Unit, $39445)
+Rivough<X>
+
+
+//POINTER #272 @ $39447 - STRING #272 @ $39E55
+
+#WRITE(Unit, $39447)
+Danan<X>
+
+
+//POINTER #275 @ $3944D - STRING #275 @ $39E31
+
+#WRITE(Unit, $3944D)
+#WRITE(Unit, $395E1)
+Cutozov<X>
+
+
+//POINTER #276 @ $3944F - STRING #276 @ $39E3F
+
+#WRITE(Unit, $3944F)
+#WRITE(Unit, $39451)
+#WRITE(Unit, $39455)
+#WRITE(Unit, $39483)
+Yied<X>
+
+
+//POINTER #281 @ $39459 - STRING #281 @ $39EB9
+
+#WRITE(Unit, $39459)
+#WRITE(Unit, $3945B)
+#WRITE(Unit, $39461)
+Alster<X>
+
+
+//POINTER #284 @ $3945F - STRING #284 @ $39E49
+
+#WRITE(Unit, $3945F)
+#WRITE(Unit, $394AF)
+Blume<X>
+
+
+//POINTER #286 @ $39463 - STRING #286 @ $39DA1
+
+#WRITE(Unit, $39463)
+Darna<X>
+
+
+//POINTER #287 @ $39465 - STRING #287 @ $39E61
+
+#WRITE(Unit, $39465)
+Ishtor<X>
+
+
+//POINTER #288 @ $39467 - STRING #288 @ $39E75
+
+#WRITE(Unit, $39467)
+#WRITE(Unit, $3946B)
+#WRITE(Unit, $3946D)
+#WRITE(Unit, $3946F)
+#WRITE(Unit, $39471)
+#WRITE(Unit, $39473)
+#WRITE(Unit, $39475)
+//#WRITE(Unit, $39607)
+//#WRITE(Unit, $3960D)
+//#WRITE(Unit, $3960F)
+//#WRITE(Unit, $39611)
+//#WRITE(Unit, $39613)
+//I believe these should be Conote.
+//#WRITE(Unit, $3938F)
+Melgen<X>
+
+
+//POINTER #289 @ $39469 - STRING #289 @ $39E6D
+
+#WRITE(Unit, $39469)
+Liza<X>
+
+
+//POINTER #296 @ $39477 - STRING #296 @ $39E81
+
+#WRITE(Unit, $39477)
+Jabarro<X>
+
+
+//POINTER #299 @ $3947D - STRING #299 @ $39E91
+
+#WRITE(Unit, $3947D)
+Bramsel<X>
+
+
+//POINTER #300 @ $3947F - STRING #300 @ $39DA1
+
+//#WRITE(Unit, $3947F)
+//<X>
+
+
+//POINTER #301 @ $39481 - STRING #301 @ $39DA1
+
+//#WRITE(Unit, $39481)
+//<X>
+
+
+//POINTER #304 @ $39487 - STRING #304 @ $39EC7
+
+#WRITE(Unit, $39487)
+#WRITE(Unit, $394C9)
+Vampa<X>
+
+
+//POINTER #305 @ $39489 - STRING #305 @ $39ED1
+
+#WRITE(Unit, $39489)
+#WRITE(Unit, $394CB)
+Fetra<X>
+
+
+//POINTER #306 @ $3948B - STRING #306 @ $39EDB
+
+#WRITE(Unit, $3948B)
+#WRITE(Unit, $394CD)
+Eliu<X>
+
+
+//POINTER #309 @ $39491 - STRING #309 @ $39EE3
+
+#WRITE(Unit, $39491)
+High<X>
+
+
+//POINTER #310 @ $39493 - STRING #310 @ $39EEF
+
+#WRITE(Unit, $39493)
+Muhammed<X>
+
+
+//POINTER #311 @ $39495 - STRING #311 @ $39F2B
+
+#WRITE(Unit, $39495)
+#WRITE(Unit, $39497)
+#WRITE(Unit, $39499)
+#WRITE(Unit, $3949F)
+#WRITE(Unit, $394A1)
+#WRITE(Unit, $394A7)
+#WRITE(Unit, $394AD)
+#WRITE(Unit, $394B1)
+#WRITE(Unit, $39607)
+#WRITE(Unit, $3960D)
+#WRITE(Unit, $3960F)
+#WRITE(Unit, $39611)
+#WRITE(Unit, $39613)
+#WRITE(Unit, $3938F)
+Conote<X>
+
+
+//POINTER #315 @ $3949D - STRING #315 @ $39F01
+
+#WRITE(Unit, $3949D)
+Ovo<X>
+
+
+//POINTER #321 @ $394A9 - STRING #321 @ $39F13
+
+#WRITE(Unit, $394A9)
+#WRITE(Unit, $39543)
+#WRITE(Unit, $395CF)
+Ishtar<X>
+
+
+//POINTER #330 @ $394BB - STRING #330 @ $39F3F
+
+#WRITE(Unit, $394BB)
+Coruta<X>
+
+
+//POINTER #336 @ $394C7 - STRING #336 @ $39F61
+
+#WRITE(Unit, $394C7)
+Maikov<X>
+
+
+//POINTER #340 @ $394CF - STRING #340 @ $39F91
+
+#WRITE(Unit, $394CF)
+#WRITE(Unit, $394D1)
+#WRITE(Unit, $394D3)
+#WRITE(Unit, $394D5)
+#WRITE(Unit, $394E1)
+#WRITE(Unit, $39619)
+#WRITE(Unit, $3961B)
+Kapath<X>
+
+
+//POINTER #347 @ $394DD - STRING #347 @ $39FA9
+
+#WRITE(Unit, $394DD)
+Kanatz<X>
+
+
+//POINTER #348 @ $394DF - STRING #348 @ $39FB3
+
+#WRITE(Unit, $394DF)
+Disler<X>
+
+
+//POINTER #354 @ $394EB - STRING #354 @ $39FD1
+
+#WRITE(Unit, $394EB)
+Judah<X>
+
+
+//POINTER #356 @ $394EF - STRING #356 @ $39FDD
+
+#WRITE(Unit, $394EF)
+Grutia<X>
+
+
+//POINTER #357 @ $394F1 - STRING #357 @ $3A22B
+
+#WRITE(Unit, $394F1)
+#WRITE(Unit, $395CB)
+Arion<X>
+
+
+//POINTER #358 @ $394F3 - STRING #358 @ $39FF7
+
+#WRITE(Unit, $394F3)
+#WRITE(Unit, $394F5)
+#WRITE(Unit, $3961D)
+DrgnKnt<X>
+
+
+//POINTER #366 @ $39503 - STRING #366 @ $3A01F
+
+#WRITE(Unit, $39503)
+Musar<X>
+
+
+//POINTER #367 @ $39505 - STRING #367 @ $3A029
+
+#WRITE(Unit, $39505)
+#WRITE(Unit, $39507)
+#WRITE(Unit, $39509)
+#WRITE(Unit, $3950B)
+Imperial<X>
+
+
+//POINTER #371 @ $3950D - STRING #371 @ $3A031
+
+#WRITE(Unit, $3950D)
+Ridale<X>
+
+
+//POINTER #372 @ $3950F - STRING #372 @ $3A03B
+
+#WRITE(Unit, $3950F)
+#WRITE(Unit, $39511)
+#WRITE(Unit, $39513)
+#WRITE(Unit, $39515)
+#WRITE(Unit, $39517)
+RidSqd<X>
+
+
+//POINTER #377 @ $39519 - STRING #377 @ $3A049
+
+#WRITE(Unit, $39519)
+Morrigan<X>
+
+
+//POINTER #380 @ $3951F - STRING #380 @ $3A05D
+
+#WRITE(Unit, $3951F)
+#WRITE(Unit, $395A3)
+Hilda<X>
+
+
+//POINTER #381 @ $39521 - STRING #381 @ $3A065
+
+#WRITE(Unit, $39521)
+DrkBis<X>
+
+
+//POINTER #386 @ $3952B - STRING #386 @ $3A0B3
+
+#WRITE(Unit, $3952B)
+#WRITE(Unit, $3952D)
+#WRITE(Unit, $39551)
+#WRITE(Unit, $39553)
+Child<X>
+
+
+//POINTER #388 @ $3952F - STRING #388 @ $3A073
+
+#WRITE(Unit, $3952F)
+Zagam<X>
+
+
+//POINTER #399 @ $39545 - STRING #399 @ $39DBD
+
+#WRITE(Unit, $39545)
+#WRITE(Unit, $39387)
+#WRITE(Unit, $3942D)
+Alvis<X>
+
+
+//POINTER #400 @ $39547 - STRING #400 @ $3A0C7
+
+#WRITE(Unit, $39547)
+#WRITE(Unit, $39549)
+#WRITE(Unit, $3954B)
+#WRITE(Unit, $39557)
+#WRITE(Unit, $39559)
+#WRITE(Unit, $3955D)
+#WRITE(Unit, $3955F)
+#WRITE(Unit, $39563)
+#WRITE(Unit, $39565)
+#WRITE(Unit, $39567)
+RotRit<X>
+
+
+//POINTER #404 @ $3954F - STRING #404 @ $3A0A7
+
+#WRITE(Unit, $3954F)
+Palmark<X>
+
+
+//POINTER #419 @ $3956D - STRING #419 @ $39CF1
+
+#WRITE(Unit, $3956D)
+Rena<X>
+
+
+//POINTER #422 @ $39573 - STRING #422 @ $3A0E5
+
+#WRITE(Unit, $39573)
+Robert<X>
+
+
+//POINTER #425 @ $39579 - STRING #425 @ $3A0F3
+
+#WRITE(Unit, $39579)
+Boyce<X>
+
+
+//POINTER #428 @ $3957F - STRING #428 @ $3A101
+
+#WRITE(Unit, $3957F)
+Rodan<X>
+
+
+//POINTER #429 @ $39581 - STRING #429 @ $3A109
+
+#WRITE(Unit, $39581)
+#WRITE(Unit, $39583)
+#WRITE(Unit, $39585)
+#WRITE(Unit, $39587)
+Edda<X>
+
+
+//POINTER #433 @ $39589 - STRING #433 @ $3A113
+
+#WRITE(Unit, $39589)
+Yupheel<X>
+
+
+//POINTER #436 @ $3958F - STRING #436 @ $3A11F
+
+#WRITE(Unit, $3958F)
+Fisher<X>
+
+
+//POINTER #437 @ $39591 - STRING #437 @ $3A141
+
+#WRITE(Unit, $39591)
+#WRITE(Unit, $39593)
+#WRITE(Unit, $39597)
+#WRITE(Unit, $39599)
+GraunRt<X>
+
+
+//POINTER #439 @ $39595 - STRING #439 @ $3A137
+
+#WRITE(Unit, $39595)
+Burian<X>
+
+
+//POINTER #442 @ $3959B - STRING #442 @ $3A151
+
+#WRITE(Unit, $3959B)
+Daggon<X>
+
+
+//POINTER #443 @ $3959D - STRING #443 @ $3A159
+
+#WRITE(Unit, $3959D)
+Scorpio<X>
+
+
+//POINTER #447 @ $395A5 - STRING #447 @ $3A17B
+
+#WRITE(Unit, $395A5)
+GelbeRt<X>
+
+
+//POINTER #449 @ $395A9 - STRING #449 @ $3A199
+
+#WRITE(Unit, $395A9)
+#WRITE(Unit, $395AD)
+Manfloy<X>
+
+
+//POINTER #453 @ $395B1 - STRING #453 @ $3A085
+
+#WRITE(Unit, $395B1)
+#WRITE(Unit, $39541)
+Julius<X>
+
+
+//POINTER #454 @ $395B3 - STRING #454 @ $3A1B9
+
+#WRITE(Unit, $395B3)
+Eins<X>
+
+
+//POINTER #455 @ $395B5 - STRING #455 @ $3A1C3
+
+#WRITE(Unit, $395B5)
+#WRITE(Unit, $3961F)
+Zwei<X>
+
+
+//POINTER #456 @ $395B7 - STRING #456 @ $3A1CD
+
+#WRITE(Unit, $395B7)
+Drei<X>
+
+
+//POINTER #457 @ $395B9 - STRING #457 @ $3A1D5
+
+#WRITE(Unit, $395B9)
+Vier<X>
+
+
+//POINTER #458 @ $395BB - STRING #458 @ $3A1DF
+
+#WRITE(Unit, $395BB)
+Funf<X>
+
+
+//POINTER #459 @ $395BD - STRING #459 @ $3A1E9
+
+#WRITE(Unit, $395BD)
+Sechs<X>
+
+
+//POINTER #460 @ $395BF - STRING #460 @ $3A1F1
+
+#WRITE(Unit, $395BF)
+Sieben<X>
+
+
+//POINTER #461 @ $395C1 - STRING #461 @ $3A1FD
+
+#WRITE(Unit, $395C1)
+Acht<X>
+
+
+//POINTER #462 @ $395C3 - STRING #462 @ $3A205
+
+#WRITE(Unit, $395C3)
+Neun<X>
+
+
+//POINTER #463 @ $395C5 - STRING #463 @ $3A20D
+
+#WRITE(Unit, $395C5)
+Zehn<X>
+
+
+//POINTER #464 @ $395C7 - STRING #464 @ $3A217
+
+#WRITE(Unit, $395C7)
+Elf<X>
+
+
+//POINTER #465 @ $395C9 - STRING #465 @ $3A21F
+
+#WRITE(Unit, $395C9)
+Zwolf<X>
+
+
+//POINTER #469 @ $395D1 - STRING #469 @ $3A247
+
+#WRITE(Unit, $395D1)
+Meng<X>
+
+
+//POINTER #470 @ $395D3 - STRING #470 @ $3A24F
+
+#WRITE(Unit, $395D3)
+Maybell<X>
+
+
+//POINTER #471 @ $395D5 - STRING #471 @ $3A259
+
+#WRITE(Unit, $395D5)
+Bleg<X>
+
+
+//POINTER #472 @ $395D7 - STRING #472 @ $3A26B
+
+#WRITE(Unit, $395D7)
+#WRITE(Unit, $395D9)
+#WRITE(Unit, $395DB)
+#WRITE(Unit, $395DD)
+Barhara<X>
+
+
+//POINTER #476 @ $395DF - STRING #476 @ $3A27D
+
+#WRITE(Unit, $395DF)
+Baran<X>
+
+
+//POINTER #489 @ $395F9 - STRING #489 @ $39B05
+
+//#WRITE(Unit, $395F9)
+//ilvail<X>
+
+
+//POINTER #511 @ $39625 - STRING #511 @ $3A285
+
+#WRITE(Unit, $39625)
+Gazak<X>
+
+
+//POINTER #512 @ $39627 - STRING #512 @ $3A28F
+
+#WRITE(Unit, $39627)
+Clotho<X>
+
+
+//POINTER #513 @ $39629 - STRING #513 @ $3A299
+
+#WRITE(Unit, $39629)
+Weissman<X>
+
+
+//POINTER #514 @ $3962B - STRING #514 @ $3A2A5
+
+#WRITE(Unit, $3962B)
+Shark<X>
+
+
+//POINTER #515 @ $3962D - STRING #515 @ $3A2AF
+
+#WRITE(Unit, $3962D)
+Hood<X>
+
+
+//POINTER #516 @ $3962F - STRING #516 @ $3A2B7
+
+#WRITE(Unit, $3962F)
+Bacchus<X>
+
+
+//POINTER #517 @ $39631 - STRING #517 @ $3A2C1
+
+#WRITE(Unit, $39631)
+Emmile<X>
+
+
+//POINTER #518 @ $39633 - STRING #518 @ $3A2CB
+
+#WRITE(Unit, $39633)
+Dulles<X>
+
+
+//POINTER #519 @ $39635 - STRING #519 @ $3A2D3
+
+#WRITE(Unit, $39635)
+Jirou<X>
+
+
+//POINTER #520 @ $39637 - STRING #520 @ $3A2DB
+
+#WRITE(Unit, $39637)
+Mahatma<X>
+
+
+//POINTER #521 @ $39639 - STRING #521 @ $3A2E5
+
+#WRITE(Unit, $39639)
+Lovin<X>
+
+
+//POINTER #522 @ $3963B - STRING #522 @ $3A2EF
+
+#WRITE(Unit, $3963B)
+Backnun<X>
+
+
+//POINTER #523 @ $3963D - STRING #523 @ $3A2FB
+
+#WRITE(Unit, $3963D)
+Milley<X>
+
+
+//POINTER #524 @ $3963F - STRING #524 @ $3A303
+
+#WRITE(Unit, $3963F)
+Hertzog<X>
+
+
+//POINTER #525 @ $39641 - STRING #525 @ $3A30F
+
+#WRITE(Unit, $39641)
+Chekov<X>
+
+
+//POINTER #526 @ $39643 - STRING #526 @ $3A319
+
+#WRITE(Unit, $39643)
+Keimos<X>
+
+
+//POINTER #527 @ $39645 - STRING #527 @ $3A323
+
+#WRITE(Unit, $39645)
+Marilyn<X>
+
+
+//POINTER #528 @ $39647 - STRING #528 @ $3A32D
+
+#WRITE(Unit, $39647)
+Taylor<X>
+
+
+//POINTER #529 @ $39649 - STRING #529 @ $3A337
+
+#WRITE(Unit, $39649)
+#WRITE(Unit, $3966F)
+Ripp<X>
+
+
+//POINTER #530 @ $3964B - STRING #530 @ $3A33F
+
+#WRITE(Unit, $3964B)
+Perio<X>
+
+
+//POINTER #531 @ $3964D - STRING #531 @ $3A347
+
+#WRITE(Unit, $3964D)
+Trevic<X>
+
+
+//POINTER #532 @ $3964F - STRING #532 @ $3A353
+
+#WRITE(Unit, $3964F)
+Gellar<X>
+
+
+//POINTER #533 @ $39651 - STRING #533 @ $3A35B
+
+#WRITE(Unit, $39651)
+Bazan<X>
+
+
+//POINTER #534 @ $39653 - STRING #534 @ $3A363
+
+#WRITE(Unit, $39653)
+Doma<X>
+
+
+//POINTER #535 @ $39655 - STRING #535 @ $3A36B
+
+#WRITE(Unit, $39655)
+Keller<X>
+
+
+//POINTER #536 @ $39657 - STRING #536 @ $3A373
+
+#WRITE(Unit, $39657)
+Torton<X>
+
+
+//POINTER #537 @ $39659 - STRING #537 @ $3A37F
+
+#WRITE(Unit, $39659)
+Mario<X>
+
+
+//POINTER #538 @ $3965B - STRING #538 @ $3A387
+
+#WRITE(Unit, $3965B)
+Kemall<X>
+
+
+//POINTER #539 @ $3965D - STRING #539 @ $3A38F
+
+#WRITE(Unit, $3965D)
+Karedin<X>
+
+
+//POINTER #540 @ $3965F - STRING #540 @ $3A39B
+
+#WRITE(Unit, $3965F)
+Keith<X>
+
+
+//POINTER #541 @ $39661 - STRING #541 @ $3A3A3
+
+#WRITE(Unit, $39661)
+Sangor<X>
+
+
+//POINTER #542 @ $39663 - STRING #542 @ $3A3AF
+
+#WRITE(Unit, $39663)
+Nikita<X>
+
+
+//POINTER #543 @ $39665 - STRING #543 @ $3A3B9
+
+#WRITE(Unit, $39665)
+Nene<X>
+
+
+//POINTER #544 @ $39667 - STRING #544 @ $3A3BF
+
+#WRITE(Unit, $39667)
+Kraff<X>
+
+
+//POINTER #545 @ $39669 - STRING #545 @ $3A3C7
+
+#WRITE(Unit, $39669)
+Nikias<X>
+
+
+//POINTER #546 @ $3966B - STRING #546 @ $3A3D1
+
+#WRITE(Unit, $3966B)
+Atlas<X>
+
+
+//POINTER #547 @ $3966D - STRING #547 @ $3A3DB
+
+#WRITE(Unit, $3966D)
+Jackal<X>
+
+
+//POINTER #549 @ $39671 - STRING #549 @ $3A3EF
+
+#WRITE(Unit, $39671)
+Greias<X>
+
+
+//POINTER #550 @ $39673 - STRING #550 @ $3A3FB
+
+#WRITE(Unit, $39673)
+Geese<X>
+
+
+//POINTER #551 @ $39675 - STRING #551 @ $3A403
+
+#WRITE(Unit, $39675)
+Lee<X>
+
+
+//POINTER #552 @ $39677 - STRING #552 @ $3A409
+
+#WRITE(Unit, $39677)
+Shisel<X>
+
+
+//POINTER #553 @ $39679 - STRING #553 @ $3A415
+
+#WRITE(Unit, $39679)
+Hawks<X>
+
+
+//POINTER #554 @ $3967B - STRING #554 @ $3A41F
+
+#WRITE(Unit, $3967B)
+Nazarl<X>
+
+
+//POINTER #555 @ $3967D - STRING #555 @ $3A429
+
+#WRITE(Unit, $3967D)
+Ricardo<X>
+
+
+//POINTER #556 @ $3967F - STRING #556 @ $3A431
+
+#WRITE(Unit, $3967F)
+Tolstoy<X>
+
+
+//POINTER #557 @ $39681 - STRING #557 @ $3A43D
+
+#WRITE(Unit, $39681)
+Botman<X>
+
+
+//POINTER #558 @ $39683 - STRING #558 @ $3A447
+
+#WRITE(Unit, $39683)
+Kruge<X>
+
+
+//POINTER #559 @ $39685 - STRING #559 @ $3A453
+
+#WRITE(Unit, $39685)
+Mansten<X>
+
+
+//POINTER #560 @ $39687 - STRING #560 @ $3A461
+
+#WRITE(Unit, $39687)
+Kashim<X>
+
+
+//POINTER #561 @ $39689 - STRING #561 @ $3A469
+
+#WRITE(Unit, $39689)
+Hepner<X>
+
+
+//POINTER #562 @ $3968B - STRING #562 @ $3A473
+
+#WRITE(Unit, $3968B)
+Randok<X>
+
+
+//POINTER #563 @ $3968D - STRING #563 @ $3A47F
+
+#WRITE(Unit, $3968D)
+Wolf<X>
+
+
+//POINTER #564 @ $3968F - STRING #564 @ $3A489
+
+#WRITE(Unit, $3968F)
+Dewy<X>
+
+
+//POINTER #565 @ $39691 - STRING #565 @ $3A493
+
+#WRITE(Unit, $39691)
+Fate<X>
+
+
+//POINTER #566 @ $39693 - STRING #566 @ $3A49D
+
+#WRITE(Unit, $39693)
+Malshak<X>
+
+
+//POINTER #567 @ $39695 - STRING #567 @ $3A4AB
+
+#WRITE(Unit, $39695)
+Louis<X>
+
+
+//POINTER #568 @ $39697 - STRING #568 @ $3A4B3
+
+#WRITE(Unit, $39697)
+Heste<X>
+
+
+//POINTER #569 @ $39699 - STRING #569 @ $3A4BB
+
+#WRITE(Unit, $39699)
+Marda<X>
+
+
+//POINTER #570 @ $3969B - STRING #570 @ $3A4C3
+
+#WRITE(Unit, $3969B)
+Jisment<X>
+
+
+//POINTER #571 @ $3969D - STRING #571 @ $3A4CF
+
+#WRITE(Unit, $3969D)
+Xenon<X>
+
+
+//POINTER #572 @ $3969F - STRING #572 @ $3A4D7
+
+#WRITE(Unit, $3969F)
+Jackson<X>
+
+
+//POINTER #573 @ $396A1 - STRING #573 @ $3A4E3
+
+#WRITE(Unit, $396A1)
+#WRITE(Unit, $396C3)
+Indra<X>
+
+
+//POINTER #574 @ $396A3 - STRING #574 @ $3A4ED
+
+#WRITE(Unit, $396A3)
+Niche<X>
+
+
+//POINTER #575 @ $396A5 - STRING #575 @ $3A4F7
+
+#WRITE(Unit, $396A5)
+Apostle<X>
+
+
+//POINTER #576 @ $396A7 - STRING #576 @ $3A503
+
+#WRITE(Unit, $396A7)
+Miria<X>
+
+
+//POINTER #577 @ $396A9 - STRING #577 @ $3A50B
+
+#WRITE(Unit, $396A9)
+Shiron<X>
+
+
+//POINTER #578 @ $396AB - STRING #578 @ $3A513
+
+#WRITE(Unit, $396AB)
+Klein<X>
+
+
+//POINTER #579 @ $396AD - STRING #579 @ $3A51D
+
+#WRITE(Unit, $396AD)
+Slayton<X>
+
+
+//POINTER #580 @ $396AF - STRING #580 @ $3A529
+
+#WRITE(Unit, $396AF)
+Triesta<X>
+
+
+//POINTER #581 @ $396B1 - STRING #581 @ $3A535
+
+#WRITE(Unit, $396B1)
+Canaan<X>
+
+
+//POINTER #582 @ $396B3 - STRING #582 @ $3A53D
+
+#WRITE(Unit, $396B3)
+Hasman<X>
+
+
+//POINTER #583 @ $396B5 - STRING #583 @ $3A549
+
+#WRITE(Unit, $396B5)
+Glanz<X>
+
+
+//POINTER #584 @ $396B7 - STRING #584 @ $3A553
+
+#WRITE(Unit, $396B7)
+Krosroy<X>
+
+
+//POINTER #585 @ $396B9 - STRING #585 @ $3A55F
+
+#WRITE(Unit, $396B9)
+Roland<X>
+
+
+//POINTER #586 @ $396BB - STRING #586 @ $3A569
+
+#WRITE(Unit, $396BB)
+Mashgli<X>
+
+
+//POINTER #587 @ $396BD - STRING #587 @ $3A573
+
+#WRITE(Unit, $396BD)
+Riva<X>
+
+
+//POINTER #588 @ $396BF - STRING #588 @ $3A57B
+
+#WRITE(Unit, $396BF)
+Gloria<X>
+
+
+//POINTER #589 @ $396C1 - STRING #589 @ $3A585
+
+#WRITE(Unit, $396C1)
+Nothe<X>
+
+
+//POINTER #591 @ $396C5 - STRING #591 @ $3A597
+
+#WRITE(Unit, $396C5)
+Abel<X>
+
+
+//POINTER #592 @ $396C7 - STRING #592 @ $3A59F
+
+#WRITE(Unit, $396C7)
+Navarre<X>
+
+
+//POINTER #593 @ $396C9 - STRING #593 @ $3A5A9
+
+#WRITE(Unit, $396C9)
+Gordon<X>
+
+
+//POINTER #594 @ $396CB - STRING #594 @ $3A5B3
+
+#WRITE(Unit, $396CB)
+Oguma<X>
+
+
+
+//Can't optimse it any further. I guess the remaining strings are hanging out with the items!
+
+
+//BLOCK #006 NAME:		Army Names
+
+#VAR(Army, CUSTOMPOINTER)
+#CREATEPTR(Army, "LINEAR", $3A62F, 16)
+
+#JMP($3A69D, $3A958)
+
+//POINTER #0 @ $3A62F - STRING #0 @ $3A69D
+
+#WRITE(Army, $3A62F)
+Madino<X>
+
+
+//POINTER #1 @ $3A631 - STRING #1 @ $3A6A9
+
+#WRITE(Army, $3A631)
+Silvail<X>
+
+
+//POINTER #2 @ $3A633 - STRING #2 @ $3A6B7
+
+#WRITE(Army, $3A633)
+Anphony<X>
+
+
+//POINTER #3 @ $3A635 - STRING #3 @ $3A6C7
+
+#WRITE(Army, $3A635)
+Agusty<X>
+
+
+//POINTER #4 @ $3A637 - STRING #4 @ $3A6D5
+
+#WRITE(Army, $3A637)
+Heirhein<X>
+
+
+//POINTER #5 @ $3A639 - STRING #5 @ $3A6E3
+
+#WRITE(Army, $3A639)
+Mackily<X>
+
+
+//POINTER #6 @ $3A63B - STRING #6 @ $3A6F1
+
+#WRITE(Army, $3A63B)
+Nodion<X>
+
+
+//POINTER #7 @ $3A63D - STRING #7 @ $3A6FF
+
+#WRITE(Army, $3A63D)
+#WRITE(Army, $3A68B)
+Velthom<X>
+
+
+//POINTER #8 @ $3A63F - STRING #8 @ $3A70F
+
+#WRITE(Army, $3A63F)
+#WRITE(Army, $3A68D)
+Freege<X>
+
+
+//POINTER #9 @ $3A641 - STRING #9 @ $3A71B
+
+#WRITE(Army, $3A641)
+#WRITE(Army, $3A68F)
+Barhara<X>
+
+
+//POINTER #10 @ $3A643 - STRING #10 @ $3A727
+
+#WRITE(Army, $3A643)
+#WRITE(Army, $3A691)
+Dozel<X>
+
+
+//POINTER #11 @ $3A645 - STRING #11 @ $3A731
+
+#WRITE(Army, $3A645)
+#WRITE(Army, $3A693)
+Edda<X>
+
+
+//POINTER #12 @ $3A647 - STRING #12 @ $3A73B
+
+#WRITE(Army, $3A647)
+#WRITE(Army, $3A695)
+Chalphy<X>
+
+
+//POINTER #13 @ $3A649 - STRING #13 @ $3A749
+
+#WRITE(Army, $3A649)
+#WRITE(Army, $3A697)
+Jungby<X>
+
+
+//POINTER #14 @ $3A64B - STRING #14 @ $3A757
+
+#WRITE(Army, $3A64B)
+Lenster<X>
+
+
+//POINTER #15 @ $3A64D - STRING #15 @ $3A765
+
+#WRITE(Army, $3A64D)
+Conote<X>
+
+
+//POINTER #16 @ $3A64F - STRING #16 @ $3A771
+
+#WRITE(Army, $3A64F)
+Manster<X>
+
+
+//POINTER #17 @ $3A651 - STRING #17 @ $3A77F
+
+#WRITE(Army, $3A651)
+Melgen<X>
+
+
+//POINTER #18 @ $3A653 - STRING #18 @ $3A78B
+
+#WRITE(Army, $3A653)
+Alster<X>
+
+
+//POINTER #19 @ $3A655 - STRING #19 @ $3A799
+
+#WRITE(Army, $3A655)
+Orgahil<X>
+
+
+//POINTER #20 @ $3A657 - STRING #20 @ $3A7A7
+
+#WRITE(Army, $3A657)
+Thove<X>
+
+
+//POINTER #21 @ $3A659 - STRING #21 @ $3A7B3
+
+//#WRITE(Army, $3A659)
+//nb<$83><$8C>-<$83><$93><$8C><$52><X>
+
+
+//POINTER #22 @ $3A65B - STRING #22 @ $3A7C1
+
+#WRITE(Army, $3A65B)
+Zaxon<X>
+
+
+//POINTER #23 @ $3A65D - STRING #23 @ $3A7CD
+
+#WRITE(Army, $3A65D)
+Silesia<X>
+
+
+//POINTER #24 @ $3A65F - STRING #24 @ $3A7D9
+
+#WRITE(Army, $3A65F)
+Lubeck<X>
+
+
+//POINTER #25 @ $3A661 - STRING #25 @ $3A7E9
+
+//#WRITE(Army, $3A661)
+//s<$83><$42><$83><$8B>uy<$83><$4F><$8C><$52><X>
+
+
+//POINTER #26 @ $3A663 - STRING #26 @ $3A7F9
+
+#WRITE(Army, $3A663)
+Ganeish<X>
+
+
+//POINTER #27 @ $3A665 - STRING #27 @ $3A807
+
+#WRITE(Army, $3A665)
+Sophara<X>
+
+
+//POINTER #28 @ $3A667 - STRING #28 @ $3A813
+
+#WRITE(Army, $3A667)
+Isaac<X>
+
+
+//POINTER #29 @ $3A669 - STRING #29 @ $3A81F
+
+#WRITE(Army, $3A669)
+Rivough<X>
+
+
+//POINTER #30 @ $3A66B - STRING #30 @ $3A829
+
+#WRITE(Army, $3A66B)
+Phinora<X>
+
+
+//POINTER #31 @ $3A66D - STRING #31 @ $3A837
+
+#WRITE(Army, $3A66D)
+Yied<X>
+
+
+//POINTER #32 @ $3A66F - STRING #32 @ $3A841
+
+#WRITE(Army, $3A66F)
+Darna<X>
+
+
+//POINTER #33 @ $3A671 - STRING #33 @ $3A84B
+
+#WRITE(Army, $3A671)
+Verdane<X>
+
+
+//POINTER #34 @ $3A673 - STRING #34 @ $3A859
+
+#WRITE(Army, $3A673)
+Evans<X>
+
+
+//POINTER #35 @ $3A675 - STRING #35 @ $3A865
+
+#WRITE(Army, $3A675)
+Genoa<X>
+
+
+//POINTER #36 @ $3A677 - STRING #36 @ $3A871
+
+#WRITE(Army, $3A677)
+Marpha<X>
+
+
+//POINTER #37 @ $3A679 - STRING #37 @ $3A87D
+
+#WRITE(Army, $3A679)
+Miletos<X>
+
+
+//POINTER #38 @ $3A67B - STRING #38 @ $3A889
+
+#WRITE(Army, $3A67B)
+Peruluke<X>
+
+
+//POINTER #39 @ $3A67D - STRING #39 @ $3A897
+
+#WRITE(Army, $3A67D)
+Chronos<X>
+
+
+//POINTER #40 @ $3A67F - STRING #40 @ $3A8A3
+
+#WRITE(Army, $3A67F)
+Rados<X>
+
+
+//POINTER #41 @ $3A681 - STRING #41 @ $3A8AD
+
+#WRITE(Army, $3A681)
+Mease<X>
+
+
+//POINTER #42 @ $3A683 - STRING #42 @ $3A8B7
+
+#WRITE(Army, $3A683)
+Kapath<X>
+
+
+//POINTER #43 @ $3A685 - STRING #43 @ $3A8C5
+
+#WRITE(Army, $3A685)
+Luthe<X>
+
+
+//POINTER #44 @ $3A687 - STRING #44 @ $3A8D1
+
+#WRITE(Army, $3A687)
+Thracia<X>
+
+
+//POINTER #45 @ $3A689 - STRING #45 @ $3A8DD
+
+#WRITE(Army, $3A689)
+Grutia<X>
+
+
+//POINTER #53 @ $3A699 - STRING #53 @ $3A943
+
+#WRITE(Army, $3A699)
+Sigurd<X>
+
+
+//POINTER #54 @ $3A69B - STRING #54 @ $3A94F
+
+#WRITE(Army, $3A69B)
+Celice<X>
+
+
+//BLOCK #007 NAME:		Item Names
+
+#VAR(Item, CUSTOMPOINTER)
+#CREATEPTR(Item, "LINEAR", $3A959, 16)
+
+#JMP($3AA6D, $3B17E)
+
+//Shouldn't these be with characters? Well, overflow happened. So they moved.
+
+
+//POINTER #595 @ $396CD - STRING #595 @ $3A5BB
+
+#WRITE(Unit, $396CD)
+Barts<X>
+
+
+//POINTER #596 @ $396CF - STRING #596 @ $3A5C7
+
+#WRITE(Unit, $396CF)
+Doga<X>
+
+//POINTER #597 @ $396D1 - STRING #597 @ $3A5D3
+
+#WRITE(Unit, $396D1)
+Marich<X>
+
+
+//POINTER #598 @ $396D3 - STRING #598 @ $3A5DB
+
+#WRITE(Unit, $396D3)
+#WRITE(Unit, $396D7)
+Marth<X>
+
+
+//POINTER #599 @ $396D5 - STRING #599 @ $3A5E3
+
+#WRITE(Unit, $396D5)
+Minerva<X>
+
+
+//POINTER #601 @ $396D9 - STRING #601 @ $3A5F5
+
+#WRITE(Unit, $396D9)
+Holsety<X>
+
+
+//POINTER #0 @ $3A959 - STRING #0 @ $3AA6D
+
+#WRITE(Item, $3A959)
+//Iron Sword
+#WRITE(Item, $3A95F)
+//Iron Blade
+#WRITE(Item, $3A991)
+//Iron Lance
+#WRITE(Item, $3A9A9)
+//Iron Axe
+#WRITE(Item, $3A9BB)
+//Iron Bow
+#WRITE(Item, $3A9CF)
+//Iron Arch
+Iron<X>
+
+
+//POINTER #1 @ $3A95B - STRING #1 @ $3AA77
+
+#WRITE(Item, $3A95B)
+//Steel Sword
+#WRITE(Item, $3A961)
+//Steel Blade
+#WRITE(Item, $3A993)
+//Steel Lance
+#WRITE(Item, $3A9AB)
+//Steel Axe
+#WRITE(Item, $3A9BD)
+//Steel Bow
+Steel<X>
+
+
+//POINTER #2 @ $3A95D - STRING #2 @ $3AA83
+
+#WRITE(Item, $3A95D)
+//Silver Sword
+#WRITE(Item, $3A963)
+//Silver Blade
+#WRITE(Item, $3A995)
+//Silver Lance
+#WRITE(Item, $3A9AD)
+//Silver Axe
+#WRITE(Item, $3A9BF)
+//Silver Bow
+Silver<X>
+
+
+//POINTER #6 @ $3A965 - STRING #6 @ $3AAB1
+
+#WRITE(Item, $3A965)
+//Blaggi Sword
+Blaggi<X>
+
+
+//POINTER #7 @ $3A967 - STRING #7 @ $3AABF
+
+#WRITE(Item, $3A967)
+//Thief Sword
+Thief<X>
+
+
+//POINTER #8 @ $3A969 - STRING #8 @ $3AACD
+
+#WRITE(Item, $3A969)
+//Lopto Sword
+Lopto<X>
+
+
+//POINTER #9 @ $3A96B - STRING #9 @ $3AAD9
+
+#WRITE(Item, $3A96B)
+//Lady Sword
+Lady<X>
+
+
+//POINTER #10 @ $3A96D - STRING #10 @ $3AAE7
+
+#WRITE(Item, $3A96D)
+//Hero Sword
+#WRITE(Item, $3A99B)
+//Hero Lance
+#WRITE(Item, $3A9AF)
+//Hero Axe
+#WRITE(Item, $3A9C1)
+//Hero Bow
+Hero<X>
+
+
+//POINTER #11 @ $3A96F - STRING #11 @ $3AAF5
+
+#WRITE(Item, $3A96F)
+//Sleep Sword
+Sleep<X>
+
+
+//POINTER #12 @ $3A971 - STRING #12 @ $3AC49
+
+#WRITE(Item, $3A971)
+//Killing Edge
+#WRITE(Item, $3A9A3)
+//Killer Lance
+#WRITE(Item, $3A9B7)
+//Killer Axe
+#WRITE(Item, $3A9C7)
+//Killer Bow
+#WRITE(Item, $3A9D1)
+//Killer Arch
+Killer<X>
+
+
+//POINTER #13 @ $3A973 - STRING #13 @ $3AB0B
+
+#WRITE(Item, $3A973)
+Rapier<X>
+
+
+//POINTER #14 @ $3A975 - STRING #14 @ $3ABCB
+
+#WRITE(Item, $3A975)
+//Defence Sword
+Defence<X>
+
+
+//POINTER #15 @ $3A977 - STRING #15 @ $3AB27
+
+#WRITE(Item, $3A977)
+//Flame Sword
+Flame<X>
+
+
+//POINTER #16 @ $3A979 - STRING #16 @ $3AB33
+
+#WRITE(Item, $3A979)
+//Earth Sword
+Earth<X>
+
+
+//POINTER #17 @ $3A97B - STRING #17 @ $3ACF7
+
+#WRITE(Item, $3A97B)
+//Thunder Sword
+Thunder<X>
+
+
+//POINTER #18 @ $3A97D - STRING #18 @ $3AB4D
+
+#WRITE(Item, $3A97D)
+//Wind Sword
+Wind<X>
+
+
+//POINTER #19 @ $3A97F - STRING #19 @ $3AB57
+
+#WRITE(Item, $3A97F)
+//Light Sword
+Light<X>
+
+
+//POINTER #20 @ $3A981 - STRING #20 @ $3AB63
+
+#WRITE(Item, $3A981)
+Misoltn<X>
+
+
+//POINTER #21 @ $3A983 - STRING #21 @ $3AB73
+
+#WRITE(Item, $3A983)
+Tyrfing<X>
+
+
+//POINTER #22 @ $3A985 - STRING #22 @ $3ABBB
+
+#WRITE(Item, $3A985)
+Balmung<X>
+
+
+//POINTER #23 @ $3A987 - STRING #23 @ $3B155
+
+#WRITE(Item, $3A987)
+//Devil Sword
+Devil<X>
+
+
+//POINTER #24 @ $3A989 - STRING #24 @ $3AB8F
+
+#WRITE(Item, $3A989)
+//Tordo Sword
+Tordo<X>
+
+
+//POINTER #25 @ $3A98B - STRING #25 @ $3AED7
+
+#WRITE(Item, $3A98B)
+//Darkness Sword
+Dark<X>
+
+
+//POINTER #26 @ $3A98D - STRING #26 @ $3B083
+
+#WRITE(Item, $3A98D)
+//King Sword
+King<X>
+
+
+//POINTER #27 @ $3A98F - STRING #27 @ $3ABAD
+
+#WRITE(Item, $3A98F)
+//Broken Sword
+#WRITE(Item, $3A9A7)
+//Broken Lance
+#WRITE(Item, $3A9B9)
+//Broken Axe
+#WRITE(Item, $3A9CB)
+//Broken Bow
+Broken<X>
+
+
+//POINTER #31 @ $3A997 - STRING #31 @ $3B069
+
+#WRITE(Item, $3A997)
+Javelin<X>
+
+
+//POINTER #32 @ $3A999 - STRING #32 @ $3ABEB
+
+#WRITE(Item, $3A999)
+//Knight Killer
+Knight<X>
+
+
+
+//POINTER #34 @ $3A99D - STRING #34 @ $3B0C1
+
+#WRITE(Item, $3A99D)
+//Master Lance
+Master<X>
+
+
+//POINTER #35 @ $3A99F - STRING #35 @ $3AC13
+
+#WRITE(Item, $3A99F)
+Gungnir<X>
+
+
+//POINTER #36 @ $3A9A1 - STRING #36 @ $3AC23
+
+#WRITE(Item, $3A9A1)
+GaeBolg<X>
+
+
+//POINTER #38 @ $3A9A5 - STRING #38 @ $3AEFF
+
+#WRITE(Item, $3A9A5)
+//Dragon Lance
+Dragon<X>
+
+
+//POINTER #44 @ $3A9B1 - STRING #44 @ $3AC73
+
+#WRITE(Item, $3A9B1)
+Swnchik<X>
+
+
+//POINTER #45 @ $3A9B3 - STRING #45 @ $3AC83
+
+#WRITE(Item, $3A9B3)
+//Hand Axe
+Hand<X>
+
+
+//POINTER #46 @ $3A9B5 - STRING #46 @ $3B0D1
+
+#WRITE(Item, $3A9B5)
+//Master Axe
+Master<X>
+
+
+//POINTER #53 @ $3A9C3 - STRING #53 @ $3B0A1
+
+#WRITE(Item, $3A9C3)
+//Gatling Bow
+Gatling<X>
+
+
+//POINTER #54 @ $3A9C5 - STRING #54 @ $3ACD7
+
+#WRITE(Item, $3A9C5)
+Ichival<X>
+
+
+//POINTER #56 @ $3A9C9 - STRING #56 @ $3ACA1
+
+#WRITE(Item, $3A9C9)
+//Master Bow
+Master<X>
+
+
+//POINTER #58 @ $3A9CD - STRING #58 @ $3B12F
+
+#WRITE(Item, $3A9CD)
+//Long Arch
+Long<X>
+
+
+//POINTER #61 @ $3A9D3 - STRING #61 @ $3AD1D
+
+#WRITE(Item, $3A9D3)
+//Great Arch
+Great<X>
+
+
+//POINTER #62 @ $3A9D5 - STRING #62 @ $3AD2D
+
+#WRITE(Item, $3A9D5)
+Fire<X>
+
+
+//POINTER #63 @ $3A9D7 - STRING #63 @ $3AD39
+
+#WRITE(Item, $3A9D7)
+Elfire<X>
+
+
+//POINTER #64 @ $3A9D9 - STRING #64 @ $3ACE7
+
+#WRITE(Item, $3A9D9)
+Bolgnon<X>
+
+
+//POINTER #65 @ $3A9DB - STRING #65 @ $3AD55
+
+#WRITE(Item, $3A9DB)
+Falafla<X>
+
+
+//POINTER #66 @ $3A9DD - STRING #66 @ $3AD65
+
+#WRITE(Item, $3A9DD)
+Meteor<X>
+
+
+//POINTER #67 @ $3A9DF - STRING #67 @ $3ACF7
+
+#WRITE(Item, $3A9DF)
+Thunder<X>
+
+
+//POINTER #68 @ $3A9E1 - STRING #68 @ $3AD07
+
+#WRITE(Item, $3A9E1)
+Elthund<X>
+
+
+//POINTER #69 @ $3A9E3 - STRING #69 @ $3AD73
+
+#WRITE(Item, $3A9E3)
+Thoron<X>
+
+
+//POINTER #70 @ $3A9E5 - STRING #70 @ $3AD91
+
+#WRITE(Item, $3A9E5)
+Torhamm<X>
+
+
+//POINTER #71 @ $3A9E7 - STRING #71 @ $3ADA1
+
+#WRITE(Item, $3A9E7)
+Bolting<X>
+
+
+//POINTER #72 @ $3A9E9 - STRING #72 @ $3ADB1
+
+#WRITE(Item, $3A9E9)
+Wind<X>
+
+
+//POINTER #73 @ $3A9EB - STRING #73 @ $3ADBB
+
+#WRITE(Item, $3A9EB)
+Elwind<X>
+
+
+//POINTER #74 @ $3A9ED - STRING #74 @ $3AD81
+
+#WRITE(Item, $3A9ED)
+Tornado<X>
+
+
+//POINTER #75 @ $3A9EF - STRING #75 @ $3ADC9
+
+#WRITE(Item, $3A9EF)
+Holsety<X>
+
+
+//POINTER #76 @ $3A9F1 - STRING #76 @ $3ADD9
+
+#WRITE(Item, $3A9F1)
+Blizard<X>
+
+
+//POINTER #77 @ $3A9F3 - STRING #77 @ $3ADE9
+
+#WRITE(Item, $3A9F3)
+Lightng<X>
+
+
+//POINTER #78 @ $3A9F5 - STRING #78 @ $3ADF9
+
+#WRITE(Item, $3A9F5)
+Resire<X>
+
+
+//POINTER #79 @ $3A9F7 - STRING #79 @ $3AE07
+
+#WRITE(Item, $3A9F7)
+Aura<X>
+
+
+//POINTER #80 @ $3A9F9 - STRING #80 @ $3B101
+
+#WRITE(Item, $3A9F9)
+Helfire<X>
+
+
+//POINTER #81 @ $3A9FB - STRING #81 @ $3AE17
+
+#WRITE(Item, $3A9FB)
+Jormung<X>
+
+
+//POINTER #82 @ $3A9FD - STRING #82 @ $3AE27
+
+#WRITE(Item, $3A9FD)
+Fenrir<X>
+
+
+//POINTER #83 @ $3A9FF - STRING #83 @ $3AE35
+
+#WRITE(Item, $3A9FF)
+Hel<X>
+
+
+//POINTER #84 @ $3AA01 - STRING #84 @ $3AE3D
+
+#WRITE(Item, $3AA01)
+Lopto<X>
+
+
+//POINTER #85 @ $3AA03 - STRING #85 @ $3AE85
+
+#WRITE(Item, $3AA03)
+Maph<X>
+
+
+//POINTER #86 @ $3AA05 - STRING #86 @ $3AEF1
+
+#WRITE(Item, $3AA05)
+DimeTh<X>
+
+
+//POINTER #87 @ $3AA07 - STRING #87 @ $3B091
+
+#WRITE(Item, $3AA07)
+Purge<X>
+
+
+//POINTER #88 @ $3AA09 - STRING #88 @ $3ACAF
+
+#WRITE(Item, $3AA09)
+Heal<X>
+
+
+//POINTER #89 @ $3AA0B - STRING #89 @ $3AE5D
+
+#WRITE(Item, $3AA0B)
+Mend<X>
+
+
+//POINTER #90 @ $3AA0D - STRING #90 @ $3ACB9
+
+#WRITE(Item, $3AA0D)
+Recover<X>
+
+
+//POINTER #91 @ $3AA0F - STRING #91 @ $3ACC9
+
+#WRITE(Item, $3AA0F)
+Physic<X>
+
+
+//POINTER #92 @ $3AA11 - STRING #92 @ $3AE75
+
+#WRITE(Item, $3AA11)
+Fortify<X>
+
+
+//POINTER #93 @ $3AA13 - STRING #93 @ $3B115
+
+#WRITE(Item, $3AA13)
+Return<X>
+
+
+//POINTER #94 @ $3AA15 - STRING #94 @ $3AE8F
+
+#WRITE(Item, $3AA15)
+Warp<X>
+
+
+//POINTER #95 @ $3AA17 - STRING #95 @ $3AE99
+
+#WRITE(Item, $3AA17)
+Rescue<X>
+
+
+//POINTER #96 @ $3AA19 - STRING #96 @ $3B0B1
+
+#WRITE(Item, $3AA19)
+Excalbr<X>
+
+
+//POINTER #97 @ $3AA1B - STRING #97 @ $3AEA7
+
+#WRITE(Item, $3AA1B)
+Restore<X>
+
+
+//POINTER #98 @ $3AA1D - STRING #98 @ $3AF65
+
+#WRITE(Item, $3AA1D)
+Luna<X>
+
+
+//POINTER #99 @ $3AA1F - STRING #99 @ $3AEB7
+
+#WRITE(Item, $3AA1F)
+Silence<X>
+
+
+//POINTER #100 @ $3AA21 - STRING #100 @ $3AAF5
+
+#WRITE(Item, $3AA21)
+Sleep<X>
+
+
+//POINTER #101 @ $3AA23 - STRING #101 @ $3AF19
+
+#WRITE(Item, $3AA23)
+Berserk<X>
+
+
+//POINTER #102 @ $3AA25 - STRING #102 @ $3B0E9
+
+#WRITE(Item, $3AA25)
+Again<X>
+
+
+//POINTER #103 @ $3AA27 - STRING #103 @ $3B0F5
+
+#WRITE(Item, $3AA27)
+Narga<X>
+
+
+//POINTER #104 @ $3AA29 - STRING #104 @ $3B05B
+
+#WRITE(Item, $3AA29)
+Dragon<X>
+
+
+//POINTER #105 @ $3AA2B - STRING #105 @ $3B03D
+
+#WRITE(Item, $3AA2B)
+Astra<X>
+
+
+//POINTER #106 @ $3AA2D - STRING #106 @ $3AF29
+
+#WRITE(Item, $3AA2D)
+Life<X>
+
+
+//POINTER #107 @ $3AA2F - STRING #107 @ $3AF35
+
+#WRITE(Item, $3AA2F)
+Elite<X>
+
+
+//POINTER #108 @ $3AA31 - STRING #108 @ $3AF45
+
+#WRITE(Item, $3AA31)
+Thief<X>
+
+
+//POINTER #109 @ $3AA33 - STRING #109 @ $3AF55
+
+#WRITE(Item, $3AA33)
+Prayer<X>
+
+
+//POINTER #110 @ $3AA35 - STRING #110 @ $3AF65
+
+#WRITE(Item, $3AA35)
+Luna<X>
+
+
+//POINTER #111 @ $3AA37 - STRING #111 @ $3AF71
+
+#WRITE(Item, $3AA37)
+Sol<X>
+
+
+//POINTER #112 @ $3AA39 - STRING #112 @ $3AF85
+
+#WRITE(Item, $3AA39)
+Silver<X>
+
+
+//POINTER #113 @ $3AA3B - STRING #113 @ $3AF95
+
+#WRITE(Item, $3AA3B)
+Knight<X>
+
+
+//POINTER #114 @ $3AA3D - STRING #114 @ $3AFA3
+
+#WRITE(Item, $3AA3D)
+CritGrd<X>
+
+
+//POINTER #115 @ $3AA3F - STRING #115 @ $3AEC7
+
+#WRITE(Item, $3AA3F)
+Valkyre<X>
+
+
+//POINTER #116 @ $3AA41 - STRING #116 @ $3AF0F
+
+#WRITE(Item, $3AA41)
+Beo<X>
+
+
+//POINTER #117 @ $3AA43 - STRING #117 @ $3B155
+
+#WRITE(Item, $3AA43)
+Devil<X>
+
+
+//POINTER #118 @ $3AA45 - STRING #118 @ $3B13B
+
+#WRITE(Item, $3AA45)
+Halberd<X>
+
+
+//POINTER #119 @ $3AA47 - STRING #119 @ $3AB9B
+
+#WRITE(Item, $3AA47)
+Master<X>
+
+
+//POINTER #120 @ $3AA49 - STRING #120 @ $3B125
+
+#WRITE(Item, $3AA49)
+Pugi<X>
+
+
+//POINTER #121 @ $3AA4B - STRING #121 @ $3AE49
+
+#WRITE(Item, $3AA4B)
+Tomhawk<X>
+
+
+//POINTER #122 @ $3AA4D - STRING #122 @ $3ABAD
+
+#WRITE(Item, $3AA4D)
+Broken<X>
+
+
+//POINTER #123 @ $3AA4F - STRING #123 @ $3ABAD
+
+#WRITE(Item, $3AA4F)
+Broken<X>
+
+
+//POINTER #124 @ $3AA51 - STRING #124 @ $3ABAD
+
+#WRITE(Item, $3AA51)
+Broken<X>
+
+
+//POINTER #125 @ $3AA53 - STRING #125 @ $3ABAD
+
+#WRITE(Item, $3AA53)
+Broken<X>
+
+
+//POINTER #126 @ $3AA55 - STRING #126 @ $3B0F5
+
+#WRITE(Item, $3AA55)
+Narga<X>
+
+
+//POINTER #127 @ $3AA57 - STRING #127 @ $3AFB9
+
+#WRITE(Item, $3AA57)
+Speed<X>
+
+
+//POINTER #128 @ $3AA59 - STRING #128 @ $3AFC9
+
+#WRITE(Item, $3AA59)
+Magic<X>
+
+
+//POINTER #129 @ $3AA5B - STRING #129 @ $3AFD9
+
+#WRITE(Item, $3AA5B)
+Power<X>
+
+
+//POINTER #130 @ $3AA5D - STRING #130 @ $3AFE7
+
+#WRITE(Item, $3AA5D)
+Shield<X>
+
+
+//POINTER #131 @ $3AA5F - STRING #131 @ $3AFF7
+
+#WRITE(Item, $3AA5F)
+Barrier<X>
+
+
+//POINTER #132 @ $3AA61 - STRING #132 @ $3B007
+
+#WRITE(Item, $3AA61)
+Leg<X>
+
+
+//POINTER #133 @ $3AA63 - STRING #133 @ $3B013
+
+#WRITE(Item, $3AA63)
+Skill<X>
+
+
+//POINTER #134 @ $3AA65 - STRING #134 @ $3B115
+
+#WRITE(Item, $3AA65)
+Return<X>
+
+
+//POINTER #135 @ $3AA67 - STRING #135 @ $3B04B
+
+#WRITE(Item, $3AA67)
+Pursuit<X>
+
+
+//POINTER #136 @ $3AA69 - STRING #136 @ $3ABAD
+
+#WRITE(Item, $3AA69)
+Broken<X>
+
+
+//POINTER #137 @ $3AA6B - STRING #137 @ $3B01F
+
+#WRITE(Item, $3AA6B)
+Circlet<X>
+
+
+//BLOCK #008 NAME:		Item Descriptions
+
+#VAR(ItemDesc, CUSTOMPOINTER)
+#CREATEPTR(ItemDesc, "LINEAR", $3B17F, 16)
+
+#JMP($3B293, $3B9AF)
+
+//POINTER #0 @ $3B17F - STRING #0 @ $3B293
+
+#WRITE(ItemDesc, $3B17F)
+#WRITE(ItemDesc, $3B181)
+#WRITE(ItemDesc, $3B183)
+#WRITE(ItemDesc, $3B185)
+#WRITE(ItemDesc, $3B187)
+#WRITE(ItemDesc, $3B189)
+#WRITE(ItemDesc, $3B197)
+#WRITE(ItemDesc, $3B1B5)
+#WRITE(ItemDesc, $3B1B7)
+#WRITE(ItemDesc, $3B1B9)
+#WRITE(ItemDesc, $3B1BB)
+#WRITE(ItemDesc, $3B1BD)
+#WRITE(ItemDesc, $3B1C9)
+#WRITE(ItemDesc, $3B1CD)
+#WRITE(ItemDesc, $3B1CF)
+#WRITE(ItemDesc, $3B1D1)
+#WRITE(ItemDesc, $3B1D3)
+#WRITE(ItemDesc, $3B1D9)
+#WRITE(ItemDesc, $3B1DD)
+#WRITE(ItemDesc, $3B1DF)
+#WRITE(ItemDesc, $3B1F1)
+#WRITE(ItemDesc, $3B1FB)
+#WRITE(ItemDesc, $3B1FD)
+#WRITE(ItemDesc, $3B1FF)
+#WRITE(ItemDesc, $3B203)
+#WRITE(ItemDesc, $3B205)
+#WRITE(ItemDesc, $3B207)
+#WRITE(ItemDesc, $3B209)
+#WRITE(ItemDesc, $3B20D)
+#WRITE(ItemDesc, $3B20F)
+#WRITE(ItemDesc, $3B211)
+#WRITE(ItemDesc, $3B213)
+#WRITE(ItemDesc, $3B219)
+#WRITE(ItemDesc, $3B21D)
+#WRITE(ItemDesc, $3B21F)
+#WRITE(ItemDesc, $3B221)
+#WRITE(ItemDesc, $3B223)
+#WRITE(ItemDesc, $3B22D)
+#WRITE(ItemDesc, $3B26F)
+#WRITE(ItemDesc, $3B271)
+#WRITE(ItemDesc, $3B273)
+#WRITE(ItemDesc, $3B275)
+#WRITE(ItemDesc, $3B277)
+#WRITE(ItemDesc, $3B279)
+#WRITE(ItemDesc, $3B28F)
+//No Description
+ <X>
+
+ 
+//POINTER #6 @ $3B18B - STRING #6 @ $3B3C9
+
+#WRITE(ItemDesc, $3B18B)
+//Blaggi Sword
+Armr/Drk<X>
+
+
+//POINTER #7 @ $3B18D - STRING #7 @ $3B297
+
+#WRITE(ItemDesc, $3B18D)
+//Thief Sword
+Steal<X>
+
+
+//POINTER #8 @ $3B18F - STRING #8 @ $3B3B7
+
+#WRITE(ItemDesc, $3B18F)
+//Lopto Effect
+1/2 Atk<X>
+
+
+//POINTER #9 @ $3B191 - STRING #9 @ $3B419
+
+#WRITE(ItemDesc, $3B191)
+//Lady Sword
+Bandits<X>
+
+
+//POINTER #10 @ $3B193 - STRING #10 @ $3B2C5
+
+#WRITE(ItemDesc, $3B193)
+#WRITE(ItemDesc, $3B1C1)
+#WRITE(ItemDesc, $3B1C3)
+#WRITE(ItemDesc, $3B1CB)
+#WRITE(ItemDesc, $3B1D5)
+#WRITE(ItemDesc, $3B1DB)
+#WRITE(ItemDesc, $3B1E7)
+#WRITE(ItemDesc, $3B1EF)
+#WRITE(ItemDesc, $3B22B)
+#WRITE(ItemDesc, $3B26D)
+//Brave Effect
+2x Atk<X>
+
+
+//POINTER #11 @ $3B195 - STRING #11 @ $3B2E3
+
+#WRITE(ItemDesc, $3B195)
+#WRITE(ItemDesc, $3B217)
+//Sleep Sword, Blizzard
+Sleep<X>
+
+
+//POINTER #13 @ $3B199 - STRING #13 @ $3B3FD
+
+#WRITE(ItemDesc, $3B199)
+#WRITE(ItemDesc, $3B1BF)
+#WRITE(ItemDesc, $3B26B)
+//Anti-Cavalry Weaponry
+Mounts<X>
+
+
+//POINTER #14 @ $3B19B - STRING #14 @ $3B6E5
+
+#WRITE(ItemDesc, $3B19B)
+//Defence Sword
+Def+5<X>
+
+
+//POINTER #15 @ $3B19D - STRING #15 @ $3B2EF
+
+#WRITE(ItemDesc, $3B19D)
+//Flame Sword
+Elfire<X>
+
+
+//POINTER #16 @ $3B19F - STRING #16 @ $3B301
+
+#WRITE(ItemDesc, $3B19F)
+#WRITE(ItemDesc, $3B1A7)
+#WRITE(ItemDesc, $3B21B)
+//HP Drain Effect
+HPDrain<X>
+
+
+//POINTER #17 @ $3B1A1 - STRING #17 @ $3B311
+
+#WRITE(ItemDesc, $3B1A1)
+//Thunder Sword
+Elthund<X>
+
+
+//POINTER #18 @ $3B1A3 - STRING #18 @ $3B321
+
+#WRITE(ItemDesc, $3B1A3)
+//Wind Sword
+Elwind<X>
+
+
+//POINTER #19 @ $3B1A5 - STRING #19 @ $3B331
+
+#WRITE(ItemDesc, $3B1A5)
+//Light Sword
+Lightng<X>
+
+
+//POINTER #21 @ $3B1A9 - STRING #21 @ $3B38D
+
+#WRITE(ItemDesc, $3B1A9)
+//Tyrfing
+Prayer<X>
+
+
+//POINTER #22 @ $3B1AB - STRING #22 @ $3B39B
+
+#WRITE(ItemDesc, $3B1AB)
+#WRITE(ItemDesc, $3B1C5)
+#WRITE(ItemDesc, $3B1C7)
+#WRITE(ItemDesc, $3B201)
+#WRITE(ItemDesc, $3B20B)
+#WRITE(ItemDesc, $3B215)
+//Holy Weapons
+HolyWepn<X>
+
+
+//POINTER #23 @ $3B1AD - STRING #23 @ $3B959
+
+#WRITE(ItemDesc, $3B1AD)
+//Devil Effect
+Cursed<X>
+
+
+//POINTER #24 @ $3B1AF - STRING #24 @ $3B353
+
+#WRITE(ItemDesc, $3B1AF)
+//Tordo Sword
+Torhammr<X>
+
+
+//POINTER #25 @ $3B1B1 - STRING #25 @ $3B341
+
+#WRITE(ItemDesc, $3B1B1)
+//Darkness Sword
+Jormung<X>
+
+
+//POINTER #26 @ $3B1B3 - STRING #26 @ $3B429
+
+#WRITE(ItemDesc, $3B1B3)
+//King Sword
+Charisma<X>
+
+
+//POINTER #44 @ $3B1D7 - STRING #44 @ $3B8B9
+
+#WRITE(ItemDesc, $3B1D7)
+//Swanchika
+GrtSh<X>
+
+
+//POINTER #49 @ $3B1E1 - STRING #49 @ $3B40B
+
+#WRITE(ItemDesc, $3B1E1)
+#WRITE(ItemDesc, $3B1E3)
+#WRITE(ItemDesc, $3B1E5)
+#WRITE(ItemDesc, $3B1ED)
+#WRITE(ItemDesc, $3B1F3)
+#WRITE(ItemDesc, $3B1F5)
+#WRITE(ItemDesc, $3B1F7)
+#WRITE(ItemDesc, $3B1F9)
+#WRITE(ItemDesc, $3B23F)
+Flyers<X>
+
+
+//POINTER #53 @ $3B1E9 - STRING #53 @ $3B977
+
+#WRITE(ItemDesc, $3B1E9)
+//Gatling Bow
+4x Atk<X>
+
+
+//POINTER #54 @ $3B1EB - STRING #54 @ $3B3AD
+
+#WRITE(ItemDesc, $3B1EB)
+//Ichival
+Life<X>
+
+
+//POINTER #83 @ $3B225 - STRING #83 @ $3B43B
+
+#WRITE(ItemDesc, $3B225)
+//Hel
+HP to 1<X>
+
+
+//POINTER #84 @ $3B227 - STRING #84 @ $3B3B7
+
+#WRITE(ItemDesc, $3B227)
+1/2 Atk<X>
+
+
+//POINTER #85 @ $3B229 - STRING #85 @ $3B947
+
+#WRITE(ItemDesc, $3B229)
+//Maph
+Cancel<X>
+
+
+//POINTER #88 @ $3B22F - STRING #88 @ $3B44D
+
+#WRITE(ItemDesc, $3B22F)
+//Heal
+Heals HP<X>
+
+
+//POINTER #89 @ $3B231 - STRING #89 @ $3B45F
+
+#WRITE(ItemDesc, $3B231)
+//Mend
+Heals HP
+more<X>
+
+
+//POINTER #90 @ $3B233 - STRING #90 @ $3B47B
+
+#WRITE(ItemDesc, $3B233)
+//Recover
+Heal all
+HP<X>
+
+
+//POINTER #91 @ $3B235 - STRING #91 @ $3B497
+
+#WRITE(ItemDesc, $3B235)
+//Physic
+Heals HP
+Range 15<X>
+
+
+//POINTER #92 @ $3B237 - STRING #92 @ $3B4BF
+
+#WRITE(ItemDesc, $3B237)
+//Fortify
+Heal all
+allies  
+nearby  
+Range 15<X>
+
+
+//POINTER #93 @ $3B239 - STRING #93 @ $3B899
+
+#WRITE(ItemDesc, $3B239)
+//Return
+Sends   
+ally to 
+the home
+castle<X>
+
+
+//POINTER #94 @ $3B23B - STRING #94 @ $3B4E7
+
+#WRITE(ItemDesc, $3B23B)
+//Warp
+Send an 
+ally to 
+a castle<X>
+
+
+//POINTER #95 @ $3B23D - STRING #95 @ $3B519
+
+#WRITE(ItemDesc, $3B23D)
+//Rescue
+Brings  
+an ally 
+to you  
+Range 15<X>
+
+
+//POINTER #97 @ $3B241 - STRING #97 @ $3B54B
+
+#WRITE(ItemDesc, $3B241)
+//Restore
+Cures   
+statuses
+on ally 
+Range 10<X>
+
+
+//POINTER #98 @ $3B243 - STRING #98 @ $3B937
+
+#WRITE(ItemDesc, $3B243)
+//Luna
+NullDef<X>
+
+
+//POINTER #99 @ $3B245 - STRING #99 @ $3B5CF
+
+#WRITE(ItemDesc, $3B245)
+//Silence
+Silences
+foe if  
+Mag/Res 
+Range 10<X>
+
+
+//POINTER #100 @ $3B247 - STRING #100 @ $3B611
+
+#WRITE(ItemDesc, $3B247)
+//Sleep
+Foe goes
+to sleep
+Range 10<X>
+
+
+//POINTER #101 @ $3B249 - STRING #101 @ $3B64B
+
+#WRITE(ItemDesc, $3B249)
+//Berserk
+Berserks
+enemy   
+Range 10<X>
+
+
+//POINTER #102 @ $3B24B - STRING #102 @ $3B861
+
+#WRITE(ItemDesc, $3B24B)
+//Again
+Refresh 
+an ally 
+Range 10<X>
+
+
+//POINTER #103 @ $3B24D - STRING #103 @ $3B3DB
+
+#WRITE(ItemDesc, $3B24D)
+NullLopt<X>
+
+
+//POINTER #104 @ $3B24F - STRING #104 @ $3B8C5
+
+#WRITE(ItemDesc, $3B24F)
+//Dragon Shield
+GretShld
+DefRes+5
+Crit+Eff
+Damage  
+Negated<X>
+
+
+//POINTER #105 @ $3B251 - STRING #105 @ $3B365
+
+#WRITE(ItemDesc, $3B251)
+//Astra Manual
+Astra<X>
+
+
+//POINTER #106 @ $3B253 - STRING #106 @ $3B783
+
+#WRITE(ItemDesc, $3B253)
+//Life Ring
+Heals HP
+at start
+of turn<X>
+
+
+//POINTER #107 @ $3B255 - STRING #107 @ $3B79F
+
+#WRITE(ItemDesc, $3B255)
+//Elite Ring
+Doubles 
+EXP gain<X>
+
+
+//POINTER #108 @ $3B257 - STRING #108 @ $3B297
+
+#WRITE(ItemDesc, $3B257)
+//Thief Ring
+Steal<X>
+
+
+//POINTER #109 @ $3B259 - STRING #109 @ $3B7BF
+
+#WRITE(ItemDesc, $3B259)
+//Prayer Ring
+Halves  
+fatal   
+damage<X>
+
+
+//POINTER #110 @ $3B25B - STRING #110 @ $3B375
+
+#WRITE(ItemDesc, $3B25B)
+//Luna Manual
+Luna<X>
+
+
+//POINTER #111 @ $3B25D - STRING #111 @ $3B383
+
+#WRITE(ItemDesc, $3B25D)
+//Sol Manual
+Sol<X>
+
+
+//POINTER #112 @ $3B25F - STRING #112 @ $3B7E7
+
+#WRITE(ItemDesc, $3B25F)
+//Bargain Ring
+Halves  
+the shop
+prices<X>
+
+
+//POINTER #113 @ $3B261 - STRING #113 @ $3B685
+
+#WRITE(ItemDesc, $3B261)
+//Knight Ring
+Grants  
+Canto<X>
+
+
+//POINTER #114 @ $3B263 - STRING #114 @ $3B6A3
+
+#WRITE(ItemDesc, $3B263)
+//Critical Guard
+NullEff 
+Critical<X>
+
+
+//POINTER #115 @ $3B265 - STRING #115 @ $3B58D
+
+#WRITE(ItemDesc, $3B265)
+//Valkyrie Staff
+Revives 
+a fallen
+ally at 
+home<X>
+
+
+//POINTER #116 @ $3B267 - STRING #116 @ $3B985
+
+#WRITE(ItemDesc, $3B267)
+//Beo Sword
+AmbWrath<X>
+
+
+//POINTER #117 @ $3B269 - STRING #117 @ $3B967
+
+#WRITE(ItemDesc, $3B269)
+Cursed<X>
+
+
+//POINTER #126 @ $3B27B - STRING #126 @ $3B90D
+
+#WRITE(ItemDesc, $3B27B)
+//Narga's Grace
+Negates 
+Lopto   
+Life<X>
+
+
+//POINTER #127 @ $3B27D - STRING #127 @ $3B6BD
+
+#WRITE(ItemDesc, $3B27D)
+//Speed Ring
+Speed+5<X>
+
+
+//POINTER #128 @ $3B27F - STRING #128 @ $3B6CB
+
+#WRITE(ItemDesc, $3B27F)
+//Magic Ring
+Magic+5<X>
+
+
+//POINTER #129 @ $3B281 - STRING #129 @ $3B6D9
+
+#WRITE(ItemDesc, $3B281)
+//Power Ring
+Str+5<X>
+
+
+//POINTER #130 @ $3B283 - STRING #130 @ $3B6E5
+
+#WRITE(ItemDesc, $3B283)
+//Shield Ring
+Def+5<X>
+
+
+//POINTER #131 @ $3B285 - STRING #131 @ $3B6F1
+
+#WRITE(ItemDesc, $3B285)
+//Barrier Ring
+Res+5<X>
+
+
+//POINTER #132 @ $3B287 - STRING #132 @ $3B707
+
+#WRITE(ItemDesc, $3B287)
+//Leg Ring
+Move+3<X>
+
+
+//POINTER #133 @ $3B289 - STRING #133 @ $3B717
+
+#WRITE(ItemDesc, $3B289)
+//Skill Ring
+Skill+5<X>
+
+
+//POINTER #134 @ $3B28B - STRING #134 @ $3B813
+
+#WRITE(ItemDesc, $3B28B)
+//Return Ring
+Go home<X>
+
+
+//POINTER #135 @ $3B28D - STRING #135 @ $3B755
+
+#WRITE(ItemDesc, $3B28D)
+//Pursuit Ring
+Double  
+if +3AS 
+on foe<X>
+
+
+//POINTER #137 @ $3B291 - STRING #137 @ $3B825
+
+#WRITE(ItemDesc, $3B291)
+//Circlet
+Prayer  
+Life<X>

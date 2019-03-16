@@ -1,0 +1,333 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #007 NAME:		Army Names
+
+//POINTER #0 @ $3A62F - STRING #0 @ $3A69D
+
+#W16($3A62F)
+Madin<X>
+
+
+//POINTER #1 @ $3A631 - STRING #1 @ $3A6A9
+
+#W16($3A631)
+Silvai<X>
+
+
+//POINTER #2 @ $3A633 - STRING #2 @ $3A6B7
+
+#W16($3A633)
+Anphony<X>
+
+
+//POINTER #3 @ $3A635 - STRING #3 @ $3A6C7
+
+#W16($3A635)
+Agusty<X>
+
+
+//POINTER #4 @ $3A637 - STRING #4 @ $3A6D5
+
+#W16($3A637)
+Heirhe<X>
+
+
+//POINTER #5 @ $3A639 - STRING #5 @ $3A6E3
+
+#W16($3A639)
+Mackil<X>
+
+
+//POINTER #6 @ $3A63B - STRING #6 @ $3A6F1
+
+#W16($3A63B)
+Nodion<X>
+
+
+//POINTER #7 @ $3A63D - STRING #7 @ $3A6FF
+
+#W16($3A63D)
+Velthom<X>
+
+
+//POINTER #8 @ $3A63F - STRING #8 @ $3A70F
+
+#W16($3A63F)
+Freeg<X>
+
+
+//POINTER #9 @ $3A641 - STRING #9 @ $3A71B
+
+#W16($3A641)
+Barha<X>
+
+
+//POINTER #10 @ $3A643 - STRING #10 @ $3A727
+
+#W16($3A643)
+Doze<X>
+
+
+//POINTER #11 @ $3A645 - STRING #11 @ $3A731
+
+#W16($3A645)
+Edda<X>
+
+
+//POINTER #12 @ $3A647 - STRING #12 @ $3A73B
+
+#W16($3A647)
+Chalph<X>
+
+
+//POINTER #13 @ $3A649 - STRING #13 @ $3A749
+
+#W16($3A649)
+Jungby<X>
+
+
+//POINTER #14 @ $3A64B - STRING #14 @ $3A757
+
+#W16($3A64B)
+Lenste<X>
+
+
+//POINTER #15 @ $3A64D - STRING #15 @ $3A765
+
+#W16($3A64D)
+Conot<X>
+
+
+//POINTER #16 @ $3A64F - STRING #16 @ $3A771
+
+#W16($3A64F)
+Manste<X>
+
+
+//POINTER #17 @ $3A651 - STRING #17 @ $3A77F
+
+#W16($3A651)
+Melge<X>
+
+
+//POINTER #18 @ $3A653 - STRING #18 @ $3A78B
+
+#W16($3A653)
+Alster<X>
+
+
+//POINTER #19 @ $3A655 - STRING #19 @ $3A799
+
+#W16($3A655)
+Orgahi<X>
+
+
+//POINTER #20 @ $3A657 - STRING #20 @ $3A7A7
+
+#W16($3A657)
+Thove<X>
+
+
+//POINTER #21 @ $3A659 - STRING #21 @ $3A7B3
+
+#W16($3A659)
+nb<$83><$8C>-<$83><$93><$8C><$52><X>
+
+
+//POINTER #22 @ $3A65B - STRING #22 @ $3A7C1
+
+#W16($3A65B)
+Zaxon<X>
+
+
+//POINTER #23 @ $3A65D - STRING #23 @ $3A7CD
+
+#W16($3A65D)
+Siles<X>
+
+
+//POINTER #24 @ $3A65F - STRING #24 @ $3A7D9
+
+#W16($3A65F)
+Lubeck <X>
+
+
+//POINTER #25 @ $3A661 - STRING #25 @ $3A7E9
+
+#W16($3A661)
+s<$83><$42><$83><$8B>uy<$83><$4F><$8C><$52><X>
+
+
+//POINTER #26 @ $3A663 - STRING #26 @ $3A7F9
+
+#W16($3A663)
+Ganeis<X>
+
+
+//POINTER #27 @ $3A665 - STRING #27 @ $3A807
+
+#W16($3A665)
+Sopha<X>
+
+
+//POINTER #28 @ $3A667 - STRING #28 @ $3A813
+
+#W16($3A667)
+Isaac<X>
+
+
+//POINTER #29 @ $3A669 - STRING #29 @ $3A81F
+
+#W16($3A669)
+Rivo<X>
+
+
+//POINTER #30 @ $3A66B - STRING #30 @ $3A829
+
+#W16($3A66B)
+Phinor<X>
+
+
+//POINTER #31 @ $3A66D - STRING #31 @ $3A837
+
+#W16($3A66D)
+Yied<X>
+
+
+//POINTER #32 @ $3A66F - STRING #32 @ $3A841
+
+#W16($3A66F)
+Darn<X>
+
+
+//POINTER #33 @ $3A671 - STRING #33 @ $3A84B
+
+#W16($3A671)
+Verdan<X>
+
+
+//POINTER #34 @ $3A673 - STRING #34 @ $3A859
+
+#W16($3A673)
+Evans<X>
+
+
+//POINTER #35 @ $3A675 - STRING #35 @ $3A865
+
+#W16($3A675)
+Genoa<X>
+
+
+//POINTER #36 @ $3A677 - STRING #36 @ $3A871
+
+#W16($3A677)
+Marph<X>
+
+
+//POINTER #37 @ $3A679 - STRING #37 @ $3A87D
+
+#W16($3A679)
+Milet<X>
+
+
+//POINTER #38 @ $3A67B - STRING #38 @ $3A889
+
+#W16($3A67B)
+Perulu<X>
+
+
+//POINTER #39 @ $3A67D - STRING #39 @ $3A897
+
+#W16($3A67D)
+Chron<X>
+
+
+//POINTER #40 @ $3A67F - STRING #40 @ $3A8A3
+
+#W16($3A67F)
+Rado<X>
+
+
+//POINTER #41 @ $3A681 - STRING #41 @ $3A8AD
+
+#W16($3A681)
+Meas<X>
+
+
+//POINTER #42 @ $3A683 - STRING #42 @ $3A8B7
+
+#W16($3A683)
+Kapath<X>
+
+
+//POINTER #43 @ $3A685 - STRING #43 @ $3A8C5
+
+#W16($3A685)
+Luthe<X>
+
+
+//POINTER #44 @ $3A687 - STRING #44 @ $3A8D1
+
+#W16($3A687)
+Thrac<X>
+
+
+//POINTER #45 @ $3A689 - STRING #45 @ $3A8DD
+
+#W16($3A689)
+Grutia<X>
+
+
+//POINTER #46 @ $3A68B - STRING #46 @ $3A8EB
+
+#W16($3A68B)
+Velthom<X>
+
+
+//POINTER #47 @ $3A68D - STRING #47 @ $3A8FB
+
+#W16($3A68D)
+Freeg<X>
+
+
+//POINTER #48 @ $3A68F - STRING #48 @ $3A907
+
+#W16($3A68F)
+Barha<X>
+
+
+//POINTER #49 @ $3A691 - STRING #49 @ $3A913
+
+#W16($3A691)
+Doze<X>
+
+
+//POINTER #50 @ $3A693 - STRING #50 @ $3A91D
+
+#W16($3A693)
+Edda<X>
+
+
+//POINTER #51 @ $3A695 - STRING #51 @ $3A927
+
+#W16($3A695)
+Chalph<X>
+
+
+//POINTER #52 @ $3A697 - STRING #52 @ $3A935
+
+#W16($3A697)
+Jungby<X>
+
+
+//POINTER #53 @ $3A699 - STRING #53 @ $3A943
+
+#W16($3A699)
+Sigur<X>
+
+
+//POINTER #54 @ $3A69B - STRING #54 @ $3A94F
+
+#W16($3A69B)
+Celi<X>
+

@@ -1,0 +1,831 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #009 NAME:		Item Descriptions
+
+//POINTER #0 @ $3B17F - STRING #0 @ $3B293
+
+#W16($3B17F)
+ <X>
+
+
+//POINTER #1 @ $3B181 - STRING #1 @ $3B293
+
+#W16($3B181)
+ <X>
+
+
+//POINTER #2 @ $3B183 - STRING #2 @ $3B293
+
+#W16($3B183)
+ <X>
+
+
+//POINTER #3 @ $3B185 - STRING #3 @ $3B293
+
+#W16($3B185)
+ <X>
+
+
+//POINTER #4 @ $3B187 - STRING #4 @ $3B293
+
+#W16($3B187)
+ <X>
+
+
+//POINTER #5 @ $3B189 - STRING #5 @ $3B293
+
+#W16($3B189)
+ <X>
+
+
+//POINTER #6 @ $3B18B - STRING #6 @ $3B3C9
+
+#W16($3B18B)
+Armr/Drk<X>
+
+
+//POINTER #7 @ $3B18D - STRING #7 @ $3B297
+
+#W16($3B18D)
+Steal<X>
+
+
+//POINTER #8 @ $3B18F - STRING #8 @ $3B3B7
+
+#W16($3B18F)
+1/2 Atk <X>
+
+
+//POINTER #9 @ $3B191 - STRING #9 @ $3B419
+
+#W16($3B191)
+Bandits<X>
+
+
+//POINTER #10 @ $3B193 - STRING #10 @ $3B2C5
+
+#W16($3B193)
+2x Atk<X>
+
+
+//POINTER #11 @ $3B195 - STRING #11 @ $3B2E3
+
+#W16($3B195)
+Sleep<X>
+
+
+//POINTER #12 @ $3B197 - STRING #12 @ $3B293
+
+#W16($3B197)
+ <X>
+
+
+//POINTER #13 @ $3B199 - STRING #13 @ $3B3FD
+
+#W16($3B199)
+Mounts<X>
+
+
+//POINTER #14 @ $3B19B - STRING #14 @ $3B6E5
+
+#W16($3B19B)
+Def+5<X>
+
+
+//POINTER #15 @ $3B19D - STRING #15 @ $3B2EF
+
+#W16($3B19D)
+Elfire  <X>
+
+
+//POINTER #16 @ $3B19F - STRING #16 @ $3B301
+
+#W16($3B19F)
+<$82><$67><$82><$6F>Drain<X>
+
+
+//POINTER #17 @ $3B1A1 - STRING #17 @ $3B311
+
+#W16($3B1A1)
+Elthund<X>
+
+
+//POINTER #18 @ $3B1A3 - STRING #18 @ $3B321
+
+#W16($3B1A3)
+Elwind <X>
+
+
+//POINTER #19 @ $3B1A5 - STRING #19 @ $3B331
+
+#W16($3B1A5)
+Lightng<X>
+
+
+//POINTER #20 @ $3B1A7 - STRING #20 @ $3B301
+
+#W16($3B1A7)
+<$82><$67><$82><$6F>Drain<X>
+
+
+//POINTER #21 @ $3B1A9 - STRING #21 @ $3B38D
+
+#W16($3B1A9)
+Prayer<X>
+
+
+//POINTER #22 @ $3B1AB - STRING #22 @ $3B39B
+
+#W16($3B1AB)
+HolyWepn<X>
+
+
+//POINTER #23 @ $3B1AD - STRING #23 @ $3B959
+
+#W16($3B1AD)
+Cursed<X>
+
+
+//POINTER #24 @ $3B1AF - STRING #24 @ $3B353
+
+#W16($3B1AF)
+Torhammr<X>
+
+
+//POINTER #25 @ $3B1B1 - STRING #25 @ $3B341
+
+#W16($3B1B1)
+Jormung <X>
+
+
+//POINTER #26 @ $3B1B3 - STRING #26 @ $3B429
+
+#W16($3B1B3)
+Charisma<X>
+
+
+//POINTER #27 @ $3B1B5 - STRING #27 @ $3B293
+
+#W16($3B1B5)
+ <X>
+
+
+//POINTER #28 @ $3B1B7 - STRING #28 @ $3B293
+
+#W16($3B1B7)
+ <X>
+
+
+//POINTER #29 @ $3B1B9 - STRING #29 @ $3B293
+
+#W16($3B1B9)
+ <X>
+
+
+//POINTER #30 @ $3B1BB - STRING #30 @ $3B293
+
+#W16($3B1BB)
+ <X>
+
+
+//POINTER #31 @ $3B1BD - STRING #31 @ $3B293
+
+#W16($3B1BD)
+ <X>
+
+
+//POINTER #32 @ $3B1BF - STRING #32 @ $3B3FD
+
+#W16($3B1BF)
+Mounts<X>
+
+
+//POINTER #33 @ $3B1C1 - STRING #33 @ $3B2C5
+
+#W16($3B1C1)
+2x Atk<X>
+
+
+//POINTER #34 @ $3B1C3 - STRING #34 @ $3B2C5
+
+#W16($3B1C3)
+2x Atk<X>
+
+
+//POINTER #35 @ $3B1C5 - STRING #35 @ $3B39B
+
+#W16($3B1C5)
+HolyWepn<X>
+
+
+//POINTER #36 @ $3B1C7 - STRING #36 @ $3B39B
+
+#W16($3B1C7)
+HolyWepn<X>
+
+
+//POINTER #37 @ $3B1C9 - STRING #37 @ $3B293
+
+#W16($3B1C9)
+ <X>
+
+
+//POINTER #38 @ $3B1CB - STRING #38 @ $3B2C5
+
+#W16($3B1CB)
+2x Atk<X>
+
+
+//POINTER #39 @ $3B1CD - STRING #39 @ $3B293
+
+#W16($3B1CD)
+ <X>
+
+
+//POINTER #40 @ $3B1CF - STRING #40 @ $3B293
+
+#W16($3B1CF)
+ <X>
+
+
+//POINTER #41 @ $3B1D1 - STRING #41 @ $3B293
+
+#W16($3B1D1)
+ <X>
+
+
+//POINTER #42 @ $3B1D3 - STRING #42 @ $3B293
+
+#W16($3B1D3)
+ <X>
+
+
+//POINTER #43 @ $3B1D5 - STRING #43 @ $3B2C5
+
+#W16($3B1D5)
+2x Atk<X>
+
+
+//POINTER #44 @ $3B1D7 - STRING #44 @ $3B8B9
+
+#W16($3B1D7)
+GrtSh<X>
+
+
+//POINTER #45 @ $3B1D9 - STRING #45 @ $3B293
+
+#W16($3B1D9)
+ <X>
+
+
+//POINTER #46 @ $3B1DB - STRING #46 @ $3B2C5
+
+#W16($3B1DB)
+2x Atk<X>
+
+
+//POINTER #47 @ $3B1DD - STRING #47 @ $3B293
+
+#W16($3B1DD)
+ <X>
+
+
+//POINTER #48 @ $3B1DF - STRING #48 @ $3B293
+
+#W16($3B1DF)
+ <X>
+
+
+//POINTER #49 @ $3B1E1 - STRING #49 @ $3B40B
+
+#W16($3B1E1)
+Flyers<X>
+
+
+//POINTER #50 @ $3B1E3 - STRING #50 @ $3B40B
+
+#W16($3B1E3)
+Flyers<X>
+
+
+//POINTER #51 @ $3B1E5 - STRING #51 @ $3B40B
+
+#W16($3B1E5)
+Flyers<X>
+
+
+//POINTER #52 @ $3B1E7 - STRING #52 @ $3B2C5
+
+#W16($3B1E7)
+2x Atk<X>
+
+
+//POINTER #53 @ $3B1E9 - STRING #53 @ $3B977
+
+#W16($3B1E9)
+4x Atk<X>
+
+
+//POINTER #54 @ $3B1EB - STRING #54 @ $3B3AD
+
+#W16($3B1EB)
+Life<X>
+
+
+//POINTER #55 @ $3B1ED - STRING #55 @ $3B40B
+
+#W16($3B1ED)
+Flyers<X>
+
+
+//POINTER #56 @ $3B1EF - STRING #56 @ $3B2C5
+
+#W16($3B1EF)
+2x Atk<X>
+
+
+//POINTER #57 @ $3B1F1 - STRING #57 @ $3B293
+
+#W16($3B1F1)
+ <X>
+
+
+//POINTER #58 @ $3B1F3 - STRING #58 @ $3B40B
+
+#W16($3B1F3)
+Flyers<X>
+
+
+//POINTER #59 @ $3B1F5 - STRING #59 @ $3B40B
+
+#W16($3B1F5)
+Flyers<X>
+
+
+//POINTER #60 @ $3B1F7 - STRING #60 @ $3B40B
+
+#W16($3B1F7)
+Flyers<X>
+
+
+//POINTER #61 @ $3B1F9 - STRING #61 @ $3B40B
+
+#W16($3B1F9)
+Flyers<X>
+
+
+//POINTER #62 @ $3B1FB - STRING #62 @ $3B293
+
+#W16($3B1FB)
+ <X>
+
+
+//POINTER #63 @ $3B1FD - STRING #63 @ $3B293
+
+#W16($3B1FD)
+ <X>
+
+
+//POINTER #64 @ $3B1FF - STRING #64 @ $3B293
+
+#W16($3B1FF)
+ <X>
+
+
+//POINTER #65 @ $3B201 - STRING #65 @ $3B39B
+
+#W16($3B201)
+HolyWepn<X>
+
+
+//POINTER #66 @ $3B203 - STRING #66 @ $3B293
+
+#W16($3B203)
+ <X>
+
+
+//POINTER #67 @ $3B205 - STRING #67 @ $3B293
+
+#W16($3B205)
+ <X>
+
+
+//POINTER #68 @ $3B207 - STRING #68 @ $3B293
+
+#W16($3B207)
+ <X>
+
+
+//POINTER #69 @ $3B209 - STRING #69 @ $3B293
+
+#W16($3B209)
+ <X>
+
+
+//POINTER #70 @ $3B20B - STRING #70 @ $3B39B
+
+#W16($3B20B)
+HolyWepn<X>
+
+
+//POINTER #71 @ $3B20D - STRING #71 @ $3B293
+
+#W16($3B20D)
+ <X>
+
+
+//POINTER #72 @ $3B20F - STRING #72 @ $3B293
+
+#W16($3B20F)
+ <X>
+
+
+//POINTER #73 @ $3B211 - STRING #73 @ $3B293
+
+#W16($3B211)
+ <X>
+
+
+//POINTER #74 @ $3B213 - STRING #74 @ $3B293
+
+#W16($3B213)
+ <X>
+
+
+//POINTER #75 @ $3B215 - STRING #75 @ $3B39B
+
+#W16($3B215)
+HolyWepn<X>
+
+
+//POINTER #76 @ $3B217 - STRING #76 @ $3B2E3
+
+#W16($3B217)
+Sleep<X>
+
+
+//POINTER #77 @ $3B219 - STRING #77 @ $3B293
+
+#W16($3B219)
+ <X>
+
+
+//POINTER #78 @ $3B21B - STRING #78 @ $3B301
+
+#W16($3B21B)
+<$82><$67><$82><$6F>Drain<X>
+
+
+//POINTER #79 @ $3B21D - STRING #79 @ $3B293
+
+#W16($3B21D)
+ <X>
+
+
+//POINTER #80 @ $3B21F - STRING #80 @ $3B293
+
+#W16($3B21F)
+ <X>
+
+
+//POINTER #81 @ $3B221 - STRING #81 @ $3B293
+
+#W16($3B221)
+ <X>
+
+
+//POINTER #82 @ $3B223 - STRING #82 @ $3B293
+
+#W16($3B223)
+ <X>
+
+
+//POINTER #83 @ $3B225 - STRING #83 @ $3B43B
+
+#W16($3B225)
+HP to 1 <X>
+
+
+//POINTER #84 @ $3B227 - STRING #84 @ $3B3B7
+
+#W16($3B227)
+1/2 Atk <X>
+
+
+//POINTER #85 @ $3B229 - STRING #85 @ $3B947
+
+#W16($3B229)
+Cancel  <X>
+
+
+//POINTER #86 @ $3B22B - STRING #86 @ $3B2C5
+
+#W16($3B22B)
+2x Atk<X>
+
+
+//POINTER #87 @ $3B22D - STRING #87 @ $3B293
+
+#W16($3B22D)
+ <X>
+
+
+//POINTER #88 @ $3B22F - STRING #88 @ $3B44D
+
+#W16($3B22F)
+Heals HP<X>
+
+
+//POINTER #89 @ $3B231 - STRING #89 @ $3B45F
+
+#W16($3B231)
+Heals HPmore <X>
+
+
+//POINTER #90 @ $3B233 - STRING #90 @ $3B47B
+
+#W16($3B233)
+Heal allHP   <X>
+
+
+//POINTER #91 @ $3B235 - STRING #91 @ $3B497
+
+#W16($3B235)
+Heals HPRange 15<X>
+
+
+//POINTER #92 @ $3B237 - STRING #92 @ $3B4BF
+
+#W16($3B237)
+Heal allalliesinR15<X>
+
+
+//POINTER #93 @ $3B239 - STRING #93 @ $3B899
+
+#W16($3B239)
+Sends tohome   <X>
+
+
+//POINTER #94 @ $3B23B - STRING #94 @ $3B4E7
+
+#W16($3B23B)
+Send an ally to a castle<X>
+
+
+//POINTER #95 @ $3B23D - STRING #95 @ $3B519
+
+#W16($3B23D)
+Brings  ally to you R 15<X>
+
+
+//POINTER #96 @ $3B23F - STRING #96 @ $3B40B
+
+#W16($3B23F)
+Flyers<X>
+
+
+//POINTER #97 @ $3B241 - STRING #97 @ $3B54B
+
+#W16($3B241)
+Cures   statuseson ally Range 10<X>
+
+
+//POINTER #98 @ $3B243 - STRING #98 @ $3B937
+
+#W16($3B243)
+NullDef<X>
+
+
+//POINTER #99 @ $3B245 - STRING #99 @ $3B5CF
+
+#W16($3B245)
+Silencesfoe if  Mag/Res Range 10<X>
+
+
+//POINTER #100 @ $3B247 - STRING #100 @ $3B611
+
+#W16($3B247)
+Foe goesto sleepRange 10<X>
+
+
+//POINTER #101 @ $3B249 - STRING #101 @ $3B64B
+
+#W16($3B249)
+Berserksenemy   Range 10    <X>
+
+
+//POINTER #102 @ $3B24B - STRING #102 @ $3B861
+
+#W16($3B24B)
+Refresh an ally 10 range   <X>
+
+
+//POINTER #103 @ $3B24D - STRING #103 @ $3B3DB
+
+#W16($3B24D)
+NullLopt<X>
+
+
+//POINTER #104 @ $3B24F - STRING #104 @ $3B8C5
+
+#W16($3B24F)
+GretShldDefRes+5Crit+Effnegated    <X>
+
+
+//POINTER #105 @ $3B251 - STRING #105 @ $3B365
+
+#W16($3B251)
+Astra  <X>
+
+
+//POINTER #106 @ $3B253 - STRING #106 @ $3B783
+
+#W16($3B253)
+Heals HPturn <X>
+
+
+//POINTER #107 @ $3B255 - STRING #107 @ $3B79F
+
+#W16($3B255)
+Doubles EXPGain<X>
+
+
+//POINTER #108 @ $3B257 - STRING #108 @ $3B297
+
+#W16($3B257)
+Steal<X>
+
+
+//POINTER #109 @ $3B259 - STRING #109 @ $3B7BF
+
+#W16($3B259)
+Halves  fatal   dmg<X>
+
+
+//POINTER #110 @ $3B25B - STRING #110 @ $3B375
+
+#W16($3B25B)
+Luna <X>
+
+
+//POINTER #111 @ $3B25D - STRING #111 @ $3B383
+
+#W16($3B25D)
+Sol<X>
+
+
+//POINTER #112 @ $3B25F - STRING #112 @ $3B7E7
+
+#W16($3B25F)
+Halves  the shopprice<X>
+
+
+//POINTER #113 @ $3B261 - STRING #113 @ $3B685
+
+#W16($3B261)
+Grants  Canto <X>
+
+
+//POINTER #114 @ $3B263 - STRING #114 @ $3B6A3
+
+#W16($3B263)
+NullEff Crit<X>
+
+
+//POINTER #115 @ $3B265 - STRING #115 @ $3B58D
+
+#W16($3B265)
+Revives a fallenally at home    <X>
+
+
+//POINTER #116 @ $3B267 - STRING #116 @ $3B985
+
+#W16($3B267)
+AmbWrath<X>
+
+
+//POINTER #117 @ $3B269 - STRING #117 @ $3B967
+
+#W16($3B269)
+Cursed <X>
+
+
+//POINTER #118 @ $3B26B - STRING #118 @ $3B3FD
+
+#W16($3B26B)
+Mounts<X>
+
+
+//POINTER #119 @ $3B26D - STRING #119 @ $3B2C5
+
+#W16($3B26D)
+2x Atk<X>
+
+
+//POINTER #120 @ $3B26F - STRING #120 @ $3B293
+
+#W16($3B26F)
+ <X>
+
+
+//POINTER #121 @ $3B271 - STRING #121 @ $3B293
+
+#W16($3B271)
+ <X>
+
+
+//POINTER #122 @ $3B273 - STRING #122 @ $3B293
+
+#W16($3B273)
+ <X>
+
+
+//POINTER #123 @ $3B275 - STRING #123 @ $3B293
+
+#W16($3B275)
+ <X>
+
+
+//POINTER #124 @ $3B277 - STRING #124 @ $3B293
+
+#W16($3B277)
+ <X>
+
+
+//POINTER #125 @ $3B279 - STRING #125 @ $3B293
+
+#W16($3B279)
+ <X>
+
+
+//POINTER #126 @ $3B27B - STRING #126 @ $3B90D
+
+#W16($3B27B)
+Negates Lopto   Life<X>
+
+
+//POINTER #127 @ $3B27D - STRING #127 @ $3B6BD
+
+#W16($3B27D)
+Spd+5 <X>
+
+
+//POINTER #128 @ $3B27F - STRING #128 @ $3B6CB
+
+#W16($3B27F)
+Mag+5 <X>
+
+
+//POINTER #129 @ $3B281 - STRING #129 @ $3B6D9
+
+#W16($3B281)
+Str+5<X>
+
+
+//POINTER #130 @ $3B283 - STRING #130 @ $3B6E5
+
+#W16($3B283)
+Def+5<X>
+
+
+//POINTER #131 @ $3B285 - STRING #131 @ $3B6F1
+
+#W16($3B285)
+Res+5     <X>
+
+
+//POINTER #132 @ $3B287 - STRING #132 @ $3B707
+
+#W16($3B287)
+Move+3<X>
+
+
+//POINTER #133 @ $3B289 - STRING #133 @ $3B717
+
+#W16($3B289)
+Skl+5<X>
+
+
+//POINTER #134 @ $3B28B - STRING #134 @ $3B813
+
+#W16($3B28B)
+Go home <X>
+
+
+//POINTER #135 @ $3B28D - STRING #135 @ $3B755
+
+#W16($3B28D)
+Double  if +3AS on foe<X>
+
+
+//POINTER #136 @ $3B28F - STRING #136 @ $3B293
+
+#W16($3B28F)
+ <X>
+
+
+//POINTER #137 @ $3B291 - STRING #137 @ $3B825
+
+#W16($3B291)
+Prayer  Life           <X>
+

@@ -1,0 +1,76 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+//This bank mainly has some
+//Data screen stuff.
+
+#JMP($BD477, $BD4A2)
+//Data menu headings
+
+#W16($BD35D)
+Lead<X>
+
+#W16($BD36E)
+Type<X>
+
+#W16($BD37F)
+Unit<X>
+
+#W16($BD3DD)
+------<X>
+
+
+#JMP($BD4AF, $BD4D6)
+//Alignment
+
+#W24($BD4A3)
+Us<X>
+
+#W24($BD4A6)
+Them<X>
+
+#W24($BD4A9)
+Ally<X>
+
+#W24($BD4AC)
+Neutr<X>
+
+
+#JMP($BD64E, $BD6C5)
+//Data screen 2
+
+#W16($BD506)
+Home<X>
+
+#W16($BD569)
+No units out<X>
+
+#W16($BD57E)
+No leader out<X>
+
+#W16($BD593)
+Leader<X>
+
+#W16($BD5C6)
+Lv<X>
+
+#W16($BD5EC)
+HP   /<X>
+
+#W16($BD627)
+Atk<X>
+
+#W16($BD52B)
+----<X>
+
+
+#JMP($BE1A9, $BE1BE)
+//Nobody has a skill
+
+#W16($BDC8E)
+Nobody<X>

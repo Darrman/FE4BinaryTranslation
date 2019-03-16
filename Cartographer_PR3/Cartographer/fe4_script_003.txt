@@ -1,0 +1,159 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #003 NAME:		Terrain Names
+
+//POINTER #0 @ $2DB00 - STRING #0 @ $2DB34
+
+#W16($2DB00)
+Peak<X>
+
+
+//POINTER #1 @ $2DB02 - STRING #1 @ $2DB40
+
+#W16($2DB02)
+Thicket<X>
+
+
+//POINTER #2 @ $2DB04 - STRING #2 @ $2E4E6
+
+#W16($2DB04)
+Cliff<X>
+
+
+//POINTER #3 @ $2DB06 - STRING #3 @ $2E4F2
+
+#W16($2DB06)
+Plain<X>
+
+
+//POINTER #4 @ $2DB08 - STRING #4 @ $2E4FE
+
+#W16($2DB08)
+Forest<X>
+
+
+//POINTER #5 @ $2DB0A - STRING #5 @ $2DB60
+
+#W16($2DB0A)
+Sea<X>
+
+
+//POINTER #6 @ $2DB0C - STRING #6 @ $2E50C
+
+#W16($2DB0C)
+River<X>
+
+
+//POINTER #7 @ $2DB0E - STRING #7 @ $2E518
+
+#W16($2DB0E)
+Mount<X>
+
+
+//POINTER #8 @ $2DB10 - STRING #8 @ $2E524
+
+#W16($2DB10)
+Desert<X>
+
+
+//POINTER #9 @ $2DB12 - STRING #9 @ $2DB50
+
+#W16($2DB12)
+Castle<X>
+
+
+//POINTER #10 @ $2DB14 - STRING #10 @ $2DB68
+
+#W16($2DB14)
+Fort<X>
+
+
+//POINTER #11 @ $2DB16 - STRING #11 @ $2DB72
+
+#W16($2DB16)
+Town<X>
+
+
+//POINTER #12 @ $2DB18 - STRING #12 @ $2DB90
+
+#W16($2DB18)
+Gate<X>
+
+
+//POINTER #13 @ $2DB1A - STRING #13 @ $2DB9A
+
+#W16($2DB1A)
+Rampart<X>
+
+
+//POINTER #14 @ $2DB1C - STRING #14 @ $2E532
+
+#W16($2DB1C)
+Sand<X>
+
+
+//POINTER #15 @ $2DB1E - STRING #15 @ $2E53C
+
+#W16($2DB1E)
+Bridge<X>
+
+
+//POINTER #16 @ $2DB20 - STRING #16 @ $2DBAA
+
+#W16($2DB20)
+Swamp<X>
+
+
+//POINTER #17 @ $2DB22 - STRING #17 @ $2DB90
+
+#W16($2DB22)
+Gate<X>
+
+
+//POINTER #18 @ $2DB24 - STRING #18 @ $2DB7C
+
+#W16($2DB24)
+Village<X>
+
+
+//POINTER #19 @ $2DB26 - STRING #19 @ $2DBDE
+
+#W16($2DB26)
+Ruins<X>
+
+
+//POINTER #20 @ $2DB28 - STRING #20 @ $2DBB6
+
+#W16($2DB28)
+Warehse<X>
+
+
+//POINTER #21 @ $2DB2A - STRING #21 @ $2DBDE
+
+#W16($2DB2A)
+Ruins<X>
+
+
+//POINTER #22 @ $2DB2C - STRING #22 @ $2E54A
+
+#W16($2DB2C)
+Church<X>
+
+
+//POINTER #23 @ $2DB2E - STRING #23 @ $2DBC6
+
+#W16($2DB2E)
+Temple<X>
+
+
+//POINTER #24 @ $2DB30 - STRING #24 @ $2DBFE
+
+#W16($2DB30)
+Tower<X>
+
+
+//POINTER #25 @ $2DB32 - STRING #25 @ $2E558
+
+#W16($2DB32)
+Road<X>
+

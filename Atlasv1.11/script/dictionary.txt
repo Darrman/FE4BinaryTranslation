@@ -1,0 +1,2057 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(dict, TABLE)
+#ADDTBL("Dictionary.tbl", dict)
+#ACTIVETBL(dict)
+
+#HDR($200)
+#JMP($262AC0, $26611F)
+
+#W16($2622C0)
+to [X]
+#W16($2622C2)
+the [X]
+#W16($2622C4)
+you [X]
+#W16($2622C6)
+of [X]
+#W16($2622C8)
+for [X]
+#W16($2622CA)
+is [X]
+#W16($2622CC)
+I'm [X]
+#W16($2622CE)
+and [X]
+#W16($2622D0)
+in [X]
+#W16($2622D2)
+be [X]
+#W16($2622D4)
+my [X]
+#W16($2622D6)
+have [X]
+#W16($2622D8)
+just [X]
+#W16($2622DA)
+You [X]
+#W16($2622DC)
+that [X]
+#W16($2622DE)
+with [X]
+#W16($2622E0)
+your [X]
+#W16($2622E2)
+this [X]
+#W16($2622E4)
+all [X]
+#W16($2622E6)
+on [X]
+#W16($2622E8)
+me [X]
+#W16($2622EA)
+are [X]
+#W16($2622EC)
+it [X]
+#W16($2622EE)
+was [X]
+#W16($2622F0)
+we [X]
+#W16($2622F2)
+as [X]
+#W16($2622F4)
+get [X]
+#W16($2622F6)
+so [X]
+#W16($2622F8)
+out [X]
+#W16($2622FA)
+But [X]
+#W16($2622FC)
+not [X]
+#W16($2622FE)
+don't [X]
+#W16($262300)
+but [X]
+#W16($262302)
+like [X]
+#W16($262304)
+you. [X]
+#W16($262306)
+do [X]
+#W16($262308)
+about [X]
+#W16($26230A)
+can [X]
+#W16($26230C)
+Well, [X]
+#W16($26230E)
+I'll [X]
+#W16($262310)
+up [X]
+#W16($262312)
+has [X]
+#W16($262314)
+been [X]
+#W16($262316)
+The [X]
+#W16($262318)
+our [X]
+#W16($26231A)
+you're [X]
+#W16($26231C)
+I've [X]
+#W16($26231E)
+You're [X]
+#W16($262320)
+got [X]
+#W16($262322)
+know [X]
+#W16($262324)
+from [X]
+#W16($262326)
+at [X]
+#W16($262328)
+me. [X]
+#W16($26232A)
+what [X]
+#W16($26232C)
+And [X]
+#W16($26232E)
+no [X]
+#W16($262330)
+can't [X]
+#W16($262332)
+We [X]
+#W16($262334)
+if [X]
+#W16($262336)
+It's [X]
+#W16($262338)
+one [X]
+#W16($26233A)
+must [X]
+#W16($26233C)
+take [X]
+#W16($26233E)
+back [X]
+#W16($262340)
+Yeah, [X]
+#W16($262342)
+her [X]
+#W16($262344)
+he [X]
+#W16($262346)
+Prince [X]
+#W16($262348)
+going [X]
+#W16($26234A)
+go [X]
+#W16($26234C)
+What [X]
+#W16($26234E)
+his [X]
+#W16($262350)
+were [X]
+#W16($262352)
+will [X]
+#W16($262354)
+little [X]
+#W16($262356)
+here [X]
+#W16($262358)
+Your [X]
+#W16($26235A)
+see [X]
+#W16($26235C)
+need [X]
+#W16($26235E)
+had [X]
+#W16($262360)
+how [X]
+#W16($262362)
+want [X]
+#W16($262364)
+Sir [X]
+#W16($262366)
+who [X]
+#W16($262368)
+an [X]
+#W16($26236A)
+So [X]
+#W16($26236C)
+Lord [X]
+#W16($26236E)
+This [X]
+#W16($262370)
+think [X]
+#W16($262372)
+it's [X]
+#W16($262374)
+never [X]
+#W16($262376)
+King [X]
+#W16($262378)
+it. [X]
+#W16($26237A)
+us [X]
+#W16($26237C)
+would [X]
+#W16($26237E)
+you, [X]
+#W16($262380)
+That's [X]
+#W16($262382)
+you? [X]
+#W16($262384)
+still [X]
+#W16($262386)
+He [X]
+#W16($262388)
+Don't [X]
+#W16($26238A)
+could [X]
+#W16($26238C)
+him [X]
+#W16($26238E)
+If [X]
+#W16($262390)
+sure [X]
+#W16($262392)
+they [X]
+#W16($262394)
+some [X]
+#W16($262396)
+time [X]
+#W16($262398)
+by [X]
+#W16($26239A)
+that's [X]
+#W16($26239C)
+Yes, [X]
+#W16($26239E)
+Now [X]
+#W16($2623A0)
+come [X]
+#W16($2623A2)
+any [X]
+#W16($2623A4)
+their [X]
+#W16($2623A6)
+over [X]
+#W16($2623A8)
+That [X]
+#W16($2623AA)
+How [X]
+#W16($2623AC)
+here. [X]
+#W16($2623AE)
+good [X]
+#W16($2623B0)
+let [X]
+#W16($2623B2)
+only [X]
+#W16($2623B4)
+My [X]
+#W16($2623B6)
+you! [X]
+#W16($2623B8)
+father [X]
+#W16($2623BA)
+them [X]
+#W16($2623BC)
+when [X]
+#W16($2623BE)
+me, [X]
+#W16($2623C0)
+make [X]
+#W16($2623C2)
+did [X]
+#W16($2623C4)
+too [X]
+#W16($2623C6)
+Hey, [X]
+#W16($2623C8)
+army [X]
+#W16($2623CA)
+tell [X]
+#W16($2623CC)
+way [X]
+#W16($2623CE)
+It [X]
+#W16($2623D0)
+after [X]
+#W16($2623D2)
+What's [X]
+#W16($2623D4)
+you've [X]
+#W16($2623D6)
+His [X]
+#W16($2623D8)
+help [X]
+#W16($2623DA)
+she [X]
+#W16($2623DC)
+really [X]
+#W16($2623DE)
+more [X]
+#W16($2623E0)
+fight [X]
+#W16($2623E2)
+very [X]
+#W16($2623E4)
+I'd [X]
+#W16($2623E6)
+or [X]
+#W16($2623E8)
+Celice. [X]
+#W16($2623EA)
+heard [X]
+#W16($2623EC)
+They [X]
+#W16($2623EE)
+keep [X]
+#W16($2623F0)
+Sir, [X]
+#W16($2623F2)
+now. [X]
+#W16($2623F4)
+Just [X]
+#W16($2623F6)
+Oh, [X]
+#W16($2623F8)
+off [X]
+#W16($2623FA)
+Sigurd, [X]
+#W16($2623FC)
+long [X]
+#W16($2623FE)
+now [X]
+#W16($262400)
+being [X]
+#W16($262402)
+ever [X]
+#W16($262404)
+you... [X]
+#W16($262406)
+Sigurd [X]
+#W16($262408)
+find [X]
+#W16($26240A)
+it! [X]
+#W16($26240C)
+say [X]
+#W16($26240E)
+put [X]
+#W16($262410)
+... [X]
+#W16($262412)
+something [X]
+#W16($262414)
+people [X]
+#W16($262416)
+Let's [X]
+#W16($262418)
+much [X]
+#W16($26241A)
+Celice, [X]
+#W16($26241C)
+should [X]
+#W16($26241E)
+once [X]
+#W16($262420)
+war [X]
+#W16($262422)
+She [X]
+#W16($262424)
+me! [X]
+#W16($262426)
+there [X]
+#W16($262428)
+that. [X]
+#W16($26242A)
+Why [X]
+#W16($26242C)
+always [X]
+#W16($26242E)
+this. [X]
+#W16($262430)
+okay? [X]
+#W16($262432)
+I... [X]
+#W16($262434)
+Is [X]
+#W16($262436)
+Look, [X]
+#W16($262438)
+right [X]
+#W16($26243A)
+power [X]
+#W16($26243C)
+than [X]
+#W16($26243E)
+care [X]
+#W16($262440)
+into [X]
+#W16($262442)
+stay [X]
+#W16($262444)
+wish [X]
+#W16($262446)
+two [X]
+#W16($262448)
+why [X]
+#W16($26244A)
+liberation [X]
+#W16($26244C)
+Grandbell [X]
+#W16($26244E)
+Alright, [X]
+#W16($262450)
+believe [X]
+#W16($262452)
+mother [X]
+#W16($262454)
+didn't [X]
+#W16($262456)
+around [X]
+#W16($262458)
+know. [X]
+#W16($26245A)
+such [X]
+#W16($26245C)
+it, [X]
+#W16($26245E)
+Do [X]
+#W16($262460)
+You've [X]
+#W16($262462)
+leave [X]
+#W16($262464)
+use [X]
+#W16($262466)
+thought [X]
+#W16($262468)
+through [X]
+#W16($26246A)
+we've [X]
+#W16($26246C)
+where [X]
+#W16($26246E)
+came [X]
+#W16($262470)
+also [X]
+#W16($262472)
+give [X]
+#W16($262474)
+left [X]
+#W16($262476)
+ya [X]
+#W16($262478)
+father. [X]
+#W16($26247A)
+then. [X]
+#W16($26247C)
+took [X]
+#W16($26247E)
+then [X]
+#W16($262480)
+him. [X]
+#W16($262482)
+he's [X]
+#W16($262484)
+No, [X]
+#W16($262486)
+Please, [X]
+#W16($262488)
+Thank [X]
+#W16($26248A)
+won't [X]
+#W16($26248C)
+We've [X]
+#W16($26248E)
+us. [X]
+#W16($262490)
+nothing [X]
+#W16($262492)
+heh... [X]
+#W16($262494)
+better [X]
+#W16($262496)
+things [X]
+#W16($262498)
+Please [X]
+#W16($26249A)
+we're [X]
+#W16($26249C)
+that? [X]
+#W16($26249E)
+nice [X]
+#W16($2624A0)
+hope [X]
+#W16($2624A2)
+made [X]
+#W16($2624A4)
+may [X]
+#W16($2624A6)
+there's [X]
+#W16($2624A8)
+before [X]
+#W16($2624AA)
+world [X]
+#W16($2624AC)
+back. [X]
+#W16($2624AE)
+feel [X]
+#W16($2624B0)
+even [X]
+#W16($2624B2)
+lost [X]
+#W16($2624B4)
+Are [X]
+#W16($2624B6)
+am [X]
+#W16($2624B8)
+right. [X]
+#W16($2624BA)
+you'll [X]
+#W16($2624BC)
+those [X]
+#W16($2624BE)
+time. [X]
+#W16($2624C0)
+it? [X]
+#W16($2624C2)
+day [X]
+#W16($2624C4)
+fighting [X]
+#W16($2624C6)
+finally [X]
+#W16($2624C8)
+right? [X]
+#W16($2624CA)
+troops [X]
+#W16($2624CC)
+we'll [X]
+#W16($2624CE)
+We're [X]
+#W16($2624D0)
+look [X]
+#W16($2624D2)
+Heh [X]
+#W16($2624D4)
+Who [X]
+#W16($2624D6)
+No [X]
+#W16($2624D8)
+Sigurd. [X]
+#W16($2624DA)
+There's [X]
+#W16($2624DC)
+what's [X]
+#W16($2624DE)
+let's [X]
+#W16($2624E0)
+doing [X]
+#W16($2624E2)
+He's [X]
+#W16($2624E4)
+told [X]
+#W16($2624E6)
+both [X]
+#W16($2624E8)
+taking [X]
+#W16($2624EA)
+please [X]
+#W16($2624EC)
+them. [X]
+#W16($2624EE)
+isn't [X]
+#W16($2624F0)
+shall [X]
+#W16($2624F2)
+down [X]
+#W16($2624F4)
+Then [X]
+#W16($2624F6)
+Ah, [X]
+#W16($2624F8)
+me? [X]
+#W16($2624FA)
+without [X]
+#W16($2624FC)
+Silesia [X]
+#W16($2624FE)
+Thracia [X]
+#W16($262500)
+they're [X]
+#W16($262502)
+here! [X]
+#W16($262504)
+Isaac [X]
+#W16($262506)
+rebel [X]
+#W16($262508)
+sir. [X]
+#W16($26250A)
+Dark [X]
+#W16($26250C)
+attack [X]
+#W16($26250E)
+pretty [X]
+#W16($262510)
+under [X]
+#W16($262512)
+Here, [X]
+#W16($262514)
+while [X]
+#W16($262516)
+these [X]
+#W16($262518)
+knew [X]
+#W16($26251A)
+real [X]
+#W16($26251C)
+bit [X]
+#W16($26251E)
+yourself [X]
+#W16($262520)
+Hmph... [X]
+#W16($262522)
+killed [X]
+#W16($262524)
+Isaac. [X]
+#W16($262526)
+here? [X]
+#W16($262528)
+well. [X]
+#W16($26252A)
+sorry [X]
+#W16($26252C)
+word [X]
+#W16($26252E)
+last [X]
+#W16($262530)
+head [X]
+#W16($262532)
+glad [X]
+#W16($262534)
+Huh? [X]
+#W16($262536)
+meet [X]
+#W16($262538)
+out. [X]
+#W16($26253A)
+said [X]
+#W16($26253C)
+work [X]
+#W16($26253E)
+own [X]
+#W16($262540)
+th' [X]
+#W16($262542)
+alright? [X]
+#W16($262544)
+father's [X]
+#W16($262546)
+Eltshan [X]
+#W16($262548)
+against [X]
+#W16($26254A)
+there. [X]
+#W16($26254C)
+aren't [X]
+#W16($26254E)
+fine. [X]
+#W16($262550)
+other [X]
+#W16($262552)
+Er... [X]
+#W16($262554)
+you!? [X]
+#W16($262556)
+show [X]
+#W16($262558)
+Lopt [X]
+#W16($26255A)
+Yes. [X]
+#W16($26255C)
+Holy [X]
+#W16($26255E)
+love [X]
+#W16($262560)
+well [X]
+#W16($262562)
+do. [X]
+#W16($262564)
+Of [X]
+#W16($262566)
+understand [X]
+#W16($262568)
+haven't [X]
+#W16($26256A)
+Majesty [X]
+#W16($26256C)
+Levin, [X]
+#W16($26256E)
+behind [X]
+#W16($262570)
+battle [X]
+#W16($262572)
+sorry, [X]
+#W16($262574)
+return [X]
+#W16($262576)
+found [X]
+#W16($262578)
+since [X]
+#W16($26257A)
+too. [X]
+#W16($26257C)
+wouldn't [X]
+#W16($26257E)
+doesn't [X]
+#W16($262580)
+someone [X]
+#W16($262582)
+entire [X]
+#W16($262584)
+Hmm... [X]
+#W16($262586)
+Shanan [X]
+#W16($262588)
+coming [X]
+#W16($26258A)
+handle [X]
+#W16($26258C)
+Alvis [X]
+#W16($26258E)
+bring [X]
+#W16($262590)
+first [X]
+#W16($262592)
+Queen [X]
+#W16($262594)
+blood [X]
+#W16($262596)
+happy [X]
+#W16($262598)
+mean [X]
+#W16($26259A)
+join [X]
+#W16($26259C)
+hold [X]
+#W16($26259E)
+all. [X]
+#W16($2625A0)
+kill [X]
+#W16($2625A2)
+up. [X]
+#W16($2625A4)
+children [X]
+#W16($2625A6)
+Lenster. [X]
+#W16($2625A8)
+forgive [X]
+#W16($2625AA)
+again. [X]
+#W16($2625AC)
+wonder [X]
+#W16($2625AE)
+become [X]
+#W16($2625B0)
+worry [X]
+#W16($2625B2)
+gotta [X]
+#W16($2625B4)
+We'll [X]
+#W16($2625B6)
+army. [X]
+#W16($2625B8)
+until [X]
+#W16($2625BA)
+watch [X]
+#W16($2625BC)
+life [X]
+#W16($2625BE)
+hate [X]
+#W16($2625C0)
+stop [X]
+#W16($2625C2)
+lose [X]
+#W16($2625C4)
+son [X]
+#W16($2625C6)
+Celice... [X]
+#W16($2625C8)
+Highness, [X]
+#W16($2625CA)
+Sigurd's [X]
+#W16($2625CC)
+promise [X]
+#W16($2625CE)
+They're [X]
+#W16($2625D0)
+getting [X]
+#W16($2625D2)
+prince [X]
+#W16($2625D4)
+Dragon [X]
+#W16($2625D6)
+enough [X]
+#W16($2625D8)
+listen [X]
+#W16($2625DA)
+wanted [X]
+#W16($2625DC)
+chance [X]
+#W16($2625DE)
+forget [X]
+#W16($2625E0)
+Celice [X]
+#W16($2625E2)
+sword [X]
+#W16($2625E4)
+me... [X]
+#W16($2625E6)
+home [X]
+#W16($2625E8)
+fine [X]
+#W16($2625EA)
+kind [X]
+#W16($2625EC)
+move [X]
+#W16($2625EE)
+same [X]
+#W16($2625F0)
+Take [X]
+#W16($2625F2)
+try [X]
+#W16($2625F4)
+run [X]
+#W16($2625F6)
+ask [X]
+#W16($2625F8)
+Grandbell. [X]
+#W16($2625FA)
+alright. [X]
+#W16($2625FC)
+worried [X]
+#W16($2625FE)
+Lenster [X]
+#W16($262600)
+already [X]
+#W16($262602)
+battle. [X]
+#W16($262604)
+You'll [X]
+#W16($262606)
+Castle [X]
+#W16($262608)
+child [X]
+#W16($26260A)
+she's [X]
+#W16($26260C)
+you'd [X]
+#W16($26260E)
+hands [X]
+#W16($262610)
+years [X]
+#W16($262612)
+here, [X]
+#W16($262614)
+might [X]
+#W16($262616)
+too, [X]
+#W16($262618)
+many [X]
+#W16($26261A)
+able [X]
+#W16($26261C)
+way. [X]
+#W16($26261E)
+ya. [X]
+#W16($262620)
+military [X]
+#W16($262622)
+Yeah... [X]
+#W16($262624)
+Knights [X]
+#W16($262626)
+people. [X]
+#W16($262628)
+General [X]
+#W16($26262A)
+Father, [X]
+#W16($26262C)
+sister [X]
+#W16($26262E)
+orders [X]
+#W16($262630)
+She's [X]
+#W16($262632)
+Royal [X]
+#W16($262634)
+Where [X]
+#W16($262636)
+quite [X]
+#W16($262638)
+enemy [X]
+#W16($26263A)
+taken [X]
+#W16($26263C)
+this? [X]
+#W16($26263E)
+girl [X]
+#W16($262640)
+her. [X]
+#W16($262642)
+best [X]
+#W16($262644)
+done [X]
+#W16($262646)
+save [X]
+#W16($262648)
+old [X]
+#W16($26264A)
+far [X]
+#W16($26264C)
+As [X]
+#W16($26264E)
+Deirdre, [X]
+#W16($262650)
+Besides, [X]
+#W16($262652)
+Silesia. [X]
+#W16($262654)
+soldiers [X]
+#W16($262656)
+control [X]
+#W16($262658)
+castle. [X]
+#W16($26265A)
+Castle. [X]
+#W16($26265C)
+family [X]
+#W16($26265E)
+thank [X]
+#W16($262660)
+young [X]
+#W16($262662)
+every [X]
+#W16($262664)
+There [X]
+#W16($262666)
+gonna [X]
+#W16($262668)
+hear [X]
+#W16($26266A)
+Wow, [X]
+#W16($26266C)
+wait [X]
+#W16($26266E)
+goes [X]
+#W16($262670)
+sir! [X]
+#W16($262672)
+Our [X]
+#W16($262674)
+Gae [X]
+#W16($262676)
+us! [X]
+#W16($262678)
+appreciate [X]
+#W16($26267A)
+Princess [X]
+#W16($26267C)
+Trabant [X]
+#W16($26267E)
+looking [X]
+#W16($262680)
+leaving [X]
+#W16($262682)
+Really? [X]
+#W16($262684)
+making [X]
+#W16($262686)
+Julia, [X]
+#W16($262688)
+empire [X]
+#W16($26268A)
+Alvis, [X]
+#W16($26268C)
+sorry. [X]
+#W16($26268E)
+be... [X]
+#W16($262690)
+What? [X]
+#W16($262692)
+this, [X]
+#W16($262694)
+it... [X]
+#W16($262696)
+Those [X]
+#W16($262698)
+Levin [X]
+#W16($26269A)
+great [X]
+#W16($26269C)
+that, [X]
+#W16($26269E)
+sent [X]
+#W16($2626A0)
+hand [X]
+#W16($2626A2)
+now, [X]
+#W16($2626A4)
+name [X]
+#W16($2626A6)
+safe [X]
+#W16($2626A8)
+war. [X]
+#W16($2626AA)
+each [X]
+#W16($2626AC)
+men [X]
+#W16($2626AE)
+All [X]
+#W16($2626B0)
+an' [X]
+#W16($2626B2)
+Get [X]
+#W16($2626B4)
+Oh [X]
+#W16($2626B6)
+something. [X]
+#W16($2626B8)
+Actually, [X]
+#W16($2626BA)
+Highness. [X]
+#W16($2626BC)
+Please... [X]
+#W16($2626BE)
+Oifaye, [X]
+#W16($2626C0)
+Thanks, [X]
+#W16($2626C2)
+knights [X]
+#W16($2626C4)
+Forgive [X]
+#W16($2626C6)
+What're [X]
+#W16($2626C8)
+Knight [X]
+#W16($2626CA)
+side. [X]
+#W16($2626CC)
+Yeah. [X]
+#W16($2626CE)
+Okay, [X]
+#W16($2626D0)
+speak [X]
+#W16($2626D2)
+place [X]
+#W16($2626D4)
+stand [X]
+#W16($2626D6)
+No... [X]
+#W16($2626D8)
+looks [X]
+#W16($2626DA)
+see. [X]
+#W16($2626DC)
+did. [X]
+#W16($2626DE)
+hell [X]
+#W16($2626E0)
+Have [X]
+#W16($2626E2)
+Lady [X]
+#W16($2626E4)
+used [X]
+#W16($2626E6)
+With [X]
+#W16($2626E8)
+kids [X]
+#W16($2626EA)
+guys [X]
+#W16($2626EC)
+now! [X]
+#W16($2626EE)
+face [X]
+#W16($2626F0)
+went [X]
+#W16($2626F2)
+up! [X]
+#W16($2626F4)
+in. [X]
+#W16($2626F6)
+go. [X]
+#W16($2626F8)
+end [X]
+#W16($2626FA)
+yet [X]
+#W16($2626FC)
+'em [X]
+#W16($2626FE)
+Grandbell's [X]
+#W16($262700)
+descendant [X]
+#W16($262702)
+anything [X]
+#W16($262704)
+remember [X]
+#W16($262706)
+Agustria [X]
+#W16($262708)
+Anyway, [X]
+#W16($26270A)
+holding [X]
+#W16($26270C)
+know... [X]
+#W16($26270E)
+Manster [X]
+#W16($262710)
+attack. [X]
+#W16($262712)
+Pegasus [X]
+#W16($262714)
+because [X]
+#W16($262716)
+there! [X]
+#W16($262718)
+Julius [X]
+#W16($26271A)
+knight [X]
+#W16($26271C)
+tough [X]
+#W16($26271E)
+kinda [X]
+#W16($262720)
+peace [X]
+#W16($262722)
+them! [X]
+#W16($262724)
+wrong [X]
+#W16($262726)
+guess [X]
+#W16($262728)
+Geez, [X]
+#W16($26272A)
+that! [X]
+#W16($26272C)
+well, [X]
+#W16($26272E)
+means [X]
+#W16($262730)
+ready [X]
+#W16($262732)
+mind [X]
+#W16($262734)
+king [X]
+#W16($262736)
+turn [X]
+#W16($262738)
+man. [X]
+#W16($26273A)
+rest [X]
+#W16($26273C)
+talk [X]
+#W16($26273E)
+upon [X]
+#W16($262740)
+Once [X]
+#W16($262742)
+bet [X]
+#W16($262744)
+Not [X]
+#W16($262746)
+up? [X]
+#W16($262748)
+yer [X]
+#W16($26274A)
+Let [X]
+#W16($26274C)
+its [X]
+#W16($26274E)
+everything [X]
+#W16($262750)
+Ethlin... [X]
+#W16($262752)
+Crusader [X]
+#W16($262754)
+alright! [X]
+#W16($262756)
+brother, [X]
+#W16($262758)
+problem [X]
+#W16($26275A)
+Geez... [X]
+#W16($26275C)
+Shagaal [X]
+#W16($26275E)
+Aideen, [X]
+#W16($262760)
+protect [X]
+#W16($262762)
+weren't [X]
+#W16($262764)
+But... [X]
+#W16($262766)
+enemy. [X]
+#W16($262768)
+that!? [X]
+#W16($26276A)
+Ahh... [X]
+#W16($26276C)
+but... [X]
+#W16($26276E)
+locked [X]
+#W16($262770)
+woman [X]
+#W16($262772)
+know, [X]
+#W16($262774)
+Blume [X]
+#W16($262776)
+much, [X]
+#W16($262778)
+ain't [X]
+#W16($26277A)
+this! [X]
+#W16($26277C)
+along [X]
+#W16($26277E)
+Yied [X]
+#W16($262780)
+me!? [X]
+#W16($262782)
+hard [X]
+#W16($262784)
+huh? [X]
+#W16($262786)
+too! [X]
+#W16($262788)
+next [X]
+#W16($26278A)
+near [X]
+#W16($26278C)
+Cuan [X]
+#W16($26278E)
+away [X]
+#W16($262790)
+Duke [X]
+#W16($262792)
+true [X]
+#W16($262794)
+Did [X]
+#W16($262796)
+bad [X]
+#W16($262798)
+is. [X]
+#W16($26279A)
+set [X]
+#W16($26279C)
+up, [X]
+#W16($26279E)
+For [X]
+#W16($2627A0)
+few [X]
+#W16($2627A2)
+fer [X]
+#W16($2627A4)
+Eltshan's [X]
+#W16($2627A6)
+beautiful [X]
+#W16($2627A8)
+Sigurd... [X]
+#W16($2627AA)
+citizens [X]
+#W16($2627AC)
+Altenna, [X]
+#W16($2627AE)
+Barhara. [X]
+#W16($2627B0)
+himself [X]
+#W16($2627B2)
+country [X]
+#W16($2627B4)
+gettin' [X]
+#W16($2627B6)
+Altenna [X]
+#W16($2627B8)
+Emperor [X]
+#W16($2627BA)
+Barhara [X]
+#W16($2627BC)
+anyway. [X]
+#W16($2627BE)
+parents [X]
+#W16($2627C0)
+brought [X]
+#W16($2627C2)
+called [X]
+#W16($2627C4)
+passed [X]
+#W16($2627C6)
+see... [X]
+#W16($2627C8)
+Arion, [X]
+#W16($2627CA)
+castle [X]
+#W16($2627CC)
+anyone [X]
+#W16($2627CE)
+raised [X]
+#W16($2627D0)
+course [X]
+#W16($2627D2)
+strong [X]
+#W16($2627D4)
+within [X]
+#W16($2627D6)
+child. [X]
+#W16($2627D8)
+Arion [X]
+#W16($2627DA)
+death [X]
+#W16($2627DC)
+known [X]
+#W16($2627DE)
+safe. [X]
+#W16($2627E0)
+Cuan, [X]
+#W16($2627E2)
+Narga [X]
+#W16($2627E4)
+Okay. [X]
+#W16($2627E6)
+name? [X]
+#W16($2627E8)
+soon [X]
+#W16($2627EA)
+does [X]
+#W16($2627EC)
+seen [X]
+#W16($2627EE)
+evil [X]
+#W16($2627F0)
+damn [X]
+#W16($2627F2)
+When [X]
+#W16($2627F4)
+Come [X]
+#W16($2627F6)
+call [X]
+#W16($2627F8)
+lead [X]
+#W16($2627FA)
+lay [X]
+#W16($2627FC)
+lot [X]
+#W16($2627FE)
+Yes [X]
+#W16($262800)
+Hm? [X]
+#W16($262802)
+do? [X]
+#W16($262804)
+saw [X]
+#W16($262806)
+In [X]
+#W16($262808)
+father... [X]
+#W16($26280A)
+Lachesis, [X]
+#W16($26280C)
+shouldn't [X]
+#W16($26280E)
+yourself. [X]
+#W16($262810)
+Eltshan, [X]
+#W16($262812)
+could've [X]
+#W16($262814)
+Majesty. [X]
+#W16($262816)
+Arion... [X]
+#W16($262818)
+daughter [X]
+#W16($26281A)
+empire's [X]
+#W16($26281C)
+Alright. [X]
+#W16($26281E)
+Deirdre. [X]
+#W16($262820)
+Eltshan. [X]
+#W16($262822)
+everyone [X]
+#W16($262824)
+consider [X]
+#W16($262826)
+horrible [X]
+#W16($262828)
+heading [X]
+#W16($26282A)
+Celice! [X]
+#W16($26282C)
+Deirdre [X]
+#W16($26282E)
+Sigurd! [X]
+#W16($262830)
+brother [X]
+#W16($262832)
+Chalphy [X]
+#W16($262834)
+command [X]
+#W16($262836)
+Agusty. [X]
+#W16($262838)
+castle, [X]
+#W16($26283A)
+mother. [X]
+#W16($26283C)
+praying [X]
+#W16($26283E)
+troops. [X]
+#W16($262840)
+around. [X]
+#W16($262842)
+Sorry, [X]
+#W16($262844)
+longer [X]
+#W16($262846)
+Jamka, [X]
+#W16($262848)
+going. [X]
+#W16($26284A)
+finish [X]
+#W16($26284C)
+What!? [X]
+#W16($26284E)
+Levin. [X]
+#W16($262850)
+there, [X]
+#W16($262852)
+turned [X]
+#W16($262854)
+thing. [X]
+#W16($262856)
+gotten [X]
+#W16($262858)
+fight. [X]
+#W16($26285A)
+trying [X]
+#W16($26285C)
+Reptor [X]
+#W16($26285E)
+seems [X]
+#W16($262860)
+time, [X]
+#W16($262862)
+named [X]
+#W16($262864)
+Kurth [X]
+#W16($262866)
+Fury, [X]
+#W16($262868)
+small [X]
+#W16($26286A)
+Ah... [X]
+#W16($26286C)
+royal [X]
+#W16($26286E)
+do... [X]
+#W16($262870)
+her, [X]
+#W16($262872)
+hurt [X]
+#W16($262874)
+yet. [X]
+#W16($262876)
+live [X]
+#W16($262878)
+Grr! [X]
+#W16($26287A)
+Give [X]
+#W16($26287C)
+son. [X]
+#W16($26287E)
+Book [X]
+#W16($262880)
+gets [X]
+#W16($262882)
+till [X]
+#W16($262884)
+...I [X]
+#W16($262886)
+now? [X]
+#W16($262888)
+idea [X]
+#W16($26288A)
+No! [X]
+#W16($26288C)
+ya? [X]
+#W16($26288E)
+met [X]
+#W16($262890)
+job [X]
+#W16($262892)
+he? [X]
+#W16($262894)
+so. [X]
+#W16($262896)
+man [X]
+#W16($262898)
+Go [X]
+#W16($26289A)
+anything. [X]
+#W16($26289C)
+intention [X]
+#W16($26289E)
+Sheesh... [X]
+#W16($2628A0)
+Imperial [X]
+#W16($2628A2)
+happened [X]
+#W16($2628A4)
+couldn't [X]
+#W16($2628A6)
+Altenna. [X]
+#W16($2628A8)
+Langbart [X]
+#W16($2628AA)
+Aideen. [X]
+#W16($2628AC)
+younger [X]
+#W16($2628AE)
+Father! [X]
+#W16($2628B0)
+enough. [X]
+#W16($2628B2)
+Ishtar, [X]
+#W16($2628B4)
+reached [X]
+#W16($2628B6)
+Because [X]
+#W16($2628B8)
+Shanan, [X]
+#W16($2628BA)
+here... [X]
+#W16($2628BC)
+during [X]
+#W16($2628BE)
+death. [X]
+#W16($2628C0)
+fallen [X]
+#W16($2628C2)
+huh... [X]
+#W16($2628C4)
+sounds [X]
+#W16($2628C6)
+hasn't [X]
+#W16($2628C8)
+direct [X]
+#W16($2628CA)
+joined [X]
+#W16($2628CC)
+Julia. [X]
+#W16($2628CE)
+Bishop [X]
+#W16($2628D0)
+worry. [X]
+#W16($2628D2)
+there? [X]
+#W16($2628D4)
+Aless. [X]
+#W16($2628D6)
+wasn't [X]
+#W16($2628D8)
+order [X]
+#W16($2628DA)
+Rahna [X]
+#W16($2628DC)
+least [X]
+#W16($2628DE)
+much. [X]
+#W16($2628E0)
+Byron [X]
+#W16($2628E2)
+whole [X]
+#W16($2628E4)
+time! [X]
+#W16($2628E6)
+learn [X]
+#W16($2628E8)
+Blagi [X]
+#W16($2628EA)
+Leaf, [X]
+#W16($2628EC)
+free [X]
+#W16($2628EE)
+Yep, [X]
+#W16($2628F0)
+send [X]
+#W16($2628F2)
+way, [X]
+#W16($2628F4)
+way! [X]
+#W16($2628F6)
+see! [X]
+#W16($2628F8)
+fate [X]
+#W16($2628FA)
+easy [X]
+#W16($2628FC)
+gone [X]
+#W16($2628FE)
+held [X]
+#W16($262900)
+full [X]
+#W16($262902)
+YOU [X]
+#W16($262904)
+go! [X]
+#W16($262906)
+us, [X]
+#W16($262908)
+so, [X]
+#W16($26290A)
+W, [X]
+#W16($26290C)
+everything. [X]
+#W16($26290E)
+completely [X]
+#W16($262910)
+Altenna... [X]
+#W16($262912)
+something? [X]
+#W16($262914)
+everybody [X]
+#W16($262916)
+mercenary [X]
+#W16($262918)
+Agustria. [X]
+#W16($26291A)
+recover. [X]
+#W16($26291C)
+However, [X]
+#W16($26291E)
+castle's [X]
+#W16($262920)
+Silesian [X]
+#W16($262922)
+through. [X]
+#W16($262924)
+Shanan's [X]
+#W16($262926)
+memories [X]
+#W16($262928)
+course, [X]
+#W16($26292A)
+please. [X]
+#W16($26292C)
+keeping [X]
+#W16($26292E)
+just... [X]
+#W16($262930)
+imagine [X]
+#W16($262932)
+village [X]
+#W16($262934)
+Shanan. [X]
+#W16($262936)
+well... [X]
+#W16($262938)
+they've [X]
+#W16($26293A)
+Verdane [X]
+#W16($26293C)
+Ethlin, [X]
+#W16($26293E)
+myself. [X]
+#W16($262940)
+putting [X]
+#W16($262942)
+Hahaha! [X]
+#W16($262944)
+That'd [X]
+#W16($262946)
+across [X]
+#W16($262948)
+Aideen [X]
+#W16($26294A)
+Rahna, [X]
+#W16($26294C)
+Alster [X]
+#W16($26294E)
+reason [X]
+#W16($262950)
+Heh... [X]
+#W16($262952)
+yours. [X]
+#W16($262954)
+beyond [X]
+#W16($262956)
+happen [X]
+#W16($262958)
+Oifaye [X]
+#W16($26295A)
+rebels [X]
+#W16($26295C)
+living [X]
+#W16($26295E)
+Midir, [X]
+#W16($262960)
+Thanks [X]
+#W16($262962)
+okay. [X]
+#W16($262964)
+wait! [X]
+#W16($262966)
+once. [X]
+#W16($262968)
+Good. [X]
+#W16($26296A)
+with. [X]
+#W16($26296C)
+king. [X]
+#W16($26296E)
+back, [X]
+#W16($262970)
+magic [X]
+#W16($262972)
+Saint [X]
+#W16($262974)
+bein' [X]
+#W16($262976)
+Mease [X]
+#W16($262978)
+come. [X]
+#W16($26297A)
+'bout [X]
+#W16($26297C)
+close [X]
+#W16($26297E)
+over. [X]
+#W16($262980)
+count [X]
+#W16($262982)
+Oh... [X]
+#W16($262984)
+thing [X]
+#W16($262986)
+dream [X]
+#W16($262988)
+Julia [X]
+#W16($26298A)
+wants [X]
+#W16($26298C)
+trust [X]
+#W16($26298E)
+ahead [X]
+#W16($262990)
+Hero [X]
+#W16($262992)
+Yes! [X]
+#W16($262994)
+seem [X]
+#W16($262996)
+one. [X]
+#W16($262998)
+can. [X]
+#W16($26299A)
+Wow! [X]
+#W16($26299C)
+far. [X]
+#W16($26299E)
+part [X]
+#W16($2629A0)
+her! [X]
+#W16($2629A2)
+most [X]
+#W16($2629A4)
+holy [X]
+#W16($2629A6)
+Hang [X]
+#W16($2629A8)
+Only [X]
+#W16($2629AA)
+gave [X]
+#W16($2629AC)
+Dew. [X]
+#W16($2629AE)
+bit. [X]
+#W16($2629B0)
+pull [X]
+#W16($2629B2)
+Fin, [X]
+#W16($2629B4)
+Hey [X]
+#W16($2629B6)
+heh [X]
+#W16($2629B8)
+'er [X]
+#W16($2629BA)
+on! [X]
+#W16($2629BC)
+eye [X]
+#W16($2629BE)
+kid [X]
+#W16($2629C0)
+do, [X]
+#W16($2629C2)
+no! [X]
+#W16($2629C4)
+new [X]
+#W16($2629C6)
+God [X]
+#W16($2629C8)
+on. [X]
+#W16($2629CA)
+At [X]
+#W16($2629CC)
+Deirdre... [X]
+#W16($2629CE)
+currently [X]
+#W16($2629D0)
+Thracia's [X]
+#W16($2629D2)
+Highness! [X]
+#W16($2629D4)
+Hahaha... [X]
+#W16($2629D6)
+Silesia's [X]
+#W16($2629D8)
+Lenster's [X]
+#W16($2629DA)
+Aideen... [X]
+#W16($2629DC)
+together, [X]
+#W16($2629DE)
+would've [X]
+#W16($2629E0)
+imagined [X]
+#W16($2629E2)
+Thracia. [X]
+#W16($2629E4)
+treasure [X]
+#W16($2629E6)
+promised [X]
+#W16($2629E8)
+villages [X]
+#W16($2629EA)
+anymore! [X]
+#W16($2629EC)
+probably [X]
+#W16($2629EE)
+Manfloy, [X]
+#W16($2629F0)
+Majesty! [X]
+#W16($2629F2)
+Highness [X]
+#W16($2629F4)
+Miletos [X]
+#W16($2629F6)
+Whew... [X]
+#W16($2629F8)
+Claude, [X]
+#W16($2629FA)
+father, [X]
+#W16($2629FC)
+Shanan! [X]
+#W16($2629FE)
+Isaac's [X]
+#W16($262A00)
+castle! [X]
+#W16($262A02)
+waiting [X]
+#W16($262A04)
+certain [X]
+#W16($262A06)
+Blume's [X]
+#W16($262A08)
+another [X]
+#W16($262A0A)
+several [X]
+#W16($262A0C)
+talking [X]
+#W16($262A0E)
+serious [X]
+#W16($262A10)
+helping [X]
+#W16($262A12)
+chance. [X]
+#W16($262A14)
+little. [X]
+#W16($262A16)
+They've [X]
+#W16($262A18)
+Well... [X]
+#W16($262A1A)
+they'd [X]
+#W16($262A1C)
+afraid [X]
+#W16($262A1E)
+Aless, [X]
+#W16($262A20)
+moment [X]
+#W16($262A22)
+having [X]
+#W16($262A24)
+waited [X]
+#W16($262A26)
+second [X]
+#W16($262A28)
+Sir... [X]
+#W16($262A2A)
+later. [X]
+#W16($262A2C)
+inform [X]
+#W16($262A2E)
+helped [X]
+#W16($262A30)
+merely [X]
+#W16($262A32)
+I'm... [X]
+#W16($262A34)
+seeing [X]
+#W16($262A36)
+along? [X]
+#W16($262A38)
+army's [X]
+#W16($262A3A)
+alone. [X]
+#W16($262A3C)
+dragon [X]
+#W16($262A3E)
+along. [X]
+#W16($262A40)
+showed [X]
+#W16($262A42)
+picked [X]
+#W16($262A44)
+about? [X]
+#W16($262A46)
+comes [X]
+#W16($262A48)
+army! [X]
+#W16($262A4A)
+Aira, [X]
+#W16($262A4C)
+doubt [X]
+#W16($262A4E)
+Cuan! [X]
+#W16($262A50)
+meant [X]
+#W16($262A52)
+army, [X]
+#W16($262A54)
+is... [X]
+#W16($262A56)
+black [X]
+#W16($262A58)
+what? [X]
+#W16($262A5A)
+catch [X]
+#W16($262A5C)
+After [X]
+#W16($262A5E)
+much! [X]
+#W16($262A60)
+dying [X]
+#W16($262A62)
+Cross [X]
+#W16($262A64)
+squad [X]
+#W16($262A66)
+start [X]
+#W16($262A68)
+grace [X]
+#W16($262A6A)
+down. [X]
+#W16($262A6C)
+outta [X]
+#W16($262A6E)
+grown [X]
+#W16($262A70)
+gone. [X]
+#W16($262A72)
+You'd [X]
+#W16($262A74)
+um... [X]
+#W16($262A76)
+needs [X]
+#W16($262A78)
+army? [X]
+#W16($262A7A)
+Azel, [X]
+#W16($262A7C)
+back! [X]
+#W16($262A7E)
+Bolg [X]
+#W16($262A80)
+fell [X]
+#W16($262A82)
+ones [X]
+#W16($262A84)
+out, [X]
+#W16($262A86)
+Hey! [X]
+#W16($262A88)
+side [X]
+#W16($262A8A)
+him, [X]
+#W16($262A8C)
+we'd [X]
+#W16($262A8E)
+him! [X]
+#W16($262A90)
+on!? [X]
+#W16($262A92)
+dark [X]
+#W16($262A94)
+kept [X]
+#W16($262A96)
+But, [X]
+#W16($262A98)
+ways [X]
+#W16($262A9A)
+Damn [X]
+#W16($262A9C)
+slip [X]
+#W16($262A9E)
+yet? [X]
+#W16($262AA0)
+late [X]
+#W16($262AA2)
+line [X]
+#W16($262AA4)
+Fin. [X]
+#W16($262AA6)
+felt [X]
+#W16($262AA8)
+Now, [X]
+#W16($262AAA)
+none [X]
+#W16($262AAC)
+sit [X]
+#W16($262AAE)
+One [X]
+#W16($262AB0)
+die [X]
+#W16($262AB2)
+on? [X]
+#W16($262AB4)
+boy [X]
+#W16($262AB6)
+By [X]
+#W16($262AB8)
+Understood. [X]
+#W16($262ABA)
+descendants [X]
+#W16($262ABC)
+battlefield [X]
+#W16($262ABE)
+Especially [X]

@@ -1,0 +1,435 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #018 NAME:		Class Names (Dialogue)
+
+//POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
+
+#W16($D9A92)
+<$09>Cavaler[X]
+
+
+//POINTER #1 @ $D9A94 - STRING #1 @ $D9B2B
+
+#W16($D9A94)
+<$09>LanceK[X]
+
+
+//POINTER #2 @ $D9A96 - STRING #2 @ $D9B33
+
+#W16($D9A96)
+<$09>ArchKn[X]
+
+
+//POINTER #3 @ $D9A98 - STRING #3 @ $D9B3B
+
+#W16($D9A98)
+<$09>AxeKnt[X]
+
+
+//POINTER #4 @ $D9A9A - STRING #4 @ $D9B43
+
+#W16($D9A9A)
+<$09>FreeKn[X]
+
+
+//POINTER #5 @ $D9A9C - STRING #5 @ $D9B4B
+
+#W16($D9A9C)
+<$09>Trbdor[X]
+
+
+//POINTER #6 @ $D9A9E - STRING #6 @ $D9B53
+
+#W16($D9A9E)
+<$09>LordKn[X]
+
+
+//POINTER #7 @ $D9AA0 - STRING #7 @ $D9B5B
+
+#W16($D9AA0)
+<$09>DukeKnt[X]
+
+
+//POINTER #8 @ $D9AA2 - STRING #8 @ $D9B64
+
+#W16($D9AA2)
+<$09>MstrKnt[X]
+
+
+//POINTER #9 @ $D9AA4 - STRING #9 @ $D9B6D
+
+#W16($D9AA4)
+<$09>Paldn[X]
+
+
+//POINTER #10 @ $D9AA6 - STRING #10 @ $D9B6D
+
+#W16($D9AA6)
+<$09>Paldn[X]
+
+
+//POINTER #11 @ $D9AA8 - STRING #11 @ $D9B74
+
+#W16($D9AA8)
+BowKnt[X]
+
+
+//POINTER #12 @ $D9AAA - STRING #12 @ $D9B7B
+
+#W16($D9AAA)
+<$09>FrstKngt[X]
+
+
+//POINTER #13 @ $D9AAC - STRING #13 @ $D9B85
+
+#W16($D9AAC)
+<$09>MageKn[X]
+
+
+//POINTER #14 @ $D9AAE - STRING #14 @ $D9B8D
+
+#W16($D9AAE)
+<$09>GreatKn[X]
+
+
+//POINTER #15 @ $D9AB0 - STRING #15 @ $D9C37
+
+#W16($D9AB0)
+<$09><$A1><$A7><$88>f<$AE><$87><$60>[X]
+
+
+//POINTER #16 @ $D9AB2 - STRING #16 @ $D9BA0
+
+#W16($D9AB2)
+<$09>PegasKn[X]
+
+
+//POINTER #17 @ $D9AB4 - STRING #17 @ $D9BA9
+
+#W16($D9AB4)
+<$09>FalcoKnt[X]
+
+
+//POINTER #18 @ $D9AB6 - STRING #18 @ $D9BB3
+
+#W16($D9AB6)
+<$09>DrgRider[X]
+
+
+//POINTER #19 @ $D9AB8 - STRING #19 @ $D9BBD
+
+#W16($D9AB8)
+<$09>DragKnt[X]
+
+
+//POINTER #20 @ $D9ABA - STRING #20 @ $D9BC6
+
+#W16($D9ABA)
+<$09>DragMstr[X]
+
+
+//POINTER #21 @ $D9ABC - STRING #21 @ $D9BD0
+
+#W16($D9ABC)
+<$09>Archer [X]
+
+
+//POINTER #22 @ $D9ABE - STRING #22 @ $D9BD9
+
+#W16($D9ABE)
+<$09>Myrmidon[X]
+
+
+//POINTER #23 @ $D9AC0 - STRING #23 @ $D9BE3
+
+#W16($D9AC0)
+<$09>Swdmstr[X]
+
+
+//POINTER #24 @ $D9AC2 - STRING #24 @ $D9BEC
+
+#W16($D9AC2)
+<$09>Snipr[X]
+
+
+//POINTER #25 @ $D9AC4 - STRING #25 @ $D9BF3
+
+#W16($D9AC4)
+<$09>Hero  [X]
+
+
+//POINTER #26 @ $D9AC6 - STRING #26 @ $D9BFB
+
+#W16($D9AC6)
+<$09>Genrl[X]
+
+
+//POINTER #27 @ $D9AC8 - STRING #27 @ $D9C02
+
+#W16($D9AC8)
+<$09>Emper[X]
+
+
+//POINTER #28 @ $D9ACA - STRING #28 @ $D9C09
+
+#W16($D9ACA)
+<$09>Bar[X]
+
+
+//POINTER #29 @ $D9ACC - STRING #29 @ $D9C14
+
+#W16($D9ACC)
+<$09>IrnMage[X]
+
+
+//POINTER #30 @ $D9ACE - STRING #30 @ $D9C1D
+
+#W16($D9ACE)
+<$09>Mercenry[X]
+
+
+//POINTER #31 @ $D9AD0 - STRING #31 @ $D9C27
+
+#W16($D9AD0)
+<$09>tas[X]
+
+
+//POINTER #32 @ $D9AD2 - STRING #32 @ $D9C27
+
+#W16($D9AD2)
+<$09>tas[X]
+
+
+//POINTER #33 @ $D9AD4 - STRING #33 @ $D9C27
+
+#W16($D9AD4)
+<$09>tas[X]
+
+
+//POINTER #34 @ $D9AD6 - STRING #34 @ $D9C2C
+
+#W16($D9AD6)
+<$09><$60><$B0><$7E><$B0>[X]
+
+
+//POINTER #35 @ $D9AD8 - STRING #35 @ $D9C27
+
+#W16($D9AD8)
+<$09>tas[X]
+
+
+//POINTER #36 @ $D9ADA - STRING #36 @ $D9C27
+
+#W16($D9ADA)
+<$09>tas[X]
+
+
+//POINTER #37 @ $D9ADC - STRING #37 @ $D9C27
+
+#W16($D9ADC)
+<$09>tas[X]
+
+
+//POINTER #38 @ $D9ADE - STRING #38 @ $D9C5A
+
+#W16($D9ADE)
+<$09>Bandit[X]
+
+
+//POINTER #39 @ $D9AE0 - STRING #39 @ $D9C62
+
+#W16($D9AE0)
+<$09>Fighter [X]
+
+
+//POINTER #40 @ $D9AE2 - STRING #40 @ $D9C6C
+
+#W16($D9AE2)
+<$09>Beserk[X]
+
+
+//POINTER #41 @ $D9AE4 - STRING #41 @ $D9C76
+
+#W16($D9AE4)
+<$09>Warri[X]
+
+
+//POINTER #42 @ $D9AE6 - STRING #42 @ $D9C7D
+
+#W16($D9AE6)
+<$09>Hunt[X]
+
+
+//POINTER #43 @ $D9AE8 - STRING #43 @ $D9C83
+
+#W16($D9AE8)
+<$09>Pirat[X]
+
+
+//POINTER #44 @ $D9AEA - STRING #44 @ $D9C8A
+
+#W16($D9AEA)
+<$09>Lord   [X]
+
+
+//POINTER #45 @ $D9AEC - STRING #45 @ $D9C93
+
+#W16($D9AEC)
+<$09>MageFigh[X]
+
+
+//POINTER #46 @ $D9AEE - STRING #46 @ $D9C9D
+
+#W16($D9AEE)
+<$09>Prin[X]
+
+
+//POINTER #47 @ $D9AF0 - STRING #47 @ $D9CA3
+
+#W16($D9AF0)
+<$09>Princ[X]
+
+
+//POINTER #48 @ $D9AF2 - STRING #48 @ $D9CAA
+
+#W16($D9AF2)
+<$09>MageFigh[X]
+
+
+//POINTER #49 @ $D9AF4 - STRING #49 @ $D9CB4
+
+#W16($D9AF4)
+<$09>Quee[X]
+
+
+//POINTER #50 @ $D9AF6 - STRING #50 @ $D9CBA
+
+#W16($D9AF6)
+<$09><$97><$8C>j<$0A><$18><$09><$B0>[X]
+
+
+//POINTER #51 @ $D9AF8 - STRING #51 @ $D9CC3
+
+#W16($D9AF8)
+Priest[X]
+
+
+//POINTER #52 @ $D9AFA - STRING #52 @ $D9C32
+
+#W16($D9AFA)
+<$0A>01<$09>[X]
+
+
+//POINTER #53 @ $D9AFC - STRING #53 @ $D9C27
+
+#W16($D9AFC)
+<$09>tas[X]
+
+
+//POINTER #54 @ $D9AFE - STRING #54 @ $D9CCA
+
+#W16($D9AFE)
+<$09>Mag[X]
+
+
+//POINTER #55 @ $D9B00 - STRING #55 @ $D9CCA
+
+#W16($D9B00)
+<$09>Mag[X]
+
+
+//POINTER #56 @ $D9B02 - STRING #56 @ $D9CED
+
+#W16($D9B02)
+<$09>HiPries[X]
+
+
+//POINTER #57 @ $D9B04 - STRING #57 @ $D9CF6
+
+#W16($D9B04)
+<$09>Bisho[X]
+
+
+//POINTER #58 @ $D9B06 - STRING #58 @ $D9CFD
+
+#W16($D9B06)
+<$09>Sag[X]
+
+
+//POINTER #59 @ $D9B08 - STRING #59 @ $D9D02
+
+#W16($D9B08)
+<$09>Brd[X]
+
+
+//POINTER #60 @ $D9B0A - STRING #60 @ $D9D07
+
+#W16($D9B0A)
+<$09>Shamn[X]
+
+
+//POINTER #61 @ $D9B0C - STRING #61 @ $D9D0E
+
+#W16($D9B0C)
+<$09>DrkMge[X]
+
+
+//POINTER #62 @ $D9B0E - STRING #62 @ $D9C40
+
+#W16($D9B0E)
+<$09><$97><$B0>g<$9D>k<$AF><$AC><$A4>[X]
+
+
+//POINTER #63 @ $D9B10 - STRING #63 @ $D9D1D
+
+#W16($D9B10)
+<$09>Thf[X]
+
+
+//POINTER #64 @ $D9B12 - STRING #64 @ $D9D22
+
+#W16($D9B12)
+<$09>ThfFight[X]
+
+
+//POINTER #65 @ $D9B14 - STRING #65 @ $D9D2C
+
+#W16($D9B14)
+<$09>Civil[X]
+
+
+//POINTER #66 @ $D9B16 - STRING #66 @ $D9C27
+
+#W16($D9B16)
+<$09>tas[X]
+
+
+//POINTER #67 @ $D9B18 - STRING #67 @ $D9B96
+
+#W16($D9B18)
+<$09>Valkyrie[X]
+
+
+//POINTER #68 @ $D9B1A - STRING #68 @ $D9D42
+
+#W16($D9B1A)
+<$09>IronBal[X]
+
+
+//POINTER #69 @ $D9B1C - STRING #69 @ $D9D4B
+
+#W16($D9B1C)
+<$09>KilBal[X]
+
+
+//POINTER #70 @ $D9B1E - STRING #70 @ $D9D53
+
+#W16($D9B1E)
+<$09>GrtBall[X]
+
+
+//POINTER #71 @ $D9B20 - STRING #71 @ $D9D5C
+
+#W16($D9B20)
+<$09>DrkPrin[X]
+

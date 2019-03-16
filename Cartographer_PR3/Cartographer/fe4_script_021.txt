@@ -1,0 +1,537 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #021 NAME:		Shop Text
+
+//POINTER #0 @ $AD0B3 - STRING #0 @ $AD0D4
+
+#W24($AD0B3)
+<$0D><$D6><$8A><$7B><$D1><$8A><$B8><$D2><$8A><$8F><$D3><$8A><$8F><$D4><$8A><$1A><$D8><$8A><$7B><$D1><$8A><$8B><$D1><$8A><$C8><$D2><$8A><$9F><$D3><$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #1 @ $AD0B6 - STRING #1 @ $AD195
+
+#W24($AD0B6)
+<$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A>(<$D7><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>(<$D7><$8A>8<$E9>[X]
+
+
+//POINTER #2 @ $AD0B9 - STRING #2 @ $AD2D9
+
+#W24($AD0B9)
+<$0A>D<$0B><$FC><$B9><$09>HF[N][X]
+
+
+//POINTER #3 @ $AD0BC - STRING #3 @ $AD3D3
+
+#W24($AD0BC)
+<$09>L9<$3E>-<$1B><$11><$3D>H<$11><$BE>[N][X]
+
+
+//POINTER #4 @ $AD0BF - STRING #4 @ $AD727
+
+#W24($AD0BF)
+[N] <$5F><$5C><$23><$3B><$18><$10>7K'[N][A][Clear]L<$12><$1C>8<$BE>[N][X]
+
+
+//POINTER #5 @ $AD0C2 - STRING #5 @ $AD4B0
+
+#W24($AD0C2)
+<$15><$13>'Z<$24>[N][A][X]
+
+
+//POINTER #6 @ $AD0C5 - STRING #6 @ $AD60D
+
+#W24($AD0C5)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #7 @ $AD0C8 - STRING #7 @ $AD60D
+
+#W24($AD0C8)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #8 @ $AD0CB - STRING #8 @ $AD60D
+
+#W24($AD0CB)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #9 @ $AD0CE - STRING #9 @ $AD60D
+
+#W24($AD0CE)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #10 @ $AD0D1 - STRING #10 @ $AD60D
+
+#W24($AD0D1)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #11 @ $AD0D4 - STRING #11 @ $AD60D
+
+#W24($AD0D4)
+-<$15><$25>2<$10>E<$18>8<$BE>[N][X]
+
+
+//POINTER #12 @ $AD0D7 - STRING #12 @ $AD17B
+
+#W24($AD0D7)
+<$8A><$0B><$D4><$8A><$1A><$D8><$8A><$0A><$D3><$8A><$0A><$D3><$8A><$F8><$D2><$8A><$0A><$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A>(<$D7><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>(<$D7><$8A>8<$E9>[X]
+
+
+//POINTER #13 @ $AD0DA - STRING #13 @ $AD2B8
+
+#W24($AD0DA)
+<$AD><$DD><$18><$C9><$00>[X]
+
+
+//POINTER #14 @ $AD0DD - STRING #14 @ $AD38F
+
+#W24($AD0DD)
+<$3E><$23>5[N][A][X]
+
+
+//POINTER #15 @ $AD0E0 - STRING #15 @ $AD48F
+
+#W24($AD0E0)
+<$11>[N]2 2(<$3E><$11><$5C>R<$11>HF[N][A][X]
+
+
+//POINTER #16 @ $AD0E3 - STRING #16 @ $AD81A
+
+#W24($AD0E3)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #17 @ $AD0E6 - STRING #17 @ $AD17B
+
+#W24($AD0E6)
+<$8A><$0B><$D4><$8A><$1A><$D8><$8A><$0A><$D3><$8A><$0A><$D3><$8A><$F8><$D2><$8A><$0A><$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A>(<$D7><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>(<$D7><$8A>8<$E9>[X]
+
+
+//POINTER #18 @ $AD0E9 - STRING #18 @ $AD18B
+
+#W24($AD0E9)
+<$0A><$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A>(<$D7><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>Q<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>.<$D3><$8A>(<$D7><$8A>8<$E9>[X]
+
+
+//POINTER #19 @ $AD0EC - STRING #19 @ $AD2C8
+
+#W24($AD0EC)
+<$40><$00><$18>i<$0B><$00><$AA><$22>T<$93><$87><$60>[Clear]<$09><$19><$19>)<$0A>D<$0B><$FC><$B9><$09>HF[N][X]
+
+
+//POINTER #20 @ $AD0EF - STRING #20 @ $AD39F
+
+#W24($AD0EF)
+HF[N]<$11><$3A><$11><$3A><$0C><$19><$09>7<$0C><$1A><$09><$11><$1B><$22><$17>95[N][X]
+
+
+//POINTER #21 @ $AD0F2 - STRING #21 @ $AD4A0
+
+#W24($AD0F2)
+<$09><$3B>8<$11><$3E><$1E>(<$0D>C<$0A><$E2><$09>)[N]<$10>!<$15><$13>'Z<$24>[N][A][X]
+
+
+//POINTER #22 @ $AD0F5 - STRING #22 @ $AD81A
+
+#W24($AD0F5)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #23 @ $AD0F8 - STRING #23 @ $AD5F9
+
+#W24($AD0F8)
+<$22>-<$1B><$11>(<$BE>[N][X]
+
+
+//POINTER #24 @ $AD0FB - STRING #24 @ $AD0E3
+
+#W24($AD0FB)
+<$1A><$D8><$8A><$7B><$D1><$8A><$8B><$D1><$8A><$C8><$D2><$8A><$9F><$D3><$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #25 @ $AD0FE - STRING #25 @ $AD1D2
+
+#W24($AD0FE)
+<$AD><$A1>[A]<$F0>58<$E9>[X]
+
+
+//POINTER #26 @ $AD101 - STRING #26 @ $AD0E3
+
+#W24($AD101)
+<$1A><$D8><$8A><$7B><$D1><$8A><$8B><$D1><$8A><$C8><$D2><$8A><$9F><$D3><$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #27 @ $AD104 - STRING #27 @ $AD44E
+
+#W24($AD104)
+<$09><$3E><$10>8(<$15><$BE>[N][X]
+
+
+//POINTER #28 @ $AD107 - STRING #28 @ $AD81A
+
+#W24($AD107)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #29 @ $AD10A - STRING #29 @ $AD0F1
+
+#W24($AD10A)
+<$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #30 @ $AD10D - STRING #30 @ $AD1E0
+
+#W24($AD10D)
+<$00><$22><$AD><$8F><$80><$A9><$FF><$FF><$8F>pv<$7F><$80>?<$AD><$A1>[A]<$C5><$00><$B0><$17><$18>i[X]
+
+
+//POINTER #31 @ $AD110 - STRING #31 @ $AD0F1
+
+#W24($AD110)
+<$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #32 @ $AD113 - STRING #32 @ $AD401
+
+#W24($AD113)
+<$11><$BE>[N][X]
+
+
+//POINTER #33 @ $AD116 - STRING #33 @ $AD81A
+
+#W24($AD116)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #34 @ $AD119 - STRING #34 @ $AD101
+
+#W24($AD119)
+<$E3><$D0><$8A>N<$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
+
+
+//POINTER #35 @ $AD11C - STRING #35 @ $AD1F2
+
+#W24($AD11C)
+<$00><$B0><$17><$18>i[X]
+
+
+//POINTER #36 @ $AD11F - STRING #36 @ $AD81A
+
+#W24($AD11F)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #37 @ $AD122 - STRING #37 @ $AD45D
+
+#W24($AD122)
+<$25>22<$5C><$22>'ZD<$5D><$24><$11><$15>[N][A][Clear]-<$15><$25>2<$0A>M<$09><$3E><$10>8(<$15><$BE>[N][X]
+
+
+//POINTER #38 @ $AD125 - STRING #38 @ $AD81A
+
+#W24($AD125)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #39 @ $AD128 - STRING #39 @ $AD110
+
+#W24($AD128)
+<$F1><$D0><$8A>[X]
+
+
+//POINTER #40 @ $AD12B - STRING #40 @ $AD27B
+
+#W24($AD12B)
+<$00>[Clear]T<$84>[N][Clear]T<$84>[X]
+
+
+//POINTER #41 @ $AD12E - STRING #41 @ $AD363
+
+#W24($AD12E)
+<$15><$2F><$22>'ZK[N]<$0A>A<$09>(<$0B><$A0><$0D>C<$09><$3C><$2F><$22><$17>95[N][X]
+
+
+//POINTER #42 @ $AD131 - STRING #42 @ $AD110
+
+#W24($AD131)
+<$F1><$D0><$8A>[X]
+
+
+//POINTER #43 @ $AD134 - STRING #43 @ $AD110
+
+#W24($AD134)
+<$F1><$D0><$8A>[X]
+
+
+//POINTER #44 @ $AD137 - STRING #44 @ $AD121
+
+#W24($AD137)
+<$8A><$5D><$D4><$8A><$1A><$D8><$8A><$10><$D1><$8A><$7B><$D2><$8A>c<$D3><$8A><$10><$D1><$8A><$10><$D1><$8A>!<$D1><$8A><$8A><$D2><$8A>!<$D1><$8A><$3E><$D4><$8A>!<$D1><$8A><$9F><$D2><$8A><$9F><$D2><$8A>s<$D3><$8A><$9F><$D2><$8A><$9F><$D2><$8A>T<$D1><$8A>[TargetWin]<$D2><$8A><$1A><$D8><$8A><$EF><$D3><$8A><$1A><$D8><$8A><$1A><$D8><$8A><$17><$D2><$8A><$1A><$D8><$8A>[X]
+
+
+//POINTER #45 @ $AD13A - STRING #45 @ $AD28A
+
+#W24($AD13A)
+<$FF>[Clear]T<$84><$BC><$FF><$FF><$FF><$A9><$00><$8A><$85><$25><$A9>H<$A3><$85><$24><$AD><$DD><$18><$C9><$00>[X]
+
+
+//POINTER #46 @ $AD13D - STRING #46 @ $AD121
+
+#W24($AD13D)
+<$8A><$5D><$D4><$8A><$1A><$D8><$8A><$10><$D1><$8A><$7B><$D2><$8A>c<$D3><$8A><$10><$D1><$8A><$10><$D1><$8A>!<$D1><$8A><$8A><$D2><$8A>!<$D1><$8A><$3E><$D4><$8A>!<$D1><$8A><$9F><$D2><$8A><$9F><$D2><$8A>s<$D3><$8A><$9F><$D2><$8A><$9F><$D2><$8A>T<$D1><$8A>[TargetWin]<$D2><$8A><$1A><$D8><$8A><$EF><$D3><$8A><$1A><$D8><$8A><$1A><$D8><$8A><$17><$D2><$8A><$1A><$D8><$8A>[X]
+
+
+//POINTER #47 @ $AD140 - STRING #47 @ $AD43E
+
+#W24($AD140)
+<$0C><$19><$09>7<$16>9H[N][A][Clear]-<$15><$25>2<$0A>M<$09><$3E><$10>8(<$15><$BE>[N][X]
+
+
+//POINTER #48 @ $AD143 - STRING #48 @ $AD121
+
+#W24($AD143)
+<$8A><$5D><$D4><$8A><$1A><$D8><$8A><$10><$D1><$8A><$7B><$D2><$8A>c<$D3><$8A><$10><$D1><$8A><$10><$D1><$8A>!<$D1><$8A><$8A><$D2><$8A>!<$D1><$8A><$3E><$D4><$8A>!<$D1><$8A><$9F><$D2><$8A><$9F><$D2><$8A>s<$D3><$8A><$9F><$D2><$8A><$9F><$D2><$8A>T<$D1><$8A>[TargetWin]<$D2><$8A><$1A><$D8><$8A><$EF><$D3><$8A><$1A><$D8><$8A><$1A><$D8><$8A><$17><$D2><$8A><$1A><$D8><$8A>[X]
+
+
+//POINTER #49 @ $AD146 - STRING #49 @ $AD29F
+
+#W24($AD146)
+<$C9><$00>[X]
+
+
+//POINTER #50 @ $AD149 - STRING #50 @ $AD29F
+
+#W24($AD149)
+<$C9><$00>[X]
+
+
+//POINTER #51 @ $AD14C - STRING #51 @ $AD373
+
+#W24($AD14C)
+<$3C><$2F><$22><$17>95[N][X]
+
+
+//POINTER #52 @ $AD14F - STRING #52 @ $AD29F
+
+#W24($AD14F)
+<$C9><$00>[X]
+
+
+//POINTER #53 @ $AD152 - STRING #53 @ $AD29F
+
+#W24($AD152)
+<$C9><$00>[X]
+
+
+//POINTER #54 @ $AD155 - STRING #54 @ $AD154
+
+#W24($AD155)
+<$8A>T<$D1><$8A>[TargetWin]<$D2><$8A><$1A><$D8><$8A><$EF><$D3><$8A><$1A><$D8><$8A><$1A><$D8><$8A><$17><$D2><$8A><$1A><$D8><$8A>[X]
+
+
+//POINTER #55 @ $AD158 - STRING #55 @ $AD205
+
+#W24($AD158)
+<$FF><$8F>pv<$7F><$80>!<$AD><$A1>[A]<$A8><$B7>')<$FF><$00>8<$E9><$0D><$00><$85><$00><$A9> <$00><$18>i[Scroll]<$00><$18>i[A]<$00><$18>i[A]<$00><$85>[N]<$60><$AD><$A1>[A]<$A8><$B7><$2A>)<$FF><$00><$C9><$FF><$00><$F0><$D1><$C9><$00><$00><$F0><$19><$C9>[X]
+
+
+//POINTER #56 @ $AD15B - STRING #56 @ $AD81A
+
+#W24($AD15B)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #57 @ $AD15E - STRING #57 @ $AD3EF
+
+#W24($AD15E)
+<$BE>[N][X]
+
+
+//POINTER #58 @ $AD161 - STRING #58 @ $AD81A
+
+#W24($AD161)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #59 @ $AD164 - STRING #59 @ $AD81A
+
+#W24($AD164)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #60 @ $AD167 - STRING #60 @ $AD217
+
+#W24($AD167)
+<$0D><$00><$85><$00><$A9> <$00><$18>i[Scroll]<$00><$18>i[A]<$00><$18>i[A]<$00><$85>[N]<$60><$AD><$A1>[A]<$A8><$B7><$2A>)<$FF><$00><$C9><$FF><$00><$F0><$D1><$C9><$00><$00><$F0><$19><$C9>[X]
+
+
+//POINTER #61 @ $AD16A - STRING #61 @ $AD81A
+
+#W24($AD16A)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #62 @ $AD16D - STRING #62 @ $AD401
+
+#W24($AD16D)
+<$11><$BE>[N][X]
+
+
+//POINTER #63 @ $AD170 - STRING #63 @ $AD81A
+
+#W24($AD170)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #64 @ $AD173 - STRING #64 @ $AD81A
+
+#W24($AD173)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #65 @ $AD176 - STRING #65 @ $AD224
+
+#W24($AD176)
+[A]<$00><$18>i[A]<$00><$85>[N]<$60><$AD><$A1>[A]<$A8><$B7><$2A>)<$FF><$00><$C9><$FF><$00><$F0><$D1><$C9><$00><$00><$F0><$19><$C9>[X]
+
+
+//POINTER #66 @ $AD179 - STRING #66 @ $AD81A
+
+#W24($AD179)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #67 @ $AD17C - STRING #67 @ $AD40B
+
+#W24($AD17C)
+2(<$3C><$0C><$19><$09>8<$3D>H<$BE>[N][X]
+
+
+//POINTER #68 @ $AD17F - STRING #68 @ $AD81A
+
+#W24($AD17F)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #69 @ $AD182 - STRING #69 @ $AD30A
+
+#W24($AD182)
+<$12><$15><$11><$BE>[N][X]
+
+
+//POINTER #70 @ $AD185 - STRING #70 @ $AD30A
+
+#W24($AD185)
+<$12><$15><$11><$BE>[N][X]
+
+
+//POINTER #71 @ $AD188 - STRING #71 @ $AD2F8
+
+#W24($AD188)
+<$FC><$09>K<$11><$11><$15><$BE>[N][X]
+
+
+//POINTER #72 @ $AD18B - STRING #72 @ $AD30A
+
+#W24($AD18B)
+<$12><$15><$11><$BE>[N][X]
+
+
+//POINTER #73 @ $AD18E - STRING #73 @ $AD81A
+
+#W24($AD18E)
+is is the fortune teller.[Clear]What do you want? [N][X]
+
+
+//POINTER #74 @ $AD191 - STRING #74 @ $AD31C
+
+#W24($AD191)
+ZF[N][A][X]
+
+
+//POINTER #75 @ $AD194 - STRING #75 @ $AD31C
+
+#W24($AD194)
+ZF[N][A][X]
+
+
+//POINTER #76 @ $AD197 - STRING #76 @ $AD31C
+
+#W24($AD197)
+ZF[N][A][X]
+
+
+//POINTER #77 @ $AD19A - STRING #77 @ $AD31C
+
+#W24($AD19A)
+ZF[N][A][X]
+
+
+//POINTER #78 @ $AD19D - STRING #78 @ $AD728
+
+#W24($AD19D)
+ <$5F><$5C><$23><$3B><$18><$10>7K'[N][A][Clear]L<$12><$1C>8<$BE>[N][X]
+
+
+//POINTER #79 @ $AD1A0 - STRING #79 @ $AD351
+
+#W24($AD1A0)
+<$BE>[N][X]
+
+
+//POINTER #80 @ $AD1A3 - STRING #80 @ $AD351
+
+#W24($AD1A3)
+<$BE>[N][X]
+
+
+//POINTER #81 @ $AD1A6 - STRING #81 @ $AD351
+
+#W24($AD1A6)
+<$BE>[N][X]
+
+
+//POINTER #82 @ $AD1A9 - STRING #82 @ $AD351
+
+#W24($AD1A9)
+<$BE>[N][X]
+
+
+//POINTER #83 @ $AD1AC - STRING #83 @ $AD351
+
+#W24($AD1AC)
+<$BE>[N][X]
+
+
+//POINTER #84 @ $AD1AF - STRING #84 @ $AD32E
+
+#W24($AD1AF)
+[N][A][X]
+
+
+//POINTER #85 @ $AD1B2 - STRING #85 @ $AD32E
+
+#W24($AD1B2)
+[N][A][X]
+
+
+//POINTER #86 @ $AD1B5 - STRING #86 @ $AD32E
+
+#W24($AD1B5)
+[N][A][X]
+
+
+//POINTER #87 @ $AD1B8 - STRING #87 @ $AD32E
+
+#W24($AD1B8)
+[N][A][X]
+
+
+//POINTER #88 @ $AD1BB - STRING #88 @ $AD728
+
+#W24($AD1BB)
+ <$5F><$5C><$23><$3B><$18><$10>7K'[N][A][Clear]L<$12><$1C>8<$BE>[N][X]
+

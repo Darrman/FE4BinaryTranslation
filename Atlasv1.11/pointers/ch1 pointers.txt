@@ -1,0 +1,35 @@
+#W24($1084E3) //"Good work. You've got the border."
+#W24($1084FB) //Opening, Sigurd and Eltshan's fine wine
+#W24($10852C) //Opening, Kinbois and Aira going at it
+#W24($108564) //"Alright, we're moving out."
+#W24($1086D2) //Turn 1, Jamka sets Aideen free
+#W24($1086F9) //"Aideen... I hope we meet again."
+#W24($108709) //"My brother set Aideen free!?"
+#W24($10886E) //Genoa seized, Shanan saved
+#W24($10887F) //The above, but with Aira dead
+#W24($1088B0) //Recruiting the Regnal Astra lady
+#W24($1088D6) //Recruiting that useless hunter
+#W24($108981) //"How asinine."
+#W24($10898B) //"That's Heirhein's troops!"
+#W24($1089EB) //"Elliot just couldn't stay out..."
+#W24($108A6A) //Elliot and Eltshan have a fight
+#W24($108A9A) //Marpha seized, Sigurd sees a pretty girl
+#W24($108AD0) //"Superstitious nonsense", he says
+#W24($108B32) //After Marpha, Jamka takes the field
+#W24($108B73) //Sandima kills Batou, Lopt plot time
+#W24($108C20) //Sigurd marries the pretty girl
+#W24($108C28) //Above, but Sandima's dead
+#W24($108C52) //Deirdre plays casually
+#W24($108C5E) //Chapter ending, Batou's gone
+#W24($108C85) //"...a downright terrible man."
+#W24($108C93) //Sandima's got them "wrapped around his finger."
+#W24($108CA8) //Maira, Cigyun, Deirdre, etc...
+#W24($108CC2) //"Elliot fled, did he?"
+#W24($108CD4) //"What the hell's going on there?"
+#W24($108CE8) //"Shanan's not here? Grr!"
+#W24($108CFC) //check this pointer manually
+#W24($108CFC) //as with this one
+#W24($108D35) //It's not Cuan's time
+#W24($108DB4) //It's not Ethlin's time
+#W24($108E9C) //Lex's... "brave" axe?
+#W24($108EFE) //"We'll take care of everything."

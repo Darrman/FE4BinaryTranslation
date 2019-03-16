@@ -1,0 +1,435 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #005 NAME:		Class Names
+
+//POINTER #0 @ $38BC9 - STRING #0 @ $38C59
+
+#W16($38BC9)
+Cavalier<X>
+
+
+//POINTER #1 @ $38BCB - STRING #1 @ $38C6B
+
+#W16($38BCB)
+LanceKnt<X>
+
+
+//POINTER #2 @ $38BCD - STRING #2 @ $38C7D
+
+#W16($38BCD)
+ArchKnt<X>
+
+
+//POINTER #3 @ $38BCF - STRING #3 @ $38C8D
+
+#W16($38BCF)
+AxeKnt<X>
+
+
+//POINTER #4 @ $38BD1 - STRING #4 @ $38C9B
+
+#W16($38BD1)
+FreeKnt<X>
+
+
+//POINTER #5 @ $38BD3 - STRING #5 @ $38CAB
+
+#W16($38BD3)
+Trobador<X>
+
+
+//POINTER #6 @ $38BD5 - STRING #6 @ $38E37
+
+#W16($38BD5)
+LordKnt<X>
+
+
+//POINTER #7 @ $38BD7 - STRING #7 @ $38CBD
+
+#W16($38BD7)
+DukeKnt<X>
+
+
+//POINTER #8 @ $38BD9 - STRING #8 @ $38CCD
+
+#W16($38BD9)
+MstrKnt<X>
+
+
+//POINTER #9 @ $38BDB - STRING #9 @ $38F0B
+
+#W16($38BDB)
+Paladin<X>
+
+
+//POINTER #10 @ $38BDD - STRING #10 @ $38F0B
+
+#W16($38BDD)
+Paladin<X>
+
+
+//POINTER #11 @ $38BDF - STRING #11 @ $38CDD
+
+#W16($38BDF)
+BowKnt<X>
+
+
+//POINTER #12 @ $38BE1 - STRING #12 @ $38CEB
+
+#W16($38BE1)
+FrstKnt<X>
+
+
+//POINTER #13 @ $38BE3 - STRING #13 @ $38CFB
+
+#W16($38BE3)
+MageKnt<X>
+
+
+//POINTER #14 @ $38BE5 - STRING #14 @ $38D0B
+
+#W16($38BE5)
+GreatKnt<X>
+
+
+//POINTER #15 @ $38BE7 - STRING #15 @ $38E25
+
+#W16($38BE7)
+Valkyrie<X>
+
+
+//POINTER #16 @ $38BE9 - STRING #16 @ $38D37
+
+#W16($38BE9)
+PegKnt<X>
+
+
+//POINTER #17 @ $38BEB - STRING #17 @ $38D47
+
+#W16($38BEB)
+FalcoKnt<X>
+
+
+//POINTER #18 @ $38BED - STRING #18 @ $38D59
+
+#W16($38BED)
+DrgRider<X>
+
+
+//POINTER #19 @ $38BEF - STRING #19 @ $38D6B
+
+#W16($38BEF)
+DrgnKnt<X>
+
+
+//POINTER #20 @ $38BF1 - STRING #20 @ $38D7B
+
+#W16($38BF1)
+DrgnMstr<X>
+
+
+//POINTER #21 @ $38BF3 - STRING #21 @ $38D8D
+
+#W16($38BF3)
+Archer<X>
+
+
+//POINTER #22 @ $38BF5 - STRING #22 @ $38D9D
+
+#W16($38BF5)
+Myrmidon<X>
+
+
+//POINTER #23 @ $38BF7 - STRING #23 @ $38DAF
+
+#W16($38BF7)
+Swdmstr<X>
+
+
+//POINTER #24 @ $38BF9 - STRING #24 @ $38DBF
+
+#W16($38BF9)
+Sniper<X>
+
+
+//POINTER #25 @ $38BFB - STRING #25 @ $38DCD
+
+#W16($38BFB)
+Hero<X>
+
+
+//POINTER #26 @ $38BFD - STRING #26 @ $38DD7
+
+#W16($38BFD)
+General<X>
+
+
+//POINTER #27 @ $38BFF - STRING #27 @ $38DE7
+
+#W16($38BFF)
+Emperor<X>
+
+
+//POINTER #28 @ $38C01 - STRING #28 @ $38E71
+
+#W16($38C01)
+Baron<X>
+
+
+//POINTER #29 @ $38C03 - STRING #29 @ $39011
+
+#W16($38C03)
+IronMage<X>
+
+
+//POINTER #30 @ $38C05 - STRING #30 @ $38E13
+
+#W16($38C05)
+Mercenry<X>
+
+
+//POINTER #31 @ $38C07 - STRING #31 @ $38F93
+
+#W16($38C07)
+Knight<X>
+
+
+//POINTER #32 @ $38C09 - STRING #32 @ $38F93
+
+#W16($38C09)
+Knight<X>
+
+
+//POINTER #33 @ $38C0B - STRING #33 @ $38F93
+
+#W16($38C0B)
+Knight<X>
+
+
+//POINTER #34 @ $38C0D - STRING #34 @ $38E47
+
+#W16($38C0D)
+ArmrKnt<X>
+
+
+//POINTER #35 @ $38C0F - STRING #35 @ $38F93
+
+#W16($38C0F)
+Knight<X>
+
+
+//POINTER #36 @ $38C11 - STRING #36 @ $38F93
+
+#W16($38C11)
+Knight<X>
+
+
+//POINTER #37 @ $38C13 - STRING #37 @ $38F93
+
+#W16($38C13)
+Knight<X>
+
+
+//POINTER #38 @ $38C15 - STRING #38 @ $38E7D
+
+#W16($38C15)
+Brigand<X>
+
+
+//POINTER #39 @ $38C17 - STRING #39 @ $38E8D
+
+#W16($38C17)
+Fighter<X>
+
+
+//POINTER #40 @ $38C19 - STRING #40 @ $38E9F
+
+#W16($38C19)
+Beserker<X>
+
+
+//POINTER #41 @ $38C1B - STRING #41 @ $38EB1
+
+#W16($38C1B)
+Warrior<X>
+
+
+//POINTER #42 @ $38C1D - STRING #42 @ $38EC1
+
+#W16($38C1D)
+Hunter<X>
+
+
+//POINTER #43 @ $38C1F - STRING #43 @ $38ECF
+
+#W16($38C1F)
+Pirate<X>
+
+
+//POINTER #44 @ $38C21 - STRING #44 @ $38E57
+
+#W16($38C21)
+Lord<X>
+
+
+//POINTER #45 @ $38C23 - STRING #45 @ $38EE3
+
+#W16($38C23)
+MgeFight<X>
+
+
+//POINTER #46 @ $38C25 - STRING #46 @ $3903D
+
+#W16($38C25)
+Prince<X>
+
+
+//POINTER #47 @ $38C27 - STRING #47 @ $38EF5
+
+#W16($38C27)
+Princess<X>
+
+
+//POINTER #48 @ $38C29 - STRING #48 @ $38EE3
+
+#W16($38C29)
+MgeFight<X>
+
+
+//POINTER #49 @ $38C2B - STRING #49 @ $38F1D
+
+#W16($38C2B)
+Queen<X>
+
+
+//POINTER #50 @ $38C2D - STRING #50 @ $38F29
+
+#W16($38C2D)
+Dancer<X>
+
+
+//POINTER #51 @ $38C2F - STRING #51 @ $38F77
+
+#W16($38C2F)
+Priest<X>
+
+
+//POINTER #52 @ $38C31 - STRING #52 @ $38DCD
+
+#W16($38C31)
+Hero<X>
+
+
+//POINTER #53 @ $38C33 - STRING #53 @ $38DF9
+
+#W16($38C33)
+Hlbrdier<X>
+
+
+//POINTER #54 @ $38C35 - STRING #54 @ $38F37
+
+#W16($38C35)
+Mage<X>
+
+
+//POINTER #55 @ $38C37 - STRING #55 @ $38F37
+
+#W16($38C37)
+Mage<X>
+
+
+//POINTER #56 @ $38C39 - STRING #56 @ $38F73
+
+#W16($38C39)
+HiPriest<X>
+
+
+//POINTER #57 @ $38C3B - STRING #57 @ $38F85
+
+#W16($38C3B)
+Bishop<X>
+
+
+//POINTER #58 @ $38C3D - STRING #58 @ $38F41
+
+#W16($38C3D)
+Sage<X>
+
+
+//POINTER #59 @ $38C3F - STRING #59 @ $38F4B
+
+#W16($38C3F)
+Bard<X>
+
+
+//POINTER #60 @ $38C41 - STRING #60 @ $38F55
+
+#W16($38C41)
+Shaman<X>
+
+
+//POINTER #61 @ $38C43 - STRING #61 @ $38FA9
+
+#W16($38C43)
+DarkMage<X>
+
+
+//POINTER #62 @ $38C45 - STRING #62 @ $38FBB
+
+#W16($38C45)
+DkBishop<X>
+
+
+//POINTER #63 @ $38C47 - STRING #63 @ $38F63
+
+#W16($38C47)
+Thief<X>
+
+
+//POINTER #64 @ $38C49 - STRING #64 @ $38FD5
+
+#W16($38C49)
+ThfFight<X>
+
+
+//POINTER #65 @ $38C4B - STRING #65 @ $38FE7
+
+#W16($38C4B)
+Civil<X>
+
+
+//POINTER #66 @ $38C4D - STRING #66 @ $38F93
+
+#W16($38C4D)
+Knight<X>
+
+
+//POINTER #67 @ $38C4F - STRING #67 @ $38D25
+
+#W16($38C4F)
+IronKnt<X>
+
+
+//POINTER #68 @ $38C51 - STRING #68 @ $38E61
+
+#W16($38C51)
+Forrest<X>
+
+
+//POINTER #69 @ $38C53 - STRING #69 @ $38FFF
+
+#W16($38C53)
+Ballista<X>
+
+
+//POINTER #70 @ $38C55 - STRING #70 @ $38FFF
+
+#W16($38C55)
+Ballista<X>
+
+
+//POINTER #71 @ $38C57 - STRING #71 @ $39039
+
+#W16($38C57)
+DkPrince<X>
+

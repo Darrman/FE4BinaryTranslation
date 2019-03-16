@@ -1,0 +1,25 @@
+31829C //Chapter opening, Aideen/Midir
+3182EE //Chapter opening, Sigurd and company
+318375 //Before Gandolf attacks Midir
+318391 //After Gandolf 0%ed Midir
+3183CF //"You're draggin! Pick up the pace!"
+3183E4 //Dropping the bridge
+3183FC //Gerrard's mouth's watering
+31840B //Next stop, Chalphy!
+3184be //Midir takes a 0% to the face
+3184c1 //Don't worry, he's not really dead
+31852d //Cuan makes his appearance
+318577 //Azel and Lex arrive
+3185ad //Jungby seized!
+3185e2 //Dimaggio blew it! Put up the bridge.
+3186c7 //Alvis walks in
+318711 //Thank you Sigurd, but your princess is in another castle
+31874A //If you keep castles safe, you get money
+318792 //Wrong way Sigurd, you're in home castle
+3187C3 //Sigurd talks to Alvis
+3187cb //Sigurd talks to Alvis, but Azel's dead
+3187f3 //Village saved!
+318801 //Remember the weapon triangle.
+31880f //The Chalphy family came from Baldo,
+31881d //and the Jungby family came from Ulir.
+318830 //Take this Speed Ring!

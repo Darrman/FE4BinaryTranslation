@@ -1,0 +1,47 @@
+#W24($E8212) //Opening, Eltshan's off to Agusty
+#W24($E825A) //The king just jails him
+#W24($E826E) //At least his sister has... them
+#W24($E82B5) //"Eltshan angered the king?"
+#W24($E830F) //Sigurd reacts to it all
+#W24($E837C) //Turn 1, Macbeth sets bandits loose,
+#W24($E83C5) //Elliot's sick of being jerked around,
+#W24($E83D9) //and Phillip defends to the death
+#W24($E83F7) //Introducing Levin!
+#W24($E8453) //"Your greed has lost us Heirhein!"
+#W24($E8484) //Here's your hint of Beowulf's recruitment
+#W24($E8533) //"Retreat ain't on the books."
+#W24($E8544) //Recruiting our master knight
+#W24($E8566) //Can't afford Beowulf
+#W24($E857A) //You coughed up the 10k
+#W24($E85DC) //Clement deploys ballistas
+#W24($E8625) //Shagall lies to Fury
+#W24($E86AF) //"Did she leave yet? Stupid woman."
+#W24($E870C) //We beat up Holyn!
+#W24($E8772) //Manfloy gloats about Kurth's demise
+#W24($E87AE) //"Nothing more noble than dyin'..."
+#W24($E87C2) //Levin recruits Fury/Erin/whatever
+#W24($E883D) //Deirdre's still casual
+#W24($E8874) //Knight Ring get! Somehow.
+#W24($E888D) //End of chapter, Eltshan ain't pleased
+#W24($E88A4) //"Women and children..."
+#W24($E88B7) //Bargain Ring get! In vanilla.
+#W24($E88CA) //Armourslayer... in vanilla
+#W24($E88D8) //"Macbeth of Anphony is a greedy cur."
+#W24($E88E6) //"If only Eltshan could take the throne."
+#W24($E88F4) //Are there any Lopt descendants left?
+#W24($E8902) //blah blah crusaders
+#W24($E8910) //"A wee bit too cosy for siblings?"
+#W24($E892D) //We beat Holyn again!
+#W24($E895C) //And again!
+#W24($E898B) //Yet again!
+#W24($E89BA) //Does Holyn really need five pointers?
+#W24($E89E5) //Heirhein seized
+#W24($E8A32) //Fury flies into Agusty
+#W24($E8AC1) //Anphony seized, Filat's gossip
+#W24($E8B0A) //"Heirhein is assaulting Nodion?"
+#W24($E8B17) //Beware Clement's sleep staff
+#W24($E8B25) //"Eltshan is too honest for his own good."
+#W24($E8B49) //It's still not Cuan's time
+#W24($E8BC1) //It's still not Ethlin's time
+#W24($E8C75) //Mackily seized
+#W24($E8CAE) //Arden gets the POWER OF PURSUIT!!

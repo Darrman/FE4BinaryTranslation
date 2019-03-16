@@ -1,0 +1,480 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+//This file controls menu text in Bank 82.
+//This consists of terrain and castle names.
+
+//BLOCK #002 NAME:		Terrain Names
+
+#HDR($0)
+#VAR(Terrain, CUSTOMPOINTER)
+#CREATEPTR(Terrain, "LINEAR", $2DB00, 16)
+
+#JMP($2DB34, $2DC11)
+
+//POINTER #0 @ $2DB00 - STRING #0 @ $2DB34
+
+#WRITE(Terrain, $2DB00)
+Peak<X>
+
+
+//POINTER #1 @ $2DB02 - STRING #1 @ $2DB40
+
+#WRITE(Terrain, $2DB02)
+Thicket<X>
+
+
+//POINTER #2 @ $2DB04 - STRING #2 @ $2E4E6
+
+#WRITE(Terrain, $2DB04)
+Cliff<X>
+
+
+//POINTER #3 @ $2DB06 - STRING #3 @ $2E4F2
+
+#WRITE(Terrain, $2DB06)
+Plain<X>
+
+
+//POINTER #4 @ $2DB08 - STRING #4 @ $2E4FE
+
+#WRITE(Terrain, $2DB08)
+Forest<X>
+
+
+//POINTER #5 @ $2DB0A - STRING #5 @ $2DB60
+
+#WRITE(Terrain, $2DB0A)
+Sea<X>
+
+
+//POINTER #6 @ $2DB0C - STRING #6 @ $2E50C
+
+#WRITE(Terrain, $2DB0C)
+River<X>
+
+
+//POINTER #7 @ $2DB0E - STRING #7 @ $2E518
+
+#WRITE(Terrain, $2DB0E)
+//Mountain
+Mount<X>
+
+
+//POINTER #8 @ $2DB10 - STRING #8 @ $2E524
+
+#WRITE(Terrain, $2DB10)
+Desert<X>
+
+
+//POINTER #9 @ $2DB12 - STRING #9 @ $2DB50
+
+//#WRITE(Terrain, $2DB12)
+//Castle<X>
+
+
+//POINTER #10 @ $2DB14 - STRING #10 @ $2DB68
+
+//#WRITE(Terrain, $2DB14)
+//Fort<X>
+
+
+//POINTER #11 @ $2DB16 - STRING #11 @ $2DB72
+
+//#WRITE(Terrain, $2DB16)
+//Town<X>
+
+
+//POINTER #12 @ $2DB18 - STRING #12 @ $2DB90
+
+#WRITE(Terrain, $2DB18)
+Gate<X>
+
+
+//POINTER #13 @ $2DB1A - STRING #13 @ $2DB9A
+
+#WRITE(Terrain, $2DB1A)
+//Rampart
+Ramp<X>
+
+
+//POINTER #14 @ $2DB1C - STRING #14 @ $2E532
+
+#WRITE(Terrain, $2DB1C)
+Sand<X>
+
+
+//POINTER #15 @ $2DB1E - STRING #15 @ $2E53C
+
+#WRITE(Terrain, $2DB1E)
+Bridge<X>
+
+
+//POINTER #16 @ $2DB20 - STRING #16 @ $2DBAA
+
+//#WRITE(Terrain, $2DB20)
+//Swamp<X>
+
+
+//POINTER #17 @ $2DB22 - STRING #17 @ $2DB90
+
+#WRITE(Terrain, $2DB22)
+Gate<X>
+
+
+//POINTER #18 @ $2DB24 - STRING #18 @ $2DB7C
+
+#WRITE(Terrain, $2DB24)
+//Village
+Town<X>
+
+
+//POINTER #19 @ $2DB26 - STRING #19 @ $2DBDE
+
+#WRITE(Terrain, $2DB26)
+#WRITE(Terrain, $2DB2A)
+Ruins<X>
+
+
+//POINTER #20 @ $2DB28 - STRING #20 @ $2DBB6
+
+//#WRITE(Terrain, $2DB28)
+//Warehse<X>
+
+
+//POINTER #22 @ $2DB2C - STRING #22 @ $2E54A
+
+#WRITE(Terrain, $2DB2C)
+Church<X>
+
+
+//POINTER #23 @ $2DB2E - STRING #23 @ $2DBC6
+
+//#WRITE(Terrain, $2DB2E)
+//Temple<X>
+
+
+//POINTER #24 @ $2DB30 - STRING #24 @ $2DBFE
+
+#WRITE(Terrain, $2DB30)
+Tower<X>
+
+
+//POINTER #25 @ $2DB32 - STRING #25 @ $2E558
+
+#WRITE(Terrain, $2DB32)
+Road<X>
+
+
+//BLOCK #003 NAME:		Castle Names
+
+#VAR(Castle, CUSTOMPOINTER)
+#CREATEPTR(Castle, "LINEAR", $2DF40, 16)
+
+#JMP($2DF9C, $2E1FF)
+
+//POINTER #0 @ $2DF40 - STRING #0 @ $2DF9C
+
+#WRITE(Castle, $2DF40)
+//Madino
+Madino<X>
+
+
+//POINTER #1 @ $2DF42 - STRING #1 @ $2DFA8
+
+#WRITE(Castle, $2DF42)
+Silvail<X>
+
+
+//POINTER #2 @ $2DF44 - STRING #2 @ $2DFB6
+
+#WRITE(Castle, $2DF44)
+//Anphony
+Anphony<X>
+
+
+//POINTER #3 @ $2DF46 - STRING #3 @ $2DFC6
+
+#WRITE(Castle, $2DF46)
+Agusty<X>
+
+
+//POINTER #4 @ $2DF48 - STRING #4 @ $2DFD4
+
+#WRITE(Castle, $2DF48)
+//Heirhein
+Herhein<X>
+
+
+//POINTER #5 @ $2DF4A - STRING #5 @ $2DFE2
+
+#WRITE(Castle, $2DF4A)
+//Mackily
+Mackily<X>
+
+
+//POINTER #6 @ $2DF4C - STRING #6 @ $2DFF0
+
+#WRITE(Castle, $2DF4C)
+Nodion<X>
+
+
+//POINTER #8 @ $2DF50 - STRING #8 @ $2E00E
+
+#WRITE(Castle, $2DF50)
+Freege<X>
+
+
+//POINTER #10 @ $2DF54 - STRING #10 @ $2E026
+
+#WRITE(Castle, $2DF54)
+Dozel<X>
+
+
+//POINTER #11 @ $2DF56 - STRING #11 @ $2E030
+
+#WRITE(Castle, $2DF56)
+Edda<X>
+
+
+//POINTER #13 @ $2DF5A - STRING #13 @ $2E048
+
+#WRITE(Castle, $2DF5A)
+Jungby<X>
+
+
+//POINTER #14 @ $2DF5C - STRING #14 @ $2E056
+
+#WRITE(Castle, $2DF5C)
+Lenster<X>
+
+
+//POINTER #15 @ $2DF5E - STRING #15 @ $2E064
+
+#WRITE(Castle, $2DF5E)
+Conote<X>
+
+
+//POINTER #16 @ $2DF60 - STRING #16 @ $2E070
+
+#WRITE(Castle, $2DF60)
+Manster<X>
+
+
+//POINTER #17 @ $2DF62 - STRING #17 @ $2E07E
+
+#WRITE(Castle, $2DF62)
+Melgen<X>
+
+
+//POINTER #18 @ $2DF64 - STRING #18 @ $2E08A
+
+#WRITE(Castle, $2DF64)
+Alster<X>
+
+
+//POINTER #19 @ $2DF66 - STRING #19 @ $2E098
+
+#WRITE(Castle, $2DF66)
+//Orgahil
+Orgahil<X>
+
+
+//POINTER #20 @ $2DF68 - STRING #20 @ $2E0A6
+
+#WRITE(Castle, $2DF68)
+//Thove
+Thove<X>
+
+
+//POINTER #21 @ $2DF6A - STRING #21 @ $2E0B2
+
+#WRITE(Castle, $2DF6A)
+//Sailane
+Sailane<X>
+
+
+//POINTER #22 @ $2DF6C - STRING #22 @ $2E0C0
+
+#WRITE(Castle, $2DF6C)
+Zaxon<X>
+
+
+//POINTER #23 @ $2DF6E - STRING #23 @ $2E0CC
+
+#WRITE(Castle, $2DF6E)
+Silesia<X>
+
+
+//POINTER #24 @ $2DF70 - STRING #24 @ $2E0D8
+
+#WRITE(Castle, $2DF70)
+Lubeck<X>
+
+
+//POINTER #25 @ $2DF72 - STRING #25 @ $2E0E8
+
+#WRITE(Castle, $2DF72)
+//Tilnanog
+Tilnog<X>
+
+
+//POINTER #26 @ $2DF74 - STRING #26 @ $2E0F8
+
+#WRITE(Castle, $2DF74)
+//Ganeishire
+Ganeish<X>
+
+
+//POINTER #27 @ $2DF76 - STRING #27 @ $2E106
+
+#WRITE(Castle, $2DF76)
+//Sophara
+Sophara<X>
+
+
+//POINTER #28 @ $2DF78 - STRING #28 @ $2E112
+
+#WRITE(Castle, $2DF78)
+Isaac<X>
+
+
+//POINTER #29 @ $2DF7A - STRING #29 @ $2E11E
+
+#WRITE(Castle, $2DF7A)
+//Rivough
+Rivough<X>
+
+
+//POINTER #30 @ $2DF7C - STRING #30 @ $2E128
+
+#WRITE(Castle, $2DF7C)
+//Phinora
+Phinora<X>
+
+
+//POINTER #31 @ $2DF7E - STRING #31 @ $2E136
+
+#WRITE(Castle, $2DF7E)
+Yied<X>
+
+
+//POINTER #32 @ $2DF80 - STRING #32 @ $2E140
+
+#WRITE(Castle, $2DF80)
+Darna<X>
+
+
+//POINTER #33 @ $2DF82 - STRING #33 @ $2E14A
+
+#WRITE(Castle, $2DF82)
+Verdane<X>
+
+
+//POINTER #34 @ $2DF84 - STRING #34 @ $2E158
+
+#WRITE(Castle, $2DF84)
+Evans<X>
+
+
+//POINTER #35 @ $2DF86 - STRING #35 @ $2E164
+
+#WRITE(Castle, $2DF86)
+Genoa<X>
+
+
+//POINTER #36 @ $2DF88 - STRING #36 @ $2E170
+
+#WRITE(Castle, $2DF88)
+Marpha<X>
+
+
+//POINTER #37 @ $2DF8A - STRING #37 @ $2E17C
+
+#WRITE(Castle, $2DF8A)
+//Miletos
+Miletos<X>
+
+
+//POINTER #38 @ $2DF8C - STRING #38 @ $2E188
+
+#WRITE(Castle, $2DF8C)
+//Peruluke
+Perluke<X>
+
+
+//POINTER #39 @ $2DF8E - STRING #39 @ $2E196
+
+#WRITE(Castle, $2DF8E)
+//Chronos
+Chronos<X>
+
+
+//POINTER #40 @ $2DF90 - STRING #40 @ $2E1A2
+
+#WRITE(Castle, $2DF90)
+//Rados
+Rados<X>
+
+
+//POINTER #41 @ $2DF92 - STRING #41 @ $2E1AC
+
+#WRITE(Castle, $2DF92)
+Mease<X>
+
+
+//POINTER #42 @ $2DF94 - STRING #42 @ $2E1B6
+
+#WRITE(Castle, $2DF94)
+//Kapathogia
+Kapthog<X>
+
+
+//POINTER #43 @ $2DF96 - STRING #43 @ $2E1C4
+
+#WRITE(Castle, $2DF96)
+//Luthetia
+Lutheta<X>
+
+
+//POINTER #45 @ $2DF9A - STRING #45 @ $2E1DC
+
+#WRITE(Castle, $2DF9A)
+//Grutia
+Grutia<X>
+
+
+#JMP($2E4E6, $2E5FF)
+//free space used to expand terrain
+//move some longer strings to free up space
+
+//POINTER #7 @ $2DF4E - STRING #7 @ $2DFFE
+
+#WRITE(Castle, $2DF4E)
+//Velthomer
+Velthom<X>
+
+
+//POINTER #9 @ $2DF52 - STRING #9 @ $2E01A
+
+#WRITE(Castle, $2DF52)
+Barhara<X>
+
+
+
+//POINTER #12 @ $2DF58 - STRING #12 @ $2E03A
+
+#WRITE(Castle, $2DF58)
+Chalphy<X>
+
+
+//POINTER #44 @ $2DF98 - STRING #44 @ $2E1D0
+
+#WRITE(Castle, $2DF98)
+Thracia<X>
+

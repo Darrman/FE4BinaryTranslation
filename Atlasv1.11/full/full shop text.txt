@@ -1,0 +1,690 @@
+//BLOCK #000 NAME:		Shop Text
+
+#JMP($AD2D4, $ADA1A)
+
+//POINTER #0 @ $AD0B3 - STRING #0 @ $2ED8E4
+
+#W24($AD0B3)
+[Clear]This is the item shop. [N]
+[X]
+
+
+//POINTER #1 @ $AD0B6 - STRING #1 @ $2ED8F8
+
+#W24($AD0B6)
+This is the pawn shop. [N]
+Take care of your buying and [N]
+selling needs here. [A]
+[N]
+[X]
+
+
+//POINTER #2 @ $AD0B9 - STRING #2 @ $2ED92B
+
+#W24($AD0B9)
+This is the repair shop. What [N]
+needs fixin'? [X]
+
+
+//POINTER #3 @ $AD0BC - STRING #3 @ $2ED94C
+
+#W24($AD0BC)
+This is the storage room. What [N]
+can I do for you? [N]
+[X]
+
+
+//POINTER #4 @ $AD0BF - STRING #4 @ $501FF
+
+#W24($AD0BF)
+[X]
+
+
+//POINTER #5 @ $AD0C2 - STRING #5 @ $2ED96F
+
+#W24($AD0C2)
+This is the Arena. [N]
+[X]
+
+
+//POINTER #6 @ $AD0C5 - STRING #6 @ $2ED97E
+
+#W24($AD0C5)
+#W24($AD0C8)
+#W24($AD0CB)
+#W24($AD0CE)
+#W24($AD0D1)
+#W24($AD0D4)
+[Clear]What'll it be? [N]
+[X]
+
+
+//POINTER #12 @ $AD0D7 - STRING #12 @ $2ED98F
+
+#W24($AD0D7)
+#W24($AD0DD)
+[Clear]Anything else? [N]
+[X]
+
+
+//POINTER #13 @ $AD0DA - STRING #13 @ $2ED9A1
+
+#W24($AD0DA)
+[Clear]You need anything else? [N]
+[X]
+
+
+//POINTER #15 @ $AD0E0 - STRING #15 @ $2ED9B0
+
+#W24($AD0E0)
+#W24($AD0E6)
+[Clear]Anything else I can help you [N]
+with? [N]
+[X]
+
+
+//POINTER #16 @ $AD0E3 - STRING #16 @ $501FF
+
+#W24($AD0E3)
+[X]
+
+
+//POINTER #18 @ $AD0E9 - STRING #18 @ $1C1F9
+
+#W24($AD0E9)
+[Clear]Come again. [A]
+[X]
+
+
+//POINTER #19 @ $AD0EC - STRING #19 @ $2ED9D0
+
+#W24($AD0EC)
+[Clear]Nice doing business with [N]
+ya. [A]
+[X]
+
+
+//POINTER #20 @ $AD0EF - STRING #20 @ $2ED9E8
+
+#W24($AD0EF)
+[Clear]You take care now. [A]
+[X]
+
+
+//POINTER #21 @ $AD0F2 - STRING #21 @ $2ED9F3
+
+#W24($AD0F2)
+[Clear]Thanks for stopping by! [A]
+[X]
+
+
+//POINTER #22 @ $AD0F5 - STRING #22 @ $501FF
+
+#W24($AD0F5)
+[X]
+
+
+//POINTER #23 @ $AD0F8 - STRING #23 @ $2EDA07
+
+#W24($AD0F8)
+[Clear]So long! [N]
+Come around again if you're [N]
+still breathin'. [A]
+[X]
+
+
+//POINTER #24 @ $AD0FB - STRING #24 @ $2EDA2F
+
+#W24($AD0FB)
+[Clear]Which one can I get for ya? [X]
+
+
+//POINTER #25 @ $AD0FE - STRING #25 @ $2EDA43
+
+#W24($AD0FE)
+[Clear]Which one you want? [X]
+
+
+//POINTER #26 @ $AD101 - STRING #26 @ $701FE
+
+#W24($AD101)
+[Clear][X]
+
+
+//POINTER #27 @ $AD104 - STRING #27 @ $2EDA55
+
+#W24($AD104)
+[Clear]Which would you like to take out [N]
+of storage? [X]
+
+
+//POINTER #28 @ $AD107 - STRING #28 @ $501FF
+
+#W24($AD107)
+[X]
+
+
+//POINTER #29 @ $AD10A - STRING #29 @ $2EDA75
+
+#W24($AD10A)
+#W24($AD110)
+[Clear]Will this do ya? [N]
+[X]
+
+
+//POINTER #30 @ $AD10D - STRING #30 @ $2EDA83
+
+#W24($AD10D)
+[Clear]You wanna go with that one? [N]
+[X]
+
+
+//POINTER #32 @ $AD113 - STRING #32 @ $2EDAA7
+
+#W24($AD113)
+[Clear]This one? [N]
+[X]
+
+
+//POINTER #33 @ $AD116 - STRING #33 @ $501FF
+
+#W24($AD116)
+[X]
+
+
+//POINTER #34 @ $AD119 - STRING #34 @ $2EDAB1
+
+#W24($AD119)
+[Clear]How about another one for ya? [X]
+
+
+//POINTER #35 @ $AD11C - STRING #35 @ $2EDABF
+
+#W24($AD11C)
+[Clear]You want anything else? [X]
+
+
+//POINTER #36 @ $AD11F - STRING #36 @ $501FF
+
+#W24($AD11F)
+[X]
+
+
+//POINTER #37 @ $AD122 - STRING #37 @ $2EDACD
+
+#W24($AD122)
+[Clear]Anything else you need out of [N]
+storage? [X]
+
+
+//POINTER #38 @ $AD125 - STRING #38 @ $501FF
+
+#W24($AD125)
+[X]
+
+
+//POINTER #39 @ $AD128 - STRING #39 @ $2EDAEF
+
+#W24($AD128)
+[Clear]Hey, you don't have enough [N]
+money. [N]
+Anything else? [A]
+[X]
+
+
+//POINTER #40 @ $AD12B - STRING #40 @ $2EDB14
+
+#W24($AD12B)
+[Clear]You don't got enough money. [A]
+[X]
+
+
+//POINTER #41 @ $AD12E - STRING #41 @ $2EDB26
+
+#W24($AD12E)
+[Clear]You're a tad short on money [N]
+there. [A]
+[X]
+
+
+//POINTER #42 @ $AD131 - STRING #42 @ $2EDAEF
+
+#W24($AD131)
+#W24($AD134)
+[Clear]Hey, you don't have enough [N]
+money. [N]
+Anything else? [A]
+[X]
+
+
+//POINTER #44 @ $AD137 - STRING #44 @ $2EDB42
+
+#W24($AD137)
+#W24($AD13D)
+#W24($AD143)
+[Clear]You've got too much stuff! [A]
+[X]
+
+
+//POINTER #45 @ $AD13A - STRING #45 @ $2EDB54
+
+#W24($AD13A)
+[Clear]Hey, you've got too much stuff! [A]
+[X]
+
+//POINTER #47 @ $AD140 - STRING #47 @ $2EDB68
+
+#W24($AD140)
+[Clear]You can't handle that much. [A]
+[X]
+
+//POINTER #49 @ $AD146 - STRING #49 @ $2EDB75
+
+#W24($AD146)
+#W24($AD149)
+#W24($AD14F)
+#W24($AD152)
+[Clear]Sorry, can't take that off ya. [A]
+[X]
+
+
+//POINTER #51 @ $AD14C - STRING #51 @ $2E1FD
+
+#W24($AD14C)
+[Clear][A]
+[X]
+
+
+//POINTER #54 @ $AD155 - STRING #54 @ $2EDB84
+
+#W24($AD155)
+[Clear]You here to shop or what? [X]
+
+
+//POINTER #55 @ $AD158 - STRING #55 @ $2EDB95
+
+#W24($AD158)
+[Clear]Which one you wanna sell? [X]
+
+
+//POINTER #56 @ $AD15B - STRING #56 @ $501FF
+
+#W24($AD15B)
+[X]
+
+
+//POINTER #57 @ $AD15E - STRING #57 @ $2EDBAD
+
+#W24($AD15E)
+[Clear]Which one can I store for you? [X]
+
+
+//POINTER #58 @ $AD161 - STRING #58 @ $501FF
+
+#W24($AD161)
+[X]
+
+
+//POINTER #59 @ $AD164 - STRING #59 @ $501FF
+
+#W24($AD164)
+[X]
+
+
+//POINTER #60 @ $AD167 - STRING #60 @ $2EDBC5
+
+#W24($AD167)
+[Clear]You sure? [N]
+[X]
+
+
+//POINTER #61 @ $AD16A - STRING #61 @ $501FF
+
+#W24($AD16A)
+[X]
+
+
+//POINTER #62 @ $AD16D - STRING #62 @ $2EDAA7
+
+#W24($AD16D)
+[Clear]This one? [N]
+[X]
+
+
+//POINTER #63 @ $AD170 - STRING #63 @ $501FF
+
+#W24($AD170)
+[X]
+
+
+//POINTER #64 @ $AD173 - STRING #64 @ $501FF
+
+#W24($AD173)
+[X]
+
+
+//POINTER #65 @ $AD176 - STRING #65 @ $2EDBD0
+
+#W24($AD176)
+[Clear]Anything else you wanna sell? [X]
+
+
+//POINTER #66 @ $AD179 - STRING #66 @ $501FF
+
+#W24($AD179)
+[X]
+
+
+//POINTER #67 @ $AD17C - STRING #67 @ $2EDBEE
+
+#W24($AD17C)
+[Clear]Anything else to store? [X]
+
+
+//POINTER #68 @ $AD17F - STRING #68 @ $501FF
+
+#W24($AD17F)
+[X]
+
+
+//POINTER #69 @ $AD182 - STRING #69 @ $2EDC07
+
+#W24($AD182)
+#W24($AD185)
+#W24($AD18B)
+[Clear]What needs fixin'? [X]
+
+
+//POINTER #71 @ $AD188 - STRING #71 @ $2EDC15
+
+#W24($AD188)
+#W24($AD191)
+#W24($AD194)
+#W24($AD197)
+#W24($AD19A)
+[Clear]Shall I fix 'er up for ya? [N]
+[X]
+
+
+//POINTER #73 @ $AD18E - STRING #73 @ $501FF
+
+#W24($AD18E)
+[X]
+
+
+//POINTER #78 @ $AD19D - STRING #78 @ $2EDC2C
+
+#W24($AD19D)
+#W24($AD1BB)
+[Clear]Good work. You're ready to be [N]
+promoted to [Class]. [A]
+[Clear]Do you want to be promoted? [N]
+[X]
+
+
+//POINTER #79 @ $AD1A0 - STRING #79 @ $2EDC68
+
+#W24($AD1A0)
+#W24($AD1A3)
+#W24($AD1A6)
+#W24($AD1A9)
+#W24($AD1AC)
+[Clear]Anything else need fixin'? [X]
+
+
+//POINTER #84 @ $AD1AF - STRING #84 @ $2EDC82
+
+#W24($AD1AF)
+#W24($AD1B2)
+#W24($AD1B5)
+#W24($AD1B8)
+[Clear]Nice piece ya have there. Shall [N]
+I fix 'er up for ya? [N]
+[X]
+
+//shopASM.txt
+#W16($AC311)
+[c]
+This is the repair shop.
+[k]
+[c]
+You don't have anything?[n]
+Well, come again.
+[k]
+
+[exit]
+
+#W16($AC33D)
+This is the pawn shop.[n]
+We'll buy anything you don't want.[n]
+
+[exit]
+
+#W16($AC349)
+This is the pawn shop.[n]
+Take care of your buying and selling needs here.[n]
+
+[exit]
+
+#W16($AC4E8)
+[c]
+Sorry...[n]
+We're sold out.
+[k]
+[c]
+Was there anything else?[n]
+
+[exit]
+
+#W16($AC4F6)
+[c]
+Bah, you don't have anything to sell.
+[k]
+[c]
+Was there anything else?[n]
+
+[exit]
+
+#W16($AE774)
+[c]
+There's no-one left for you to fight...
+[k]
+
+[exit]
+
+#W16($AE7BD)
+[c]
+You won?[n]
+Here's your prize - [n]<$00><$25> gold.
+[k]
+[c]
+Would you like to fight the next opponent?[n]
+
+[exit]
+
+#W16($AE7F8)
+[c]
+What's that? You lost?[n]
+Those injuries look serious...[k]
+
+[exit]
+
+#W16($AE81D)
+[c]
+That's it...[n]
+There's no-one left to fight.[n]
+Here's your <$00><$25> gold.[k]
+
+[exit]
+
+#W16($AE84D)
+[c]
+What?[n]Are you giving up?[n]
+
+[exit]
+
+#W16($AE954)
+#W16($AEAF2)
+#W16($AEC17)
+#W16($AED31)
+[c]
+What do you want to use?
+
+[exit]
+
+#W16($AE981)
+#W16($AEAE4)
+#W16($AEBD3)
+[c]
+You need a weapon to fight here.
+[k]
+[c]
+What do you want to do?[n]
+
+[exit]
+
+#W16($AE8AE)
+#W16($AEE3A)
+[c]
+This opponent is level <$00><$25>.
+Give it your best.[n]
+
+[exit]
+
+#W16($AEAB9)
+#W16($AEBE1)
+[c]
+You're quitting, then...
+[k]
+
+[exit]
+
+#W16($AEE76)
+[c]
+What do you want to do?[n]
+
+[exit]
+
+#W16($AF1B7)
+[c]
+Good work. You're ready to be promoted to <$00><$28>.[k][c]
+Do you want to be promoted?[n]
+
+[exit]
+
+#W16($AF1E3)
+[c]
+You can only class change at level 20.[n]
+Please return after you've gotten more experience.[k]
+
+[exit]
+
+#W16($AF1EF)
+[c]
+You can only class change at level 20.[n]
+Come back when you're more experienced.[k]
+
+[exit]
+
+#W16($AF21B)
+[c]
+You cannot change class.[n]
+Please leave.[k]
+
+[exit]
+
+#W16($AF227)
+[c]
+You cannot change class.
+Leave.[k]
+
+[exit]
+
+#W16($AF65F)
+[c]
+You don't have anything to give me.
+[k]
+[c]
+Was there anything else?[n]
+
+[exit]
+
+#W16($AF66D)
+[c]
+I don't have anything of yours.
+[k]
+[c]
+Was there anything else?[n]
+
+[exit]
+
+#W16($AFC85)
+[c]
+Greetings.
+You'd like for me to tell your fortune?[k]
+[c]
+What in particular?
+
+[exit]
+
+#W16($AFD3F)
+[c]
+Come back any time.
+[k]
+
+[exit]
+
+#W16($AFDC2)
+[c]
+Up to now, your record stands at[n]
+<$00><$25> Wins and <$00><$26> Losses.[k]
+
+[exit]
+
+#W16($AFDDC)
+[c]
+Your father was <$00><$22>, 
+and your mother was <$00><$23>.[k]
+
+[exit]
+
+#W16($AFE03)
+[c]
+You currently don't have feelings for anybody.[k]
+
+[exit]
+
+#W16($AFE28)
+[c]
+<$00><$22> is on your mind.
+[k]
+
+[exit]
+
+#W16($AFE34)
+[c]
+You're fond of[n]
+<$00><$22>.
+[k]
+
+[exit]
+
+#W16($AFE40)
+[c]
+You're in love with <$00><$22>. 
+[k]
+
+[exit]
+
+#W16($AFE4C)
+[c]
+You and <$00><$22> are bound to each other.
+[k]
+
+[exit]
+
+#W16($AFEE2)
+[c]
+Is there anything else you'd like me to scry?
+
+[exit]

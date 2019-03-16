@@ -1,0 +1,45 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #011 NAME:		System Menu
+
+//POINTER #0 @ $5DF98 - STRING #0 @ $5DF0C
+
+#W16($5DF98)
+<$DD><$DB><$85><$01><$01> Unit<X>
+
+
+//POINTER #1 @ $5DF9D - STRING #1 @ $5DF1D
+
+#W16($5DF9D)
+<$ED><$DB><$85><$01><$01> Item<X>
+
+
+//POINTER #2 @ $5DFA2 - STRING #2 @ $5FB95
+
+#W16($5DFA2)
+<$F6><$DB><$85><$01><$01> Data<X>
+
+
+//POINTER #3 @ $5DFA7 - STRING #3 @ $5FBA6
+
+#W16($5DFA7)
+<$0E><$DC><$85><$01><$01> Skill<X>
+
+
+//POINTER #4 @ $5DFAC - STRING #4 @ $5FBB9
+
+#W16($5DFAC)
+<$CA><$DC><$85><$01><$01> Option<X>
+
+
+//POINTER #5 @ $5DFB1 - STRING #5 @ $5FBCE
+
+#W16($5DFB1)
+<$AB><$DC><$85><$01><$01> Save<X>
+
+
+//POINTER #6 @ $5DFB6 - STRING #6 @ $5DF7D
+
+#W16($5DFB6)
+<$26><$DC><$85><$01><$01> End<X>
+

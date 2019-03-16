@@ -1,0 +1,147 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #013 NAME:		Option Choices
+
+//POINTER #0 @ $9F380 - STRING #0 @ $9FAA3
+
+#W24($9F380)
+<$82><$6E><$82><$6D>  <X>
+
+
+//POINTER #1 @ $9F383 - STRING #1 @ $9FAAD
+
+#W24($9F383)
+<$82><$6E><$82><$65><$82><$65> <X>
+
+
+//POINTER #2 @ $9F386 - STRING #2 @ $9FA8F
+
+#W24($9F386)
+1<X>
+
+
+//POINTER #3 @ $9F389 - STRING #3 @ $9FA93
+
+#W24($9F389)
+2<X>
+
+
+//POINTER #4 @ $9F38C - STRING #4 @ $9FA97
+
+#W24($9F38C)
+3<X>
+
+
+//POINTER #5 @ $9F38F - STRING #5 @ $9FA9B
+
+#W24($9F38F)
+4<X>
+
+
+//POINTER #6 @ $9F392 - STRING #6 @ $9FA9F
+
+#W24($9F392)
+5<X>
+
+
+//POINTER #7 @ $9F395 - STRING #7 @ $9F3D0
+
+#W24($9F395)
+Nrm<X>
+
+
+//POINTER #8 @ $9F398 - STRING #8 @ $9F3C8
+
+#W24($9F398)
+Fst<X>
+
+
+//POINTER #9 @ $9F39B - STRING #9 @ $9F3D8
+
+#W24($9F39B)
+Ster<X>
+
+
+//POINTER #10 @ $9F39E - STRING #10 @ $9F3E2
+
+#W24($9F39E)
+Mono<X>
+
+
+//POINTER #11 @ $9F3A1 - STRING #11 @ $9FAAD
+
+#W24($9F3A1)
+<$82><$6E><$82><$65><$82><$65> <X>
+
+
+//POINTER #12 @ $9F3A4 - STRING #12 @ $9FAAD
+
+#W24($9F3A4)
+<$82><$6E><$82><$65><$82><$65> <X>
+
+
+//POINTER #13 @ $9F3A7 - STRING #13 @ $9F40A
+
+#W24($9F3A7)
+Sav1<X>
+
+
+//POINTER #14 @ $9F3AA - STRING #14 @ $9F414
+
+#W24($9F3AA)
+Sav2<X>
+
+
+//POINTER #15 @ $9F3AD - STRING #15 @ $9F41E
+
+#W24($9F3AD)
+Sav3<X>
+
+
+//POINTER #16 @ $9F3B0 - STRING #16 @ $9F428
+
+#W24($9F3B0)
+Sav4<X>
+
+
+//POINTER #17 @ $9F3B3 - STRING #17 @ $9F3EC
+
+#W24($9F3B3)
+On  <X>
+
+
+//POINTER #18 @ $9F3B6 - STRING #18 @ $9F3F6
+
+#W24($9F3B6)
+Off <X>
+
+
+//POINTER #19 @ $9F3B9 - STRING #19 @ $9F400
+
+#W24($9F3B9)
+Solo<X>
+
+
+//POINTER #20 @ $9F3BC - STRING #20 @ $9F43C
+
+#W24($9F3BC)
+Norm<X>
+
+
+//POINTER #21 @ $9F3BF - STRING #21 @ $9F432
+
+#W24($9F3BF)
+Hard<X>
+
+
+//POINTER #22 @ $9F3C2 - STRING #22 @ $9FAA3
+
+#W24($9F3C2)
+<$82><$6E><$82><$6D>  <X>
+
+
+//POINTER #23 @ $9F3C5 - STRING #23 @ $9FAAD
+
+#W24($9F3C5)
+<$82><$6E><$82><$65><$82><$65> <X>
+

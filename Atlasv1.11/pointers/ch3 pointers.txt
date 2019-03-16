@@ -1,0 +1,46 @@
+#W24($1D8912) //Opening, the king calls his swordsman
+#W24($1D8930) //What will Eltshan do?
+#W24($1D894E) //Briggid objects to pilfering
+#W24($1D895A) //Not like the other pirates care 
+#W24($1D8978) //And Sigurd sets off again 
+#W24($1D89BC) //Madino falls 
+#W24($1D89E7) //Claude brings news on court drama 
+#W24($1D8A2B) //Deirdre runs off 
+#W24($1D8A8B) //Manfloy steals some wives 
+#W24($1D8BAD) //Shagall is just cranky 
+#W24($1D8C16) //"Cross Knights, ATTACK!" 
+#W24($1D8C2F) //Shagall sits on Silvail 
+#W24($1D8CC8) //Sigurd can't stop Eltshan 
+#W24($1D8CF4) //This dupe doesn't help 
+#W24($1D8D26) //Lachesis can, though
+#W24($1D8D55) //And Eltshan loses his head
+#W24($1D8D91) //Sigurd isn't pleased at that
+#W24($1D8DB0) //Shagall hires Trabant
+#W24($1D8E0B) //"Pick up the pace!"
+#W24($1D8E2C) //Trabant bails
+#W24($1D8E7F) //Plot armour is convienent
+#W24($1D8E9A) //Silvail seized
+#W24($1D8F09) //Claude finds the Valkyrie Staff
+#W24($1D8F3A) //The pirates launch a coup
+#W24($1D8F79) //"Do 'er in!"
+#W24($1D90A0) //A bridge appears
+#W24($1D9179) //Orgahil falls
+#W24($1D9270) //Langbart wants Sigurd arrested
+#W24($1D927E) //Reptor laughs at his evilness
+#W24($1D9296) //You're a traitor now, Siggy
+#W24($1D92E1) //Mahnya's here to save the day
+#W24($1D9310) //This villager is angry at Orgahil
+#W24($1D9323) //This villager has a wing clipper
+#W24($1D9336) //This villager gives us restore
+#W24($1D9344) //This villager grants +1 defence
+#W24($1D9378) //And this villager's boyfriend's
+#W24($1D9380) //A Cross Knight, unless he's dead
+#W24($1D938D) //Dragon knights are good to hire
+#W24($1D939E) //Secret formulas, huh
+#W24($1D93D0) //Someone's just sick of the wars
+#W24($1D93F4) //Cuan "dies"
+#W24($1D9475) //Ethlin "dies"
+#W24($1D9533) //"We've orders to avoid battle."
+#W24($1D954D) //Dew raids Blaggi Tower
+#W24($1D9562) //But a mysterious voice makes him leave
+#W24($1D9574) //Fancy swords make it worth it

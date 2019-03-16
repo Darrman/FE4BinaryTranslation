@@ -1,0 +1,131 @@
+File Location Correspondence
+(Some files might be scattered around.)
+(If so, the file will be listed under)
+(where the bulk of its contents are.)
+
+   Date     Time	File  Size  Name
+Bank80.txt:
+
+06/05/2017  16:01               153 noitems.txt
+06/05/2017  16:01               285 objandturns.txt
+06/05/2017  16:01             2,325 objective.txt
+06/05/2017  16:01             1,879 config.txt
+06/05/2017  16:01             2,399 skill.txt
+
+Bank82.txt
+
+06/05/2017  16:01             4,294 city.txt
+06/05/2017  16:01             2,964 terrain.txt
+
+Bank85.txt
+
+06/05/2017  16:01             2,047 menu1.txt
+06/05/2017  16:01             1,950 menu2.txt
+06/05/2017  16:01             3,379 menu3.txt
+06/05/2017  16:01               331 receive.txt
+06/05/2017  16:01               238 villagegold.txt
+06/05/2017  16:01             1,702 battleinfobox.txt
+06/05/2017  16:01               380 save.txt
+06/05/2017  16:01             1,553 battleopts.txt
+06/05/2017  16:01             1,441 battleopts2.txt
+06/05/2017  16:01               519 toomanyitem.txt
+06/05/2017  16:01               332 staff.txt
+06/05/2017  16:01               380 save.txt
+
+
+Bank8A.txt
+06/05/2017  16:01             2,692 skilltext.txt
+06/05/2017  16:01             1,305 configtext.txt
+06/05/2017  16:01               782 greenconfig1.txt
+06/05/2017  16:01               877 configchoices.txt
+06/05/2017  16:01             1,950 status.txt
+06/05/2017  16:01               565 valkyre.txt
+06/05/2017  16:01               333 conditions.txt
+
+06/05/2017  16:01               637 castlemenu.txt
+06/05/2017  16:01             1,011 shopyesno.txt
+06/05/2017  16:01               273 shopyesno2.txt
+
+Bank8B.txt
+
+06/05/2017  16:01               331 datascreentitles.txt
+06/05/2017  16:01               665 subdata.txt
+06/05/2017  16:01               306 teamrelations.txt
+06/05/2017  16:01               242 skillnobody.txt
+
+
+names-sjis.txt
+
+06/05/2017  16:01             7,221 classes.txt
+01/06/2017  18:18            37,885 chrnam.txt
+03/06/2017  15:42             5,706 army.txt
+06/05/2017  16:01            12,490 weap.txt
+06/05/2017  16:01             6,510 weapdesc.txt
+
+
+names-vwf.txt
+
+06/05/2017  16:01             4,563 zdynamic1.txt
+06/05/2017  16:01               847 zdynamic2.txt
+06/05/2017  16:01             6,963 zdynamic3.txt
+03/06/2017  12:19             3,216 zdynamic4.txt
+06/05/2017  16:01             1,085 mainmenu.txt
+06/05/2017  16:01               386 chapternumbers.txt
+
+
+shop.txt
+06/05/2017  16:01            11,120 shop.txt
+06/05/2017  16:01             4,689 shopASM.txt
+
+
+String fixes, J2E files, etc
+
+06/05/2017  16:01             4,263 6restrict.txt
+06/05/2017  16:01             1,000 fe4map.c
+06/05/2017  16:01                49 fe4map.def
+06/05/2017  16:01               423 eddanaming.txt
+06/05/2017  16:01               214 greenconfig2reform.txt
+06/05/2017  16:01             2,495 statusreform.txt
+06/05/2017  16:01               259 subdatareform.txt
+06/05/2017  16:01               398 valkyrereform.txt
+06/05/2017  16:01             1,053 Makefile
+06/05/2017  16:01               365 statusmap.txt
+06/05/2017  16:01             5,394 shopnames.txt
+06/05/2017  16:01               274 skillnamewipe.txt
+06/05/2017  16:01               984 shopweapon.txt
+
+
+06/05/2017  16:01            16,643 battle.txt
+06/05/2017  16:01            25,683 battleconv.txt
+06/05/2017  16:01             2,095 chronology.txt
+06/05/2017  16:01             3,190 cscastle.txt
+03/06/2017  00:53            24,464 death.txt
+06/05/2017  16:01            18,290 fe4_00.txt
+06/05/2017  16:01            31,220 fe4_01.txt
+06/05/2017  16:01            35,388 fe4_02.txt
+06/05/2017  16:01            28,096 fe4_03.txt
+06/05/2017  16:01            24,380 fe4_04.txt
+06/05/2017  16:01             6,596 fe4_04_2a.txt
+02/12/2017  15:17            33,268 fe4_05.txt
+03/06/2017  01:26            29,547 fe4_06.txt
+06/05/2017  16:01             1,044 fe4_06_2a.txt
+23/12/2017  12:21            28,881 fe4_07.txt
+23/12/2017  12:29            26,215 fe4_08.txt
+06/05/2017  16:01            29,857 fe4_09.txt
+06/05/2017  16:01             2,692 fe4_09_2a.txt
+06/05/2017  16:01            23,494 fe4_0A.txt
+06/05/2017  16:01             1,572 fe4_0A_2a.txt
+03/06/2017  01:42            21,639 fe4_0B.txt
+03/06/2017  01:41             1,039 fe4_0B_2a.txt
+06/05/2017  16:01            22,456 fe4_0C.txt
+06/05/2017  16:01            39,848 fe4_0D.txt
+03/06/2017  01:37            82,170 fe4_0E.txt
+03/06/2017  01:28             1,980 fe4_0F.txt
+06/05/2017  16:01            28,083 femain.txt
+06/05/2017  16:01               436 greenconfig2.txt
+06/05/2017  16:01             1,778 intermission.txt
+06/05/2017  16:01               408 intermission2.txt
+06/05/2017  16:01             4,352 intermissionnames.txt
+06/05/2017  16:01               584 realreports.txt
+06/05/2017  16:01               531 received2.txt
+06/05/2017  16:01             9,902 welcomeback.txt

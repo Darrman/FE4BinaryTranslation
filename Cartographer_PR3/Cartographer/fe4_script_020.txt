@@ -1,0 +1,75 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #020 NAME:		Chapter Names
+
+//POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
+
+#W16($D9DF6)
+Holy Knt[X]
+
+
+//POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
+
+#W16($D9DF8)
+Spirit Forest [X]
+
+
+//POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
+
+#W16($D9DFA)
+Agustria   [X]
+
+
+//POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
+
+#W16($D9DFC)
+Lion Eltshan[X]
+
+
+//POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
+
+#W16($D9DFE)
+SkyDance[X]
+
+
+//POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
+
+#W16($D9E00)
+Destiny [X]
+
+
+//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
+
+#W16($D9E02)
+Inheritr[X]
+
+
+//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
+
+#W16($D9E04)
+Desert  [X]
+
+
+//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
+
+#W16($D9E06)
+Thracia   [X]
+
+
+//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6E
+
+#W16($D9E08)
+WhoSake[X]
+
+
+//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
+
+#W16($D9E0A)
+LitnDark[X]
+
+
+//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
+
+#W16($D9E0C)
+Holy War[X]
+

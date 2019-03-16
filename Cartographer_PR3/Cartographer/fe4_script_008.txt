@@ -1,0 +1,831 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+//BLOCK #008 NAME:		Item Names
+
+//POINTER #0 @ $3A959 - STRING #0 @ $3AA6D
+
+#W16($3A959)
+Iron<X>
+
+
+//POINTER #1 @ $3A95B - STRING #1 @ $3AA77
+
+#W16($3A95B)
+Steel<X>
+
+
+//POINTER #2 @ $3A95D - STRING #2 @ $3AA83
+
+#W16($3A95D)
+Silver<X>
+
+
+//POINTER #3 @ $3A95F - STRING #3 @ $3AA6D
+
+#W16($3A95F)
+Iron<X>
+
+
+//POINTER #4 @ $3A961 - STRING #4 @ $3AA77
+
+#W16($3A961)
+Steel<X>
+
+
+//POINTER #5 @ $3A963 - STRING #5 @ $3AA83
+
+#W16($3A963)
+Silver<X>
+
+
+//POINTER #6 @ $3A965 - STRING #6 @ $3AAB1
+
+#W16($3A965)
+Blaggi<X>
+
+
+//POINTER #7 @ $3A967 - STRING #7 @ $3AABF
+
+#W16($3A967)
+Thief<X>
+
+
+//POINTER #8 @ $3A969 - STRING #8 @ $3AACD
+
+#W16($3A969)
+Lopto<X>
+
+
+//POINTER #9 @ $3A96B - STRING #9 @ $3AAD9
+
+#W16($3A96B)
+Lady<X>
+
+
+//POINTER #10 @ $3A96D - STRING #10 @ $3AAE7
+
+#W16($3A96D)
+Hero<X>
+
+
+//POINTER #11 @ $3A96F - STRING #11 @ $3AAF5
+
+#W16($3A96F)
+Sleep<X>
+
+
+//POINTER #12 @ $3A971 - STRING #12 @ $3AC49
+
+#W16($3A971)
+Killer<X>
+
+
+//POINTER #13 @ $3A973 - STRING #13 @ $3AB0B
+
+#W16($3A973)
+Rapier<X>
+
+
+//POINTER #14 @ $3A975 - STRING #14 @ $3ABCB
+
+#W16($3A975)
+Defence<X>
+
+
+//POINTER #15 @ $3A977 - STRING #15 @ $3AB27
+
+#W16($3A977)
+Flame<X>
+
+
+//POINTER #16 @ $3A979 - STRING #16 @ $3AB33
+
+#W16($3A979)
+Earth<X>
+
+
+//POINTER #17 @ $3A97B - STRING #17 @ $3ACF7
+
+#W16($3A97B)
+Thunder<X>
+
+
+//POINTER #18 @ $3A97D - STRING #18 @ $3AB4D
+
+#W16($3A97D)
+Wind<X>
+
+
+//POINTER #19 @ $3A97F - STRING #19 @ $3AB57
+
+#W16($3A97F)
+Light<X>
+
+
+//POINTER #20 @ $3A981 - STRING #20 @ $3AB63
+
+#W16($3A981)
+Misoltn<X>
+
+
+//POINTER #21 @ $3A983 - STRING #21 @ $3AB73
+
+#W16($3A983)
+Tyrfing<X>
+
+
+//POINTER #22 @ $3A985 - STRING #22 @ $3ABBB
+
+#W16($3A985)
+Balmung<X>
+
+
+//POINTER #23 @ $3A987 - STRING #23 @ $3B155
+
+#W16($3A987)
+Devil<X>
+
+
+//POINTER #24 @ $3A989 - STRING #24 @ $3AB8F
+
+#W16($3A989)
+Tordo<X>
+
+
+//POINTER #25 @ $3A98B - STRING #25 @ $3AED7
+
+#W16($3A98B)
+Dark<X>
+
+
+//POINTER #26 @ $3A98D - STRING #26 @ $3B083
+
+#W16($3A98D)
+King<X>
+
+
+//POINTER #27 @ $3A98F - STRING #27 @ $3ABAD
+
+#W16($3A98F)
+Broken<X>
+
+
+//POINTER #28 @ $3A991 - STRING #28 @ $3AA6D
+
+#W16($3A991)
+Iron<X>
+
+
+//POINTER #29 @ $3A993 - STRING #29 @ $3AA77
+
+#W16($3A993)
+Steel<X>
+
+
+//POINTER #30 @ $3A995 - STRING #30 @ $3AA83
+
+#W16($3A995)
+Silver<X>
+
+
+//POINTER #31 @ $3A997 - STRING #31 @ $3B069
+
+#W16($3A997)
+Javelin<X>
+
+
+//POINTER #32 @ $3A999 - STRING #32 @ $3ABEB
+
+#W16($3A999)
+Knight<X>
+
+
+//POINTER #33 @ $3A99B - STRING #33 @ $3AAE7
+
+#W16($3A99B)
+Hero<X>
+
+
+//POINTER #34 @ $3A99D - STRING #34 @ $3B0C1
+
+#W16($3A99D)
+Master<X>
+
+
+//POINTER #35 @ $3A99F - STRING #35 @ $3AC13
+
+#W16($3A99F)
+Gungnir<X>
+
+
+//POINTER #36 @ $3A9A1 - STRING #36 @ $3AC23
+
+#W16($3A9A1)
+GaeBolg<X>
+
+
+//POINTER #37 @ $3A9A3 - STRING #37 @ $3AC49
+
+#W16($3A9A3)
+Killer<X>
+
+
+//POINTER #38 @ $3A9A5 - STRING #38 @ $3AEFF
+
+#W16($3A9A5)
+Dragon<X>
+
+
+//POINTER #39 @ $3A9A7 - STRING #39 @ $3ABAD
+
+#W16($3A9A7)
+Broken<X>
+
+
+//POINTER #40 @ $3A9A9 - STRING #40 @ $3AA6D
+
+#W16($3A9A9)
+Iron<X>
+
+
+//POINTER #41 @ $3A9AB - STRING #41 @ $3AA77
+
+#W16($3A9AB)
+Steel<X>
+
+
+//POINTER #42 @ $3A9AD - STRING #42 @ $3AA83
+
+#W16($3A9AD)
+Silver<X>
+
+
+//POINTER #43 @ $3A9AF - STRING #43 @ $3AAE7
+
+#W16($3A9AF)
+Hero<X>
+
+
+//POINTER #44 @ $3A9B1 - STRING #44 @ $3AC73
+
+#W16($3A9B1)
+Swnchik<X>
+
+
+//POINTER #45 @ $3A9B3 - STRING #45 @ $3AC83
+
+#W16($3A9B3)
+Hand<X>
+
+
+//POINTER #46 @ $3A9B5 - STRING #46 @ $3B0D1
+
+#W16($3A9B5)
+Master<X>
+
+
+//POINTER #47 @ $3A9B7 - STRING #47 @ $3AC49
+
+#W16($3A9B7)
+Killer<X>
+
+
+//POINTER #48 @ $3A9B9 - STRING #48 @ $3ABAD
+
+#W16($3A9B9)
+Broken<X>
+
+
+//POINTER #49 @ $3A9BB - STRING #49 @ $3AA6D
+
+#W16($3A9BB)
+Iron<X>
+
+
+//POINTER #50 @ $3A9BD - STRING #50 @ $3AA77
+
+#W16($3A9BD)
+Steel<X>
+
+
+//POINTER #51 @ $3A9BF - STRING #51 @ $3AA83
+
+#W16($3A9BF)
+Silver<X>
+
+
+//POINTER #52 @ $3A9C1 - STRING #52 @ $3AAE7
+
+#W16($3A9C1)
+Hero<X>
+
+
+//POINTER #53 @ $3A9C3 - STRING #53 @ $3B0A1
+
+#W16($3A9C3)
+Gatling<X>
+
+
+//POINTER #54 @ $3A9C5 - STRING #54 @ $3ACD7
+
+#W16($3A9C5)
+Ichival<X>
+
+
+//POINTER #55 @ $3A9C7 - STRING #55 @ $3AC49
+
+#W16($3A9C7)
+Killer<X>
+
+
+//POINTER #56 @ $3A9C9 - STRING #56 @ $3ACA1
+
+#W16($3A9C9)
+Master<X>
+
+
+//POINTER #57 @ $3A9CB - STRING #57 @ $3ABAD
+
+#W16($3A9CB)
+Broken<X>
+
+
+//POINTER #58 @ $3A9CD - STRING #58 @ $3B12F
+
+#W16($3A9CD)
+Long<X>
+
+
+//POINTER #59 @ $3A9CF - STRING #59 @ $3AA6D
+
+#W16($3A9CF)
+Iron<X>
+
+
+//POINTER #60 @ $3A9D1 - STRING #60 @ $3AC49
+
+#W16($3A9D1)
+Killer<X>
+
+
+//POINTER #61 @ $3A9D3 - STRING #61 @ $3AD1D
+
+#W16($3A9D3)
+Great<X>
+
+
+//POINTER #62 @ $3A9D5 - STRING #62 @ $3AD2D
+
+#W16($3A9D5)
+Fire<X>
+
+
+//POINTER #63 @ $3A9D7 - STRING #63 @ $3AD39
+
+#W16($3A9D7)
+Elfire<X>
+
+
+//POINTER #64 @ $3A9D9 - STRING #64 @ $3ACE7
+
+#W16($3A9D9)
+Bolgnon<X>
+
+
+//POINTER #65 @ $3A9DB - STRING #65 @ $3AD55
+
+#W16($3A9DB)
+Falafla<X>
+
+
+//POINTER #66 @ $3A9DD - STRING #66 @ $3AD65
+
+#W16($3A9DD)
+Meteor<X>
+
+
+//POINTER #67 @ $3A9DF - STRING #67 @ $3ACF7
+
+#W16($3A9DF)
+Thunder<X>
+
+
+//POINTER #68 @ $3A9E1 - STRING #68 @ $3AD07
+
+#W16($3A9E1)
+Elthund<X>
+
+
+//POINTER #69 @ $3A9E3 - STRING #69 @ $3AD73
+
+#W16($3A9E3)
+Thoron<X>
+
+
+//POINTER #70 @ $3A9E5 - STRING #70 @ $3AD91
+
+#W16($3A9E5)
+Torhamm<X>
+
+
+//POINTER #71 @ $3A9E7 - STRING #71 @ $3ADA1
+
+#W16($3A9E7)
+Bolting<X>
+
+
+//POINTER #72 @ $3A9E9 - STRING #72 @ $3ADB1
+
+#W16($3A9E9)
+Wind<X>
+
+
+//POINTER #73 @ $3A9EB - STRING #73 @ $3ADBB
+
+#W16($3A9EB)
+Elwind<X>
+
+
+//POINTER #74 @ $3A9ED - STRING #74 @ $3AD81
+
+#W16($3A9ED)
+Tornado<X>
+
+
+//POINTER #75 @ $3A9EF - STRING #75 @ $3ADC9
+
+#W16($3A9EF)
+Holsety<X>
+
+
+//POINTER #76 @ $3A9F1 - STRING #76 @ $3ADD9
+
+#W16($3A9F1)
+Blizard<X>
+
+
+//POINTER #77 @ $3A9F3 - STRING #77 @ $3ADE9
+
+#W16($3A9F3)
+Lightng<X>
+
+
+//POINTER #78 @ $3A9F5 - STRING #78 @ $3ADF9
+
+#W16($3A9F5)
+Resire<X>
+
+
+//POINTER #79 @ $3A9F7 - STRING #79 @ $3AE07
+
+#W16($3A9F7)
+Aura<X>
+
+
+//POINTER #80 @ $3A9F9 - STRING #80 @ $3B101
+
+#W16($3A9F9)
+Helfire<X>
+
+
+//POINTER #81 @ $3A9FB - STRING #81 @ $3AE17
+
+#W16($3A9FB)
+Jormung<X>
+
+
+//POINTER #82 @ $3A9FD - STRING #82 @ $3AE27
+
+#W16($3A9FD)
+Fenrir<X>
+
+
+//POINTER #83 @ $3A9FF - STRING #83 @ $3AE35
+
+#W16($3A9FF)
+Hel<X>
+
+
+//POINTER #84 @ $3AA01 - STRING #84 @ $3AE3D
+
+#W16($3AA01)
+Lopto<X>
+
+
+//POINTER #85 @ $3AA03 - STRING #85 @ $3AE85
+
+#W16($3AA03)
+Maph<X>
+
+
+//POINTER #86 @ $3AA05 - STRING #86 @ $3AEF1
+
+#W16($3AA05)
+DimeTh<X>
+
+
+//POINTER #87 @ $3AA07 - STRING #87 @ $3B091
+
+#W16($3AA07)
+Purge<X>
+
+
+//POINTER #88 @ $3AA09 - STRING #88 @ $3ACAF
+
+#W16($3AA09)
+Heal<X>
+
+
+//POINTER #89 @ $3AA0B - STRING #89 @ $3AE5D
+
+#W16($3AA0B)
+Mend<X>
+
+
+//POINTER #90 @ $3AA0D - STRING #90 @ $3ACB9
+
+#W16($3AA0D)
+Recover<X>
+
+
+//POINTER #91 @ $3AA0F - STRING #91 @ $3ACC9
+
+#W16($3AA0F)
+Physic<X>
+
+
+//POINTER #92 @ $3AA11 - STRING #92 @ $3AE75
+
+#W16($3AA11)
+Fortify<X>
+
+
+//POINTER #93 @ $3AA13 - STRING #93 @ $3B115
+
+#W16($3AA13)
+Return <X>
+
+
+//POINTER #94 @ $3AA15 - STRING #94 @ $3AE8F
+
+#W16($3AA15)
+Warp<X>
+
+
+//POINTER #95 @ $3AA17 - STRING #95 @ $3AE99
+
+#W16($3AA17)
+Rescue<X>
+
+
+//POINTER #96 @ $3AA19 - STRING #96 @ $3B0B1
+
+#W16($3AA19)
+Excalbr<X>
+
+
+//POINTER #97 @ $3AA1B - STRING #97 @ $3AEA7
+
+#W16($3AA1B)
+Restore<X>
+
+
+//POINTER #98 @ $3AA1D - STRING #98 @ $3AF65
+
+#W16($3AA1D)
+Luna<X>
+
+
+//POINTER #99 @ $3AA1F - STRING #99 @ $3AEB7
+
+#W16($3AA1F)
+Silence<X>
+
+
+//POINTER #100 @ $3AA21 - STRING #100 @ $3AAF5
+
+#W16($3AA21)
+Sleep<X>
+
+
+//POINTER #101 @ $3AA23 - STRING #101 @ $3AF19
+
+#W16($3AA23)
+Berserk<X>
+
+
+//POINTER #102 @ $3AA25 - STRING #102 @ $3B0E9
+
+#W16($3AA25)
+Again<X>
+
+
+//POINTER #103 @ $3AA27 - STRING #103 @ $3B0F5
+
+#W16($3AA27)
+Narga<X>
+
+
+//POINTER #104 @ $3AA29 - STRING #104 @ $3B05B
+
+#W16($3AA29)
+Dragon<X>
+
+
+//POINTER #105 @ $3AA2B - STRING #105 @ $3B03D
+
+#W16($3AA2B)
+Astra<X>
+
+
+//POINTER #106 @ $3AA2D - STRING #106 @ $3AF29
+
+#W16($3AA2D)
+Life<X>
+
+
+//POINTER #107 @ $3AA2F - STRING #107 @ $3AF35
+
+#W16($3AA2F)
+Elite<X>
+
+
+//POINTER #108 @ $3AA31 - STRING #108 @ $3AF45
+
+#W16($3AA31)
+Thief<X>
+
+
+//POINTER #109 @ $3AA33 - STRING #109 @ $3AF55
+
+#W16($3AA33)
+Prayer<X>
+
+
+//POINTER #110 @ $3AA35 - STRING #110 @ $3AF65
+
+#W16($3AA35)
+Luna<X>
+
+
+//POINTER #111 @ $3AA37 - STRING #111 @ $3AF71
+
+#W16($3AA37)
+Sol<X>
+
+
+//POINTER #112 @ $3AA39 - STRING #112 @ $3AF85
+
+#W16($3AA39)
+Silver<X>
+
+
+//POINTER #113 @ $3AA3B - STRING #113 @ $3AF95
+
+#W16($3AA3B)
+Knight<X>
+
+
+//POINTER #114 @ $3AA3D - STRING #114 @ $3AFA3
+
+#W16($3AA3D)
+CritGrd<X>
+
+
+//POINTER #115 @ $3AA3F - STRING #115 @ $3AEC7
+
+#W16($3AA3F)
+Valkyre<X>
+
+
+//POINTER #116 @ $3AA41 - STRING #116 @ $3AF0F
+
+#W16($3AA41)
+Beo<X>
+
+
+//POINTER #117 @ $3AA43 - STRING #117 @ $3B155
+
+#W16($3AA43)
+Devil<X>
+
+
+//POINTER #118 @ $3AA45 - STRING #118 @ $3B13B
+
+#W16($3AA45)
+Halberd<X>
+
+
+//POINTER #119 @ $3AA47 - STRING #119 @ $3AB9B
+
+#W16($3AA47)
+Master<X>
+
+
+//POINTER #120 @ $3AA49 - STRING #120 @ $3B125
+
+#W16($3AA49)
+Pugi<X>
+
+
+//POINTER #121 @ $3AA4B - STRING #121 @ $3AE49
+
+#W16($3AA4B)
+Tomhawk<X>
+
+
+//POINTER #122 @ $3AA4D - STRING #122 @ $3ABAD
+
+#W16($3AA4D)
+Broken<X>
+
+
+//POINTER #123 @ $3AA4F - STRING #123 @ $3ABAD
+
+#W16($3AA4F)
+Broken<X>
+
+
+//POINTER #124 @ $3AA51 - STRING #124 @ $3ABAD
+
+#W16($3AA51)
+Broken<X>
+
+
+//POINTER #125 @ $3AA53 - STRING #125 @ $3ABAD
+
+#W16($3AA53)
+Broken<X>
+
+
+//POINTER #126 @ $3AA55 - STRING #126 @ $3B0F5
+
+#W16($3AA55)
+Narga<X>
+
+
+//POINTER #127 @ $3AA57 - STRING #127 @ $3AFB9
+
+#W16($3AA57)
+Speed<X>
+
+
+//POINTER #128 @ $3AA59 - STRING #128 @ $3AFC9
+
+#W16($3AA59)
+Magic<X>
+
+
+//POINTER #129 @ $3AA5B - STRING #129 @ $3AFD9
+
+#W16($3AA5B)
+Power<X>
+
+
+//POINTER #130 @ $3AA5D - STRING #130 @ $3AFE7
+
+#W16($3AA5D)
+Shield<X>
+
+
+//POINTER #131 @ $3AA5F - STRING #131 @ $3AFF7
+
+#W16($3AA5F)
+Barrier<X>
+
+
+//POINTER #132 @ $3AA61 - STRING #132 @ $3B007
+
+#W16($3AA61)
+Leg<X>
+
+
+//POINTER #133 @ $3AA63 - STRING #133 @ $3B013
+
+#W16($3AA63)
+Skill<X>
+
+
+//POINTER #134 @ $3AA65 - STRING #134 @ $3B115
+
+#W16($3AA65)
+Return <X>
+
+
+//POINTER #135 @ $3AA67 - STRING #135 @ $3B04B
+
+#W16($3AA67)
+Pursuit<X>
+
+
+//POINTER #136 @ $3AA69 - STRING #136 @ $3ABAD
+
+#W16($3AA69)
+Broken<X>
+
+
+//POINTER #137 @ $3AA6B - STRING #137 @ $3B01F
+
+#W16($3AA6B)
+Circlet<X>
+

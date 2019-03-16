@@ -1,0 +1,5 @@
+Menus.txt is big. Really big. Sometimes, you
+just gotta rant into a text file about it.
+I should probably break it up by bank.
+That is, [BANK80], [BANK81], and so on.
+Not that it will clean up stuff like names...

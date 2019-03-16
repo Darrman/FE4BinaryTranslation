@@ -1,0 +1,42 @@
+#W24($1DC0E4) //Byron's nearly dead
+#W24($1DC18E) //Langbart orders him fully dead
+#W24($1DC1C4) //And he hates his sons
+#W24($1DC238) //Andre's gone too far though
+#W24($1DC282) //Oifaye spots Byron
+#W24($1DC2D8) //Tyrfing get!
+#W24($1DC30B) //Andre moves out
+#W24($1DC328) //Alvis convinces the king we're evil
+#W24($1DC352) //Byron dies on the field, I think
+#W24($1DC36C) //Lubeck seized
+#W24($1DC398) //"Celice... forgive your father."
+#W24($1DC3D4) //Reptor panics, Alvis plot dumps
+#W24($1DC3EC) //Vaha taunts
+#W24($1DC4CC) //Ethlin brings a baby to the desert
+#W24($1DC597) //Trabant's ready to pounce
+#W24($1DC5AD) //Cuan's made a mistake
+#W24($1DC5DC) //Trabant's killed Ethlin...
+#W24($1DC5E8) //...so Cuan lays down his weapons
+#W24($1DC5F4) //Trabant steals a baby
+#W24($1DC63B) //Cuan's dead, proper baby stealing
+#W24($1DC688) //Phinora seized
+#W24($1DC6AC) //The same as two above
+#W24($1DC6EF) //Reptor's afraid of being betrayed
+#W24($1DC703) //Aida just taunts him
+#W24($1DC717) //"It's just us..."
+#W24($1DC746) //"Let's do this!"
+#W24($1DC767) //Reptor gets betrayed
+#W24($1DC795) //"Alvis deceived me!"
+#W24($1DC7B1) //Sigurd talks to Aida...
+#W24($1DC833) //Alvis welcomes him back...
+#W24($1DC860) //but he stole his wife!
+#W24($1DC899) //ALVIS, YOU DASTARD!!
+#W24($1DC8A1) //Dastardly duplicate
+#W24($1DCC31) //Kill Reptor before BBQ
+#W24($1DCC3E) //"Silesia's days're numbered."
+#W24($1DCC4C) //"When did things get so bad..."
+#W24($1DCC5A) //Inheritance 101
+#W24($1DCC68) //Langbart's a-looting
+#W24($1DCC76) //Eltshan had Aless
+#W24($1DCC84) //Isaacians want Shanan around
+#W24($1DCC9C) //Dispose of the bad guys!
+#W24($1DCCDF) //Arden's senses done renovated

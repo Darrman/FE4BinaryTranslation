@@ -1,0 +1,8 @@
+DARRMAN'S REGEX NOTES FOR EASE OF J2E CONVERSIONS
+20/08/18
+
+\[Wait (.+)]
+[Wait]<$\1>
+Replace "Wait" with whatever control code that needs variables moved.
+Wait, BGM, etc...
+Fidding with that should easily allow for reversion to J2E style if needed.

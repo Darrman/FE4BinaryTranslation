@@ -1,0 +1,335 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(dialogue, TABLE)
+#ADDTBL("dialogue.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#HDR($200)
+
+//Alright, let's test the script.
+//Can't have comments hanging out midline, bad things happen in that case.
+
+#VAR(Script, CUSTOMPOINTER)
+#CREATEPTR(Script, "HIROM", $0, 24)
+
+
+//WARNING: FILE IS OLD
+//REVISE DIALOGUE
+
+
+//PROLOGUE: BIRTH OF THE HOLY KNIGHT
+
+
+
+
+#JMP($318971, $31A125)
+
+#W24($31829C)
+//Prologue opening, Aideen and Midir
+[TWinTop][DlgOpn][LoadFace]<$07><$00>
+//Midir
+[TWinBtm][DlgOpn][LoadFace]<$17><$00>
+//Aideen
+
+[TWinTop]
+//Midir
+This is a test.[N]
+It's nice having script here.[A]
+
+[TWinBtm] 
+//Aideen
+[Wait]<$10>
+I probably won't bother including[N]
+the whole thing for now, but[N]
+at least this is progress![k]
+[dcs]
+Please save yourself. I want[n]
+as many of you to get out[n]
+of this alive as possible![k]
+[cs]
+
+[TWinTop]
+//Midir
+None of us are going anywhere,[n]
+my lady. We're here for you[n]
+till the very end.[k]
+[dcs]
+Even if it means our lives.
+
+[TWinBtm]
+//Aideen
+[Wait]<$08>
+Oh... thank you, Midir. I'm so sorry[n]
+to put you through all this.[k]
+
+[exit]
+
+#W24($3182EE)
+//Opening, Sigurd and company
+[TWinTop][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinBtm][DlgOpn][LoadFace]<$02><$00>
+//Noish
+[TWinTop]
+Right, let's do this thing.[A]
+[X]
+
+#W24($318375)
+//Gandolf, end of turn 1
+[TWinBtm][DlgOpn][LoadFace]<$4D><$00>
+What's takin' you morons so long[n]
+to take this dinky castle?[n]
+Never mind, I'll do it meself![k]
+
+[exit]
+
+#W24($318391)
+//After Gandolf kills Midir
+[TWinTop][DlgOpn][LoadFace]<$17><$00>
+//Aideen
+[TWinBtm][DlgOpn][LoadFace]<$4D><$00>
+//Gandolf
+[TWinTop]
+Midir...
+[TWinBtm]
+He got crit. You're mine now![k]
+[X]
+
+#W24($3183CF)
+//While Gandolf drags Aideen off
+[TWinTop][DlgOpn][LoadFace]<$4D><$00>
+//Gandolf
+[TWinBtm][DlgOpn][LoadFace]<$17><$00>
+//Aideen
+
+[TWinTop]
+//Gandolf
+Hey, you're draggin'![n]
+Now pick up the pace!!
+
+[TWinBtm]
+//Aideen
+[Wait]<$10>
+...[k]
+
+[exit]
+
+
+#W24($3183E4)
+//Where Gandolf demands a bridge be destroyed
+[TWinTop][DlgOpn][LoadFace]<$4D><$00>
+//Gandolf
+[TWinBtm][DlgOpn][LoadFace]<$48><$00>
+
+[TWinTop]
+//Gandolf
+Take out this bridge![k]
+[X]
+
+#W24($3183FC)
+//Where Gandolf brags about his spoils
+[TWinTop][DlgOpn][LoadFace]<$4D><$00>
+//Gandolf
+[TWinBtm][DlgOpn][LoadFace]<$40><$00>
+//Gerrard
+[TWinTop]
+I've got myself a new wife![k]
+[TWinBtm]
+Why can't I have her...[k]
+[X]
+
+#W24($31840B)
+//Dimaggio's quick speech before enemy phase
+[TWinBtm][DlgOpn][LoadFace]<$41><$00>
+//Dimaggio
+Next stop, Chalphy![k][X]
+
+#W24($3184BE)
+//Gandolf before killing Midir
+[TWinBtm][DlgOpn][LoadFace]<$4D><$00>
+//Gandolf
+I, Gandolf, will zero percent[n]
+critical hit you. Enjoy.[k][X]
+
+#W24($108343)
+//Midir's death quote?
+[TWinBtm][DlgOpn][LoadFace]<$07><$00>
+//Midir
+Well, dammit.[k][X]
+
+#W24($31852D)
+//The Lenster crew show up
+[TWinTop][DlgOpn][LoadFace]<$06><$00>
+//Cuan
+[TWinBtm][DlgOpn][LoadFace]<$11><$00>
+//Ethlin
+[TWinTop]
+I ran across the continent, time[n]
+to smash some bandits![k]
+[TWinBtm]
+Any fools who target me will taste[n]
+my Lady Sword![k]
+[exit]
+
+#W24($318577)
+//Lex and Azel's recruitment
+[TWinTop][DlgOpn][LoadFace]<$0A><$00>
+//Azel
+[TWinBtm][DlgOpn][LoadFace]<$0E><$00>
+//Lex
+[TWinTop]
+I really need to, uh, help out.
+[TWinBtm]
+Nice try, you just wanna see[n]
+Aideen again. Hahaha![k]
+[X]
+
+#W24($3185AD)
+//Jungby seized
+[TWinTop][DlgOpn][LoadFace]<$7F><$02>
+//Oifaye
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+One castle down, a lot to go.[k]
+
+[TWinTop][xChr][DlgCls]
+
+[DlgOpn][LoadFace]<$07><$00>
+//Midir
+No worries, I'm perfectly fine.[k]
+[exit]
+
+#W24($3185E2)
+[TWinBtm][DlgOpn][LoadFace]<$40><$00>
+//Gerrard
+Now to put the bridge back up![k]
+[X]
+
+#W24($3186C7)
+[TWinBtm][DlgOpn][LoadFace]<$B1><$00>
+//Alvis
+I need to practice my BBQ skills.[n]
+These bandits will be good practice.[a][x]
+
+#W24($318711)
+[TWinTop][DlgOpn][LoadFace]<$7F><$02>
+//Oifaye
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinTop]
+Thank you Sigurd, but your princess[n]
+is in another castle! And no, don't[n]
+jump straight to World 8.[a]
+[TWinBtm]
+Typical. Just typical. Of course.[n]
+Can't be in the first castle I see.[a]
+[x]
+
+#W24($31874A)
+[TWinTop][DlgOpn][LoadFace]<$7F><$02>
+//Oifaye
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinTop]
+Don't let castles get trashed, and[n]
+you can get a sliver of gold![a][x]
+
+#W24($318792)
+[TWinTop][DlgOpn][LoadFace]<$7F><$02>
+//Oifaye
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinTop]
+Sir, once you've rested up you[n]
+might consider making an[n]
+appearance in town.[k]
+[cs]
+It should put everyone at ease[n]
+to see you're not injured.[k]
+[cs]
+And don't take any wrong turns,[n]
+you idiot! Come back in around[n]
+ten chapters or so, give or take.[k][x]
+
+#W24($3187C3)
+[TWinTop][DlgOpn][LoadFace]<$B1><$00>
+//Alvis
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinTop]
+Hey, take this silver sword![n]
+The only problem is I'll kill[n]
+you in a few years time.[k]
+[cs]
+Oh, and I'll steal your wife.[n]
+Even though you haven't met[n]
+her yet. Just warning you![k][x]
+
+#W24($3187CB)
+[TWinTop][DlgOpn][LoadFace]<$B1><$00>
+//Alvis
+[TWinBtm][DlgOpn][LoadFace]<$01><$00>
+//Sigurd
+[TWinBtm]
+Unfortunatly, your brother got himself[n]
+killed out there. The cause of death,[n]
+hormones. Can I get my sword now?[a][x]
+
+#W24($3187F3)
+[TWinBtm][DlgOpn][LoadFace]<$AD><$02>
+//Generic villager
+Have money![a][x]
+
+#W24($318801)
+[TWinBtm][DlgOpn][LoadFace]<$AB><$02>
+Remember! Swords beat axes.[n]
+Axes beat lances.[n]
+And lances beat swords.[a][x]
+
+#W24($31880F)
+[TWinBtm][DlgOpn][LoadFace]<$AE><$02>
+The Chalphy family came from[n]
+Baldo. And the Tyrfing, being a[n]
+holy weapon, is really strong![a][x]
+
+#W24($31881D)
+[TWinBtm][DlgOpn][LoadFace]<$AB><$02>
+So Ring had himself a bunch of kids.[n]
+But one got taken by pirates and another[n]
+hates his guts. And now this is a thing![a][x]
+
+#W24($318830)
+[TWinBtm][DlgOpn][LoadFace]<$AB><$02>
+Have a speed ring![k]
+[cs]
+Being able to edit FE4 dialogue[n]
+means I can just talk like this.[k][x]
+
+
+
+
+
+
+
+
+#JMP($400070)
+#W24($30CEE9)
+//That one buggy Ch4 conversation
+[TWinTop][DlgOpn][LoadFace]<$17><$00>
+//Aideen
+[TWinBtm][DlgOpn][LoadFace]<$0A><$00>
+//Azel
+Game crashes are bad.[n]
+Have a rescue staff.[a][x]
+
+#W24($FFC62)
+//Celice/Lana lover's convo
+//FEU injoking since 2016
+[TWinTop][DlgOpn][LoadFace]<$3B><$00>
+//Lana
+[TWinBtm][DlgOpn][LoadFace]<$19><$00>
+//Celice
+Ah, waifu wars. It's a running joke[n]
+who I get together with. But well,[n]
+there's only one girl for me.[k]
+[TWinTop]
+Hehe... Thanks, Celice.[a][x]

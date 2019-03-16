@@ -1,0 +1,289 @@
+// 0 10 BANK8D
+
+// Fontcheck: Reformatted
+// Last modified: 24/06/2006
+
+// This file was added by Twilkitri
+
+// This file is used for editing the opening Jugdral Chronology.
+
+// [section BANK8D]
+// [map 10]
+// [bits16]
+// [nocompress]
+
+#VAR(dialogue, TABLE)
+#ADDTBL("dialogue.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#HDR($200)
+
+#JMP($D9EB8, $DA0D4)
+
+
+// 0xd9eb8
+#W16($11B556)
+// @@1160534@@
+FEE3 2018 Build - Credits
+[exit]
+
+
+// 0xd9ec8
+#W16($11B568)
+// @@1160552@@
+//Gran Kingdom established
+EN, Ch0-3, 5
+[exit]
+
+
+
+// 0xd9ee0
+#W16($11B574)
+// @@1160564@@
+//Becomes Gran Republic
+Shops and menus
+[exit]
+
+
+
+// 0xd9eee
+#W16($11B580)
+// @@1160576@@
+//Time of Prosperity
+Some graphics
+[exit]
+
+
+
+// 0xd9f06
+#W16($11B58C)
+// @@1160588@@
+//Dark God enters Galle
+JP, Ch4, 6-11
+[exit]
+
+
+
+// 0xd9f1d
+#W16($11B592)
+// @@1160594@@
+//Lopt Sect arises
+Boss and death quotes
+[exit]
+
+
+
+// 0xd9f30
+#W16($11B59E)
+// @@1160606@@
+//The 12 Dark Warlords
+Many talks
+[exit]
+
+
+
+// 0xd9f3e
+#W16($11B5A4)
+// @@1160612@@
+//crush the Gran Republic
+Script truncated
+[exit]
+
+
+
+// 0xd9f50
+#W16($11B5B0)
+// @@1160624@@
+//Lopt Empire formed
+or funny replacements
+[exit]
+
+
+
+// 0xd9f65
+#W16($11B5B6)
+// @@1160630@@
+//by Archbishop Galle
+Please load save 2
+[exit]
+
+
+
+// 0xd9f75
+#W16($11B5C2)
+// @@1160642@@
+//The Great Purge
+Save 1 for a BBQ
+[exit]
+
+
+
+// 0xd9f7e
+#W16($11B5C8)
+// @@1160648@@
+//Over 100,000 casualties
+Project Naga ignored
+[exit]
+
+
+
+// 0xd9f90
+#W16($11B5D4)
+// @@1160660@@
+//The Sorrow of Miletos
+Based on Reperation,
+[exit]
+
+
+
+// 0xd9f9f
+#W16($11B5DA)
+// @@1160666@@
+//Numerous children
+in turn based on J2E
+[exit]
+
+
+
+// 0xd9fb1
+#W16($11B5E0)
+// @@1160672@@
+//sacrificed to the Dark God
+Credit to Jay, Boo
+[exit]
+
+
+
+// 0xd9fcb
+#W16($11B5EC)
+// @@1160684@@
+//The Slaughter of Edda 
+Twilkitri for original
+[exit]
+
+
+
+// 0xd9fd7
+#W16($11B5F2)
+// @@1160690@@
+//Tens of thousands of casualties
+work on translation
+[exit]
+
+
+
+// 0xd9fee
+#W16($11B5FE)
+// @@1160702@@
+//Myra's Apostacy
+Original Binary hacker
+[exit]
+
+
+
+// 0xd9ffd
+#W16($11B60A)
+// @@1160714@@
+//Liberation Army forms
+for creating hack
+[exit]
+
+
+
+// 0xda013
+#W16($11B616)
+// @@1160726@@
+//The Miracle of Darna
+English Binary by
+[exit]
+
+
+
+// 0xda021
+#W16($11B61C)
+// @@1160732@@
+//The gods descend and
+Darrman, please enjoy
+[exit]
+
+
+
+// 0xda03a
+#W16($11B622)
+// @@1160738@@
+//bless the 12 Crusaders
+[exit]
+
+
+
+// 0xda04d
+#W16($11B62E)
+// @@1160750@@
+//Beginning of the Holy War
+[exit]
+
+
+
+// 0xda059
+#W16($11B63A)
+// @@1160762@@
+//Lopt Empire falls
+[exit]
+
+
+
+// 0xda068
+#W16($11B640)
+// @@1160768@@
+//The Crusaders found
+[exit]
+
+
+
+// 0xda074
+#W16($11B646)
+// @@1160774@@
+//7 allied duchies
+[exit]
+
+
+
+// 0xda083
+#W16($11B64C)
+// @@1160780@@
+//and 5 separate kingdoms
+[exit]
+
+
+
+// 0xda098
+#W16($11B658)
+// @@1160792@@
+//Grandbell Kingdom established
+[exit]
+
+
+
+// 0xda0aa
+#W16($11B664)
+// @@1160804@@
+//Grandbell Military
+Intros not translated
+[exit]
+
+
+
+// 0xda0b5
+#W16($11B66A)
+// @@1160810@@
+//leaves for Isaac
+Please reset
+[exit]
+
+
+
+// 0xda0c8
+#W16($11B676)
+// @@1160822@@
+//The disturbance begins anew...
+
+[exit]

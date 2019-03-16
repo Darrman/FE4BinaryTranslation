@@ -1,0 +1,1614 @@
+// Fontcheck: Reformatted
+
+// Last modified: 2012-04-15
+// This file was modified by Twilkitri
+
+// This file is for altering text from Chapter 5.
+
+//    Fire Emblem 4 English patch
+//      This program creates a patch which can be used
+//      to replace all Japanese elements with English
+//      elements in the 1996 SNES strategy-role playing
+//      game 'Fire Emblem - Seisen no Keifu'.
+//    Copyright (C) 2002  Jay & Boo
+//
+//    This program is free software; you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation; either version 2 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program; if not, write to the Free Software
+//    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+//Please refer to the 'LICENSE' file for the entire license and copying rights.
+
+// Fire Emblem 4 Script Dump
+// ppt\fe4_05.ppt
+
+// Filesize: 4194816 bytes
+
+#VAR(dialogue, TABLE)
+#ADDTBL("dialogue.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#HDR($200)
+
+#JMP($3086C7, $30BD8A)
+
+// 0x3086c7:
+#W24($1DC0E4)
+// @@1949924@@
+
+[TWinBtm][DlgOpn]['Byron' 027E]
+Ooooh...[n]
+I've only... (pant...) a little strength[n]
+left in me.[k]
+[cs]
+Sigurd... I must get the Holy[n]
+Tyrfing to you!
+[k]
+
+[exit]
+
+
+// 0x30870c:
+#W24($1DC18E)
+// @@1950094@@
+
+[TWinTop][DlgOpn]['Slaydar' 029A]
+[TWinBtm][DlgOpn]['Langbart' 00DB]
+
+[TWinTop]
+//Slaydar
+Byron's running away.
+
+[TWinBtm]
+//Langbart
+[Wait]<$10>
+Well, catch him! Otherwise wiping out[n]
+the Gruenen Ritter would be for nothing![k]
+[dcs]
+[TWinTop]
+//Slaydar
+Of course.
+[TWinBtm]
+//Langbart
+[Wait]<$10>
+If the Tyrfing reaches Sigurd...[k]
+[dcs]
+[TWinTop]
+//Slaydar
+Right away, sir![k]
+
+[exit]
+
+
+// 0x3088c4:
+#W24($1DC1C4)
+// @@1950148@@
+
+[TWinTop][DlgOpn]['Langbart' 00DB]
+[TWinBtm][DlgOpn]['Andre' 00E9]
+
+[TWinTop]
+//Langbart
+Dannan still hasn't shown up with[n]
+his reinforcements.[k]
+[cs]
+What's taking him so long to deal[n]
+with the Isaacians? He has the[n]
+Grauen Ritter...[k]
+[cs]
+Both my sons, Dannan and Lex,[n]
+are absolutely worthless.
+
+[TWinBtm]
+//Andre
+[Wait]<$10>
+Those rebels won't stand a chance[n]
+against the Beige Ritter.[k]
+[dcs]
+
+[TWinTop]
+//Langbart
+I appreciate it, Lord Andre.[n]
+Do lend us a hand if things[n]
+get too out of control.
+
+[TWinBtm]
+//Andre
+[Wait]<$10>
+Heh heh... With pleasure![k]
+
+[exit]
+
+
+// 0x3089c1:
+#W24($1DC238)
+// @@1950264@@
+
+[TWinBtm][DlgOpn]['Langbart' 00DB]
+That contemptuous little brat.[n]
+He shows absolutely no remorse[n]
+for killing his own father.[k]
+[cs]
+Lord Ring... may you rest in peace.
+[k]
+
+[exit]
+
+
+// 0x308a0f:
+#W24($1DC282)
+// @@1950338@@
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Oifaye
+There's a knight heading this way.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+An enemy?[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+Lubeck's chasing him down. He might[n]
+be an ally.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Then let's try to help him.[k]
+
+[exit]
+
+
+// 0x308b03:
+#W24($1DC2D8)
+// @@1950424@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Byron' 027E]
+
+[TWinTop]
+//Sigurd
+Father!
+
+[TWinBtm]
+//Byron
+[Wait]<$10>
+Sigurd... I see you've grown into[n]
+a fine young man. (cough)[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+Hang in there!
+
+[TWinBtm]
+//Byron
+[Wait]<$10>
+Langbart killed Prince Kurth, not I.[k]
+[dcs]
+Reptor is involved as well.[k]
+[cs]
+I must live long enough see our good[n]
+name restored![k]
+[cs]
+
+[TWinTop]
+//Sigurd
+I will restore your honour.[k]
+[cs]
+Rest assured!
+
+[TWinBtm]
+//Byron
+[Wait]<$10>
+Here, take this from me.[n]
+It's the Holy Tyrfing.[k]
+[cs]
+
+[TWinTop]
+//Sigurd
+The Holy Tyrfing! But father,[n]
+you can still...
+
+[TWinBtm]
+//Byron
+[Wait]<$10>
+Take it! And restore our good name![k]
+[dcs]
+
+[xChr][DlgCls]
+
+[TWinTop]
+//Sigurd
+C'mon, hang in there for me. Father!
+
+[TWinBtm][DlgOpn]['Oifaye' 027F]
+Sir...[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+I've had it with those two![n]
+Reptor, Langbart...[n]
+I'm taking you both out!![k]
+
+[exit]
+
+
+// 0x308d67:
+#W24($1DC30B)
+// @@1950475@@
+
+[TWinBtm][DlgOpn]['Andre' 00E9]
+Show them the power of the Beige Ritter![k]
+
+[exit]
+
+
+// 0x308d98:
+#W24($1DC328)
+// @@1950504@@
+
+[TWinTop][DlgOpn]['Azmur' 027B]
+[TWinBtm][DlgOpn]['Arvis' 0104]
+
+[TWinTop]
+//Azmur
+Is Sigurd attacking us?
+
+[TWinBtm]
+//Arvis
+[Wait]<$10>
+Yes, but there is no problem.[k]
+[dcs]
+Lord Langbart's army is at Lubeck.[n]
+Subjugation of the insurgents[n]
+should be forthcoming.[k]
+[cs]
+
+[TWinTop]
+//Azmur
+I'm not so sure I buy all this.[k]
+[cs]
+Lord Byron assassinating Kurth, 
+and Sigurd causing all this ruckus...
+
+[TWinBtm]
+//Arvis
+[Wait]<$10>
+I'll explain once more.[k]
+[dcs]
+Byron and Ring killed Kurth.[k]
+[cs]
+Reptor and Langbart saw it all.[k]
+[cs]
+Kurth knew Byron wanted the throne.[k]
+[cs]
+Sigurd's involved too.[k]
+[cs]
+Why would he have the Prince of Isaac?[k]
+[cs]
+It's clearly treason![k]
+[cs]
+Kurth's my father in law now. And for[n]
+my beloved Deirdre, I must put an end[n]
+to Sigurd's path of destruction![k]
+[cs]
+If Langbart can't stop him, then[n]
+the Roten Ritter can instead.[k]
+[cs]
+
+[TWinTop]
+//Azmur
+You obviously have strong feelings[n]
+about this, and rightly so.[k]
+[cs]
+Alvis... (cough) About Deirdre...
+
+[TWinBtm]
+//Arvis
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Deirdre' 0010]
+Grandfather, are you alright?[n]
+Would you care to lie down?[k]
+[dcs]
+
+[TWinTop]
+//Azmur
+You're such a sweet child.[k]
+[cs]
+I'm not long for this world, but you[n]
+give me hope for the future.[k]
+[cs]
+I don't know how Kurth had you, but[n]
+you definitely are royalty.
+[cs]
+Where in heavens have you been living[n]
+all this time?
+
+[TWinBtm]
+//Deirdre
+[Wait]<$10>
+I don't remember anything from my past.[k]
+[dcs]
+Not a single memory I can speak of...[k]
+[cs]
+
+[TWinTop]
+//Azmur
+Ahh, forgive me. You've gone through[n]
+more hardship than the lot of us.
+
+[TWinBtm]
+//Deirdre
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Arvis' 0104]
+[dcs]
+Aside from her name she doesn't[n]
+remember a thing.[k]
+[cs]
+I was looking after her, but then I[n]
+fell in love.[k]
+[cs]
+I never thought she was royalty.[k]
+[cs]
+
+[TWinTop]
+//Azmur
+When you announced your wedding plan,[n]
+I thought my eyes were fooling me.[k]
+[cs]
+I knew she was descended from Narga.[k]
+[cs]
+Only Narga can defeat Loputousu.
+
+[TWinBtm]
+//Arvis
+[Wait]<$10>
+Yes, I'm aware of that.[k]
+[dcs]
+
+[TWinTop]
+//Azmur
+You two, get a son![k]
+[cs]
+He shall be Prince of Grandbell.[k]
+[cs]
+And once I pass on he'll become the King.[k]
+[cs]
+Alvis, you're regent until he grows up.[k]
+[cs]
+I hope you understand.[k]
+
+[exit]
+
+
+// 0x30b926:
+#W24($1DC352)
+// @@1950546@@
+
+[TWinBtm][DlgOpn]['Byron' 027E]
+Talk to me, Sigurd![k]
+
+[exit]
+
+
+// 0x309497:
+#W24($1DC36C)
+// @@1950572@@
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Oifaye
+Sir, that sure wasn't an easy one.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Things are only going to get worse.[k]
+[dcs]
+Oifaye, I need a favour from you.[k]
+[cs]
+
+[TWinTop]
+//Oifaye
+Sure. What is it?
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+We're near Isaac.[k]
+[dcs]
+Danan's sitting there.[k]
+[cs]
+His rule probably hasn't spread[n]
+through the kingdom yet.[k]
+[cs]
+
+[TWinTop]
+//Oifaye
+Are you suggesting I leave you all[n]
+and head for safety!? Forget it![k]
+[cs]
+I'm not leaving your side, sir![n]
+I'm here 'til the end!
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Oifaye, please.[k]
+[dcs]
+I can't fight and mind Celice.[k]
+[cs]
+Take him and go somewhere safe.[k]
+[cs]
+You are the only one who I can[n]
+feasibly count on to do this.[k]
+[cs]
+
+[TWinTop]
+//Oifaye
+...Alright, I'll do it.[k]
+[cs]
+...I'll guard him with my life.[n]
+But promise me something.[k]
+[cs]
+When the war's over, come back for us.[n]
+Otherwise, I'm not leaving.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Of course. I promise.[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+Okay.[k]
+[cs]
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Young Shanan' 0281]
+Hold on a second! Deirdre put me in[n]
+charge of protectin' Serlis![k]
+[cs]
+And I'm not handin' him over to Oifaye[n]
+or anyone until she says it's okay!
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Shanan, come on... I know how you feel.[k]
+[dcs]
+I miss Deirdre too, but it's[n]
+for the best.[k]
+[cs]
+
+[TWinTop]
+//Young Shanan
+Forget it! It's my job! Besides,[n]
+Isaacians hate you guys.[k]
+[cs]
+Send Oifaye by himself and he'll[n]
+be in big trouble![k]
+[cs]
+I'm the prince of Isaac. I can protect[n]
+him better than anyone. Besides, I[n]
+promised I would.[k]
+[cs]
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+I would be more at ease if Shanan[n]
+came along.[k]
+[cs]
+I know you don't want to get him[n]
+involved in this. He is still[n]
+pretty young.[k]
+[cs]
+But he can hold his own. His presence[n]
+would make things safer.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Hm...[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Young Shanan' 0281]
+
+[TWinBtm]
+//Sigurd
+...Alright. Shanan, watch over[n]
+Celice, okay?[k]
+[cs]
+
+[TWinTop]
+//Young Shanan
+You got it! No one'll lay a hand on him![k]
+[cs]
+And I'll tell him all about Deirdre, too![k]
+[cs]
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Oifaye' 027F]
+We'll be off then. Sir, please[n]
+take care.[k]
+[cs]
+I'll be praying for victory.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Thanks, Oifaye. Stay well.[k]
+[dcs]
+
+[TWinTop]
+//Oifaye
+Will do![k]
+
+[exit]
+
+
+// 0x309a17:
+#W24($1DC398)
+// @@1950616@@
+
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+Celice... forgive your father.[n]
+Grow up strong.[k]
+
+[exit]
+
+
+// 0x309a49:
+#W24($1DC3D4)
+// @@1950676@@
+
+[TWinTop][DlgOpn]['Arvis' 0104]
+[TWinBtm][DlgOpn]['Reptor' 00F5]
+
+[TWinTop]
+//Arvis
+Lord Langbart was killed, was he?
+
+[TWinBtm]
+//Reptor
+[Wait]<$10>
+Alvis!  Now are we going to do!?[k]
+[dcs]
+You said Sigurd wouldn't be a problem![k]
+[cs]
+You KNEW our army was away![k]
+[cs]
+You've gone against your word![k]
+[cs]
+
+[TWinTop]
+//Arvis
+Calm down.[k]
+[cs]
+I have troops in Yied.[k]
+[cs]
+Mercenaries are nearby.[k]
+[cs]
+So long as we engage together,[n]
+the rebels WILL fall.
+
+[TWinBtm]
+//Reptor
+[Wait]<$10>
+Alvis, you better be right this time.[n]
+You can have the throne for all I care.[k]
+[dcs]
+But don't forget about us.[k]
+[cs]
+
+[TWinTop]
+//Arvis
+Agustria is yours.[k]
+[cs]
+The Dozels get Isaac.
+
+[TWinBtm]
+//Reptor
+[Wait]<$10>
+Alright then. We'll take on the[n]
+rebels with all we've got.[k]
+<$00><$2B><$E0>
+[dcs]
+
+[xChr][DlgCls]
+
+[TWinBtm][DlgOpn]['Manfloy' 026C]
+[BGM]<$7A>
+Everything's going to plan.[k]
+[cs]
+
+[TWinTop]
+//Arvis
+Manfloy, don't show yourself.[k]
+[cs]
+Remain hidden until I've taken power!
+[TWinBtm]
+//Manfloy
+[Wait]<$10>
+You let that greedy Reptor and[n]
+Langbart run all over you![k]
+[dcs]
+The plan was to dispose of them![k]
+
+[TWinTop]
+//Arvis
+Listen good.[k]
+[dcs]
+I'm not restoring the Lopt Empire.[k]
+[cs]
+I don't mind if you exist, but the[n]
+world will not fall to the Dark Lord.[k]
+[cs]
+I don't care if I have Lopt blood.[k]
+[cs]
+It's Myra's blood, and he wasn't evil.[n]
+I descend from Fala too.[k]
+[cs]
+I will create a world free of prejudice![k]
+[cs]
+Of course, Sigurd knows way too much.[n]
+Consider him a sacrifice to the[n]
+greater good.
+
+[TWinBtm]
+//Manfloy
+[Wait]<$10>
+Hohoho... I assume that greater[n]
+good includes Deirdre as well![k]
+[dcs]
+You're afraid, aren't you.[n]
+Afraid her memories may be restored![k]
+[cs]
+
+[TWinTop]
+//Arvis
+Enough, Manfloy! We-are-in-love.[n]
+And no one's going to get in our way!
+
+[TWinBtm]
+//Manfloy
+[Wait]<$10>
+Well, you two need a son.[k]
+[dcs]
+That child is certain to become a[n]
+magnificent king! Heeheehee...[k]
+
+[exit]
+
+
+// 0x309fae:
+#W24($1DC3EC)
+// @@1950700@@
+
+[TWinBtm][DlgOpn]['Vaha' 00EB]
+Time for some Meteor![k]
+
+[exit]
+
+
+// 0x30a006:
+#W24($1DC4CC)
+// @@1950924@@
+
+[TWinBtm][DlgOpn]['Cuan' 0006]
+I hear Sigurd's heading south.[k]
+[cs]
+We should head north to meed up.[k]
+[cs]
+
+[TWinTop][DlgOpn]['Ethlin' 0011]
+Cuan, I'm sorry I put you through this.[k]
+[cs]
+Thank you for helping Sigurd...[k]
+[cs]
+But making enemies with Grandbell...[k]
+[cs]
+Well, I'm about Lenster's future.
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+Ethlin, my family is descended[n]
+from Noba.[k]
+[dcs]
+I have the Gae Bolg with me. I'm not[n]
+going to fall with this at my side.[k]
+[cs]
+Anyway, I really believe I can help[n]
+Sigurd out.[k]
+[cs]
+
+[TWinTop]
+//Ethlin
+...I know you will.
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+You better head on back.[n]
+The fighting may start anytime.[k]
+[dcs]
+
+[TWinTop]
+//Ethlin
+Cuan, I've been thinking.[n]
+I... I'm coming with you.[k]
+[cs]
+I want to see my brother again, and[n]
+I just can't stand to leave your side!
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+You said you'd only come partway.[n]
+That's why I let you bring Altenna.[k]
+[dcs]
+Look at her sleeping on your lap.[n]
+She's only 3 years old![k]
+[cs]
+What would you do if we were attacked!?[k]
+[cs]
+
+[TWinTop]
+//Ethlin
+I'll keep her safe with me![k]
+[cs]
+
+[TWinBtm]
+//Cuan
+...You brought the baby. To a desert.[k]
+[cs]
+
+[TWinTop]
+//Ethlin
+But she wouldn't stop crying![k]
+[cs]
+But you're right... You're right.[n]
+I'll go back.
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+You just gave birth to Leaf, as well.[k]
+[dcs]
+Our children need you.[n]
+Look, Fin is in charge of Lenster.[n]
+Please go back.[k]
+[cs]
+
+[TWinTop]
+//Ethlin
+Okay, but let me stay with you[n]
+a little longer... just a little.[k]
+[cs]
+Please, Cuan.
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+Well... okay, but keep it short.[k]
+
+[exit]
+
+
+// 0x30a45f:
+#W24($1DC597)
+// @@1951127@@
+
+[TWinBtm][DlgOpn]['Trabant' 00EF]
+Cuan has no clue we're here.[n]
+He's got a woman with him, too.[n]
+That'd be a mistake.[k]
+[cs]
+Let's bid a fine farewell to[n]
+Lenster's Lance Ritter![k]
+[cs]
+Let's move! The future of Thracia[n]
+is in our grasp![k]
+
+[exit]
+
+
+// 0x30a4ff:
+#W24($1DC5AD)
+// @@1951149@@
+
+[TWinBtm][DlgOpn]['Cuan' 0006]
+Dragon Knights! Argh... No![n]
+Trabant's followed us![k]
+[cs]
+
+[TWinTop][DlgOpn]['Ethlin' 0011]
+
+[TWinBtm]
+//Cuan
+Ethlin! Get out of here![k]
+[cs]
+
+[TWinTop]
+//Ethlin
+But... but what about you?
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+Ethlin, they're like hyenas![k]
+[dcs]
+I left half of our military behind with[n]
+Fin in case of a surprise attack by[n]
+Thracia.[k]
+[cs]
+But I never dreamed they'd come[n]
+after us...[k]
+[cs]
+I've made a grave miscalculation![k]
+[cs]
+
+[TWinTop]
+//Ethlin
+Cuan, don't give up yet. We can[n]
+take 'em if we fight together![n]
+Now let's do this!
+
+[TWinBtm]
+//Cuan
+[Wait]<$10>
+Ethlin... thank you![k]
+
+[exit]
+
+
+// 0x30a687:
+#W24($1DC5DC)
+// @@1951196@@
+
+[TWinBtm][DlgOpn]['Trabant' 00EF]
+Ahh... Cuan's daughter.[n]
+This is gettin' good![k]
+[cs]
+Hand over the Gae Bolg, otherwise[n]
+the little girl gets it.[k]
+[cs]
+Heh heh... Cuan, whatcha gonna do?[k]
+
+[exit]
+
+
+// 0x30a824:
+#W24($1DC5E8)
+// @@1951208@@
+
+[TWinBtm][DlgOpn]['Cuan' 0006]
+No! Altenna... Ethlin... Argh![n]
+So this is as far as I get...[k]
+[cs]
+He can have the damn Gae Bolg,[n]
+but he better not lay a finger[n]
+on Altenna!
+[k]
+
+[exit]
+
+
+// 0x30a70e:
+#W24($1DC5F4)
+// @@1951220@@
+
+[TWinTop][DlgOpn]['Trabant' 00EF]
+[TWinBtm][DlgOpn]['Magone' 00F0]
+
+[TWinTop]
+//Trabant
+Ahh... Cuan's daughter.[n]
+This is gettin' good![k]
+[cs]
+I'm takin' her an' the Gae Bolg[n]
+back to Thracia.
+
+[TWinBtm]
+//Magone
+[Wait]<$10>
+This is unexpected.[k]
+[dcs]
+
+[TWinTop]
+//Trabant
+This's got nothin' t'do with ya!
+
+[TWinBtm]
+//Magone
+[Wait]<$10>
+Forgive me. I will lead the[n]
+troops in pursuit of Sigurd then.[k]
+[dcs]
+
+[TWinTop]
+//Trabant
+Yeah, ya do that![k]
+
+[exit]
+
+
+// 0x30a882:
+#W24($1DC63B)
+// @@1951291@@
+
+[TWinTop][DlgOpn]['Trabant' 00EF]
+[TWinBtm][DlgOpn]['Magone' 00F0]
+
+[TWinTop]
+//Trabant
+Cuan's dead, is he? Good. Magorn,[n]
+take our men up an' raise some hell[n]
+on Sigurd's troops.[k]
+[cs]
+There's a nice reward on their heads,[n]
+so don't let a single one slip by ya.
+
+[TWinBtm]
+//Magone
+[Wait]<$10>
+What shall we do with the child?[n]
+She won't stop crying. None of the[n]
+men know quite how to handle a child.[k]
+[dcs]
+Should I off her?
+
+[TWinTop]
+//Trabant
+[Wait]<$10>
+No, give her to me. I'm takin' her an'[n]
+the Gae Bolg back to Thracia.[k]
+[dcs]
+
+[TWinBtm]
+//Magone
+This is unexpected. Why would you[n]
+want to take her back to Thracia?[k]
+[cs]
+
+[TWinTop]
+//Trabant
+Shut up! This 'as got nothin' t'do[n]
+with ya! So keep yer trap shut.
+
+[TWinBtm]
+//Magone
+[Wait]<$10>
+Ah, f-forgive me. I will... ah, lead[n]
+the troops in pursuit of Sigurd then.[k]
+[dcs]
+
+[TWinTop]
+//Trabant
+Yeah, ya do that!
+[k]
+
+[exit]
+
+
+// 0x30aa11:
+#W24($1DC688)
+// @@1951368@@
+
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+So this is Phinora.[k]
+[cs]
+Oifaye... Celice...[n]
+I wonder how they're doing...[k]
+[cs]
+
+[TWinTop][DlgOpn]['Old villager' 02AB]
+Welcome. You must be Sir Sigurd.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Ahh, a Phinoran elder I presume.[k]
+[dcs]
+
+[TWinTop]
+//Old villager
+We just heard about a skirmish in the south.[k]
+[cs]
+The world's become a dangerous place.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+There was fighting in the south end[n]
+too? Who was that?[k]
+[dcs]
+
+[TWinTop]
+//Old villager
+Lenster's Lance Ritter were attacked[n]
+by Thracia's Dragon
+<$00><$2B><$E1>
+[Wait]<$0A>
+[Wait]<$0A>
+Knights while coming north. 
+Lenster was destroyed.
+[Wait]<$14>
+[BGM]<$5D>
+
+[TWinBtm]
+//Sigurd
+[Wait]<$14>
+Are you sure about that!?[k]
+[dcs]
+
+[TWinTop]
+//Old villager
+Pretty sure. I hear they had a[n]
+little girl with them.[n]
+The poor thing.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+That must be Ethlin! And Cuan![n]
+No... Forgive me![k]
+
+[exit]
+
+
+// 0x30a882:
+#W24($1DC6AC)
+// @@1951404@@
+//[Merge 1dc63b]
+
+[TWinTop][DlgOpn]['Trabant' 00EF]
+[TWinBtm][DlgOpn]['Magone' 00F0]
+
+[TWinTop]
+//Trabant
+Testing! Phinora if Cuan alive event?[k]
+
+[exit]
+
+
+// 0x30abe9:
+#W24($1DC6EF)
+// @@1951471@@
+
+[TWinTop][DlgOpn]['Ida' 024B]
+[TWinBtm][DlgOpn]['Reptor' 00F5]
+
+[TWinTop]
+//Ida
+Lord Reptor, we're counting on you.
+
+[TWinBtm]
+//Reptor
+[Wait]<$10>
+I wonder if Alvis will back me up,[n]
+and is not just sticking[n]
+us out here to die.[k]
+[dcs]
+
+[TWinTop]
+//Ida
+You've nothing to worry about.
+
+[TWinBtm]
+//Reptor
+[Wait]<$10>
+Well, I suppose I'll have to trust[n]
+him this time.[k]
+[dcs]
+
+[TWinTop]
+//Ida
+Reptor, I have orders to assume[n]
+Velthomer's defense. So you'll[n]
+excuse me.[k]
+
+[exit]
+
+
+// 0x30acd3:
+#W24($1DC703)
+// @@1951491@@
+
+[TWinBtm][DlgOpn]['Ida' 024B]
+That fool hasn't caught on yet.[k]
+
+[exit]
+
+
+// 0x30acfe:
+#W24($1DC717)
+// @@1951511@@
+
+[TWinBtm][DlgOpn]['Reptor' 00F5]
+Alright men! It's just us until[n]
+Alvis's relief shows up.[k]
+[cs]
+Don't budge an inch until the[n]
+enemy is well within range.[k]
+
+[exit]
+
+
+// 0x30ad41:
+#W24($1DC746)
+// @@1951558@@
+
+[TWinBtm][DlgOpn]['Reptor' 00F5]
+Okay, let's do this! Velthomer's[n]
+fire knights are backing us up.[n]
+Now let's crush the enemy![k]
+
+[exit]
+
+
+// 0x30ad82:
+#W24($1DC767)
+// @@1951591@@
+
+[TWinBtm][DlgOpn]['Ida' 024B]
+Lay in an attack on Reptor's army.[k]
+[cs]
+Kill every one of them.[k]
+
+[exit]
+
+
+// 0x30add0:
+#W24($1DC795)
+// @@1951637@@
+
+[TWinBtm][DlgOpn]['Reptor' 00F5]
+What!? Velthomer's turned on us!?[n]
+Argh... Alvis deceived me![k]
+
+[exit]
+
+
+// 0x30ae0b:
+#W24($1DC7B1)
+// @@1951665@@
+
+[TWinTop][DlgOpn]['Ida' 024B]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Ida
+Sir Sigurd, I'm very happy to see[n]
+you're not harmed.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Why has Velthomer suddenly turned[n]
+in our favour?[k]
+[dcs]
+
+[TWinTop]
+//Ida
+Alvis knows you're innocent.[k]
+[cs]
+This was all a conspiracy by[n]
+Duke Reptor and Duke Langbart.[k]
+[cs]
+Their influence was just too much[n]
+for Alvis to be able to do anything.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+This has all turned out for the best.[k]
+[dcs]
+I can finally clear my father's name.[k]
+[cs]
+
+[TWinTop]
+//Ida
+...Yes. His Majesty and Alvis are[n]
+anxiously awaiting your arrival.[k]
+[cs]
+Please make your way there.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Well, we should get going then.[k]
+[dcs]
+
+[TWinTop]
+//Ida
+Apparently, Alvis has arranged for[n]
+the Royal Guard to receive[n]
+your army.[k]
+[cs]
+They've planned quite a celebration[n]
+for your return.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+That should make for a nice closing[n]
+for all we've been through.[k]
+[dcs]
+I can finally get some compensation[n]
+to everyone who fought with me.[k]
+[cs]
+
+[TWinTop]
+//Ida
+Indeed...[k]
+
+[exit]
+
+
+// 0x30b099:
+#W24($1DC833)
+// @@1951795@@
+
+[TWinTop][DlgOpn]['Arvis' 0104]
+[TWinBtm][DlgOpn]['Sigurd' 0001]
+
+[TWinTop]
+//Arvis
+Sir Sigurd, welcome!
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Lord Alvis, thank you so much for[n]
+coming out to greet us. Where is[n]
+His Majesty?[k]
+[dcs]
+
+[TWinTop]
+//Arvis
+Well, His Majesty has become[n]
+extremely ill. He can't even hold[n]
+himself up anymore.[k]
+[cs]
+Accordingly, I am currently handling[n]
+all affairs of the kingdom.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Is that so? I'm sorry to hear that.[n]
+I bet you have your hands full.[k]
+[dcs]
+I've caused His Majesty a good dose[n]
+of anguish.[k]
+[cs]
+I must stop by the Royal Palace later[n]
+on and make a formal apology.[k]
+[cs]
+
+[TWinTop]
+//Arvis
+...That won't be necessary.
+
+[TWinBtm]
+//Sigurd
+<$00><$2B><$E2>
+[Wait]<$10>
+What's that?[k]
+[BGM]<$8D>
+[Wait]<$10>
+[dcs]
+
+[TWinTop]
+//Arvis
+I hereby sentence you to death for[n]
+your acts of treason. No visits to[n]
+the king today, Sigurd.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Alvis, what is the meaning of this?![k]
+[dcs]
+
+[TWinTop]
+//Arvis
+Heh heh... You're just catching on? I'm[n]
+afraid you're far too late, my friend.[k]
+[cs]
+You tried to usurp the throne.[k]
+[cs]
+As the husband of Princess Deirdre,[n]
+I must subdue you. Nothing personal,[n]
+Sigurd.
+
+[TWinBtm]
+//Sigurd
+[Wait]<$10>
+Princess Deirdre!? Wait a minute...[n]
+That'd be...[k]
+[dcs]
+
+[TWinTop]
+//Arvis
+You didn't know? I suppose an[n]
+introduction would be in order[n]
+before you depart this world.[k]
+[cs]
+Deirdre, come![k]
+
+[exit]
+
+
+// 0x30b317:
+
+// @@1951840@@
+#W24($1DC860)
+[TWinTop][DlgOpn]['Arvis' 0104]
+[TWinBtm][DlgOpn]['Deirdre' 0010]
+
+[TWinTop]
+//Arvis
+Deirdre, this is the son of the man[n]
+who murdered your father. It's Lord[n]
+Byron's son, Sigurd. Go ahead.[k][n]
+Let him know how you feel.
+[cs]
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+
+[TWinBtm]
+//Deirdre
+This is... Sir Sigurd?[k]
+[cs]
+
+[TWinTop]
+//Sigurd
+Wha-? Deirdre!? This can't be!
+
+[TWinBtm]
+//Deirdre
+[Wait]<$10>
+Why... Why are you speaking to[n]
+me like that?[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+Deirdre! It is you! Aaagh!!
+
+[TWinBtm]
+//Deirdre
+[Wait]<$10>
+Do you... ...know me?[k]
+[dcs]
+
+[TWinTop]
+//Sigurd
+Of course I do! You're...[k]
+[cs]
+
+[xChr][DlgCls]
+
+[TWinTop][DlgOpn]['Arvis' 0104]
+That'll be enough from you.[n]
+Deirdre, take a step back.[k]
+[cs]
+This man is dangerous. He is guilty[n]
+of treason and is to be punished.
+
+[TWinBtm]
+//Deirdre
+[Wait]<$10>
+But I... This person is...[n]
+Please, just a little more time.[k]
+[dcs]
+
+[TWinTop]
+//Arvis
+I don't think so.[n]
+Quick! Somebody escort the[n]
+princess away from here!
+
+[TWinBtm]
+//Deirdre
+[Wait]<$10>
+Wait! Alvis, please...[n]
+just a little longer.[k]
+
+[exit]
+
+
+// 0x30b4c7:
+#W24($1DC899)
+// @@1951897@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Arvis' 0104]
+
+[TWinTop]
+//Sigurd
+Wa-wait! Deirdre! Alvis, please![n]
+That woman... she's...
+
+[TWinBtm]
+//Arvis
+[Wait]<$10>
+Your wife? I know. She's mine now.[n]
+And there's nothing you can do![k]
+[dcs]
+And now... Welcome to the Barhara[n]
+Barbeque, Sigurd! See you on the[n]
+other side! Ahaha...[k]
+[cs]
+
+[TWinTop]
+//Sigurd
+Alvis, YOU DASTARD!![k]
+
+[exit]
+
+
+// 0x30b578:
+#W24($1DC8A1)
+// @@1951905@@
+
+[TWinTop][DlgOpn]['Sigurd' 0001]
+[TWinBtm][DlgOpn]['Arvis' 0104]
+
+//[TWinTop]
+//Sigurd
+//Wa, wait! Deirdre!! Alvis, please! That woman... she's...
+
+//[TWinBtm]
+//Arvis
+//[Wait]<$10>
+//That'll be enough! Alright, inform the troops to seize Sigurd and his party.[k]
+//[dcs]
+//We no longer need to keep them alive. Let them serve their sentence right here![k]
+//[cs]
+//
+[TWinTop]
+//Sigurd
+Alternate dastard![k]
+
+[exit]
+
+
+// 0x30b059:
+
+// @@1952817@@
+
+[TWinTop][DlgOpn]['Ida' 024B]
+[TWinBtm][DlgOpn]<$00><$24>
+#W24($1DCC31)
+[TWinTop]
+//Ida
+Kill Reptor, then we'll talk.[k]
+
+[exit]
+
+
+// 0x30b622:
+#W24($1DCC3E)
+// @@1952830@@
+
+[TWinBtm][DlgOpn]['Villager' 02AE]
+Grandbell took Lubeck.[k]
+
+[exit]
+
+
+// 0x30b668:
+#W24($1DCC4C)
+// @@1952844@@
+
+[TWinBtm][DlgOpn]['Villager' 02AF]
+Silesia used to be peaceful.[k]
+
+[exit]
+
+
+// 0x30b6b1:
+#W24($1DCC5A)
+// @@1952858@@
+
+[TWinBtm][DlgOpn]['Old villager' 02AB]
+Boys inherit from men.[n]
+Girls inherit from women.[n]
+There's always exceptions.[n]
+[exit]
+
+
+// 0x30b71f:
+#W24($1DCC68)
+// @@1952872@@
+
+[TWinBtm][DlgOpn]['Villager' 02AE]
+Langbart's looting everything.[k]
+[exit]
+
+
+// 0x30b788:
+#W24($1DCC76)
+// @@1952886@@
+
+[TWinBtm][DlgOpn]['Villager' 02B0]
+By the sounds of it, the late King[n]
+Eltshan of Nodion and his queen[n]
+had themselves a young boy.[k]
+[cs]
+His name was Aless, I believe.[n]
+I reckon he'd be about 3 or 4 by now.[n]
+Poor thing.[k]
+
+[exit]
+
+
+// 0x30b7fc:
+#W24($1DCC84)
+// @@1952900@@
+
+[TWinBtm][DlgOpn]['Villager' 02AF]
+Isaac want Shanan back.[n]
+[exit]
+
+
+// 0x30b86a:
+#W24($1DCC9C)
+// @@1952924@@
+
+[TWinBtm][DlgOpn]['Villager' 02AD]
+Grandbell's just causing trouble.[n]
+Go there and stop them![k]
+[exit]
+
+
+// 0x32ddc9:
+#W24($1DCCDF)
+// @@1952991@@
+
+[TWinBtm][DlgOpn]['Ardan' 0004]
+//Heh... I got married and got a kid! My family's gotta come first, so I best not be dyin'.[k]
+//[cs]
+//What's dis ole book sittin' here. Hmph... Dis is all gibber gabber.[k]
+//[cs]
+//Eerrrr... mmmmnugh! What da... Wow! 
+I feel all my senses done renovated![k]
+
+[exit]
